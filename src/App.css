@@ -1,0 +1,731 @@
+body {
+    overflow: hidden;
+    font-size: 12px;
+    font-family: 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+}
+
+/* Theme label and dropdown styles */
+.theme-label {
+    color: #333;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Dark mode styles */
+.xy-dark .theme-label {
+    color: white;
+}
+
+.xy-dark .xy-theme__select {
+    background: #2a2a2a !important;
+    color: #e0e0e0;
+    border: 1px solid #555;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3), 0 2px 8px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(8px);
+}
+
+.xy-dark .xy-theme__select:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.4), 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Dark mode styles for theme selector */
+.xy-dark .theme-selector {
+    background: #2a2a2a !important;
+    border-color: #555 !important;
+    color: #e0e0e0 !important;
+}
+
+.xy-dark .theme-selector select {
+    background: #3a3a3a !important;
+    border-color: #666 !important;
+    color: #e0e0e0 !important;
+}
+
+.xy-dark .theme-selector label {
+    color: #e0e0e0 !important;
+}
+
+/* Dark mode styles for project name input */
+/* (translucent variant defined later to match sidebar) */
+
+/* Make project title area visually match the sidebar: translucent, rounded, blur */
+.project-name-input {
+    background-color: rgba(255, 255, 255, 0.14);
+    backdrop-filter: blur(5px) saturate(120%);
+    -webkit-backdrop-filter: blur(10px) saturate(120%);
+    border-radius: 12px;
+    border: 2px solid rgba(0, 0, 0, 0.08);
+    box-shadow: 0 8px 20px rgba(16, 24, 40, 0.06);
+}
+
+.xy-dark .project-name-input {
+    background-color: rgba(0, 0, 0, 0.42);
+    border: 2px solid rgba(255, 255, 255, 0.06);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.45);
+}
+
+/* Ensure the input text and placeholder are white in dark mode */
+.xy-dark .project-name-input input,
+.xy-dark .project-name-input input::placeholder {
+    color: #ffffff !important;
+    opacity: 0.95 !important;
+}
+
+/* Dark mode styles for export button */
+.xy-dark .export-button {
+    background: #2a2a2a !important;
+    border-color: #555 !important;
+}
+
+.xy-dark .export-dropdown {
+    background-color: #2a2a2a !important;
+    border-color: #555 !important;
+    color: #e0e0e0 !important;
+}
+
+.xy-dark .export-dropdown button {
+    color: #e0e0e0 !important;
+    border-bottom-color: #555 !important;
+}
+
+.xy-dark .export-dropdown button:hover {
+    background-color: #3a3a3a !important;
+    color: #e0e0e0 !important;
+}
+
+.xy-dark .export-dropdown label {
+    color: #e0e0e0 !important;
+}
+
+/* Ensure proper dark mode styling for export dropdown div containers */
+.xy-dark .export-dropdown div {
+    color: #e0e0e0 !important;
+}
+
+.xy-dark .export-dropdown div:hover {
+    background-color: #3a3a3a !important;
+}
+
+.xy-dark .export-dropdown-item {
+    color: #e0e0e0 !important;
+}
+
+.xy-dark .export-dropdown-item:hover {
+    background-color: #3a3a3a !important;
+    color: #e0e0e0 !important;
+}
+
+.xy-dark .export-dropdown-label {
+    color: #e0e0e0 !important;
+}
+
+/* Ensure screenshot button has proper dark mode styling */
+.xy-dark .screenshot-button {
+    background: #2a2a2a !important;
+    border-color: #555 !important;
+    color: #e0e0e0 !important;
+}
+
+/* Reskin screenshot and export buttons to match sidebar style */
+.screenshot-button {
+    padding: 10px 12px !important;
+    background: rgba(255, 255, 255, 0.14) !important;
+    color: inherit !important;
+    border: 2px solid rgba(0, 0, 0, 0.08) !important;
+    border-radius: 10px !important;
+    box-shadow: 0 6px 14px rgba(16, 24, 40, 0.06) !important;
+    backdrop-filter: blur(5px) saturate(120%);
+    -webkit-backdrop-filter: blur(8px) saturate(120%);
+    display: inline-flex !important;
+    align-items: center !important;
+    gap: 8px !important;
+    cursor: pointer !important;
+}
+
+.screenshot-button img {
+    width: 20px !important;
+    height: 20px !important;
+}
+
+.xy-dark .screenshot-button {
+    background: rgba(0, 0, 0, 0.5) !important;
+    border: 1px solid rgba(255, 255, 255, 0.06) !important;
+    color: #e8e8e8 !important;
+}
+
+.export-button {
+    /* container for the export menu button */
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+/* Theme menu wrapper to prevent export-button rules from affecting it */
+
+.theme-menu {
+    position: relative;
+    display: inline-block;
+}
+
+/* Make sure theme menu sits nicely above the export menu and shares sizing */
+.theme-menu>button {
+    min-width: 110px;
+    padding: 10px 14px;
+    height: 40px;
+    border-radius: 8px;
+    background: #ffffff;
+    color: #222;
+    border: 1px solid #e6e6e6;
+    font-weight: 700;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    box-shadow: 0 4px 10px rgba(16, 24, 40, 0.06);
+}
+
+.xy-dark .theme-menu>button {
+    background: #2a2a2a;
+    color: #fff;
+    border: 1px solid #444;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.45);
+}
+
+/* Make the theme menu button match the main menu button's height and padding */
+.theme-menu>button {
+    height: 45px;
+    padding: 12px 18px;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    border-radius: 10px;
+    box-shadow: 0 6px 14px rgba(16, 24, 40, 0.12);
+}
+
+.export-menu-button {
+    height: 45px;
+    padding: 12px 22px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    /* default sizing and shape; color/background can be set inline */
+    background: #ff7b2fff;
+    /* sensible default, can be overridden inline */
+    color: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    font-weight: 700;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12);
+    cursor: pointer;
+    transition: background-color 0.15s ease, box-shadow 0.15s ease, transform 0.12s ease;
+}
+
+.export-menu-button:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.12);
+}
+
+.export-menu-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 4px rgba(32, 160, 120, 0.12);
+}
+
+/* Dark mode variant to match theme button */
+.xy-dark .export-menu-button {
+    /* dark mode fallback if inline color isn't applied */
+    background: #2a2a2a;
+    color: #ffffff;
+    border: 1px solid #444;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.6);
+}
+
+.xy-dark .export-menu-button:hover {
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.45);
+}
+
+.export-menu-button span {
+    display: inline-block;
+}
+
+
+.xy-dark .export-menu-button:hover {
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.45);
+}
+
+.export-menu-button span {
+    display: inline-block;
+}
+
+.export-button>button:not(.export-menu-button) {
+    background: rgba(32, 166, 120, 1);
+    border-radius: 10px;
+    padding: 12px 18px;
+    box-shadow: 0 6px 14px rgba(16, 24, 40, 0.12);
+}
+
+.export-dropdown {
+    background-color: rgba(255, 255, 255, 0.94);
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+    backdrop-filter: blur(5px) saturate(120%);
+    -webkit-backdrop-filter: blur(8px) saturate(120%);
+    overflow: hidden;
+}
+
+.xy-dark .export-dropdown {
+    background-color: rgba(10, 10, 10, 0.7);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    color: #e8e8e8;
+}
+
+.export-dropdown button,
+.export-dropdown .export-dropdown-item {
+    background: transparent !important;
+    color: inherit !important;
+}
+
+/* Edge styling for better visibility in exports */
+.react-flow__edge-path {
+    stroke: #666666 !important;
+    stroke-width: 4px !important;
+    opacity: 1 !important;
+    fill: none !important;
+}
+
+.xy-dark .react-flow__edge-path {
+    stroke: #cccccc !important;
+    stroke-width: 4px !important;
+    opacity: 1 !important;
+}
+
+/* Edge markers/arrows */
+.react-flow__arrowhead {
+    fill: #666666 !important;
+    opacity: 1 !important;
+    stroke: none !important;
+    transform-origin: center center;
+    transform: scale(0.5);
+}
+
+.xy-dark .react-flow__arrowhead {
+    fill: #cccccc !important;
+    opacity: 1 !important;
+    stroke: none !important;
+    transform-origin: center center;
+    transform: scale(0.5);
+}
+
+/* Hide controls during export (backup CSS method) */
+.export-mode .react-flow__controls {
+    display: none !important;
+}
+
+/* Hide resize controls and handles during export */
+.export-mode .react-flow__resize-control,
+.export-mode .react-flow__node-resizer {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+/* Hide any resize handles that might appear */
+.export-mode .react-flow__resize-control.handle {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+/* Hide scrollbars and rulers in description nodes during export */
+.export-mode .description-node {
+    overflow: hidden !important;
+    overflow-y: hidden !important;
+    overflow-x: hidden !important;
+    scrollbar-width: none !important;
+    /* Firefox */
+    -ms-overflow-style: none !important;
+    /* Internet Explorer 10+ */
+}
+
+/* Hide webkit scrollbars in description nodes during export */
+.export-mode .description-node::-webkit-scrollbar {
+    display: none !important;
+    width: 0 !important;
+    height: 0 !important;
+}
+
+/* Hide any scroll indicators or resize handles */
+.export-mode .description-node *::-webkit-scrollbar {
+    display: none !important;
+    width: 0 !important;
+    height: 0 !important;
+}
+
+/* Force all child elements in description nodes to have no scroll indicators */
+.export-mode .description-node * {
+    scrollbar-width: none !important;
+    -ms-overflow-style: none !important;
+    overflow: visible !important;
+}
+
+/* Hide any textarea resize handles */
+.export-mode .description-node textarea {
+    resize: none !important;
+}
+
+/* Hide select dropdown arrows during export */
+.export-mode .description-node select {
+    -webkit-appearance: none !important;
+    -moz-appearance: none !important;
+    appearance: none !important;
+}
+
+/* Ensure clean appearance of all form elements during export */
+.export-mode .description-node input,
+.export-mode .description-node textarea,
+.export-mode .description-node select {
+    box-shadow: none !important;
+    outline: none !important;
+    border: 1px solid #ccc !important;
+    background: white !important;
+    color: black !important;
+}
+
+/* Dark mode styling for description nodes in export */
+.export-mode.xy-dark .description-node {
+    background: var(--dark-node-color) !important;
+    border-color: var(--dark-border-color) !important;
+    color: #e0e0e0 !important;
+}
+
+.export-mode.xy-dark .description-node input,
+.export-mode.xy-dark .description-node textarea,
+.export-mode.xy-dark .description-node select {
+    background: #3a3a3a !important;
+    border: 1px solid #666 !important;
+    color: #e0e0e0 !important;
+}
+
+.export-mode.xy-dark .description-node h4,
+.export-mode.xy-dark .description-node label {
+    color: #e0e0e0 !important;
+}
+
+/* Hide any browser-specific UI elements */
+.export-mode input::-webkit-outer-spin-button,
+.export-mode input::-webkit-inner-spin-button {
+    -webkit-appearance: none !important;
+    margin: 0 !important;
+}
+
+.export-mode input[type=number] {
+    -moz-appearance: textfield !important;
+    appearance: textfield !important;
+}
+
+/* Ensure edge labels are visible */
+.react-flow__edge-text {
+    fill: #333 !important;
+    font-size: 12px;
+}
+
+.xy-dark .react-flow__edge-text {
+    fill: #e0e0e0 !important;
+}
+
+/* Better edge styling for export */
+.export-mode .react-flow__edge-path {
+    stroke-width: 6px !important;
+    stroke: #000000 !important;
+    opacity: 1 !important;
+    fill: none !important;
+    stroke-linecap: round !important;
+    stroke-linejoin: round !important;
+}
+
+.export-mode.xy-dark .react-flow__edge-path {
+    stroke: #ffffff !important;
+    stroke-width: 6px !important;
+    opacity: 1 !important;
+}
+
+.export-mode .react-flow__arrowhead {
+    fill: #000000 !important;
+    opacity: 1 !important;
+    stroke: #000000 !important;
+    stroke-width: 1px !important;
+}
+
+.export-mode.xy-dark .react-flow__arrowhead {
+    fill: #ffffff !important;
+    opacity: 1 !important;
+    stroke: #ffffff !important;
+}
+
+/* Hide attribution in exports */
+.export-mode .react-flow__attribution {
+    display: none !important;
+}
+
+/* Enhanced edge visibility */
+.react-flow__edge {
+    pointer-events: all;
+}
+
+.react-flow__edge-path {
+    stroke-dasharray: none !important;
+}
+
+/* Ensure nodes are above edges */
+.react-flow__node {
+    z-index: 10;
+}
+
+.react-flow__edge {
+    z-index: 1;
+}
+
+/* Force edge visibility during export */
+.export-mode .react-flow__edge {
+    visibility: visible !important;
+    display: block !important;
+    opacity: 1 !important;
+}
+
+.export-mode .react-flow__edge-path {
+    visibility: visible !important;
+    display: block !important;
+}
+
+.export-mode .react-flow__arrowhead {
+    visibility: visible !important;
+    display: block !important;
+}
+
+/* Ensure SVG elements render properly */
+.export-mode svg .react-flow__edge-path {
+    stroke-opacity: 1 !important;
+    fill-opacity: 1 !important;
+}
+
+.export-mode svg .react-flow__arrowhead {
+    stroke-opacity: 1 !important;
+    fill-opacity: 1 !important;
+}
+
+/* Full pipeline capture styles */
+.export-mode .react-flow__viewport {
+    transform-origin: top left !important;
+}
+
+.export-mode .react-flow {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+/* Ensure all nodes and edges are visible during export */
+.export-mode .react-flow__node,
+.export-mode .react-flow__edge {
+    opacity: 1 !important;
+    visibility: visible !important;
+    display: block !important;
+}
+
+/* Remove any clipping during export */
+.export-mode {
+    overflow: visible !important;
+    clip: none !important;
+    clip-path: none !important;
+}
+
+/* Hide background during export */
+.export-mode .react-flow__background {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+/* Ensure transparent background in both light and dark mode exports */
+.export-mode,
+.export-mode.xy-dark,
+.export-mode.xy-light {
+    background: transparent !important;
+    background-color: transparent !important;
+}
+
+.export-mode .react-flow,
+.export-mode.xy-dark .react-flow,
+.export-mode.xy-light .react-flow {
+    background: transparent !important;
+    background-color: transparent !important;
+}
+
+/* Force SVG edge rendering during export */
+.export-mode svg {
+    overflow: visible !important;
+}
+
+.export-mode svg .react-flow__edge {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+.export-mode svg .react-flow__edge-path {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    stroke-dasharray: none !important;
+}
+
+.export-mode svg .react-flow__arrowhead {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+/* Additional SVG edge rendering fixes */
+.export-mode .react-flow__edge svg,
+.export-mode .react-flow__edge svg * {
+    visibility: visible !important;
+    display: block !important;
+    opacity: 1 !important;
+}
+
+/* Ensure SVG paths are properly styled */
+.export-mode svg path[class*="react-flow__edge"] {
+    stroke-width: 6px !important;
+    stroke: #000000 !important;
+    opacity: 1 !important;
+    fill: none !important;
+}
+
+.export-mode.xy-dark svg path[class*="react-flow__edge"] {
+    stroke: #ffffff !important;
+}
+
+/* Force edge markers to be visible */
+.export-mode svg defs marker {
+    visibility: visible !important;
+    display: block !important;
+}
+
+.export-mode svg marker path {
+    fill: #000000 !important;
+    stroke: #000000 !important;
+    opacity: 1 !important;
+}
+
+.export-mode.xy-dark svg marker path {
+    fill: #ffffff !important;
+    stroke: #ffffff !important;
+}
+
+/* Ensure description nodes are visible in export */
+.export-mode .description-node {
+    visibility: visible !important;
+    display: block !important;
+    opacity: 1 !important;
+    position: absolute !important;
+}
+
+/* Force edge container visibility */
+.export-mode .react-flow__edges {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+/* Override any hidden styles during export */
+.export-mode * {
+    visibility: inherit !important;
+}
+
+.export-mode .react-flow__edge,
+.export-mode .react-flow__edge-path,
+.export-mode .react-flow__arrowhead {
+    visibility: visible !important;
+    display: block !important;
+    opacity: 1 !important;
+}
+
+/* Tidy up button styles */
+.react-flow__controls .react-flow__controls-button {
+    background: white;
+    border: 1px solid #ccc;
+    color: #333;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.react-flow__controls .react-flow__controls-button:hover {
+    background: #f8f9fa;
+    border-color: #007bff;
+    transform: scale(1.05);
+}
+
+.xy-dark .react-flow__controls .react-flow__controls-button {
+    background: var(--dark-node-color);
+    border-color: var(--dark-border-color);
+    color: #e0e0e0;
+}
+
+.xy-dark .react-flow__controls .react-flow__controls-button:hover {
+    background: var(--dark-border-color);
+    border-color: #63b3ed;
+}
+
+.react-flow__panel .react-flow__controls {
+    min-width: 48px;
+}
+
+/* Reskin react-flow controls to match sidebar: rounded, transparent, backdrop blur */
+.react-flow__controls {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 10px;
+    border-radius: 17px;
+    background-color: rgba(255, 255, 255, 0.16);
+    backdrop-filter: blur(8px) saturate(120%);
+    -webkit-backdrop-filter: blur(8px) saturate(120%);
+    border: 1px solid rgba(0, 0, 0, 0.09);
+    box-shadow: 0 8px 20px rgba(16, 24, 40, 0.06);
+    z-index: 2500;
+    /* center buttons horizontally */
+    align-items: center;
+    /* prevent internal controls from overflowing the rounded container */
+    overflow: visible;
+}
+
+.react-flow__controls .react-flow__controls-button {
+    width: 38px;
+    height: 38px;
+    padding: 0;
+    border-radius: 17px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.85);
+    border: 2px solid rgba(0, 0, 0, 0.08);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.react-flow__controls .react-flow__controls-button:hover {
+    background: rgba(255, 255, 255, 0.95);
+    transform: scale(1.05);
+}
+
+.xy-dark .react-flow__controls {
+    background-color: rgba(0, 0, 0, 0.36);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.45);
+}
+
+.xy-dark .react-flow__controls .react-flow__controls-button {
+    background: rgba(0, 0, 0, 0.6);
+    border-color: rgba(255, 255, 255, 0.06);
+    color: #e8e8e8;
+}
+
+.xy-dark .react-flow__controls .react-flow__controls-button:hover {
+    background: rgba(0, 0, 0, 0.72);
+}

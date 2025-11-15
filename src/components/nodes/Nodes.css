@@ -1,0 +1,291 @@
+:root {
+    --dark-node-color: #2d2d2e;
+    --dark-mode-text-color: white;
+    --dark-border-color: #515151;
+    --dark-node-hover: #3d414e;
+
+    --light-border-color: #d3d3d3;
+}
+
+#input,
+#output {
+    padding: 10px;
+    border: 1px solid grey;
+}
+
+.circle-node {
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    border: 1px solid var(--light-border-color);
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.18), 0 4px 12px rgba(0, 0, 0, 0.12);
+    cursor: pointer;
+}
+
+.circle-node:hover {
+    transform: translateY(-2px);
+    filter: brightness(105%);
+}
+
+.selected {
+    .circle-node,
+    .block-node {
+        transform: translateY(-2px);
+        filter: brightness(105%);
+        outline: 2px solid var(--orange-selection);
+    }
+}
+
+.node-label {
+    font-family: 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    position: absolute;
+    top: 55px;
+}
+
+.circle-node {
+    width: 50px;
+    height: 50px;
+    border-radius: 15%;
+    background: white;
+}
+
+.node-with-handlers {
+    position: relative;
+    border-radius: 50%;
+    background: transparent;
+}
+
+/* Delete button shown on node hover */
+.node-delete-btn {
+    position: absolute;
+    /* place inside the node so it visually sits over the node surface */
+    top: -7px;
+    right: -7px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: none;
+    background: #ff4d4f;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+    padding: 0;
+    line-height: 1;
+    z-index: 9999;
+    /* ensure it sits above node content and handles */
+    pointer-events: auto;
+}
+
+.node-with-handlers:hover .node-delete-btn {
+    display: flex;
+}
+
+/* Also show delete button when the node is selected */
+.react-flow__node.selected .node-delete-btn,
+.node-with-handlers.selected .node-delete-btn {
+    display: flex;
+}
+
+.node-delete-btn:hover {
+    transform: scale(1.05);
+}
+
+/* Place React Flow handles underneath the delete button to avoid overlap issues */
+.react-flow__handle {
+    z-index: 5 !important;
+}
+
+h4 {
+    margin-block: 4px;
+}
+
+.description-node {
+    position: absolute;
+    top: 75px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    border: 1px solid var(--light-border-color);
+    padding: 4px 8px;
+    border-radius: 4px;
+    width: 160px;
+    font-size: 13px;
+    box-sizing: border-box;
+    overflow-y: auto;
+
+    select {
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 4px;
+        border-radius: 4px;
+        border: 1px solid var(--light-border-color);
+        background-color: #f8f8f8;
+        font-size: 13px;
+    }
+
+    .input-params-node {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+
+        label {
+            display: block;
+            margin-bottom: 2px;
+        }
+
+        input {
+            width: 88%;
+            padding: 4px 6px;
+            font-size: 13px;
+            border: 1px solid #aaa;
+            border-radius: 4px;
+            background-color: #fff;
+        }
+    }
+
+    textarea {
+        width: 100%;
+        box-sizing: border-box;
+        resize: vertical;
+        /* или none, если не хочешь ручного изменения высоты */
+        margin-top: 4px;
+        font-family: inherit;
+        font-size: 13px;
+        padding-left: 1px;
+        padding-top: 1px;
+    }
+}
+
+.input-params-node {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 8px;
+}
+
+
+.handler {
+    position: absolute;
+}
+
+.outer {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.block-node {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 80px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid var(--light-border-color);
+    cursor: pointer;
+}
+
+/* Remove border, shadow and padding from react-flow nodes */
+.react-flow__node {
+    border: none !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+    border-radius: 50%;
+    background: transparent;
+}
+
+/* Remove padding from react-flow node content */
+.react-flow__node-default,
+.react-flow__node-input,
+.react-flow__node-output {
+    padding: 0 !important;
+    margin: 0 !important;
+    border-radius: 50%;
+    background: transparent;
+}
+
+/* Ensure no extra spacing on node wrappers */
+.react-flow__node>div {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+/* Dark mode styles for nodes - keep text color dark */
+.xy-dark .react-flow__node {
+    color: #333 !important;
+    /* Keep text dark in dark mode */
+}
+
+/* Dark mode styles for sidebar */
+.xy-dark .sidebar {
+    background-color: #2a2a2a;
+    border-color: #555;
+    color: #e0e0e0;
+}
+
+/* Dark mode styles for description node */
+.xy-dark .description-node {
+    background-color: var(--dark-node-color);
+    border-color: var(--dark-border-color);
+    color: #e0e0e0;
+}
+
+.xy-dark .description-node select[id^="subtype-select"] {
+    background-color: var(--dark-node-color);
+    border-color: var(--dark-border-color);
+    color: #e0e0e0;
+}
+
+.xy-dark .input-params-node input {
+    background-color: #4a4a4a;
+    border-color: #666;
+    color: #e0e0e0;
+}
+
+.xy-dark .input-params-node textarea {
+    background-color: #4a4a4a;
+    border-color: #666;
+    color: #e0e0e0;
+}
+
+/* Keep node content text dark in dark mode */
+.xy-dark .block-node {
+    background-color: var(--dark-node-color);
+    color: var(--dark-mode-text-color) !important;
+    border-color: var(--dark-border-color);
+    /* Force dark text on nodes */
+}
+
+.xy-dark .circle-node {
+    background-color: var(--dark-node-color);
+    border-color: var(--dark-border-color);
+    color: var(--dark-mode-text-color) !important;
+    box-shadow: 0 0 5px #0f0f10;
+    /* Force dark text on nodes */
+}
+
+.xy-dark .circle-node:hover {
+    background-color: var(--dark-node-hover);
+}
+
+.xy-dark .selected {
+
+    .circle-node,
+    .block-node {
+        background-color: var(--dark-node-hover);
+    }
+}
+
+/* Light mode for sidebar */
+.xy-light .sidebar {
+    background-color: #f5f5f5;
+    border-color: #ccc;
+    color: #333;
+}
