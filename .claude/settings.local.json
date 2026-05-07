@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls:*)",
+      "Bash(find:*)",
+      "Bash(wc:*)",
+      "Bash(cd:*)",
+      "Bash(cat:*)",
+      "Bash(head:*)",
+      "Bash(grep:*)",
+      "Bash(cd /mnt/c/Users/funky/Downloads/reactflow-query-builder-master\\\\\\(1\\\\\\)/reactflow-query-builder-master)",
+      "Bash(npx vite:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

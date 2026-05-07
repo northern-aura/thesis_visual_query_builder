@@ -1,4 +1,4 @@
-import React, {useCallback, useEffect, useRef, useState} from 'react';
+import React, {useCallback, useEffect, useMemo, useRef, useState} from 'react';
 import {
     addEdge,
     Background, ControlButton, Controls,
@@ -18,6 +18,8 @@ import FunctionNode, {BlockEndNode, BlockStartNode} from "./components/nodes/Nod
 import ExportButton from './components/export/exportButton.jsx';
 import Sidebar from "./components/sidebar/Sidebar.jsx";
 import ThemeMenu from './components/theme/ThemeMenu.jsx';
+import ResultsPanel from './components/execution/ResultsPanel.jsx';
+import MetricsDashboard from './components/execution/MetricsDashboard.jsx';
 import {toPng} from "html-to-image";
 import {nodeTypes} from "./components/nodes/defaultNodes.js";
 
@@ -55,13 +57,42 @@ const initialEdges = [{id: 'e1-2', source: '1', target: '2'}];
 
 export default function App() {
     const [sidebarCollapsed, setSidebarCollapsed] = useState(false);
+    const [sidebarWidth, setSidebarWidth] = useState(270);
     const [nodes, setNodes, onNodesChange] = useNodesState(initialNodes);
     const [edges, setEdges, onEdgesChange] = useEdgesState(initialEdges);
     const [projectName, setProjectName] = useState('Untitled Project');
     const [showDarkMode, setShowDarkMode] = useState(false);
     const [colorMode, setColorMode] = useState('dark');
+    const [customNodes, setCustomNodes] = useState([]);
+    const [executionPanelOpen, setExecutionPanelOpen] = useState(false);
+    const [currentExecution, setCurrentExecution] = useState(null);
+    const [metricsDashboardOpen, setMetricsDashboardOpen] = useState(false);
+    const [insertionEdgeId, setInsertionEdgeId] = useState(null);
 
-    const nodesDiagram = useRef(null);    // Move exportDiagram to a named function for PNG export
+    const nodesDiagram = useRef(null);
+
+    // Custom Node Handlers
+    const saveCustomNode = useCallback((node) => {
+        setCustomNodes(prev => {
+            const existingIndex = prev.findIndex(n => n.id === node.id);
+            if (existingIndex >= 0) {
+                // Update existing
+                const updated = [...prev];
+                updated[existingIndex] = node;
+                return updated;
+            }
+            // Add new
+            return [...prev, node];
+        });
+    }, []);
+
+    // Execution Handler
+    const handleStartExecution = useCallback((executionResult) => {
+        setCurrentExecution(executionResult);
+        setExecutionPanelOpen(true);
+    }, []);
+
+    // Move exportDiagram to a named function for PNG export
     const exportDiagram = () => {
         if (nodesDiagram.current === null) return;
 
@@ -390,59 +421,77 @@ export default function App() {
         (params) => setEdges((eds) => addEdge(params, eds)),
         [setEdges],
     );
+
+    // Click an edge to select it as the insertion point
+    const onEdgeClick = useCallback((event, edge) => {
+        setInsertionEdgeId(prev => prev === edge.id ? null : edge.id);
+    }, []);
+
+    // Click canvas to deselect insertion edge
+    const onPaneClick = useCallback(() => {
+        setInsertionEdgeId(null);
+    }, []);
+
     const addNode = useCallback((label, type) => {
-
-        const lastNodeIndex = nodes.findIndex((node) => node.type === 'end');
-        const lastNode = nodes[lastNodeIndex];
-        const lastNodeModified = {
-            ...lastNode,
-            position: {
-                ...lastNode.position,
-                x: lastNode.position.x + 200
-            }
-        };
-
-        const lastEdge = edges.find((e) => e.target === lastNode.id);
-        const penultId = lastEdge?.source;
-        const maxId = Math.max(...nodes.map(node => +node.id))
-
+        const maxId = Math.max(...nodes.map(node => +node.id));
         const newId = (maxId + 1).toString();
+
+        const allNodeTypes = [...nodeTypes, ...customNodes];
+        const nodeDefinition = allNodeTypes.find(n => n.label.toLowerCase() === label.toLowerCase());
+
+        // Determine insertion point: selected edge or default (before end node)
+        let sourceId, targetId, insertX, insertY;
+        const selectedEdge = insertionEdgeId ? edges.find(e => e.id === insertionEdgeId) : null;
+
+        if (selectedEdge) {
+            sourceId = selectedEdge.source;
+            targetId = selectedEdge.target;
+            const targetNode = nodes.find(n => n.id === targetId);
+            insertX = targetNode.position.x;
+            insertY = targetNode.position.y;
+        } else {
+            const endNode = nodes.find(n => n.type === 'end');
+            const edgeToEnd = edges.find(e => e.target === endNode.id);
+            sourceId = edgeToEnd?.source;
+            targetId = endNode.id;
+            insertX = endNode.position.x;
+            insertY = endNode.position.y;
+        }
+
         const newNode = {
             id: newId,
             type: type,
-            position: {
-                x: lastNode.position.x,
-                y: lastNode.position.y,
-            },
+            position: { x: insertX, y: insertY },
             ...nodeDefaults,
-            data: {label, nodeType: label.toLowerCase()},
+            data: {
+                label,
+                nodeType: label.toLowerCase(),
+                nodeDefinition: nodeDefinition
+            },
         };
 
+        // Shift all nodes at or after the insertion x-position to the right
         setNodes(nodes => {
-            const newNodes = [...nodes];
-            newNodes[lastNodeIndex] = lastNodeModified;
-            return [...newNodes, newNode]
-        })
-
-        setEdges(edges => {
-            const filteredEdges = edges.filter(
-                (e) => !(e.target === lastNode.id)
-            );
-            console.log('FilteredEdges:', filteredEdges.map((e) => e.id));
-            return [...filteredEdges,
-                {
-                    id: `e-${penultId}-${newId}`,
-                    source: penultId,
-                    target: newId
-                },
-                {
-                    id: `e-${newId}-${lastNode.id}`,
-                    source: newId,
-                    target: lastNode.id
+            const shifted = nodes.map(node => {
+                if (node.position.x >= insertX) {
+                    return { ...node, position: { ...node.position, x: node.position.x + 200 } };
                 }
+                return node;
+            });
+            return [...shifted, newNode];
+        });
+
+        // Rewire: remove the split edge, create source->new and new->target
+        setEdges(edges => {
+            const filtered = edges.filter(e => !(e.source === sourceId && e.target === targetId));
+            return [...filtered,
+                { id: `e-${sourceId}-${newId}`, source: sourceId, target: newId },
+                { id: `e-${newId}-${targetId}`, source: newId, target: targetId }
             ];
         });
-    }, [nodes, setNodes, edges, setEdges]);
+
+        setInsertionEdgeId(null);
+    }, [nodes, setNodes, edges, setEdges, customNodes, insertionEdgeId]);
 
     const onFileUpload = async (event) => {
         const newNodes = await fileUpload(event);
@@ -463,6 +512,10 @@ export default function App() {
 
     const getNodesPositioned = useCallback((sorted) => {
         return sorted.map((node, i) => {
+            const label = isNode(node).blockType ? isNode(node).correctlyLabeled : convertNodeLabel(node.type);
+            const allNodeTypes = [...nodeTypes, ...customNodes];
+            const nodeDefinition = allNodeTypes.find(n => n.label.toLowerCase() === label.toLowerCase());
+
             return {
                 ...node,
                 position: {
@@ -470,13 +523,14 @@ export default function App() {
                     y: 100,
                 },
                 data: {
-                    label: isNode(node).blockType ? isNode(node).correctlyLabeled : convertNodeLabel(node.type),
-                    nodeType: node.type
+                    label: label,
+                    nodeType: node.type,
+                    nodeDefinition: nodeDefinition
                 },
                 type: isNode(node).blockType ? node.type : "function",
             }
         });
-    }, []);
+    }, [customNodes]);
 
     const fileUpload = useCallback((event) => {
             return new Promise((resolve) => {
@@ -503,6 +557,10 @@ export default function App() {
                         const sorted = sortByNext(restoredNodes);
 
                         const nodesPositioned = sorted.map((node, i) => {
+                            const label = isNode(node).blockType ? isNode(node).correctlyLabeled : convertNodeLabel(node.type);
+                            const allNodeTypes = [...nodeTypes, ...customNodes];
+                            const nodeDefinition = allNodeTypes.find(n => n.label.toLowerCase() === label.toLowerCase());
+
                             return {
                                 ...node,
                                 position: {
@@ -510,8 +568,9 @@ export default function App() {
                                     y: 100,
                                 },
                                 data: {
-                                    label: isNode(node).blockType ? isNode(node).correctlyLabeled : convertNodeLabel(node.type),
-                                    nodeType: node.type
+                                    label: label,
+                                    nodeType: node.type,
+                                    nodeDefinition: nodeDefinition
                                 },
                                 type: isNode(node).blockType ? node.type : "function",
                             }
@@ -532,38 +591,35 @@ export default function App() {
                 }
             )
         }
-        , [setNodes, setEdges]);
+        , [setNodes, setEdges, customNodes]);
 
     const tidyUp = useCallback(() => {
-        setNodes((nodes) => {
-            // Kafka Sink should be at the end
-            const special = nodes.find((n) => n.id === "2");
-            const others = nodes.filter((n) => n.id !== "2");
+        setNodes((currentNodes) => {
+            // Follow edges to get the real pipeline order
+            const nodeMap = new Map(currentNodes.map(n => [n.id, n]));
+            const ordered = [];
+            const seen = new Set();
 
-            // сначала расставляем остальных
-            const updatedOthers = others.map((node, i) => ({
+            // Start from the source node (id "1" or type "start")
+            let cur = currentNodes.find(n => n.id === "1" || n.type === 'start');
+            while (cur && !seen.has(cur.id)) {
+                ordered.push(cur);
+                seen.add(cur.id);
+                const edge = edges.find(e => e.source === cur.id);
+                cur = edge ? nodeMap.get(edge.target) : null;
+            }
+
+            // Add any orphan nodes not reached by edges
+            currentNodes.forEach(n => {
+                if (!seen.has(n.id)) ordered.push(n);
+            });
+
+            return ordered.map((node, i) => ({
                 ...node,
-                position: {
-                    ...node.position,
-                    x: i * 200,
-                    y: 100,
-                },
+                position: { ...node.position, x: i * 200, y: 100 },
             }));
-
-            const updatedSpecial = special
-                ? {
-                    ...special,
-                    position: {
-                        ...special.position,
-                        x: updatedOthers.length * 200,
-                        y: 100,
-                    },
-                }
-                : null;
-
-            return updatedSpecial ? [...updatedOthers, updatedSpecial] : updatedOthers;
         });
-    }, [setNodes]);
+    }, [setNodes, edges]);
 
     const loadPresetQuery = useCallback((query) => {
         const restoredNodes = query?.nodes;
@@ -580,6 +636,10 @@ export default function App() {
         const sorted = sortByNext(restoredNodes);
 
         const nodesPositioned = sorted.map((node, i) => {
+            const label = isNode(node).blockType ? isNode(node).correctlyLabeled : convertNodeLabel(node.type);
+            const allNodeTypes = [...nodeTypes, ...customNodes];
+            const nodeDefinition = allNodeTypes.find(n => n.label.toLowerCase() === label.toLowerCase());
+
             return {
                 ...node,
                 position: {
@@ -587,8 +647,9 @@ export default function App() {
                     y: 100,
                 },
                 data: {
-                    label: isNode(node).blockType ? isNode(node).correctlyLabeled : convertNodeLabel(node.type),
-                    nodeType: node.type
+                    label: label,
+                    nodeType: node.type,
+                    nodeDefinition: nodeDefinition
                 },
                 type: isNode(node).blockType ? node.type : "function",
             }
@@ -602,11 +663,16 @@ export default function App() {
             setParamsValues(nodesPositioned); // first load the nodes state and then set their params
         }, 1)
 
-    }, [setEdges, setNodes]);
+    }, [setEdges, setNodes, customNodes]);
 
     function setParamsValues(nodes) {
         nodes.forEach(n => {
-            const foundNode = nodeTypes.find(node => node.label.toLowerCase() === (n.data?.label || '').toLowerCase());
+            // Check both default nodes and custom nodes
+            let foundNode = nodeTypes.find(node => node.label.toLowerCase() === (n.data?.label || '').toLowerCase());
+            if (!foundNode) {
+                foundNode = customNodes.find(node => node.label.toLowerCase() === (n.data?.label || '').toLowerCase());
+            }
+
             const nodeElement = document.querySelector(`[data-id="${n.id}"]`);
             const descriptionNode = nodeElement?.querySelector('.description-node');
             if (!descriptionNode) {
@@ -660,6 +726,15 @@ export default function App() {
     }
 
     function convertNodeLabel(str) {
+        // Handle underscore-separated types like "cv_color_filter" -> "CV Color Filter"
+        if (str.includes('_')) {
+            return str.split('_').map(word => {
+                // Keep common abbreviations uppercase
+                if (['cv', 'llm', 'id'].includes(word.toLowerCase())) return word.toUpperCase();
+                const [first, ...rest] = word;
+                return first.toUpperCase() + rest.join("");
+            }).join(" ");
+        }
         const [first, ...rest] = str;
         return first.toUpperCase() + rest.join("");
     }
@@ -710,6 +785,22 @@ export default function App() {
         }
     }, [colorMode]);
 
+    // Highlight the selected insertion edge
+    const styledEdges = useMemo(() => edges.map(edge =>
+        edge.id === insertionEdgeId
+            ? {
+                ...edge,
+                animated: true,
+                style: { stroke: '#22c55e', strokeWidth: 3, cursor: 'pointer' },
+                label: '+ Insert here',
+                labelStyle: { fill: '#22c55e', fontWeight: 700, fontSize: 12 },
+                labelBgStyle: { fill: '#1a1a2e', stroke: '#22c55e' },
+                labelBgPadding: [8, 4],
+                labelBgBorderRadius: 4
+            }
+            : { ...edge, style: { ...edge.style, cursor: 'pointer' } }
+    ), [edges, insertionEdgeId]);
+
     return (
         <div style={{width: '100vw', height: '100vh'}} className="outer"
              tabIndex={0}>            {/* Dark mode selector */}
@@ -754,22 +845,33 @@ export default function App() {
                 />
             </div>
 
-            <Sidebar addNode={addNode} loadPresetQuery={loadPresetQuery} collapsed={sidebarCollapsed}
-                     setCollapsed={setSidebarCollapsed}/>
+            <Sidebar
+                addNode={addNode}
+                loadPresetQuery={loadPresetQuery}
+                collapsed={sidebarCollapsed}
+                setCollapsed={setSidebarCollapsed}
+                sidebarWidth={sidebarWidth}
+                setSidebarWidth={setSidebarWidth}
+                customNodes={customNodes}
+                onSaveCustomNode={saveCustomNode}
+                onOpenMetricsDashboard={() => setMetricsDashboardOpen(true)}
+            />
             <div style={{width: '100vw', height: '100vh'}}>
                 {/* Export Button in bottom right */}
                 <ExportButton
                     nodes={nodes}
                     edges={edges}
                     projectName={projectName}
+                    customNodes={customNodes}
                     onExportPng={exportDiagram}
                     onFileUpload={onFileUpload}
+                    onStartExecution={handleStartExecution}
                 />
                 <div id="dropZone" onDrop={dropHandler} onDragOver={onDragOverHandler} ref={nodesDiagram}
                      style={{width: '100vw', height: '100vh'}}>
                     <ReactFlow
                         nodes={nodes}
-                        edges={edges}
+                        edges={styledEdges}
                         nodeTypes={nodeTypesDefinition}
                         defaultEdgeOptions={{markerEnd: {type: MarkerType.ArrowClosed, width: 7, height: 7}}}
                         onBeforeDelete={onBeforeDelete}
@@ -777,12 +879,14 @@ export default function App() {
                         onNodesChange={onNodesChange}
                         onEdgesChange={onEdgesChange}
                         onConnect={onConnect}
+                        onEdgeClick={onEdgeClick}
+                        onPaneClick={onPaneClick}
                         colorMode={colorMode}
                         fitView
                     >
                         <Controls
                             style={{
-                                left: sidebarCollapsed ? '18px' : 'calc(12px + 270px + 24px)',
+                                left: sidebarCollapsed ? '18px' : `calc(12px + ${sidebarWidth}px + 24px)`,
                                 bottom: '12px',
                                 position: 'absolute',
                                 width: '25px',
@@ -801,6 +905,22 @@ export default function App() {
                     </ReactFlow>
                 </div>
             </div>
+
+            {/* Results Panel for Execution */}
+            {executionPanelOpen && currentExecution && (
+                <ResultsPanel
+                    execution={currentExecution}
+                    onClose={() => setExecutionPanelOpen(false)}
+                />
+            )}
+
+            {/* Metrics Dashboard for Run All Queries */}
+            {metricsDashboardOpen && (
+                <MetricsDashboard
+                    onClose={() => setMetricsDashboardOpen(false)}
+                    customNodes={customNodes}
+                />
+            )}
         </div>
     );
 

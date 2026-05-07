@@ -1,0 +1,1426 @@
+[
+  {
+    "id": "spike_pos_0000",
+    "action": "spike",
+    "is_positive": true,
+    "gt_bboxes": [
+      [
+        479,
+        337,
+        518,
+        436
+      ]
+    ],
+    "response": "SKIP",
+    "parsed_kind": "skip",
+    "pred_bbox": null,
+    "best_iou": 0.0,
+    "latency_s": 1.393,
+    "batch_size": 4,
+    "input_mode": "mosaic",
+    "n_frames_actual": 4
+  },
+  {
+    "id": "spike_pos_0001",
+    "action": "spike",
+    "is_positive": true,
+    "gt_bboxes": [
+      [
+        596,
+        424,
+        661,
+        631
+      ]
+    ],
+    "response": "SKIP",
+    "parsed_kind": "skip",
+    "pred_bbox": null,
+    "best_iou": 0.0,
+    "latency_s": 1.285,
+    "batch_size": 4,
+    "input_mode": "mosaic",
+    "n_frames_actual": 4
+  },
+  {
+    "id": "spike_pos_0002",
+    "action": "spike",
+    "is_positive": true,
+    "gt_bboxes": [
+      [
+        591,
+        425,
+        656,
+        626
+      ]
+    ],
+    "response": "SKIP",
+    "parsed_kind": "skip",
+    "pred_bbox": null,
+    "best_iou": 0.0,
+    "latency_s": 1.297,
+    "batch_size": 4,
+    "input_mode": "mosaic",
+    "n_frames_actual": 4
+  },
+  {
+    "id": "spike_pos_0003",
+    "action": "spike",
+    "is_positive": true,
+    "gt_bboxes": [
+      [
+        586,
+        426,
+        652,
+        621
+      ]
+    ],
+    "response": "SKIP",
+    "parsed_kind": "skip",
+    "pred_bbox": null,
+    "best_iou": 0.0,
+    "latency_s": 1.303,
+    "batch_size": 4,
+    "input_mode": "mosaic",
+    "n_frames_actual": 4
+  },
+  {
+    "id": "spike_pos_0004",
+    "action": "spike",
+    "is_positive": true,
+    "gt_bboxes": [
+      [
+        581,
+        427,
+        647,
+        616
+      ]
+    ],
+    "response": "SKIP",
+    "parsed_kind": "skip",
+    "pred_bbox": null,
+    "best_iou": 0.0,
+    "latency_s": 1.305,
+    "batch_size": 4,
+    "input_mode": "mosaic",
+    "n_frames_actual": 4
+  },
+  {
+    "id": "spike_pos_0005",
+    "action": "spike",
+    "is_positive": true,
+    "gt_bboxes": [
+      [
+        576,
+        428,
+        642,
+        611
+      ]
+    ],
+    "response": "SKIP",
+    "parsed_kind": "skip",
+    "pred_bbox": null,
+    "best_iou": 0.0,
+    "latency_s": 1.284,
+    "batch_size": 4,
+    "input_mode": "mosaic",
+    "n_frames_actual": 4
+  },
+  {
+    "id": "spike_pos_0006",
+    "action": "spike",
+    "is_positive": true,
+    "gt_bboxes": [
+      [
+        572,
+        428,
+        638,
+        607
+      ]
+    ],
+    "response": "SKIP",
+    "parsed_kind": "skip",
+    "pred_bbox": null,
+    "best_iou": 0.0,
+    "latency_s": 1.28,
+    "batch_size": 4,
+    "input_mode": "mosaic",
+    "n_frames_actual": 4
+  },
+  {
+    "id": "spike_pos_0007",
+    "action": "spike",
+    "is_positive": true,
+    "gt_bboxes": [
+      [
+        567,
+        429,
+        633,
+        602
+      ]
+    ],
+    "response": "SKIP",
+    "parsed_kind": "skip",
+    "pred_bbox": null,
+    "best_iou": 0.0,
+    "latency_s": 1.288,
+    "batch_size": 4,
+    "input_mode": "mosaic",
+    "n_frames_actual": 4
+  },
+  {
+    "id": "spike_pos_0008",
+    "action": "spike",
+    "is_positive": true,
+    "gt_bboxes": [
+      [
+        562,
+        430,
+        628,
+        597
+      ]
+    ],
+    "response": "SKIP",
+    "parsed_kind": "skip",
+    "pred_bbox": null,
+    "best_iou": 0.0,
+    "latency_s": 1.301,
+    "batch_size": 4,
+    "input_mode": "mosaic",
+    "n_frames_actual": 4
+  },
+  {
+    "id": "spike_pos_0009",
+    "action": "spike",
+    "is_positive": true,
+    "gt_bboxes": [
+      [
+        557,
+        431,
+        624,
+        592
+      ]
+    ],
+    "response": "SKIP",
+    "parsed_kind": "skip",
+    "pred_bbox": null,
+    "best_iou": 0.0,
+    "latency_s": 1.266,
+    "batch_size": 4,
+    "input_mode": "mosaic",
+    "n_frames_actual": 4
+  },
+  {
+    "id": "spike_neg_0000",
+    "action": "spike",
+    "is_positive": false,
+    "gt_bboxes": [],
+    "response": "SKIP",
+    "parsed_kind": "skip",
+    "pred_bbox": null,
+    "best_iou": 0.0,
+    "latency_s": 1.276,
+    "batch_size": 4,
+    "input_mode": "mosaic",
+    "n_frames_actual": 4
+  },
+  {
+    "id": "spike_neg_0001",
+    "action": "spike",
+    "is_positive": false,
+    "gt_bboxes": [],
+    "response": "SKIP",
+    "parsed_kind": "skip",
+    "pred_bbox": null,
+    "best_iou": 0.0,
+    "latency_s": 1.259,
+    "batch_size": 4,
+    "input_mode": "mosaic",
+    "n_frames_actual": 4
+  },
+  {
+    "id": "spike_neg_0002",
+    "action": "spike",
+    "is_positive": false,
+    "gt_bboxes": [],
+    "response": "SKIP",
+    "parsed_kind": "skip",
+    "pred_bbox": null,
+    "best_iou": 0.0,
+    "latency_s": 1.575,
+    "batch_size": 4,
+    "input_mode": "mosaic",
+    "n_frames_actual": 4
+  },
+  {
+    "id": "spike_neg_0003",
+    "action": "spike",
+    "is_positive": false,
+    "gt_bboxes": [],
+    "response": "SKIP",
+    "parsed_kind": "skip",
+    "pred_bbox": null,
+    "best_iou": 0.0,
+    "latency_s": 1.592,
+    "batch_size": 4,
+    "input_mode": "mosaic",
+    "n_frames_actual": 4
+  },
+  {
+    "id": "spike_neg_0004",
+    "action": "spike",
+    "is_positive": false,
+    "gt_bboxes": [],
+    "response": "SKIP",
+    "parsed_kind": "skip",
+    "pred_bbox": null,
+    "best_iou": 0.0,
+    "latency_s": 1.299,
+    "batch_size": 4,
+    "input_mode": "mosaic",
+    "n_frames_actual": 4
+  },
+  {
+    "id": "spike_neg_0005",
+    "action": "spike",
+    "is_positive": false,
+    "gt_bboxes": [],
+    "response": "SKIP",
+    "parsed_kind": "skip",
+    "pred_bbox": null,
+    "best_iou": 0.0,
+    "latency_s": 1.592,
+    "batch_size": 4,
+    "input_mode": "mosaic",
+    "n_frames_actual": 4
+  },
+  {
+    "id": "spike_neg_0006",
+    "action": "spike",
+    "is_positive": false,
+    "gt_bboxes": [],
+    "response": "SKIP",
+    "parsed_kind": "skip",
+    "pred_bbox": null,
+    "best_iou": 0.0,
+    "latency_s": 1.294,
+    "batch_size": 4,
+    "input_mode": "mosaic",
+    "n_frames_actual": 4
+  },
+  {
+    "id": "spike_neg_0007",
+    "action": "spike",
+    "is_positive": false,
+    "gt_bboxes": [],
+    "response": "SKIP",
+    "parsed_kind": "skip",
+    "pred_bbox": null,
+    "best_iou": 0.0,
+    "latency_s": 1.638,
+    "batch_size": 4,
+    "input_mode": "mosaic",
+    "n_frames_actual": 4
+  },
+  {
+    "id": "spike_neg_0008",
+    "action": "spike",
+    "is_positive": false,
+    "gt_bboxes": [],
+    "response": "SKIP",
+    "parsed_kind": "skip",
+    "pred_bbox": null,
+    "best_iou": 0.0,
+    "latency_s": 1.599,
+    "batch_size": 4,
+    "input_mode": "mosaic",
+    "n_frames_actual": 4
+  },
+  {
+    "id": "spike_neg_0009",
+    "action": "spike",
+    "is_positive": false,
+    "gt_bboxes": [],
+    "response": "SKIP",
+    "parsed_kind": "skip",
+    "pred_bbox": null,
+    "best_iou": 0.0,
+    "latency_s": 1.652,
+    "batch_size": 4,
+    "input_mode": "mosaic",
+    "n_frames_actual": 4
+  },
+  {
+    "id": "set_pos_0000",
+    "action": "set",
+    "is_positive": true,
+    "gt_bboxes": [
+      [
+        759,
+        283,
+        835,
+        420
+      ]
+    ],
+    "response": "SKIP",
+    "parsed_kind": "skip",
+    "pred_bbox": null,
+    "best_iou": 0.0,
+    "latency_s": 1.512,
+    "batch_size": 4,
+    "input_mode": "mosaic",
+    "n_frames_actual": 4
+  },
+  {
+    "id": "set_pos_0001",
+    "action": "set",
+    "is_positive": true,
+    "gt_bboxes": [
+      [
+        430,
+        323,
+        533,
+        438
+      ]
+    ],
+    "response": "SKIP",
+    "parsed_kind": "skip",
+    "pred_bbox": null,
+    "best_iou": 0.0,
+    "latency_s": 1.521,
+    "batch_size": 4,
+    "input_mode": "mosaic",
+    "n_frames_actual": 4
+  },
+  {
+    "id": "set_pos_0002",
+    "action": "set",
+    "is_positive": true,
+    "gt_bboxes": [
+      [
+        448,
+        323,
+        548,
+        438
+      ]
+    ],
+    "response": "SKIP",
+    "parsed_kind": "skip",
+    "pred_bbox": null,
+    "best_iou": 0.0,
+    "latency_s": 1.514,
+    "batch_size": 4,
+    "input_mode": "mosaic",
+    "n_frames_actual": 4
+  },
+  {
+    "id": "set_pos_0003",
+    "action": "set",
+    "is_positive": true,
+    "gt_bboxes": [
+      [
+        465,
+        323,
+        563,
+        438
+      ]
+    ],
+    "response": "SKIP",
+    "parsed_kind": "skip",
+    "pred_bbox": null,
+    "best_iou": 0.0,
+    "latency_s": 1.507,
+    "batch_size": 4,
+    "input_mode": "mosaic",
+    "n_frames_actual": 4
+  },
+  {
+    "id": "set_pos_0004",
+    "action": "set",
+    "is_positive": true,
+    "gt_bboxes": [
+      [
+        483,
+        323,
+        578,
+        438
+      ]
+    ],
+    "response": "SKIP",
+    "parsed_kind": "skip",
+    "pred_bbox": null,
+    "best_iou": 0.0,
+    "latency_s": 1.601,
+    "batch_size": 4,
+    "input_mode": "mosaic",
+    "n_frames_actual": 4
+  },
+  {
+    "id": "set_pos_0005",
+    "action": "set",
+    "is_positive": true,
+    "gt_bboxes": [
+      [
+        500,
+        323,
+        593,
+        438
+      ]
+    ],
+    "response": "SKIP",
+    "parsed_kind": "skip",
+    "pred_bbox": null,
+    "best_iou": 0.0,
+    "latency_s": 1.514,
+    "batch_size": 4,
+    "input_mode": "mosaic",
+    "n_frames_actual": 4
+  },
+  {
+    "id": "set_pos_0006",
+    "action": "set",
+    "is_positive": true,
+    "gt_bboxes": [
+      [
+        518,
+        323,
+        609,
+        438
+      ]
+    ],
+    "response": "SKIP",
+    "parsed_kind": "skip",
+    "pred_bbox": null,
+    "best_iou": 0.0,
+    "latency_s": 1.507,
+    "batch_size": 4,
+    "input_mode": "mosaic",
+    "n_frames_actual": 4
+  },
+  {
+    "id": "set_pos_0007",
+    "action": "set",
+    "is_positive": true,
+    "gt_bboxes": [
+      [
+        524,
+        322,
+        613,
+        437
+      ]
+    ],
+    "response": "SKIP",
+    "parsed_kind": "skip",
+    "pred_bbox": null,
+    "best_iou": 0.0,
+    "latency_s": 1.563,
+    "batch_size": 4,
+    "input_mode": "mosaic",
+    "n_frames_actual": 4
+  },
+  {
+    "id": "set_pos_0008",
+    "action": "set",
+    "is_positive": true,
+    "gt_bboxes": [
+      [
+        531,
+        322,
+        617,
+        437
+      ]
+    ],
+    "response": "SKIP",
+    "parsed_kind": "skip",
+    "pred_bbox": null,
+    "best_iou": 0.0,
+    "latency_s": 1.511,
+    "batch_size": 4,
+    "input_mode": "mosaic",
+    "n_frames_actual": 4
+  },
+  {
+    "id": "set_pos_0009",
+    "action": "set",
+    "is_positive": true,
+    "gt_bboxes": [
+      [
+        537,
+        321,
+        621,
+        436
+      ]
+    ],
+    "response": "SKIP",
+    "parsed_kind": "skip",
+    "pred_bbox": null,
+    "best_iou": 0.0,
+    "latency_s": 1.503,
+    "batch_size": 4,
+    "input_mode": "mosaic",
+    "n_frames_actual": 4
+  },
+  {
+    "id": "set_neg_0000",
+    "action": "set",
+    "is_positive": false,
+    "gt_bboxes": [],
+    "response": "SKIP",
+    "parsed_kind": "skip",
+    "pred_bbox": null,
+    "best_iou": 0.0,
+    "latency_s": 1.56,
+    "batch_size": 4,
+    "input_mode": "mosaic",
+    "n_frames_actual": 4
+  },
+  {
+    "id": "set_neg_0001",
+    "action": "set",
+    "is_positive": false,
+    "gt_bboxes": [],
+    "response": "SKIP",
+    "parsed_kind": "skip",
+    "pred_bbox": null,
+    "best_iou": 0.0,
+    "latency_s": 1.492,
+    "batch_size": 4,
+    "input_mode": "mosaic",
+    "n_frames_actual": 4
+  },
+  {
+    "id": "set_neg_0003",
+    "action": "set",
+    "is_positive": false,
+    "gt_bboxes": [],
+    "response": "SKIP",
+    "parsed_kind": "skip",
+    "pred_bbox": null,
+    "best_iou": 0.0,
+    "latency_s": 1.496,
+    "batch_size": 4,
+    "input_mode": "mosaic",
+    "n_frames_actual": 4
+  },
+  {
+    "id": "set_neg_0004",
+    "action": "set",
+    "is_positive": false,
+    "gt_bboxes": [],
+    "response": "SKIP",
+    "parsed_kind": "skip",
+    "pred_bbox": null,
+    "best_iou": 0.0,
+    "latency_s": 1.573,
+    "batch_size": 4,
+    "input_mode": "mosaic",
+    "n_frames_actual": 4
+  },
+  {
+    "id": "set_neg_0005",
+    "action": "set",
+    "is_positive": false,
+    "gt_bboxes": [],
+    "response": "SKIP",
+    "parsed_kind": "skip",
+    "pred_bbox": null,
+    "best_iou": 0.0,
+    "latency_s": 1.539,
+    "batch_size": 4,
+    "input_mode": "mosaic",
+    "n_frames_actual": 4
+  },
+  {
+    "id": "set_neg_0006",
+    "action": "set",
+    "is_positive": false,
+    "gt_bboxes": [],
+    "response": "SKIP",
+    "parsed_kind": "skip",
+    "pred_bbox": null,
+    "best_iou": 0.0,
+    "latency_s": 1.486,
+    "batch_size": 4,
+    "input_mode": "mosaic",
+    "n_frames_actual": 4
+  },
+  {
+    "id": "set_neg_0007",
+    "action": "set",
+    "is_positive": false,
+    "gt_bboxes": [],
+    "response": "SKIP",
+    "parsed_kind": "skip",
+    "pred_bbox": null,
+    "best_iou": 0.0,
+    "latency_s": 1.488,
+    "batch_size": 4,
+    "input_mode": "mosaic",
+    "n_frames_actual": 4
+  },
+  {
+    "id": "set_neg_0009",
+    "action": "set",
+    "is_positive": false,
+    "gt_bboxes": [],
+    "response": "SKIP",
+    "parsed_kind": "skip",
+    "pred_bbox": null,
+    "best_iou": 0.0,
+    "latency_s": 1.501,
+    "batch_size": 4,
+    "input_mode": "mosaic",
+    "n_frames_actual": 4
+  },
+  {
+    "id": "block_pos_0000",
+    "action": "block",
+    "is_positive": true,
+    "gt_bboxes": [
+      [
+        745,
+        506,
+        809,
+        632
+      ],
+      [
+        601,
+        424,
+        666,
+        636
+      ]
+    ],
+    "response": "SKIP",
+    "parsed_kind": "skip",
+    "pred_bbox": null,
+    "best_iou": 0.0,
+    "latency_s": 1.61,
+    "batch_size": 4,
+    "input_mode": "mosaic",
+    "n_frames_actual": 4
+  },
+  {
+    "id": "block_pos_0001",
+    "action": "block",
+    "is_positive": true,
+    "gt_bboxes": [
+      [
+        745,
+        440,
+        798,
+        573
+      ],
+      [
+        734,
+        497,
+        798,
+        629
+      ]
+    ],
+    "response": "SKIP",
+    "parsed_kind": "skip",
+    "pred_bbox": null,
+    "best_iou": 0.0,
+    "latency_s": 1.614,
+    "batch_size": 4,
+    "input_mode": "mosaic",
+    "n_frames_actual": 4
+  },
+  {
+    "id": "block_pos_0002",
+    "action": "block",
+    "is_positive": true,
+    "gt_bboxes": [
+      [
+        735,
+        438,
+        788,
+        574
+      ],
+      [
+        724,
+        489,
+        787,
+        626
+      ]
+    ],
+    "response": "SKIP",
+    "parsed_kind": "skip",
+    "pred_bbox": null,
+    "best_iou": 0.0,
+    "latency_s": 1.578,
+    "batch_size": 4,
+    "input_mode": "mosaic",
+    "n_frames_actual": 4
+  },
+  {
+    "id": "block_pos_0003",
+    "action": "block",
+    "is_positive": true,
+    "gt_bboxes": [
+      [
+        725,
+        436,
+        777,
+        574
+      ],
+      [
+        713,
+        480,
+        776,
+        623
+      ]
+    ],
+    "response": "SKIP",
+    "parsed_kind": "skip",
+    "pred_bbox": null,
+    "best_iou": 0.0,
+    "latency_s": 1.568,
+    "batch_size": 4,
+    "input_mode": "mosaic",
+    "n_frames_actual": 4
+  },
+  {
+    "id": "block_pos_0004",
+    "action": "block",
+    "is_positive": true,
+    "gt_bboxes": [
+      [
+        715,
+        434,
+        767,
+        575
+      ],
+      [
+        703,
+        472,
+        766,
+        621
+      ]
+    ],
+    "response": "SKIP",
+    "parsed_kind": "skip",
+    "pred_bbox": null,
+    "best_iou": 0.0,
+    "latency_s": 1.577,
+    "batch_size": 4,
+    "input_mode": "mosaic",
+    "n_frames_actual": 4
+  },
+  {
+    "id": "block_pos_0005",
+    "action": "block",
+    "is_positive": true,
+    "gt_bboxes": [
+      [
+        705,
+        432,
+        757,
+        575
+      ],
+      [
+        693,
+        464,
+        755,
+        618
+      ]
+    ],
+    "response": "SKIP",
+    "parsed_kind": "skip",
+    "pred_bbox": null,
+    "best_iou": 0.0,
+    "latency_s": 1.588,
+    "batch_size": 4,
+    "input_mode": "mosaic",
+    "n_frames_actual": 4
+  },
+  {
+    "id": "block_pos_0006",
+    "action": "block",
+    "is_positive": true,
+    "gt_bboxes": [
+      [
+        695,
+        430,
+        746,
+        576
+      ],
+      [
+        682,
+        455,
+        744,
+        615
+      ]
+    ],
+    "response": "SKIP",
+    "parsed_kind": "skip",
+    "pred_bbox": null,
+    "best_iou": 0.0,
+    "latency_s": 1.604,
+    "batch_size": 4,
+    "input_mode": "mosaic",
+    "n_frames_actual": 4
+  },
+  {
+    "id": "block_pos_0007",
+    "action": "block",
+    "is_positive": true,
+    "gt_bboxes": [
+      [
+        685,
+        428,
+        736,
+        576
+      ],
+      [
+        672,
+        447,
+        734,
+        613
+      ]
+    ],
+    "response": "SKIP",
+    "parsed_kind": "skip",
+    "pred_bbox": null,
+    "best_iou": 0.0,
+    "latency_s": 1.58,
+    "batch_size": 4,
+    "input_mode": "mosaic",
+    "n_frames_actual": 4
+  },
+  {
+    "id": "block_pos_0008",
+    "action": "block",
+    "is_positive": true,
+    "gt_bboxes": [
+      [
+        675,
+        426,
+        726,
+        577
+      ],
+      [
+        661,
+        438,
+        723,
+        610
+      ]
+    ],
+    "response": "SKIP",
+    "parsed_kind": "skip",
+    "pred_bbox": null,
+    "best_iou": 0.0,
+    "latency_s": 1.584,
+    "batch_size": 4,
+    "input_mode": "mosaic",
+    "n_frames_actual": 4
+  },
+  {
+    "id": "block_pos_0009",
+    "action": "block",
+    "is_positive": true,
+    "gt_bboxes": [
+      [
+        665,
+        424,
+        715,
+        577
+      ],
+      [
+        651,
+        430,
+        712,
+        607
+      ]
+    ],
+    "response": "SKIP",
+    "parsed_kind": "skip",
+    "pred_bbox": null,
+    "best_iou": 0.0,
+    "latency_s": 1.707,
+    "batch_size": 4,
+    "input_mode": "mosaic",
+    "n_frames_actual": 4
+  },
+  {
+    "id": "block_neg_0000",
+    "action": "block",
+    "is_positive": false,
+    "gt_bboxes": [],
+    "response": "SKIP",
+    "parsed_kind": "skip",
+    "pred_bbox": null,
+    "best_iou": 0.0,
+    "latency_s": 1.582,
+    "batch_size": 4,
+    "input_mode": "mosaic",
+    "n_frames_actual": 4
+  },
+  {
+    "id": "block_neg_0001",
+    "action": "block",
+    "is_positive": false,
+    "gt_bboxes": [],
+    "response": "SKIP",
+    "parsed_kind": "skip",
+    "pred_bbox": null,
+    "best_iou": 0.0,
+    "latency_s": 1.577,
+    "batch_size": 4,
+    "input_mode": "mosaic",
+    "n_frames_actual": 4
+  },
+  {
+    "id": "block_neg_0002",
+    "action": "block",
+    "is_positive": false,
+    "gt_bboxes": [],
+    "response": "SKIP",
+    "parsed_kind": "skip",
+    "pred_bbox": null,
+    "best_iou": 0.0,
+    "latency_s": 1.585,
+    "batch_size": 4,
+    "input_mode": "mosaic",
+    "n_frames_actual": 4
+  },
+  {
+    "id": "block_neg_0003",
+    "action": "block",
+    "is_positive": false,
+    "gt_bboxes": [],
+    "response": "SKIP",
+    "parsed_kind": "skip",
+    "pred_bbox": null,
+    "best_iou": 0.0,
+    "latency_s": 1.569,
+    "batch_size": 4,
+    "input_mode": "mosaic",
+    "n_frames_actual": 4
+  },
+  {
+    "id": "block_neg_0004",
+    "action": "block",
+    "is_positive": false,
+    "gt_bboxes": [],
+    "response": "SKIP",
+    "parsed_kind": "skip",
+    "pred_bbox": null,
+    "best_iou": 0.0,
+    "latency_s": 1.587,
+    "batch_size": 4,
+    "input_mode": "mosaic",
+    "n_frames_actual": 4
+  },
+  {
+    "id": "block_neg_0005",
+    "action": "block",
+    "is_positive": false,
+    "gt_bboxes": [],
+    "response": "SKIP",
+    "parsed_kind": "skip",
+    "pred_bbox": null,
+    "best_iou": 0.0,
+    "latency_s": 1.56,
+    "batch_size": 4,
+    "input_mode": "mosaic",
+    "n_frames_actual": 4
+  },
+  {
+    "id": "block_neg_0006",
+    "action": "block",
+    "is_positive": false,
+    "gt_bboxes": [],
+    "response": "SKIP",
+    "parsed_kind": "skip",
+    "pred_bbox": null,
+    "best_iou": 0.0,
+    "latency_s": 1.569,
+    "batch_size": 4,
+    "input_mode": "mosaic",
+    "n_frames_actual": 4
+  },
+  {
+    "id": "block_neg_0007",
+    "action": "block",
+    "is_positive": false,
+    "gt_bboxes": [],
+    "response": "SKIP",
+    "parsed_kind": "skip",
+    "pred_bbox": null,
+    "best_iou": 0.0,
+    "latency_s": 1.57,
+    "batch_size": 4,
+    "input_mode": "mosaic",
+    "n_frames_actual": 4
+  },
+  {
+    "id": "block_neg_0008",
+    "action": "block",
+    "is_positive": false,
+    "gt_bboxes": [],
+    "response": "SKIP",
+    "parsed_kind": "skip",
+    "pred_bbox": null,
+    "best_iou": 0.0,
+    "latency_s": 1.553,
+    "batch_size": 4,
+    "input_mode": "mosaic",
+    "n_frames_actual": 4
+  },
+  {
+    "id": "block_neg_0009",
+    "action": "block",
+    "is_positive": false,
+    "gt_bboxes": [],
+    "response": "SKIP",
+    "parsed_kind": "skip",
+    "pred_bbox": null,
+    "best_iou": 0.0,
+    "latency_s": 1.564,
+    "batch_size": 4,
+    "input_mode": "mosaic",
+    "n_frames_actual": 4
+  },
+  {
+    "id": "dig_pos_0000",
+    "action": "dig",
+    "is_positive": true,
+    "gt_bboxes": [
+      [
+        1057,
+        399,
+        1116,
+        518
+      ],
+      [
+        1197,
+        437,
+        1263,
+        567
+      ]
+    ],
+    "response": "SKIP",
+    "parsed_kind": "skip",
+    "pred_bbox": null,
+    "best_iou": 0.0,
+    "latency_s": 1.303,
+    "batch_size": 4,
+    "input_mode": "mosaic",
+    "n_frames_actual": 4
+  },
+  {
+    "id": "dig_pos_0001",
+    "action": "dig",
+    "is_positive": true,
+    "gt_bboxes": [
+      [
+        1046,
+        399,
+        1107,
+        518
+      ]
+    ],
+    "response": "SKIP",
+    "parsed_kind": "skip",
+    "pred_bbox": null,
+    "best_iou": 0.0,
+    "latency_s": 1.331,
+    "batch_size": 4,
+    "input_mode": "mosaic",
+    "n_frames_actual": 4
+  },
+  {
+    "id": "dig_pos_0002",
+    "action": "dig",
+    "is_positive": true,
+    "gt_bboxes": [
+      [
+        1036,
+        399,
+        1099,
+        518
+      ]
+    ],
+    "response": "SKIP",
+    "parsed_kind": "skip",
+    "pred_bbox": null,
+    "best_iou": 0.0,
+    "latency_s": 1.382,
+    "batch_size": 4,
+    "input_mode": "mosaic",
+    "n_frames_actual": 4
+  },
+  {
+    "id": "dig_pos_0003",
+    "action": "dig",
+    "is_positive": true,
+    "gt_bboxes": [
+      [
+        1026,
+        399,
+        1090,
+        518
+      ]
+    ],
+    "response": "SKIP",
+    "parsed_kind": "skip",
+    "pred_bbox": null,
+    "best_iou": 0.0,
+    "latency_s": 1.322,
+    "batch_size": 4,
+    "input_mode": "mosaic",
+    "n_frames_actual": 4
+  },
+  {
+    "id": "dig_pos_0004",
+    "action": "dig",
+    "is_positive": true,
+    "gt_bboxes": [
+      [
+        1016,
+        399,
+        1082,
+        518
+      ]
+    ],
+    "response": "SKIP",
+    "parsed_kind": "skip",
+    "pred_bbox": null,
+    "best_iou": 0.0,
+    "latency_s": 1.504,
+    "batch_size": 4,
+    "input_mode": "mosaic",
+    "n_frames_actual": 4
+  },
+  {
+    "id": "dig_pos_0005",
+    "action": "dig",
+    "is_positive": true,
+    "gt_bboxes": [
+      [
+        1006,
+        399,
+        1073,
+        518
+      ]
+    ],
+    "response": "SKIP",
+    "parsed_kind": "skip",
+    "pred_bbox": null,
+    "best_iou": 0.0,
+    "latency_s": 1.851,
+    "batch_size": 4,
+    "input_mode": "mosaic",
+    "n_frames_actual": 4
+  },
+  {
+    "id": "dig_pos_0006",
+    "action": "dig",
+    "is_positive": true,
+    "gt_bboxes": [
+      [
+        996,
+        399,
+        1065,
+        518
+      ]
+    ],
+    "response": "SKIP",
+    "parsed_kind": "skip",
+    "pred_bbox": null,
+    "best_iou": 0.0,
+    "latency_s": 1.266,
+    "batch_size": 4,
+    "input_mode": "mosaic",
+    "n_frames_actual": 4
+  },
+  {
+    "id": "dig_pos_0007",
+    "action": "dig",
+    "is_positive": true,
+    "gt_bboxes": [
+      [
+        986,
+        399,
+        1056,
+        516
+      ]
+    ],
+    "response": "SKIP",
+    "parsed_kind": "skip",
+    "pred_bbox": null,
+    "best_iou": 0.0,
+    "latency_s": 1.268,
+    "batch_size": 4,
+    "input_mode": "mosaic",
+    "n_frames_actual": 4
+  },
+  {
+    "id": "dig_pos_0008",
+    "action": "dig",
+    "is_positive": true,
+    "gt_bboxes": [
+      [
+        976,
+        399,
+        1047,
+        514
+      ]
+    ],
+    "response": "SKIP",
+    "parsed_kind": "skip",
+    "pred_bbox": null,
+    "best_iou": 0.0,
+    "latency_s": 1.269,
+    "batch_size": 4,
+    "input_mode": "mosaic",
+    "n_frames_actual": 4
+  },
+  {
+    "id": "dig_pos_0009",
+    "action": "dig",
+    "is_positive": true,
+    "gt_bboxes": [
+      [
+        966,
+        399,
+        1038,
+        513
+      ]
+    ],
+    "response": "SKIP",
+    "parsed_kind": "skip",
+    "pred_bbox": null,
+    "best_iou": 0.0,
+    "latency_s": 1.28,
+    "batch_size": 4,
+    "input_mode": "mosaic",
+    "n_frames_actual": 4
+  },
+  {
+    "id": "dig_neg_0000",
+    "action": "dig",
+    "is_positive": false,
+    "gt_bboxes": [],
+    "response": "SKIP",
+    "parsed_kind": "skip",
+    "pred_bbox": null,
+    "best_iou": 0.0,
+    "latency_s": 1.578,
+    "batch_size": 4,
+    "input_mode": "mosaic",
+    "n_frames_actual": 4
+  },
+  {
+    "id": "dig_neg_0001",
+    "action": "dig",
+    "is_positive": false,
+    "gt_bboxes": [],
+    "response": "SKIP",
+    "parsed_kind": "skip",
+    "pred_bbox": null,
+    "best_iou": 0.0,
+    "latency_s": 1.269,
+    "batch_size": 4,
+    "input_mode": "mosaic",
+    "n_frames_actual": 4
+  },
+  {
+    "id": "dig_neg_0002",
+    "action": "dig",
+    "is_positive": false,
+    "gt_bboxes": [],
+    "response": "SKIP",
+    "parsed_kind": "skip",
+    "pred_bbox": null,
+    "best_iou": 0.0,
+    "latency_s": 1.482,
+    "batch_size": 4,
+    "input_mode": "mosaic",
+    "n_frames_actual": 4
+  },
+  {
+    "id": "dig_neg_0003",
+    "action": "dig",
+    "is_positive": false,
+    "gt_bboxes": [],
+    "response": "SKIP",
+    "parsed_kind": "skip",
+    "pred_bbox": null,
+    "best_iou": 0.0,
+    "latency_s": 1.466,
+    "batch_size": 4,
+    "input_mode": "mosaic",
+    "n_frames_actual": 4
+  },
+  {
+    "id": "dig_neg_0004",
+    "action": "dig",
+    "is_positive": false,
+    "gt_bboxes": [],
+    "response": "SKIP",
+    "parsed_kind": "skip",
+    "pred_bbox": null,
+    "best_iou": 0.0,
+    "latency_s": 1.479,
+    "batch_size": 4,
+    "input_mode": "mosaic",
+    "n_frames_actual": 4
+  },
+  {
+    "id": "dig_neg_0005",
+    "action": "dig",
+    "is_positive": false,
+    "gt_bboxes": [],
+    "response": "SKIP",
+    "parsed_kind": "skip",
+    "pred_bbox": null,
+    "best_iou": 0.0,
+    "latency_s": 1.585,
+    "batch_size": 4,
+    "input_mode": "mosaic",
+    "n_frames_actual": 4
+  },
+  {
+    "id": "dig_neg_0006",
+    "action": "dig",
+    "is_positive": false,
+    "gt_bboxes": [],
+    "response": "SKIP",
+    "parsed_kind": "skip",
+    "pred_bbox": null,
+    "best_iou": 0.0,
+    "latency_s": 1.293,
+    "batch_size": 4,
+    "input_mode": "mosaic",
+    "n_frames_actual": 4
+  },
+  {
+    "id": "dig_neg_0007",
+    "action": "dig",
+    "is_positive": false,
+    "gt_bboxes": [],
+    "response": "SKIP",
+    "parsed_kind": "skip",
+    "pred_bbox": null,
+    "best_iou": 0.0,
+    "latency_s": 1.576,
+    "batch_size": 4,
+    "input_mode": "mosaic",
+    "n_frames_actual": 4
+  },
+  {
+    "id": "dig_neg_0008",
+    "action": "dig",
+    "is_positive": false,
+    "gt_bboxes": [],
+    "response": "SKIP",
+    "parsed_kind": "skip",
+    "pred_bbox": null,
+    "best_iou": 0.0,
+    "latency_s": 1.618,
+    "batch_size": 4,
+    "input_mode": "mosaic",
+    "n_frames_actual": 4
+  }
+]

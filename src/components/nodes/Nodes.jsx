@@ -12,8 +12,8 @@ import llmIcon from "../../assets/icons/llm.svg";
 import resizeIcon from "../../assets/icons/resize.svg";
 import windowIcon from "../../assets/icons/window.svg";
 
-export function CircleNode({ label, icon }) {
-    const foundType = nodeTypes.find(n => n.label.toLowerCase() === label.toLowerCase())
+export function CircleNode({ label, icon, nodeDefinition }) {
+    const foundType = nodeDefinition || nodeTypes.find(n => n.label.toLowerCase() === label.toLowerCase());
     const nodeIcon = getNodeIcon(label);
     const displayLabel = label && label.toLowerCase() === 'llm' ? label.toUpperCase() : label;
 
@@ -22,7 +22,7 @@ export function CircleNode({ label, icon }) {
             {nodeIcon ? (
                 <img src={nodeIcon} width={30} height={30} alt={label} className="node-icon" />
             ) : (
-                <i className={"fa-solid " + icon}></i>
+                <i className={"fa-solid " + (foundType?.icon || icon)}></i>
             )}
             <div className="node-label">{displayLabel}</div>
         </div>
@@ -31,8 +31,8 @@ export function CircleNode({ label, icon }) {
 }
 
 
-function DescriptionNode({ label, id }) {
-    const foundType = nodeTypes.find(n => n.label.toLowerCase() === label.toLowerCase());
+function DescriptionNode({ label, id, nodeDefinition }) {
+    const foundType = nodeDefinition || nodeTypes.find(n => n.label.toLowerCase() === label.toLowerCase());
     return (
         <div className="description-node">
             {foundType?.subtypes && foundType?.subtypes.length !== 0 &&
@@ -66,7 +66,7 @@ function getNodeIcon(label) {
 }
 
 export default function FunctionNode({ data, id }) {
-    const foundType = nodeTypes.find(n => n.label.toLowerCase() === data.label.toLowerCase());
+    const foundType = data.nodeDefinition || nodeTypes.find(n => n.label.toLowerCase() === data.label.toLowerCase());
     const {deleteElements} = useReactFlow();
 
     const handleDelete = () => {
@@ -76,7 +76,7 @@ export default function FunctionNode({ data, id }) {
     return (
         <div className="node-with-handlers">
             <button className="node-delete-btn" title="Delete node" onClick={handleDelete}>✕</button>
-            <CircleNode id={id} label={data.label} nodeType={data.nodeType} icon={foundType.icon} />
+            <CircleNode id={id} label={data.label} nodeType={data.nodeType} icon={foundType?.icon} nodeDefinition={foundType} />
             <Handle
                 type="source"
                 position="right"
@@ -85,7 +85,7 @@ export default function FunctionNode({ data, id }) {
                 type="target"
                 position="left"
             />
-            <DescriptionNode label={data.label} id={id} />
+            <DescriptionNode label={data.label} id={id} nodeDefinition={foundType} />
         </div>
     );
 }

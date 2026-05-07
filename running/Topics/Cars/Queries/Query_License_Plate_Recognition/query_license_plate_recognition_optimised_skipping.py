@@ -65,7 +65,7 @@ class MapPromptLLM(MapFunction):
         start = time.time()
 
         if SKIP_COUNTDOWN > 0:
-            answer = "SKIPPED"
+            answer = ""
             llm = "SKIPPED"
             SKIP_COUNTDOWN -= 1
         

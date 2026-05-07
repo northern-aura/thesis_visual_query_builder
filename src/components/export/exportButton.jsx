@@ -1,10 +1,11 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { generateStructuredJSON } from '../../helpers/export/exportJson';
-import { generateDirectPython } from '../../helpers/export/directPythonExport'; // Import the new direct export
+import { generateDirectPython } from '../../helpers/export/directPythonExport';
 import pngIconLight from '../../assets/Screenshot button.png';
 import pngIconDark from '../../assets/Dark Mode Screenshot button.png'; // Add this import at the top (place your PNG in src/assets/)
+import { backendClient } from '../../services/backendClient';
 
-export default function ExportButton({ nodes, edges, projectName, onExportPng, onFileUpload }) {
+export default function ExportButton({ nodes, edges, projectName, customNodes = [], onExportPng, onFileUpload, onStartExecution }) {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const [fileInputKey, setFileInputKey] = useState(0); // for resetting file input
     const [isDarkMode, setIsDarkMode] = useState(false);    // Monitor dark mode changes
@@ -156,7 +157,7 @@ export default function ExportButton({ nodes, edges, projectName, onExportPng, o
     const handleExportDirectPython = () => {
         setIsMenuOpen(false); // Close menu after action
         try {
-            const pythonCode = generateDirectPython(nodes, edges, projectName);
+            const pythonCode = generateDirectPython(nodes, edges, projectName, customNodes);
 
             const blob = new Blob([pythonCode], { type: 'text/x-python' });
             const url = URL.createObjectURL(blob);
@@ -168,6 +169,59 @@ export default function ExportButton({ nodes, edges, projectName, onExportPng, o
         } catch (error) {
             console.error("Error generating direct Python code:", error);
             alert("Error generating direct Python code. Please check your pipeline configuration.\n\nError: " + error.message);
+        }
+    };
+
+    const handleExportCustomNodes = () => {
+        setIsMenuOpen(false);
+        try {
+            if (customNodes.length === 0) {
+                alert('No custom nodes to export');
+                return;
+            }
+
+            // Create JSON data
+            const customNodesData = {
+                customNodes: customNodes
+            };
+
+            // Create and download JSON file
+            const jsonString = JSON.stringify(customNodesData, null, 2);
+            const blob = new Blob([jsonString], { type: 'application/json' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'custom-nodes.json';
+            a.click();
+            URL.revokeObjectURL(url);
+
+            console.log(`Successfully exported ${customNodes.length} custom node(s)`);
+        } catch (error) {
+            console.error("Error exporting custom nodes:", error);
+            alert("Error exporting custom nodes.\n\nError: " + error.message);
+        }
+    };
+
+    const handleExecutePython = async () => {
+        setIsMenuOpen(false);
+        try {
+            // Generate Python script
+            const pythonCode = generateDirectPython(nodes, edges, projectName, customNodes);
+
+            // Start execution via backend
+            const result = await backendClient.executeScript(
+                `${projectName || 'pipeline'}_execution.py`,
+                pythonCode,
+                projectName || 'Untitled Project'
+            );
+
+            // Notify parent component to open results panel
+            if (onStartExecution) {
+                onStartExecution(result);
+            }
+        } catch (error) {
+            console.error("Failed to start execution:", error);
+            alert(`Failed to start execution: ${error.message}`);
         }
     };
 
@@ -275,6 +329,24 @@ export default function ExportButton({ nodes, edges, projectName, onExportPng, o
                             onMouseLeave={e => e.target.style.backgroundColor = getHoverStyle(false)}
                         >
                             Export Python
+                        </button>                        <button
+                            onClick={handleExecutePython}
+                            style={{
+                                width: '100%',
+                                padding: '12px 16px',
+                                fontSize: '14px',
+                                backgroundColor: 'transparent',
+                                color: '#333',
+                                border: 'none',
+                                borderBottom: '1px solid #eee',
+                                cursor: 'pointer',
+                                textAlign: 'left',
+                                transition: 'background-color 0.2s ease'
+                            }}
+                            onMouseEnter={e => e.target.style.backgroundColor = getHoverStyle(true)}
+                            onMouseLeave={e => e.target.style.backgroundColor = getHoverStyle(false)}
+                        >
+                            ▶ Execute Python
                         </button>                        <div className="export-dropdown-item" style={{
                             borderTop: 'none',
                             width: '100%',
@@ -309,6 +381,25 @@ export default function ExportButton({ nodes, edges, projectName, onExportPng, o
                                 }}
                             />
                         </div>
+
+                        <button
+                            onClick={handleExportCustomNodes}
+                            style={{
+                                width: '100%',
+                                padding: '12px 16px',
+                                fontSize: '14px',
+                                backgroundColor: 'transparent',
+                                color: '#333',
+                                border: 'none',
+                                cursor: 'pointer',
+                                textAlign: 'left',
+                                transition: 'background-color 0.2s ease'
+                            }}
+                            onMouseEnter={e => e.target.style.backgroundColor = getHoverStyle(true)}
+                            onMouseLeave={e => e.target.style.backgroundColor = getHoverStyle(false)}
+                        >
+                            Export Custom Nodes
+                        </button>
                     </div>
                 )}
             </div>

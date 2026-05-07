@@ -8,11 +8,16 @@ services:
       - jobmanager
     command: taskmanager
     scale: 1
+    env_file:
+      - ../../.env
     environment:
       - |
         FLINK_PROPERTIES=
         jobmanager.rpc.address: jobmanager
-        taskmanager.numberOfTaskSlots: 6 
+        taskmanager.numberOfTaskSlots: 6
+        taskmanager.memory.process.size: 4096m
+        taskmanager.memory.task.off-heap.size: 512m
+        taskmanager.memory.framework.off-heap.size: 256m
 
   jobmanager:
     image: pyflink
@@ -21,6 +26,10 @@ services:
     ports:
       - "8082:8082"
     command: jobmanager
+    volumes:
+      - ../../scripts:/scripts
+    env_file:
+      - ../../.env
     environment:
       - |
         FLINK_PROPERTIES=

@@ -41,9 +41,9 @@ export const nodeTypes: DefaultType[] = [
         icon: "fa-robot",
         subtypes: [
             {
-                label: 'GPT-4o-mini (OpenAI)',
-                subtype: 'gpt-4o-mini',
-                id: "gpt-4o-mini",
+                label: 'GPT-4o(OpenAI)',
+                subtype: 'gpt-4o',
+                id: "gpt-4o",
                 params: [
                     { name: 'prompt', type: 'text', label: "Prompt", isTextarea: true, id: "llm_prompt" }
                 ]
@@ -87,6 +87,14 @@ export const nodeTypes: DefaultType[] = [
                 params: [
                     { name: 'prompt', type: 'text', label: "Prompt", isTextarea: true, id: "llm_prompt" }
                 ]
+            },
+            {
+                label: 'Qwen2.5-VL-3B (vLLM)',
+                subtype: 'qwen2.5-vl-3b',
+                id: "qwen2-5-vl-3b",
+                params: [
+                    { name: 'prompt', type: 'text', label: "Prompt", isTextarea: true, id: "llm_prompt" }
+                ]
             }
         ],
         params: []
@@ -98,10 +106,8 @@ export const nodeTypes: DefaultType[] = [
         icon: "fa-expand",
         subtypes: [],
         params: [
-            { name: 'width_lbound', type: 'number', label: "Width Lower Bound", id: "resize-width-lbound" },
-            { name: 'width_rbound', type: 'number', label: "Width Upper Bound", id: "resize-width-rbound" },
-            { name: 'height_lbound', type: 'number', label: "Height Lower Bound", id: "resize-height-lbound" },
-            { name: 'height_rbound', type: 'number', label: "Height Upper Bound", id: "resize-height-rbound" }
+            { name: 'width', type: 'number', label: "Width", id: "resize-width" },
+            { name: 'height', type: 'number', label: "Height", id: "resize-height" }
         ]
     },
     {
@@ -112,6 +118,17 @@ export const nodeTypes: DefaultType[] = [
         icon: "fa-circle-half-stroke",
         subtypes: [],
         params: [],
+    },
+    {
+        functionType: "map",
+        label: 'Frame Batcher',
+        color: 'LightSteelBlue',
+        icon: "fa-layer-group",
+        info: "Collects N frames and sends them together to the LLM in a single call.",
+        subtypes: [],
+        params: [
+            { name: 'batch_size', type: 'number', label: "Batch Size (frames)", id: "frame-batcher-batch-size" }
+        ]
     },
     {
         functionType: "window",
@@ -131,6 +148,83 @@ export const nodeTypes: DefaultType[] = [
         color: 'plum',
         icon: "fa-chart-bar",
         subtypes: []
+    },
+    {
+        functionType: "map",
+        label: 'CV Color Filter',
+        color: 'LightCoral',
+        icon: "fa-palette",
+        subtypes: [
+            {
+                label: 'Red',
+                subtype: 'cv_color_red',
+                id: "cv-color-red",
+                params: [
+                    { name: 'threshold', type: 'number', label: "Min Pixel Ratio (%)", id: "cv_color_threshold" }
+                ]
+            },
+            {
+                label: 'Blue',
+                subtype: 'cv_color_blue',
+                id: "cv-color-blue",
+                params: [
+                    { name: 'threshold', type: 'number', label: "Min Pixel Ratio (%)", id: "cv_color_threshold" }
+                ]
+            },
+            {
+                label: 'White',
+                subtype: 'cv_color_white',
+                id: "cv-color-white",
+                params: [
+                    { name: 'threshold', type: 'number', label: "Min Pixel Ratio (%)", id: "cv_color_threshold" }
+                ]
+            },
+            {
+                label: 'Grey',
+                subtype: 'cv_color_grey',
+                id: "cv-color-grey",
+                params: [
+                    { name: 'threshold', type: 'number', label: "Min Pixel Ratio (%)", id: "cv_color_threshold" }
+                ]
+            },
+            {
+                label: 'Black',
+                subtype: 'cv_color_black',
+                id: "cv-color-black",
+                params: [
+                    { name: 'threshold', type: 'number', label: "Min Pixel Ratio (%)", id: "cv_color_threshold" }
+                ]
+            },
+            {
+                label: 'Green',
+                subtype: 'cv_color_green',
+                id: "cv-color-green",
+                params: [
+                    { name: 'threshold', type: 'number', label: "Min Pixel Ratio (%)", id: "cv_color_threshold" }
+                ]
+            },
+            {
+                label: 'Yellow',
+                subtype: 'cv_color_yellow',
+                id: "cv-color-yellow",
+                params: [
+                    { name: 'threshold', type: 'number', label: "Min Pixel Ratio (%)", id: "cv_color_threshold" }
+                ]
+            }
+        ],
+        params: []
+    },
+    {
+        functionType: "map",
+        label: 'Skip Frames',
+        color: 'MediumAquaMarine',
+        icon: "fa-forward",
+        info: "Skip frames after empty (no detection) or after detection. Set 0 to disable either direction.",
+        subtypes: [],
+        params: [
+            { name: 'skip_on_empty', type: 'number', label: "Skip on Empty", id: "skip-on-empty" },
+            { name: 'skip_on_detect', type: 'number', label: "Skip on Detect", id: "skip-on-detect" }
+        ]
     },
     {
         functionType: "filter",

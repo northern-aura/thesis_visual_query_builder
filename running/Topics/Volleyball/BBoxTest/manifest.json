@@ -1,0 +1,3238 @@
+{
+  "dataset_root": "/mnt/c/Users/funky/Downloads/reactflow-query-builder-master(1)/reactflow-query-builder-master/volleyball_dataset",
+  "source_clips": [
+    "7/38025",
+    "7/51725",
+    "10/18360",
+    "10/20525"
+  ],
+  "seed": 42,
+  "entries": [
+    {
+      "id": "spike_pos_0000",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51715.jpg",
+      "action": "spike",
+      "prompt_key": "vbBboxSpike",
+      "prompt": "Is a volleyball spike happening in this image? If yes, return the bounding box of the spiking player as 'x1,y1,x2,y2' (pixel integers). If no spike, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": true,
+      "gt_bboxes": [
+        [
+          479,
+          337,
+          518,
+          436
+        ]
+      ],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51715
+    },
+    {
+      "id": "spike_pos_0001",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51716.jpg",
+      "action": "spike",
+      "prompt_key": "vbBboxSpike",
+      "prompt": "Is a volleyball spike happening in this image? If yes, return the bounding box of the spiking player as 'x1,y1,x2,y2' (pixel integers). If no spike, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": true,
+      "gt_bboxes": [
+        [
+          596,
+          424,
+          661,
+          631
+        ]
+      ],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51716
+    },
+    {
+      "id": "spike_pos_0002",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51717.jpg",
+      "action": "spike",
+      "prompt_key": "vbBboxSpike",
+      "prompt": "Is a volleyball spike happening in this image? If yes, return the bounding box of the spiking player as 'x1,y1,x2,y2' (pixel integers). If no spike, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": true,
+      "gt_bboxes": [
+        [
+          591,
+          425,
+          656,
+          626
+        ]
+      ],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51717
+    },
+    {
+      "id": "spike_pos_0003",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51718.jpg",
+      "action": "spike",
+      "prompt_key": "vbBboxSpike",
+      "prompt": "Is a volleyball spike happening in this image? If yes, return the bounding box of the spiking player as 'x1,y1,x2,y2' (pixel integers). If no spike, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": true,
+      "gt_bboxes": [
+        [
+          586,
+          426,
+          652,
+          621
+        ]
+      ],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51718
+    },
+    {
+      "id": "spike_pos_0004",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51719.jpg",
+      "action": "spike",
+      "prompt_key": "vbBboxSpike",
+      "prompt": "Is a volleyball spike happening in this image? If yes, return the bounding box of the spiking player as 'x1,y1,x2,y2' (pixel integers). If no spike, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": true,
+      "gt_bboxes": [
+        [
+          581,
+          427,
+          647,
+          616
+        ]
+      ],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51719
+    },
+    {
+      "id": "spike_pos_0005",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51720.jpg",
+      "action": "spike",
+      "prompt_key": "vbBboxSpike",
+      "prompt": "Is a volleyball spike happening in this image? If yes, return the bounding box of the spiking player as 'x1,y1,x2,y2' (pixel integers). If no spike, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": true,
+      "gt_bboxes": [
+        [
+          576,
+          428,
+          642,
+          611
+        ]
+      ],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51720
+    },
+    {
+      "id": "spike_pos_0006",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51721.jpg",
+      "action": "spike",
+      "prompt_key": "vbBboxSpike",
+      "prompt": "Is a volleyball spike happening in this image? If yes, return the bounding box of the spiking player as 'x1,y1,x2,y2' (pixel integers). If no spike, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": true,
+      "gt_bboxes": [
+        [
+          572,
+          428,
+          638,
+          607
+        ]
+      ],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51721
+    },
+    {
+      "id": "spike_pos_0007",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51722.jpg",
+      "action": "spike",
+      "prompt_key": "vbBboxSpike",
+      "prompt": "Is a volleyball spike happening in this image? If yes, return the bounding box of the spiking player as 'x1,y1,x2,y2' (pixel integers). If no spike, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": true,
+      "gt_bboxes": [
+        [
+          567,
+          429,
+          633,
+          602
+        ]
+      ],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51722
+    },
+    {
+      "id": "spike_pos_0008",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51723.jpg",
+      "action": "spike",
+      "prompt_key": "vbBboxSpike",
+      "prompt": "Is a volleyball spike happening in this image? If yes, return the bounding box of the spiking player as 'x1,y1,x2,y2' (pixel integers). If no spike, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": true,
+      "gt_bboxes": [
+        [
+          562,
+          430,
+          628,
+          597
+        ]
+      ],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51723
+    },
+    {
+      "id": "spike_pos_0009",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51724.jpg",
+      "action": "spike",
+      "prompt_key": "vbBboxSpike",
+      "prompt": "Is a volleyball spike happening in this image? If yes, return the bounding box of the spiking player as 'x1,y1,x2,y2' (pixel integers). If no spike, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": true,
+      "gt_bboxes": [
+        [
+          557,
+          431,
+          624,
+          592
+        ]
+      ],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51724
+    },
+    {
+      "id": "spike_pos_0010",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51725.jpg",
+      "action": "spike",
+      "prompt_key": "vbBboxSpike",
+      "prompt": "Is a volleyball spike happening in this image? If yes, return the bounding box of the spiking player as 'x1,y1,x2,y2' (pixel integers). If no spike, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": true,
+      "gt_bboxes": [
+        [
+          552,
+          432,
+          619,
+          587
+        ]
+      ],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51725
+    },
+    {
+      "id": "spike_pos_0011",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51726.jpg",
+      "action": "spike",
+      "prompt_key": "vbBboxSpike",
+      "prompt": "Is a volleyball spike happening in this image? If yes, return the bounding box of the spiking player as 'x1,y1,x2,y2' (pixel integers). If no spike, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": true,
+      "gt_bboxes": [
+        [
+          548,
+          433,
+          615,
+          583
+        ]
+      ],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51726
+    },
+    {
+      "id": "spike_pos_0012",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51727.jpg",
+      "action": "spike",
+      "prompt_key": "vbBboxSpike",
+      "prompt": "Is a volleyball spike happening in this image? If yes, return the bounding box of the spiking player as 'x1,y1,x2,y2' (pixel integers). If no spike, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": true,
+      "gt_bboxes": [
+        [
+          540,
+          438,
+          607,
+          588
+        ]
+      ],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51727
+    },
+    {
+      "id": "spike_pos_0013",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51728.jpg",
+      "action": "spike",
+      "prompt_key": "vbBboxSpike",
+      "prompt": "Is a volleyball spike happening in this image? If yes, return the bounding box of the spiking player as 'x1,y1,x2,y2' (pixel integers). If no spike, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": true,
+      "gt_bboxes": [
+        [
+          532,
+          443,
+          599,
+          593
+        ]
+      ],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51728
+    },
+    {
+      "id": "spike_pos_0014",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51729.jpg",
+      "action": "spike",
+      "prompt_key": "vbBboxSpike",
+      "prompt": "Is a volleyball spike happening in this image? If yes, return the bounding box of the spiking player as 'x1,y1,x2,y2' (pixel integers). If no spike, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": true,
+      "gt_bboxes": [
+        [
+          525,
+          448,
+          592,
+          598
+        ]
+      ],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51729
+    },
+    {
+      "id": "spike_pos_0015",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51730.jpg",
+      "action": "spike",
+      "prompt_key": "vbBboxSpike",
+      "prompt": "Is a volleyball spike happening in this image? If yes, return the bounding box of the spiking player as 'x1,y1,x2,y2' (pixel integers). If no spike, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": true,
+      "gt_bboxes": [
+        [
+          517,
+          453,
+          584,
+          603
+        ]
+      ],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51730
+    },
+    {
+      "id": "spike_pos_0016",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51731.jpg",
+      "action": "spike",
+      "prompt_key": "vbBboxSpike",
+      "prompt": "Is a volleyball spike happening in this image? If yes, return the bounding box of the spiking player as 'x1,y1,x2,y2' (pixel integers). If no spike, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": true,
+      "gt_bboxes": [
+        [
+          509,
+          458,
+          576,
+          608
+        ]
+      ],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51731
+    },
+    {
+      "id": "spike_pos_0017",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51732.jpg",
+      "action": "spike",
+      "prompt_key": "vbBboxSpike",
+      "prompt": "Is a volleyball spike happening in this image? If yes, return the bounding box of the spiking player as 'x1,y1,x2,y2' (pixel integers). If no spike, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": true,
+      "gt_bboxes": [
+        [
+          502,
+          463,
+          569,
+          613
+        ]
+      ],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51732
+    },
+    {
+      "id": "spike_pos_0018",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51733.jpg",
+      "action": "spike",
+      "prompt_key": "vbBboxSpike",
+      "prompt": "Is a volleyball spike happening in this image? If yes, return the bounding box of the spiking player as 'x1,y1,x2,y2' (pixel integers). If no spike, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": true,
+      "gt_bboxes": [
+        [
+          494,
+          468,
+          561,
+          618
+        ]
+      ],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51733
+    },
+    {
+      "id": "spike_pos_0019",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51734.jpg",
+      "action": "spike",
+      "prompt_key": "vbBboxSpike",
+      "prompt": "Is a volleyball spike happening in this image? If yes, return the bounding box of the spiking player as 'x1,y1,x2,y2' (pixel integers). If no spike, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": true,
+      "gt_bboxes": [
+        [
+          486,
+          473,
+          553,
+          623
+        ]
+      ],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51734
+    },
+    {
+      "id": "spike_neg_0000",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51744.jpg",
+      "action": "spike",
+      "prompt_key": "vbBboxSpike",
+      "prompt": "Is a volleyball spike happening in this image? If yes, return the bounding box of the spiking player as 'x1,y1,x2,y2' (pixel integers). If no spike, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": false,
+      "gt_bboxes": [],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51744
+    },
+    {
+      "id": "spike_neg_0001",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51710.jpg",
+      "action": "spike",
+      "prompt_key": "vbBboxSpike",
+      "prompt": "Is a volleyball spike happening in this image? If yes, return the bounding box of the spiking player as 'x1,y1,x2,y2' (pixel integers). If no spike, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": false,
+      "gt_bboxes": [],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51710
+    },
+    {
+      "id": "spike_neg_0002",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51739.jpg",
+      "action": "spike",
+      "prompt_key": "vbBboxSpike",
+      "prompt": "Is a volleyball spike happening in this image? If yes, return the bounding box of the spiking player as 'x1,y1,x2,y2' (pixel integers). If no spike, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": false,
+      "gt_bboxes": [],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51739
+    },
+    {
+      "id": "spike_neg_0003",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51709.jpg",
+      "action": "spike",
+      "prompt_key": "vbBboxSpike",
+      "prompt": "Is a volleyball spike happening in this image? If yes, return the bounding box of the spiking player as 'x1,y1,x2,y2' (pixel integers). If no spike, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": false,
+      "gt_bboxes": [],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51709
+    },
+    {
+      "id": "spike_neg_0004",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51714.jpg",
+      "action": "spike",
+      "prompt_key": "vbBboxSpike",
+      "prompt": "Is a volleyball spike happening in this image? If yes, return the bounding box of the spiking player as 'x1,y1,x2,y2' (pixel integers). If no spike, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": false,
+      "gt_bboxes": [],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51714
+    },
+    {
+      "id": "spike_neg_0005",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51738.jpg",
+      "action": "spike",
+      "prompt_key": "vbBboxSpike",
+      "prompt": "Is a volleyball spike happening in this image? If yes, return the bounding box of the spiking player as 'x1,y1,x2,y2' (pixel integers). If no spike, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": false,
+      "gt_bboxes": [],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51738
+    },
+    {
+      "id": "spike_neg_0006",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51740.jpg",
+      "action": "spike",
+      "prompt_key": "vbBboxSpike",
+      "prompt": "Is a volleyball spike happening in this image? If yes, return the bounding box of the spiking player as 'x1,y1,x2,y2' (pixel integers). If no spike, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": false,
+      "gt_bboxes": [],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51740
+    },
+    {
+      "id": "spike_neg_0007",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51743.jpg",
+      "action": "spike",
+      "prompt_key": "vbBboxSpike",
+      "prompt": "Is a volleyball spike happening in this image? If yes, return the bounding box of the spiking player as 'x1,y1,x2,y2' (pixel integers). If no spike, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": false,
+      "gt_bboxes": [],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51743
+    },
+    {
+      "id": "spike_neg_0008",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51711.jpg",
+      "action": "spike",
+      "prompt_key": "vbBboxSpike",
+      "prompt": "Is a volleyball spike happening in this image? If yes, return the bounding box of the spiking player as 'x1,y1,x2,y2' (pixel integers). If no spike, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": false,
+      "gt_bboxes": [],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51711
+    },
+    {
+      "id": "spike_neg_0009",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51737.jpg",
+      "action": "spike",
+      "prompt_key": "vbBboxSpike",
+      "prompt": "Is a volleyball spike happening in this image? If yes, return the bounding box of the spiking player as 'x1,y1,x2,y2' (pixel integers). If no spike, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": false,
+      "gt_bboxes": [],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51737
+    },
+    {
+      "id": "spike_neg_0010",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51742.jpg",
+      "action": "spike",
+      "prompt_key": "vbBboxSpike",
+      "prompt": "Is a volleyball spike happening in this image? If yes, return the bounding box of the spiking player as 'x1,y1,x2,y2' (pixel integers). If no spike, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": false,
+      "gt_bboxes": [],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51742
+    },
+    {
+      "id": "spike_neg_0011",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51735.jpg",
+      "action": "spike",
+      "prompt_key": "vbBboxSpike",
+      "prompt": "Is a volleyball spike happening in this image? If yes, return the bounding box of the spiking player as 'x1,y1,x2,y2' (pixel integers). If no spike, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": false,
+      "gt_bboxes": [],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51735
+    },
+    {
+      "id": "spike_neg_0012",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51706.jpg",
+      "action": "spike",
+      "prompt_key": "vbBboxSpike",
+      "prompt": "Is a volleyball spike happening in this image? If yes, return the bounding box of the spiking player as 'x1,y1,x2,y2' (pixel integers). If no spike, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": false,
+      "gt_bboxes": [],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51706
+    },
+    {
+      "id": "spike_neg_0013",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51736.jpg",
+      "action": "spike",
+      "prompt_key": "vbBboxSpike",
+      "prompt": "Is a volleyball spike happening in this image? If yes, return the bounding box of the spiking player as 'x1,y1,x2,y2' (pixel integers). If no spike, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": false,
+      "gt_bboxes": [],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51736
+    },
+    {
+      "id": "spike_neg_0014",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51707.jpg",
+      "action": "spike",
+      "prompt_key": "vbBboxSpike",
+      "prompt": "Is a volleyball spike happening in this image? If yes, return the bounding box of the spiking player as 'x1,y1,x2,y2' (pixel integers). If no spike, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": false,
+      "gt_bboxes": [],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51707
+    },
+    {
+      "id": "spike_neg_0015",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51741.jpg",
+      "action": "spike",
+      "prompt_key": "vbBboxSpike",
+      "prompt": "Is a volleyball spike happening in this image? If yes, return the bounding box of the spiking player as 'x1,y1,x2,y2' (pixel integers). If no spike, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": false,
+      "gt_bboxes": [],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51741
+    },
+    {
+      "id": "spike_neg_0016",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51712.jpg",
+      "action": "spike",
+      "prompt_key": "vbBboxSpike",
+      "prompt": "Is a volleyball spike happening in this image? If yes, return the bounding box of the spiking player as 'x1,y1,x2,y2' (pixel integers). If no spike, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": false,
+      "gt_bboxes": [],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51712
+    },
+    {
+      "id": "spike_neg_0017",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51713.jpg",
+      "action": "spike",
+      "prompt_key": "vbBboxSpike",
+      "prompt": "Is a volleyball spike happening in this image? If yes, return the bounding box of the spiking player as 'x1,y1,x2,y2' (pixel integers). If no spike, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": false,
+      "gt_bboxes": [],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51713
+    },
+    {
+      "id": "spike_neg_0018",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51705.jpg",
+      "action": "spike",
+      "prompt_key": "vbBboxSpike",
+      "prompt": "Is a volleyball spike happening in this image? If yes, return the bounding box of the spiking player as 'x1,y1,x2,y2' (pixel integers). If no spike, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": false,
+      "gt_bboxes": [],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51705
+    },
+    {
+      "id": "spike_neg_0019",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51708.jpg",
+      "action": "spike",
+      "prompt_key": "vbBboxSpike",
+      "prompt": "Is a volleyball spike happening in this image? If yes, return the bounding box of the spiking player as 'x1,y1,x2,y2' (pixel integers). If no spike, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": false,
+      "gt_bboxes": [],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51708
+    },
+    {
+      "id": "set_pos_0000",
+      "image": "volleyball_dataset/videos_sample/videos_sample/10/20525/20515.jpg",
+      "action": "set",
+      "prompt_key": "vbBboxSet",
+      "prompt": "Is a volleyball set happening in this image? If yes, return the bounding box of the setting player as 'x1,y1,x2,y2' (pixel integers). If no set, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": true,
+      "gt_bboxes": [
+        [
+          759,
+          283,
+          835,
+          420
+        ]
+      ],
+      "game": 10,
+      "clip": 20525,
+      "frame_id": 20515
+    },
+    {
+      "id": "set_pos_0001",
+      "image": "volleyball_dataset/videos_sample/videos_sample/10/20525/20516.jpg",
+      "action": "set",
+      "prompt_key": "vbBboxSet",
+      "prompt": "Is a volleyball set happening in this image? If yes, return the bounding box of the setting player as 'x1,y1,x2,y2' (pixel integers). If no set, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": true,
+      "gt_bboxes": [
+        [
+          430,
+          323,
+          533,
+          438
+        ]
+      ],
+      "game": 10,
+      "clip": 20525,
+      "frame_id": 20516
+    },
+    {
+      "id": "set_pos_0002",
+      "image": "volleyball_dataset/videos_sample/videos_sample/10/20525/20517.jpg",
+      "action": "set",
+      "prompt_key": "vbBboxSet",
+      "prompt": "Is a volleyball set happening in this image? If yes, return the bounding box of the setting player as 'x1,y1,x2,y2' (pixel integers). If no set, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": true,
+      "gt_bboxes": [
+        [
+          448,
+          323,
+          548,
+          438
+        ]
+      ],
+      "game": 10,
+      "clip": 20525,
+      "frame_id": 20517
+    },
+    {
+      "id": "set_pos_0003",
+      "image": "volleyball_dataset/videos_sample/videos_sample/10/20525/20518.jpg",
+      "action": "set",
+      "prompt_key": "vbBboxSet",
+      "prompt": "Is a volleyball set happening in this image? If yes, return the bounding box of the setting player as 'x1,y1,x2,y2' (pixel integers). If no set, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": true,
+      "gt_bboxes": [
+        [
+          465,
+          323,
+          563,
+          438
+        ]
+      ],
+      "game": 10,
+      "clip": 20525,
+      "frame_id": 20518
+    },
+    {
+      "id": "set_pos_0004",
+      "image": "volleyball_dataset/videos_sample/videos_sample/10/20525/20519.jpg",
+      "action": "set",
+      "prompt_key": "vbBboxSet",
+      "prompt": "Is a volleyball set happening in this image? If yes, return the bounding box of the setting player as 'x1,y1,x2,y2' (pixel integers). If no set, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": true,
+      "gt_bboxes": [
+        [
+          483,
+          323,
+          578,
+          438
+        ]
+      ],
+      "game": 10,
+      "clip": 20525,
+      "frame_id": 20519
+    },
+    {
+      "id": "set_pos_0005",
+      "image": "volleyball_dataset/videos_sample/videos_sample/10/20525/20520.jpg",
+      "action": "set",
+      "prompt_key": "vbBboxSet",
+      "prompt": "Is a volleyball set happening in this image? If yes, return the bounding box of the setting player as 'x1,y1,x2,y2' (pixel integers). If no set, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": true,
+      "gt_bboxes": [
+        [
+          500,
+          323,
+          593,
+          438
+        ]
+      ],
+      "game": 10,
+      "clip": 20525,
+      "frame_id": 20520
+    },
+    {
+      "id": "set_pos_0006",
+      "image": "volleyball_dataset/videos_sample/videos_sample/10/20525/20521.jpg",
+      "action": "set",
+      "prompt_key": "vbBboxSet",
+      "prompt": "Is a volleyball set happening in this image? If yes, return the bounding box of the setting player as 'x1,y1,x2,y2' (pixel integers). If no set, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": true,
+      "gt_bboxes": [
+        [
+          518,
+          323,
+          609,
+          438
+        ]
+      ],
+      "game": 10,
+      "clip": 20525,
+      "frame_id": 20521
+    },
+    {
+      "id": "set_pos_0007",
+      "image": "volleyball_dataset/videos_sample/videos_sample/10/20525/20522.jpg",
+      "action": "set",
+      "prompt_key": "vbBboxSet",
+      "prompt": "Is a volleyball set happening in this image? If yes, return the bounding box of the setting player as 'x1,y1,x2,y2' (pixel integers). If no set, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": true,
+      "gt_bboxes": [
+        [
+          524,
+          322,
+          613,
+          437
+        ]
+      ],
+      "game": 10,
+      "clip": 20525,
+      "frame_id": 20522
+    },
+    {
+      "id": "set_pos_0008",
+      "image": "volleyball_dataset/videos_sample/videos_sample/10/20525/20523.jpg",
+      "action": "set",
+      "prompt_key": "vbBboxSet",
+      "prompt": "Is a volleyball set happening in this image? If yes, return the bounding box of the setting player as 'x1,y1,x2,y2' (pixel integers). If no set, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": true,
+      "gt_bboxes": [
+        [
+          531,
+          322,
+          617,
+          437
+        ]
+      ],
+      "game": 10,
+      "clip": 20525,
+      "frame_id": 20523
+    },
+    {
+      "id": "set_pos_0009",
+      "image": "volleyball_dataset/videos_sample/videos_sample/10/20525/20524.jpg",
+      "action": "set",
+      "prompt_key": "vbBboxSet",
+      "prompt": "Is a volleyball set happening in this image? If yes, return the bounding box of the setting player as 'x1,y1,x2,y2' (pixel integers). If no set, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": true,
+      "gt_bboxes": [
+        [
+          537,
+          321,
+          621,
+          436
+        ]
+      ],
+      "game": 10,
+      "clip": 20525,
+      "frame_id": 20524
+    },
+    {
+      "id": "set_pos_0010",
+      "image": "volleyball_dataset/videos_sample/videos_sample/10/20525/20525.jpg",
+      "action": "set",
+      "prompt_key": "vbBboxSet",
+      "prompt": "Is a volleyball set happening in this image? If yes, return the bounding box of the setting player as 'x1,y1,x2,y2' (pixel integers). If no set, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": true,
+      "gt_bboxes": [
+        [
+          544,
+          321,
+          625,
+          436
+        ]
+      ],
+      "game": 10,
+      "clip": 20525,
+      "frame_id": 20525
+    },
+    {
+      "id": "set_pos_0011",
+      "image": "volleyball_dataset/videos_sample/videos_sample/10/20525/20526.jpg",
+      "action": "set",
+      "prompt_key": "vbBboxSet",
+      "prompt": "Is a volleyball set happening in this image? If yes, return the bounding box of the setting player as 'x1,y1,x2,y2' (pixel integers). If no set, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": true,
+      "gt_bboxes": [
+        [
+          544,
+          317,
+          624,
+          438
+        ]
+      ],
+      "game": 10,
+      "clip": 20525,
+      "frame_id": 20526
+    },
+    {
+      "id": "set_pos_0012",
+      "image": "volleyball_dataset/videos_sample/videos_sample/10/20525/20527.jpg",
+      "action": "set",
+      "prompt_key": "vbBboxSet",
+      "prompt": "Is a volleyball set happening in this image? If yes, return the bounding box of the setting player as 'x1,y1,x2,y2' (pixel integers). If no set, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": true,
+      "gt_bboxes": [
+        [
+          544,
+          313,
+          624,
+          441
+        ]
+      ],
+      "game": 10,
+      "clip": 20525,
+      "frame_id": 20527
+    },
+    {
+      "id": "set_pos_0013",
+      "image": "volleyball_dataset/videos_sample/videos_sample/10/20525/20528.jpg",
+      "action": "set",
+      "prompt_key": "vbBboxSet",
+      "prompt": "Is a volleyball set happening in this image? If yes, return the bounding box of the setting player as 'x1,y1,x2,y2' (pixel integers). If no set, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": true,
+      "gt_bboxes": [
+        [
+          544,
+          310,
+          624,
+          444
+        ]
+      ],
+      "game": 10,
+      "clip": 20525,
+      "frame_id": 20528
+    },
+    {
+      "id": "set_pos_0014",
+      "image": "volleyball_dataset/videos_sample/videos_sample/10/20525/20529.jpg",
+      "action": "set",
+      "prompt_key": "vbBboxSet",
+      "prompt": "Is a volleyball set happening in this image? If yes, return the bounding box of the setting player as 'x1,y1,x2,y2' (pixel integers). If no set, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": true,
+      "gt_bboxes": [
+        [
+          544,
+          319,
+          624,
+          446
+        ]
+      ],
+      "game": 10,
+      "clip": 20525,
+      "frame_id": 20529
+    },
+    {
+      "id": "set_pos_0015",
+      "image": "volleyball_dataset/videos_sample/videos_sample/10/20525/20530.jpg",
+      "action": "set",
+      "prompt_key": "vbBboxSet",
+      "prompt": "Is a volleyball set happening in this image? If yes, return the bounding box of the setting player as 'x1,y1,x2,y2' (pixel integers). If no set, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": true,
+      "gt_bboxes": [
+        [
+          544,
+          328,
+          625,
+          449
+        ]
+      ],
+      "game": 10,
+      "clip": 20525,
+      "frame_id": 20530
+    },
+    {
+      "id": "set_pos_0016",
+      "image": "volleyball_dataset/videos_sample/videos_sample/10/20525/20531.jpg",
+      "action": "set",
+      "prompt_key": "vbBboxSet",
+      "prompt": "Is a volleyball set happening in this image? If yes, return the bounding box of the setting player as 'x1,y1,x2,y2' (pixel integers). If no set, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": true,
+      "gt_bboxes": [
+        [
+          545,
+          337,
+          626,
+          452
+        ]
+      ],
+      "game": 10,
+      "clip": 20525,
+      "frame_id": 20531
+    },
+    {
+      "id": "set_pos_0017",
+      "image": "volleyball_dataset/videos_sample/videos_sample/10/20525/20532.jpg",
+      "action": "set",
+      "prompt_key": "vbBboxSet",
+      "prompt": "Is a volleyball set happening in this image? If yes, return the bounding box of the setting player as 'x1,y1,x2,y2' (pixel integers). If no set, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": true,
+      "gt_bboxes": [
+        [
+          545,
+          346,
+          626,
+          455
+        ]
+      ],
+      "game": 10,
+      "clip": 20525,
+      "frame_id": 20532
+    },
+    {
+      "id": "set_pos_0018",
+      "image": "volleyball_dataset/videos_sample/videos_sample/10/20525/20533.jpg",
+      "action": "set",
+      "prompt_key": "vbBboxSet",
+      "prompt": "Is a volleyball set happening in this image? If yes, return the bounding box of the setting player as 'x1,y1,x2,y2' (pixel integers). If no set, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": true,
+      "gt_bboxes": [
+        [
+          546,
+          355,
+          627,
+          458
+        ]
+      ],
+      "game": 10,
+      "clip": 20525,
+      "frame_id": 20533
+    },
+    {
+      "id": "set_pos_0019",
+      "image": "volleyball_dataset/videos_sample/videos_sample/10/20525/20534.jpg",
+      "action": "set",
+      "prompt_key": "vbBboxSet",
+      "prompt": "Is a volleyball set happening in this image? If yes, return the bounding box of the setting player as 'x1,y1,x2,y2' (pixel integers). If no set, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": true,
+      "gt_bboxes": [
+        [
+          546,
+          364,
+          628,
+          461
+        ]
+      ],
+      "game": 10,
+      "clip": 20525,
+      "frame_id": 20534
+    },
+    {
+      "id": "set_neg_0000",
+      "image": "volleyball_dataset/videos_sample/videos_sample/10/20525/20512.jpg",
+      "action": "set",
+      "prompt_key": "vbBboxSet",
+      "prompt": "Is a volleyball set happening in this image? If yes, return the bounding box of the setting player as 'x1,y1,x2,y2' (pixel integers). If no set, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": false,
+      "gt_bboxes": [],
+      "game": 10,
+      "clip": 20525,
+      "frame_id": 20512
+    },
+    {
+      "id": "set_neg_0001",
+      "image": "volleyball_dataset/videos_sample/videos_sample/10/20525/20514.jpg",
+      "action": "set",
+      "prompt_key": "vbBboxSet",
+      "prompt": "Is a volleyball set happening in this image? If yes, return the bounding box of the setting player as 'x1,y1,x2,y2' (pixel integers). If no set, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": false,
+      "gt_bboxes": [],
+      "game": 10,
+      "clip": 20525,
+      "frame_id": 20514
+    },
+    {
+      "id": "set_neg_0002",
+      "image": "volleyball_dataset/videos_sample/videos_sample/10/20525/20507.jpg",
+      "action": "set",
+      "prompt_key": "vbBboxSet",
+      "prompt": "Is a volleyball set happening in this image? If yes, return the bounding box of the setting player as 'x1,y1,x2,y2' (pixel integers). If no set, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": false,
+      "gt_bboxes": [],
+      "game": 10,
+      "clip": 20525,
+      "frame_id": 20507
+    },
+    {
+      "id": "set_neg_0003",
+      "image": "volleyball_dataset/videos_sample/videos_sample/10/20525/20543.jpg",
+      "action": "set",
+      "prompt_key": "vbBboxSet",
+      "prompt": "Is a volleyball set happening in this image? If yes, return the bounding box of the setting player as 'x1,y1,x2,y2' (pixel integers). If no set, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": false,
+      "gt_bboxes": [],
+      "game": 10,
+      "clip": 20525,
+      "frame_id": 20543
+    },
+    {
+      "id": "set_neg_0004",
+      "image": "volleyball_dataset/videos_sample/videos_sample/10/20525/20511.jpg",
+      "action": "set",
+      "prompt_key": "vbBboxSet",
+      "prompt": "Is a volleyball set happening in this image? If yes, return the bounding box of the setting player as 'x1,y1,x2,y2' (pixel integers). If no set, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": false,
+      "gt_bboxes": [],
+      "game": 10,
+      "clip": 20525,
+      "frame_id": 20511
+    },
+    {
+      "id": "set_neg_0005",
+      "image": "volleyball_dataset/videos_sample/videos_sample/10/20525/20538.jpg",
+      "action": "set",
+      "prompt_key": "vbBboxSet",
+      "prompt": "Is a volleyball set happening in this image? If yes, return the bounding box of the setting player as 'x1,y1,x2,y2' (pixel integers). If no set, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": false,
+      "gt_bboxes": [],
+      "game": 10,
+      "clip": 20525,
+      "frame_id": 20538
+    },
+    {
+      "id": "set_neg_0006",
+      "image": "volleyball_dataset/videos_sample/videos_sample/10/20525/20540.jpg",
+      "action": "set",
+      "prompt_key": "vbBboxSet",
+      "prompt": "Is a volleyball set happening in this image? If yes, return the bounding box of the setting player as 'x1,y1,x2,y2' (pixel integers). If no set, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": false,
+      "gt_bboxes": [],
+      "game": 10,
+      "clip": 20525,
+      "frame_id": 20540
+    },
+    {
+      "id": "set_neg_0007",
+      "image": "volleyball_dataset/videos_sample/videos_sample/10/20525/20536.jpg",
+      "action": "set",
+      "prompt_key": "vbBboxSet",
+      "prompt": "Is a volleyball set happening in this image? If yes, return the bounding box of the setting player as 'x1,y1,x2,y2' (pixel integers). If no set, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": false,
+      "gt_bboxes": [],
+      "game": 10,
+      "clip": 20525,
+      "frame_id": 20536
+    },
+    {
+      "id": "set_neg_0008",
+      "image": "volleyball_dataset/videos_sample/videos_sample/10/20525/20506.jpg",
+      "action": "set",
+      "prompt_key": "vbBboxSet",
+      "prompt": "Is a volleyball set happening in this image? If yes, return the bounding box of the setting player as 'x1,y1,x2,y2' (pixel integers). If no set, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": false,
+      "gt_bboxes": [],
+      "game": 10,
+      "clip": 20525,
+      "frame_id": 20506
+    },
+    {
+      "id": "set_neg_0009",
+      "image": "volleyball_dataset/videos_sample/videos_sample/10/20525/20510.jpg",
+      "action": "set",
+      "prompt_key": "vbBboxSet",
+      "prompt": "Is a volleyball set happening in this image? If yes, return the bounding box of the setting player as 'x1,y1,x2,y2' (pixel integers). If no set, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": false,
+      "gt_bboxes": [],
+      "game": 10,
+      "clip": 20525,
+      "frame_id": 20510
+    },
+    {
+      "id": "set_neg_0010",
+      "image": "volleyball_dataset/videos_sample/videos_sample/10/20525/20545.jpg",
+      "action": "set",
+      "prompt_key": "vbBboxSet",
+      "prompt": "Is a volleyball set happening in this image? If yes, return the bounding box of the setting player as 'x1,y1,x2,y2' (pixel integers). If no set, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": false,
+      "gt_bboxes": [],
+      "game": 10,
+      "clip": 20525,
+      "frame_id": 20545
+    },
+    {
+      "id": "set_neg_0011",
+      "image": "volleyball_dataset/videos_sample/videos_sample/10/20525/20509.jpg",
+      "action": "set",
+      "prompt_key": "vbBboxSet",
+      "prompt": "Is a volleyball set happening in this image? If yes, return the bounding box of the setting player as 'x1,y1,x2,y2' (pixel integers). If no set, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": false,
+      "gt_bboxes": [],
+      "game": 10,
+      "clip": 20525,
+      "frame_id": 20509
+    },
+    {
+      "id": "set_neg_0012",
+      "image": "volleyball_dataset/videos_sample/videos_sample/10/20525/20537.jpg",
+      "action": "set",
+      "prompt_key": "vbBboxSet",
+      "prompt": "Is a volleyball set happening in this image? If yes, return the bounding box of the setting player as 'x1,y1,x2,y2' (pixel integers). If no set, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": false,
+      "gt_bboxes": [],
+      "game": 10,
+      "clip": 20525,
+      "frame_id": 20537
+    },
+    {
+      "id": "set_neg_0013",
+      "image": "volleyball_dataset/videos_sample/videos_sample/10/20525/20542.jpg",
+      "action": "set",
+      "prompt_key": "vbBboxSet",
+      "prompt": "Is a volleyball set happening in this image? If yes, return the bounding box of the setting player as 'x1,y1,x2,y2' (pixel integers). If no set, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": false,
+      "gt_bboxes": [],
+      "game": 10,
+      "clip": 20525,
+      "frame_id": 20542
+    },
+    {
+      "id": "set_neg_0014",
+      "image": "volleyball_dataset/videos_sample/videos_sample/10/20525/20535.jpg",
+      "action": "set",
+      "prompt_key": "vbBboxSet",
+      "prompt": "Is a volleyball set happening in this image? If yes, return the bounding box of the setting player as 'x1,y1,x2,y2' (pixel integers). If no set, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": false,
+      "gt_bboxes": [],
+      "game": 10,
+      "clip": 20525,
+      "frame_id": 20535
+    },
+    {
+      "id": "set_neg_0015",
+      "image": "volleyball_dataset/videos_sample/videos_sample/10/20525/20508.jpg",
+      "action": "set",
+      "prompt_key": "vbBboxSet",
+      "prompt": "Is a volleyball set happening in this image? If yes, return the bounding box of the setting player as 'x1,y1,x2,y2' (pixel integers). If no set, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": false,
+      "gt_bboxes": [],
+      "game": 10,
+      "clip": 20525,
+      "frame_id": 20508
+    },
+    {
+      "id": "set_neg_0016",
+      "image": "volleyball_dataset/videos_sample/videos_sample/10/20525/20505.jpg",
+      "action": "set",
+      "prompt_key": "vbBboxSet",
+      "prompt": "Is a volleyball set happening in this image? If yes, return the bounding box of the setting player as 'x1,y1,x2,y2' (pixel integers). If no set, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": false,
+      "gt_bboxes": [],
+      "game": 10,
+      "clip": 20525,
+      "frame_id": 20505
+    },
+    {
+      "id": "set_neg_0017",
+      "image": "volleyball_dataset/videos_sample/videos_sample/10/20525/20513.jpg",
+      "action": "set",
+      "prompt_key": "vbBboxSet",
+      "prompt": "Is a volleyball set happening in this image? If yes, return the bounding box of the setting player as 'x1,y1,x2,y2' (pixel integers). If no set, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": false,
+      "gt_bboxes": [],
+      "game": 10,
+      "clip": 20525,
+      "frame_id": 20513
+    },
+    {
+      "id": "set_neg_0018",
+      "image": "volleyball_dataset/videos_sample/videos_sample/10/20525/20541.jpg",
+      "action": "set",
+      "prompt_key": "vbBboxSet",
+      "prompt": "Is a volleyball set happening in this image? If yes, return the bounding box of the setting player as 'x1,y1,x2,y2' (pixel integers). If no set, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": false,
+      "gt_bboxes": [],
+      "game": 10,
+      "clip": 20525,
+      "frame_id": 20541
+    },
+    {
+      "id": "set_neg_0019",
+      "image": "volleyball_dataset/videos_sample/videos_sample/10/20525/20539.jpg",
+      "action": "set",
+      "prompt_key": "vbBboxSet",
+      "prompt": "Is a volleyball set happening in this image? If yes, return the bounding box of the setting player as 'x1,y1,x2,y2' (pixel integers). If no set, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": false,
+      "gt_bboxes": [],
+      "game": 10,
+      "clip": 20525,
+      "frame_id": 20539
+    },
+    {
+      "id": "block_pos_0000",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51715.jpg",
+      "action": "block",
+      "prompt_key": "vbBboxBlock",
+      "prompt": "Is a volleyball block happening at the net in this image? If yes, return the bounding box of the blocking player as 'x1,y1,x2,y2' (pixel integers). If no block, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": true,
+      "gt_bboxes": [
+        [
+          745,
+          506,
+          809,
+          632
+        ],
+        [
+          601,
+          424,
+          666,
+          636
+        ]
+      ],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51715
+    },
+    {
+      "id": "block_pos_0001",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51716.jpg",
+      "action": "block",
+      "prompt_key": "vbBboxBlock",
+      "prompt": "Is a volleyball block happening at the net in this image? If yes, return the bounding box of the blocking player as 'x1,y1,x2,y2' (pixel integers). If no block, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": true,
+      "gt_bboxes": [
+        [
+          745,
+          440,
+          798,
+          573
+        ],
+        [
+          734,
+          497,
+          798,
+          629
+        ]
+      ],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51716
+    },
+    {
+      "id": "block_pos_0002",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51717.jpg",
+      "action": "block",
+      "prompt_key": "vbBboxBlock",
+      "prompt": "Is a volleyball block happening at the net in this image? If yes, return the bounding box of the blocking player as 'x1,y1,x2,y2' (pixel integers). If no block, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": true,
+      "gt_bboxes": [
+        [
+          735,
+          438,
+          788,
+          574
+        ],
+        [
+          724,
+          489,
+          787,
+          626
+        ]
+      ],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51717
+    },
+    {
+      "id": "block_pos_0003",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51718.jpg",
+      "action": "block",
+      "prompt_key": "vbBboxBlock",
+      "prompt": "Is a volleyball block happening at the net in this image? If yes, return the bounding box of the blocking player as 'x1,y1,x2,y2' (pixel integers). If no block, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": true,
+      "gt_bboxes": [
+        [
+          725,
+          436,
+          777,
+          574
+        ],
+        [
+          713,
+          480,
+          776,
+          623
+        ]
+      ],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51718
+    },
+    {
+      "id": "block_pos_0004",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51719.jpg",
+      "action": "block",
+      "prompt_key": "vbBboxBlock",
+      "prompt": "Is a volleyball block happening at the net in this image? If yes, return the bounding box of the blocking player as 'x1,y1,x2,y2' (pixel integers). If no block, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": true,
+      "gt_bboxes": [
+        [
+          715,
+          434,
+          767,
+          575
+        ],
+        [
+          703,
+          472,
+          766,
+          621
+        ]
+      ],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51719
+    },
+    {
+      "id": "block_pos_0005",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51720.jpg",
+      "action": "block",
+      "prompt_key": "vbBboxBlock",
+      "prompt": "Is a volleyball block happening at the net in this image? If yes, return the bounding box of the blocking player as 'x1,y1,x2,y2' (pixel integers). If no block, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": true,
+      "gt_bboxes": [
+        [
+          705,
+          432,
+          757,
+          575
+        ],
+        [
+          693,
+          464,
+          755,
+          618
+        ]
+      ],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51720
+    },
+    {
+      "id": "block_pos_0006",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51721.jpg",
+      "action": "block",
+      "prompt_key": "vbBboxBlock",
+      "prompt": "Is a volleyball block happening at the net in this image? If yes, return the bounding box of the blocking player as 'x1,y1,x2,y2' (pixel integers). If no block, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": true,
+      "gt_bboxes": [
+        [
+          695,
+          430,
+          746,
+          576
+        ],
+        [
+          682,
+          455,
+          744,
+          615
+        ]
+      ],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51721
+    },
+    {
+      "id": "block_pos_0007",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51722.jpg",
+      "action": "block",
+      "prompt_key": "vbBboxBlock",
+      "prompt": "Is a volleyball block happening at the net in this image? If yes, return the bounding box of the blocking player as 'x1,y1,x2,y2' (pixel integers). If no block, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": true,
+      "gt_bboxes": [
+        [
+          685,
+          428,
+          736,
+          576
+        ],
+        [
+          672,
+          447,
+          734,
+          613
+        ]
+      ],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51722
+    },
+    {
+      "id": "block_pos_0008",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51723.jpg",
+      "action": "block",
+      "prompt_key": "vbBboxBlock",
+      "prompt": "Is a volleyball block happening at the net in this image? If yes, return the bounding box of the blocking player as 'x1,y1,x2,y2' (pixel integers). If no block, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": true,
+      "gt_bboxes": [
+        [
+          675,
+          426,
+          726,
+          577
+        ],
+        [
+          661,
+          438,
+          723,
+          610
+        ]
+      ],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51723
+    },
+    {
+      "id": "block_pos_0009",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51724.jpg",
+      "action": "block",
+      "prompt_key": "vbBboxBlock",
+      "prompt": "Is a volleyball block happening at the net in this image? If yes, return the bounding box of the blocking player as 'x1,y1,x2,y2' (pixel integers). If no block, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": true,
+      "gt_bboxes": [
+        [
+          665,
+          424,
+          715,
+          577
+        ],
+        [
+          651,
+          430,
+          712,
+          607
+        ]
+      ],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51724
+    },
+    {
+      "id": "block_pos_0010",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51725.jpg",
+      "action": "block",
+      "prompt_key": "vbBboxBlock",
+      "prompt": "Is a volleyball block happening at the net in this image? If yes, return the bounding box of the blocking player as 'x1,y1,x2,y2' (pixel integers). If no block, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": true,
+      "gt_bboxes": [
+        [
+          655,
+          422,
+          705,
+          578
+        ],
+        [
+          641,
+          422,
+          702,
+          605
+        ]
+      ],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51725
+    },
+    {
+      "id": "block_pos_0011",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51726.jpg",
+      "action": "block",
+      "prompt_key": "vbBboxBlock",
+      "prompt": "Is a volleyball block happening at the net in this image? If yes, return the bounding box of the blocking player as 'x1,y1,x2,y2' (pixel integers). If no block, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": true,
+      "gt_bboxes": [
+        [
+          645,
+          420,
+          695,
+          579
+        ],
+        [
+          628,
+          417,
+          689,
+          600
+        ]
+      ],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51726
+    },
+    {
+      "id": "block_pos_0012",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51727.jpg",
+      "action": "block",
+      "prompt_key": "vbBboxBlock",
+      "prompt": "Is a volleyball block happening at the net in this image? If yes, return the bounding box of the blocking player as 'x1,y1,x2,y2' (pixel integers). If no block, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": true,
+      "gt_bboxes": [
+        [
+          635,
+          422,
+          685,
+          581
+        ],
+        [
+          615,
+          413,
+          676,
+          595
+        ]
+      ],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51727
+    },
+    {
+      "id": "block_pos_0013",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51728.jpg",
+      "action": "block",
+      "prompt_key": "vbBboxBlock",
+      "prompt": "Is a volleyball block happening at the net in this image? If yes, return the bounding box of the blocking player as 'x1,y1,x2,y2' (pixel integers). If no block, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": true,
+      "gt_bboxes": [
+        [
+          626,
+          425,
+          676,
+          584
+        ],
+        [
+          602,
+          409,
+          663,
+          590
+        ]
+      ],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51728
+    },
+    {
+      "id": "block_pos_0014",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51729.jpg",
+      "action": "block",
+      "prompt_key": "vbBboxBlock",
+      "prompt": "Is a volleyball block happening at the net in this image? If yes, return the bounding box of the blocking player as 'x1,y1,x2,y2' (pixel integers). If no block, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": true,
+      "gt_bboxes": [
+        [
+          616,
+          428,
+          667,
+          587
+        ],
+        [
+          587,
+          409,
+          651,
+          589
+        ]
+      ],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51729
+    },
+    {
+      "id": "block_pos_0015",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51730.jpg",
+      "action": "block",
+      "prompt_key": "vbBboxBlock",
+      "prompt": "Is a volleyball block happening at the net in this image? If yes, return the bounding box of the blocking player as 'x1,y1,x2,y2' (pixel integers). If no block, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": true,
+      "gt_bboxes": [
+        [
+          607,
+          430,
+          658,
+          589
+        ],
+        [
+          572,
+          409,
+          639,
+          588
+        ]
+      ],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51730
+    },
+    {
+      "id": "block_pos_0016",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51731.jpg",
+      "action": "block",
+      "prompt_key": "vbBboxBlock",
+      "prompt": "Is a volleyball block happening at the net in this image? If yes, return the bounding box of the blocking player as 'x1,y1,x2,y2' (pixel integers). If no block, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": true,
+      "gt_bboxes": [
+        [
+          597,
+          433,
+          648,
+          592
+        ],
+        [
+          558,
+          410,
+          628,
+          588
+        ]
+      ],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51731
+    },
+    {
+      "id": "block_pos_0017",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51732.jpg",
+      "action": "block",
+      "prompt_key": "vbBboxBlock",
+      "prompt": "Is a volleyball block happening at the net in this image? If yes, return the bounding box of the blocking player as 'x1,y1,x2,y2' (pixel integers). If no block, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": true,
+      "gt_bboxes": [
+        [
+          588,
+          436,
+          639,
+          595
+        ],
+        [
+          551,
+          413,
+          621,
+          588
+        ]
+      ],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51732
+    },
+    {
+      "id": "block_pos_0018",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51733.jpg",
+      "action": "block",
+      "prompt_key": "vbBboxBlock",
+      "prompt": "Is a volleyball block happening at the net in this image? If yes, return the bounding box of the blocking player as 'x1,y1,x2,y2' (pixel integers). If no block, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": true,
+      "gt_bboxes": [
+        [
+          578,
+          438,
+          630,
+          597
+        ],
+        [
+          544,
+          417,
+          614,
+          589
+        ]
+      ],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51733
+    },
+    {
+      "id": "block_pos_0019",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51734.jpg",
+      "action": "block",
+      "prompt_key": "vbBboxBlock",
+      "prompt": "Is a volleyball block happening at the net in this image? If yes, return the bounding box of the blocking player as 'x1,y1,x2,y2' (pixel integers). If no block, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": true,
+      "gt_bboxes": [
+        [
+          569,
+          441,
+          621,
+          600
+        ],
+        [
+          537,
+          421,
+          607,
+          589
+        ]
+      ],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51734
+    },
+    {
+      "id": "block_neg_0000",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51737.jpg",
+      "action": "block",
+      "prompt_key": "vbBboxBlock",
+      "prompt": "Is a volleyball block happening at the net in this image? If yes, return the bounding box of the blocking player as 'x1,y1,x2,y2' (pixel integers). If no block, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": false,
+      "gt_bboxes": [],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51737
+    },
+    {
+      "id": "block_neg_0001",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51709.jpg",
+      "action": "block",
+      "prompt_key": "vbBboxBlock",
+      "prompt": "Is a volleyball block happening at the net in this image? If yes, return the bounding box of the blocking player as 'x1,y1,x2,y2' (pixel integers). If no block, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": false,
+      "gt_bboxes": [],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51709
+    },
+    {
+      "id": "block_neg_0002",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51745.jpg",
+      "action": "block",
+      "prompt_key": "vbBboxBlock",
+      "prompt": "Is a volleyball block happening at the net in this image? If yes, return the bounding box of the blocking player as 'x1,y1,x2,y2' (pixel integers). If no block, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": false,
+      "gt_bboxes": [],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51745
+    },
+    {
+      "id": "block_neg_0003",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51740.jpg",
+      "action": "block",
+      "prompt_key": "vbBboxBlock",
+      "prompt": "Is a volleyball block happening at the net in this image? If yes, return the bounding box of the blocking player as 'x1,y1,x2,y2' (pixel integers). If no block, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": false,
+      "gt_bboxes": [],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51740
+    },
+    {
+      "id": "block_neg_0004",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51713.jpg",
+      "action": "block",
+      "prompt_key": "vbBboxBlock",
+      "prompt": "Is a volleyball block happening at the net in this image? If yes, return the bounding box of the blocking player as 'x1,y1,x2,y2' (pixel integers). If no block, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": false,
+      "gt_bboxes": [],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51713
+    },
+    {
+      "id": "block_neg_0005",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51736.jpg",
+      "action": "block",
+      "prompt_key": "vbBboxBlock",
+      "prompt": "Is a volleyball block happening at the net in this image? If yes, return the bounding box of the blocking player as 'x1,y1,x2,y2' (pixel integers). If no block, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": false,
+      "gt_bboxes": [],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51736
+    },
+    {
+      "id": "block_neg_0006",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51714.jpg",
+      "action": "block",
+      "prompt_key": "vbBboxBlock",
+      "prompt": "Is a volleyball block happening at the net in this image? If yes, return the bounding box of the blocking player as 'x1,y1,x2,y2' (pixel integers). If no block, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": false,
+      "gt_bboxes": [],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51714
+    },
+    {
+      "id": "block_neg_0007",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51735.jpg",
+      "action": "block",
+      "prompt_key": "vbBboxBlock",
+      "prompt": "Is a volleyball block happening at the net in this image? If yes, return the bounding box of the blocking player as 'x1,y1,x2,y2' (pixel integers). If no block, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": false,
+      "gt_bboxes": [],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51735
+    },
+    {
+      "id": "block_neg_0008",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51744.jpg",
+      "action": "block",
+      "prompt_key": "vbBboxBlock",
+      "prompt": "Is a volleyball block happening at the net in this image? If yes, return the bounding box of the blocking player as 'x1,y1,x2,y2' (pixel integers). If no block, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": false,
+      "gt_bboxes": [],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51744
+    },
+    {
+      "id": "block_neg_0009",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51743.jpg",
+      "action": "block",
+      "prompt_key": "vbBboxBlock",
+      "prompt": "Is a volleyball block happening at the net in this image? If yes, return the bounding box of the blocking player as 'x1,y1,x2,y2' (pixel integers). If no block, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": false,
+      "gt_bboxes": [],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51743
+    },
+    {
+      "id": "block_neg_0010",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51739.jpg",
+      "action": "block",
+      "prompt_key": "vbBboxBlock",
+      "prompt": "Is a volleyball block happening at the net in this image? If yes, return the bounding box of the blocking player as 'x1,y1,x2,y2' (pixel integers). If no block, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": false,
+      "gt_bboxes": [],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51739
+    },
+    {
+      "id": "block_neg_0011",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51708.jpg",
+      "action": "block",
+      "prompt_key": "vbBboxBlock",
+      "prompt": "Is a volleyball block happening at the net in this image? If yes, return the bounding box of the blocking player as 'x1,y1,x2,y2' (pixel integers). If no block, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": false,
+      "gt_bboxes": [],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51708
+    },
+    {
+      "id": "block_neg_0012",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51738.jpg",
+      "action": "block",
+      "prompt_key": "vbBboxBlock",
+      "prompt": "Is a volleyball block happening at the net in this image? If yes, return the bounding box of the blocking player as 'x1,y1,x2,y2' (pixel integers). If no block, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": false,
+      "gt_bboxes": [],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51738
+    },
+    {
+      "id": "block_neg_0013",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51741.jpg",
+      "action": "block",
+      "prompt_key": "vbBboxBlock",
+      "prompt": "Is a volleyball block happening at the net in this image? If yes, return the bounding box of the blocking player as 'x1,y1,x2,y2' (pixel integers). If no block, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": false,
+      "gt_bboxes": [],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51741
+    },
+    {
+      "id": "block_neg_0014",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51711.jpg",
+      "action": "block",
+      "prompt_key": "vbBboxBlock",
+      "prompt": "Is a volleyball block happening at the net in this image? If yes, return the bounding box of the blocking player as 'x1,y1,x2,y2' (pixel integers). If no block, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": false,
+      "gt_bboxes": [],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51711
+    },
+    {
+      "id": "block_neg_0015",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51710.jpg",
+      "action": "block",
+      "prompt_key": "vbBboxBlock",
+      "prompt": "Is a volleyball block happening at the net in this image? If yes, return the bounding box of the blocking player as 'x1,y1,x2,y2' (pixel integers). If no block, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": false,
+      "gt_bboxes": [],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51710
+    },
+    {
+      "id": "block_neg_0016",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51712.jpg",
+      "action": "block",
+      "prompt_key": "vbBboxBlock",
+      "prompt": "Is a volleyball block happening at the net in this image? If yes, return the bounding box of the blocking player as 'x1,y1,x2,y2' (pixel integers). If no block, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": false,
+      "gt_bboxes": [],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51712
+    },
+    {
+      "id": "block_neg_0017",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51707.jpg",
+      "action": "block",
+      "prompt_key": "vbBboxBlock",
+      "prompt": "Is a volleyball block happening at the net in this image? If yes, return the bounding box of the blocking player as 'x1,y1,x2,y2' (pixel integers). If no block, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": false,
+      "gt_bboxes": [],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51707
+    },
+    {
+      "id": "block_neg_0018",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51705.jpg",
+      "action": "block",
+      "prompt_key": "vbBboxBlock",
+      "prompt": "Is a volleyball block happening at the net in this image? If yes, return the bounding box of the blocking player as 'x1,y1,x2,y2' (pixel integers). If no block, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": false,
+      "gt_bboxes": [],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51705
+    },
+    {
+      "id": "block_neg_0019",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51742.jpg",
+      "action": "block",
+      "prompt_key": "vbBboxBlock",
+      "prompt": "Is a volleyball block happening at the net in this image? If yes, return the bounding box of the blocking player as 'x1,y1,x2,y2' (pixel integers). If no block, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": false,
+      "gt_bboxes": [],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51742
+    },
+    {
+      "id": "dig_pos_0000",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51715.jpg",
+      "action": "dig",
+      "prompt_key": "vbBboxDig",
+      "prompt": "Is a volleyball dig happening in this image? If yes, return the bounding box of the digging player as 'x1,y1,x2,y2' (pixel integers). If no dig, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": true,
+      "gt_bboxes": [
+        [
+          1057,
+          399,
+          1116,
+          518
+        ],
+        [
+          1197,
+          437,
+          1263,
+          567
+        ]
+      ],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51715
+    },
+    {
+      "id": "dig_pos_0001",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51716.jpg",
+      "action": "dig",
+      "prompt_key": "vbBboxDig",
+      "prompt": "Is a volleyball dig happening in this image? If yes, return the bounding box of the digging player as 'x1,y1,x2,y2' (pixel integers). If no dig, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": true,
+      "gt_bboxes": [
+        [
+          1046,
+          399,
+          1107,
+          518
+        ]
+      ],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51716
+    },
+    {
+      "id": "dig_pos_0002",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51717.jpg",
+      "action": "dig",
+      "prompt_key": "vbBboxDig",
+      "prompt": "Is a volleyball dig happening in this image? If yes, return the bounding box of the digging player as 'x1,y1,x2,y2' (pixel integers). If no dig, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": true,
+      "gt_bboxes": [
+        [
+          1036,
+          399,
+          1099,
+          518
+        ]
+      ],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51717
+    },
+    {
+      "id": "dig_pos_0003",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51718.jpg",
+      "action": "dig",
+      "prompt_key": "vbBboxDig",
+      "prompt": "Is a volleyball dig happening in this image? If yes, return the bounding box of the digging player as 'x1,y1,x2,y2' (pixel integers). If no dig, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": true,
+      "gt_bboxes": [
+        [
+          1026,
+          399,
+          1090,
+          518
+        ]
+      ],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51718
+    },
+    {
+      "id": "dig_pos_0004",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51719.jpg",
+      "action": "dig",
+      "prompt_key": "vbBboxDig",
+      "prompt": "Is a volleyball dig happening in this image? If yes, return the bounding box of the digging player as 'x1,y1,x2,y2' (pixel integers). If no dig, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": true,
+      "gt_bboxes": [
+        [
+          1016,
+          399,
+          1082,
+          518
+        ]
+      ],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51719
+    },
+    {
+      "id": "dig_pos_0005",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51720.jpg",
+      "action": "dig",
+      "prompt_key": "vbBboxDig",
+      "prompt": "Is a volleyball dig happening in this image? If yes, return the bounding box of the digging player as 'x1,y1,x2,y2' (pixel integers). If no dig, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": true,
+      "gt_bboxes": [
+        [
+          1006,
+          399,
+          1073,
+          518
+        ]
+      ],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51720
+    },
+    {
+      "id": "dig_pos_0006",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51721.jpg",
+      "action": "dig",
+      "prompt_key": "vbBboxDig",
+      "prompt": "Is a volleyball dig happening in this image? If yes, return the bounding box of the digging player as 'x1,y1,x2,y2' (pixel integers). If no dig, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": true,
+      "gt_bboxes": [
+        [
+          996,
+          399,
+          1065,
+          518
+        ]
+      ],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51721
+    },
+    {
+      "id": "dig_pos_0007",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51722.jpg",
+      "action": "dig",
+      "prompt_key": "vbBboxDig",
+      "prompt": "Is a volleyball dig happening in this image? If yes, return the bounding box of the digging player as 'x1,y1,x2,y2' (pixel integers). If no dig, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": true,
+      "gt_bboxes": [
+        [
+          986,
+          399,
+          1056,
+          516
+        ]
+      ],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51722
+    },
+    {
+      "id": "dig_pos_0008",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51723.jpg",
+      "action": "dig",
+      "prompt_key": "vbBboxDig",
+      "prompt": "Is a volleyball dig happening in this image? If yes, return the bounding box of the digging player as 'x1,y1,x2,y2' (pixel integers). If no dig, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": true,
+      "gt_bboxes": [
+        [
+          976,
+          399,
+          1047,
+          514
+        ]
+      ],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51723
+    },
+    {
+      "id": "dig_pos_0009",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51724.jpg",
+      "action": "dig",
+      "prompt_key": "vbBboxDig",
+      "prompt": "Is a volleyball dig happening in this image? If yes, return the bounding box of the digging player as 'x1,y1,x2,y2' (pixel integers). If no dig, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": true,
+      "gt_bboxes": [
+        [
+          966,
+          399,
+          1038,
+          513
+        ]
+      ],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51724
+    },
+    {
+      "id": "dig_pos_0010",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51725.jpg",
+      "action": "dig",
+      "prompt_key": "vbBboxDig",
+      "prompt": "Is a volleyball dig happening in this image? If yes, return the bounding box of the digging player as 'x1,y1,x2,y2' (pixel integers). If no dig, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": true,
+      "gt_bboxes": [
+        [
+          955,
+          400,
+          1027,
+          512
+        ]
+      ],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51725
+    },
+    {
+      "id": "dig_pos_0011",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51726.jpg",
+      "action": "dig",
+      "prompt_key": "vbBboxDig",
+      "prompt": "Is a volleyball dig happening in this image? If yes, return the bounding box of the digging player as 'x1,y1,x2,y2' (pixel integers). If no dig, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": true,
+      "gt_bboxes": [
+        [
+          944,
+          401,
+          1017,
+          511
+        ]
+      ],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51726
+    },
+    {
+      "id": "dig_pos_0012",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51727.jpg",
+      "action": "dig",
+      "prompt_key": "vbBboxDig",
+      "prompt": "Is a volleyball dig happening in this image? If yes, return the bounding box of the digging player as 'x1,y1,x2,y2' (pixel integers). If no dig, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": true,
+      "gt_bboxes": [
+        [
+          934,
+          402,
+          1007,
+          511
+        ]
+      ],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51727
+    },
+    {
+      "id": "dig_pos_0013",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51728.jpg",
+      "action": "dig",
+      "prompt_key": "vbBboxDig",
+      "prompt": "Is a volleyball dig happening in this image? If yes, return the bounding box of the digging player as 'x1,y1,x2,y2' (pixel integers). If no dig, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": true,
+      "gt_bboxes": [
+        [
+          921,
+          405,
+          993,
+          510
+        ]
+      ],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51728
+    },
+    {
+      "id": "dig_pos_0014",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51729.jpg",
+      "action": "dig",
+      "prompt_key": "vbBboxDig",
+      "prompt": "Is a volleyball dig happening in this image? If yes, return the bounding box of the digging player as 'x1,y1,x2,y2' (pixel integers). If no dig, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": true,
+      "gt_bboxes": [
+        [
+          909,
+          408,
+          979,
+          510
+        ]
+      ],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51729
+    },
+    {
+      "id": "dig_pos_0015",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51730.jpg",
+      "action": "dig",
+      "prompt_key": "vbBboxDig",
+      "prompt": "Is a volleyball dig happening in this image? If yes, return the bounding box of the digging player as 'x1,y1,x2,y2' (pixel integers). If no dig, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": true,
+      "gt_bboxes": [
+        [
+          897,
+          411,
+          966,
+          510
+        ]
+      ],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51730
+    },
+    {
+      "id": "dig_pos_0016",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51731.jpg",
+      "action": "dig",
+      "prompt_key": "vbBboxDig",
+      "prompt": "Is a volleyball dig happening in this image? If yes, return the bounding box of the digging player as 'x1,y1,x2,y2' (pixel integers). If no dig, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": true,
+      "gt_bboxes": [
+        [
+          885,
+          411,
+          955,
+          510
+        ]
+      ],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51731
+    },
+    {
+      "id": "dig_pos_0017",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51732.jpg",
+      "action": "dig",
+      "prompt_key": "vbBboxDig",
+      "prompt": "Is a volleyball dig happening in this image? If yes, return the bounding box of the digging player as 'x1,y1,x2,y2' (pixel integers). If no dig, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": true,
+      "gt_bboxes": [
+        [
+          873,
+          411,
+          944,
+          510
+        ]
+      ],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51732
+    },
+    {
+      "id": "dig_pos_0018",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51733.jpg",
+      "action": "dig",
+      "prompt_key": "vbBboxDig",
+      "prompt": "Is a volleyball dig happening in this image? If yes, return the bounding box of the digging player as 'x1,y1,x2,y2' (pixel integers). If no dig, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": true,
+      "gt_bboxes": [
+        [
+          861,
+          411,
+          933,
+          510
+        ]
+      ],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51733
+    },
+    {
+      "id": "dig_pos_0019",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51734.jpg",
+      "action": "dig",
+      "prompt_key": "vbBboxDig",
+      "prompt": "Is a volleyball dig happening in this image? If yes, return the bounding box of the digging player as 'x1,y1,x2,y2' (pixel integers). If no dig, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": true,
+      "gt_bboxes": [
+        [
+          849,
+          411,
+          922,
+          510
+        ]
+      ],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51734
+    },
+    {
+      "id": "dig_pos_0020",
+      "image": "volleyball_dataset/videos_sample/videos_sample/10/18360/18350.jpg",
+      "action": "dig",
+      "prompt_key": "vbBboxDig",
+      "prompt": "Is a volleyball dig happening in this image? If yes, return the bounding box of the digging player as 'x1,y1,x2,y2' (pixel integers). If no dig, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": true,
+      "gt_bboxes": [
+        [
+          177,
+          462,
+          246,
+          608
+        ]
+      ],
+      "game": 10,
+      "clip": 18360,
+      "frame_id": 18350
+    },
+    {
+      "id": "dig_pos_0021",
+      "image": "volleyball_dataset/videos_sample/videos_sample/10/18360/18351.jpg",
+      "action": "dig",
+      "prompt_key": "vbBboxDig",
+      "prompt": "Is a volleyball dig happening in this image? If yes, return the bounding box of the digging player as 'x1,y1,x2,y2' (pixel integers). If no dig, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": true,
+      "gt_bboxes": [
+        [
+          912,
+          382,
+          983,
+          497
+        ]
+      ],
+      "game": 10,
+      "clip": 18360,
+      "frame_id": 18351
+    },
+    {
+      "id": "dig_pos_0022",
+      "image": "volleyball_dataset/videos_sample/videos_sample/10/18360/18352.jpg",
+      "action": "dig",
+      "prompt_key": "vbBboxDig",
+      "prompt": "Is a volleyball dig happening in this image? If yes, return the bounding box of the digging player as 'x1,y1,x2,y2' (pixel integers). If no dig, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": true,
+      "gt_bboxes": [
+        [
+          889,
+          380,
+          964,
+          498
+        ]
+      ],
+      "game": 10,
+      "clip": 18360,
+      "frame_id": 18352
+    },
+    {
+      "id": "dig_pos_0023",
+      "image": "volleyball_dataset/videos_sample/videos_sample/10/18360/18353.jpg",
+      "action": "dig",
+      "prompt_key": "vbBboxDig",
+      "prompt": "Is a volleyball dig happening in this image? If yes, return the bounding box of the digging player as 'x1,y1,x2,y2' (pixel integers). If no dig, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": true,
+      "gt_bboxes": [
+        [
+          867,
+          378,
+          945,
+          499
+        ]
+      ],
+      "game": 10,
+      "clip": 18360,
+      "frame_id": 18353
+    },
+    {
+      "id": "dig_pos_0024",
+      "image": "volleyball_dataset/videos_sample/videos_sample/10/18360/18354.jpg",
+      "action": "dig",
+      "prompt_key": "vbBboxDig",
+      "prompt": "Is a volleyball dig happening in this image? If yes, return the bounding box of the digging player as 'x1,y1,x2,y2' (pixel integers). If no dig, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": true,
+      "gt_bboxes": [
+        [
+          844,
+          376,
+          926,
+          499
+        ]
+      ],
+      "game": 10,
+      "clip": 18360,
+      "frame_id": 18354
+    },
+    {
+      "id": "dig_pos_0025",
+      "image": "volleyball_dataset/videos_sample/videos_sample/10/18360/18355.jpg",
+      "action": "dig",
+      "prompt_key": "vbBboxDig",
+      "prompt": "Is a volleyball dig happening in this image? If yes, return the bounding box of the digging player as 'x1,y1,x2,y2' (pixel integers). If no dig, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": true,
+      "gt_bboxes": [
+        [
+          821,
+          374,
+          907,
+          500
+        ]
+      ],
+      "game": 10,
+      "clip": 18360,
+      "frame_id": 18355
+    },
+    {
+      "id": "dig_pos_0026",
+      "image": "volleyball_dataset/videos_sample/videos_sample/10/18360/18356.jpg",
+      "action": "dig",
+      "prompt_key": "vbBboxDig",
+      "prompt": "Is a volleyball dig happening in this image? If yes, return the bounding box of the digging player as 'x1,y1,x2,y2' (pixel integers). If no dig, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": true,
+      "gt_bboxes": [
+        [
+          799,
+          372,
+          888,
+          501
+        ]
+      ],
+      "game": 10,
+      "clip": 18360,
+      "frame_id": 18356
+    },
+    {
+      "id": "dig_pos_0027",
+      "image": "volleyball_dataset/videos_sample/videos_sample/10/18360/18357.jpg",
+      "action": "dig",
+      "prompt_key": "vbBboxDig",
+      "prompt": "Is a volleyball dig happening in this image? If yes, return the bounding box of the digging player as 'x1,y1,x2,y2' (pixel integers). If no dig, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": true,
+      "gt_bboxes": [
+        [
+          782,
+          371,
+          868,
+          497
+        ]
+      ],
+      "game": 10,
+      "clip": 18360,
+      "frame_id": 18357
+    },
+    {
+      "id": "dig_pos_0028",
+      "image": "volleyball_dataset/videos_sample/videos_sample/10/18360/18358.jpg",
+      "action": "dig",
+      "prompt_key": "vbBboxDig",
+      "prompt": "Is a volleyball dig happening in this image? If yes, return the bounding box of the digging player as 'x1,y1,x2,y2' (pixel integers). If no dig, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": true,
+      "gt_bboxes": [
+        [
+          766,
+          370,
+          849,
+          494
+        ]
+      ],
+      "game": 10,
+      "clip": 18360,
+      "frame_id": 18358
+    },
+    {
+      "id": "dig_pos_0029",
+      "image": "volleyball_dataset/videos_sample/videos_sample/10/18360/18359.jpg",
+      "action": "dig",
+      "prompt_key": "vbBboxDig",
+      "prompt": "Is a volleyball dig happening in this image? If yes, return the bounding box of the digging player as 'x1,y1,x2,y2' (pixel integers). If no dig, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": true,
+      "gt_bboxes": [
+        [
+          749,
+          369,
+          829,
+          491
+        ]
+      ],
+      "game": 10,
+      "clip": 18360,
+      "frame_id": 18359
+    },
+    {
+      "id": "dig_pos_0030",
+      "image": "volleyball_dataset/videos_sample/videos_sample/10/18360/18360.jpg",
+      "action": "dig",
+      "prompt_key": "vbBboxDig",
+      "prompt": "Is a volleyball dig happening in this image? If yes, return the bounding box of the digging player as 'x1,y1,x2,y2' (pixel integers). If no dig, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": true,
+      "gt_bboxes": [
+        [
+          733,
+          368,
+          810,
+          488
+        ]
+      ],
+      "game": 10,
+      "clip": 18360,
+      "frame_id": 18360
+    },
+    {
+      "id": "dig_pos_0031",
+      "image": "volleyball_dataset/videos_sample/videos_sample/10/18360/18361.jpg",
+      "action": "dig",
+      "prompt_key": "vbBboxDig",
+      "prompt": "Is a volleyball dig happening in this image? If yes, return the bounding box of the digging player as 'x1,y1,x2,y2' (pixel integers). If no dig, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": true,
+      "gt_bboxes": [
+        [
+          718,
+          370,
+          800,
+          485
+        ]
+      ],
+      "game": 10,
+      "clip": 18360,
+      "frame_id": 18361
+    },
+    {
+      "id": "dig_pos_0032",
+      "image": "volleyball_dataset/videos_sample/videos_sample/10/18360/18362.jpg",
+      "action": "dig",
+      "prompt_key": "vbBboxDig",
+      "prompt": "Is a volleyball dig happening in this image? If yes, return the bounding box of the digging player as 'x1,y1,x2,y2' (pixel integers). If no dig, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": true,
+      "gt_bboxes": [
+        [
+          703,
+          373,
+          790,
+          482
+        ]
+      ],
+      "game": 10,
+      "clip": 18360,
+      "frame_id": 18362
+    },
+    {
+      "id": "dig_pos_0033",
+      "image": "volleyball_dataset/videos_sample/videos_sample/10/18360/18363.jpg",
+      "action": "dig",
+      "prompt_key": "vbBboxDig",
+      "prompt": "Is a volleyball dig happening in this image? If yes, return the bounding box of the digging player as 'x1,y1,x2,y2' (pixel integers). If no dig, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": true,
+      "gt_bboxes": [
+        [
+          688,
+          376,
+          780,
+          479
+        ]
+      ],
+      "game": 10,
+      "clip": 18360,
+      "frame_id": 18363
+    },
+    {
+      "id": "dig_pos_0034",
+      "image": "volleyball_dataset/videos_sample/videos_sample/10/18360/18364.jpg",
+      "action": "dig",
+      "prompt_key": "vbBboxDig",
+      "prompt": "Is a volleyball dig happening in this image? If yes, return the bounding box of the digging player as 'x1,y1,x2,y2' (pixel integers). If no dig, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": true,
+      "gt_bboxes": [
+        [
+          682,
+          377,
+          773,
+          479
+        ]
+      ],
+      "game": 10,
+      "clip": 18360,
+      "frame_id": 18364
+    },
+    {
+      "id": "dig_pos_0035",
+      "image": "volleyball_dataset/videos_sample/videos_sample/10/18360/18365.jpg",
+      "action": "dig",
+      "prompt_key": "vbBboxDig",
+      "prompt": "Is a volleyball dig happening in this image? If yes, return the bounding box of the digging player as 'x1,y1,x2,y2' (pixel integers). If no dig, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": true,
+      "gt_bboxes": [
+        [
+          677,
+          378,
+          767,
+          480
+        ]
+      ],
+      "game": 10,
+      "clip": 18360,
+      "frame_id": 18365
+    },
+    {
+      "id": "dig_pos_0036",
+      "image": "volleyball_dataset/videos_sample/videos_sample/10/18360/18366.jpg",
+      "action": "dig",
+      "prompt_key": "vbBboxDig",
+      "prompt": "Is a volleyball dig happening in this image? If yes, return the bounding box of the digging player as 'x1,y1,x2,y2' (pixel integers). If no dig, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": true,
+      "gt_bboxes": [
+        [
+          672,
+          379,
+          761,
+          481
+        ]
+      ],
+      "game": 10,
+      "clip": 18360,
+      "frame_id": 18366
+    },
+    {
+      "id": "dig_pos_0037",
+      "image": "volleyball_dataset/videos_sample/videos_sample/10/18360/18367.jpg",
+      "action": "dig",
+      "prompt_key": "vbBboxDig",
+      "prompt": "Is a volleyball dig happening in this image? If yes, return the bounding box of the digging player as 'x1,y1,x2,y2' (pixel integers). If no dig, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": true,
+      "gt_bboxes": [
+        [
+          666,
+          380,
+          754,
+          482
+        ]
+      ],
+      "game": 10,
+      "clip": 18360,
+      "frame_id": 18367
+    },
+    {
+      "id": "dig_pos_0038",
+      "image": "volleyball_dataset/videos_sample/videos_sample/10/18360/18368.jpg",
+      "action": "dig",
+      "prompt_key": "vbBboxDig",
+      "prompt": "Is a volleyball dig happening in this image? If yes, return the bounding box of the digging player as 'x1,y1,x2,y2' (pixel integers). If no dig, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": true,
+      "gt_bboxes": [
+        [
+          661,
+          381,
+          748,
+          483
+        ]
+      ],
+      "game": 10,
+      "clip": 18360,
+      "frame_id": 18368
+    },
+    {
+      "id": "dig_pos_0039",
+      "image": "volleyball_dataset/videos_sample/videos_sample/10/18360/18369.jpg",
+      "action": "dig",
+      "prompt_key": "vbBboxDig",
+      "prompt": "Is a volleyball dig happening in this image? If yes, return the bounding box of the digging player as 'x1,y1,x2,y2' (pixel integers). If no dig, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": true,
+      "gt_bboxes": [
+        [
+          656,
+          382,
+          742,
+          484
+        ]
+      ],
+      "game": 10,
+      "clip": 18360,
+      "frame_id": 18369
+    },
+    {
+      "id": "dig_neg_0000",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51741.jpg",
+      "action": "dig",
+      "prompt_key": "vbBboxDig",
+      "prompt": "Is a volleyball dig happening in this image? If yes, return the bounding box of the digging player as 'x1,y1,x2,y2' (pixel integers). If no dig, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": false,
+      "gt_bboxes": [],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51741
+    },
+    {
+      "id": "dig_neg_0001",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51740.jpg",
+      "action": "dig",
+      "prompt_key": "vbBboxDig",
+      "prompt": "Is a volleyball dig happening in this image? If yes, return the bounding box of the digging player as 'x1,y1,x2,y2' (pixel integers). If no dig, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": false,
+      "gt_bboxes": [],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51740
+    },
+    {
+      "id": "dig_neg_0002",
+      "image": "volleyball_dataset/videos_sample/videos_sample/10/18360/18375.jpg",
+      "action": "dig",
+      "prompt_key": "vbBboxDig",
+      "prompt": "Is a volleyball dig happening in this image? If yes, return the bounding box of the digging player as 'x1,y1,x2,y2' (pixel integers). If no dig, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": false,
+      "gt_bboxes": [],
+      "game": 10,
+      "clip": 18360,
+      "frame_id": 18375
+    },
+    {
+      "id": "dig_neg_0003",
+      "image": "volleyball_dataset/videos_sample/videos_sample/10/18360/18372.jpg",
+      "action": "dig",
+      "prompt_key": "vbBboxDig",
+      "prompt": "Is a volleyball dig happening in this image? If yes, return the bounding box of the digging player as 'x1,y1,x2,y2' (pixel integers). If no dig, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": false,
+      "gt_bboxes": [],
+      "game": 10,
+      "clip": 18360,
+      "frame_id": 18372
+    },
+    {
+      "id": "dig_neg_0004",
+      "image": "volleyball_dataset/videos_sample/videos_sample/10/18360/18345.jpg",
+      "action": "dig",
+      "prompt_key": "vbBboxDig",
+      "prompt": "Is a volleyball dig happening in this image? If yes, return the bounding box of the digging player as 'x1,y1,x2,y2' (pixel integers). If no dig, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": false,
+      "gt_bboxes": [],
+      "game": 10,
+      "clip": 18360,
+      "frame_id": 18345
+    },
+    {
+      "id": "dig_neg_0005",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51745.jpg",
+      "action": "dig",
+      "prompt_key": "vbBboxDig",
+      "prompt": "Is a volleyball dig happening in this image? If yes, return the bounding box of the digging player as 'x1,y1,x2,y2' (pixel integers). If no dig, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": false,
+      "gt_bboxes": [],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51745
+    },
+    {
+      "id": "dig_neg_0006",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51735.jpg",
+      "action": "dig",
+      "prompt_key": "vbBboxDig",
+      "prompt": "Is a volleyball dig happening in this image? If yes, return the bounding box of the digging player as 'x1,y1,x2,y2' (pixel integers). If no dig, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": false,
+      "gt_bboxes": [],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51735
+    },
+    {
+      "id": "dig_neg_0007",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51710.jpg",
+      "action": "dig",
+      "prompt_key": "vbBboxDig",
+      "prompt": "Is a volleyball dig happening in this image? If yes, return the bounding box of the digging player as 'x1,y1,x2,y2' (pixel integers). If no dig, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": false,
+      "gt_bboxes": [],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51710
+    },
+    {
+      "id": "dig_neg_0008",
+      "image": "volleyball_dataset/videos_sample/videos_sample/10/18360/18370.jpg",
+      "action": "dig",
+      "prompt_key": "vbBboxDig",
+      "prompt": "Is a volleyball dig happening in this image? If yes, return the bounding box of the digging player as 'x1,y1,x2,y2' (pixel integers). If no dig, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": false,
+      "gt_bboxes": [],
+      "game": 10,
+      "clip": 18360,
+      "frame_id": 18370
+    },
+    {
+      "id": "dig_neg_0009",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51705.jpg",
+      "action": "dig",
+      "prompt_key": "vbBboxDig",
+      "prompt": "Is a volleyball dig happening in this image? If yes, return the bounding box of the digging player as 'x1,y1,x2,y2' (pixel integers). If no dig, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": false,
+      "gt_bboxes": [],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51705
+    },
+    {
+      "id": "dig_neg_0010",
+      "image": "volleyball_dataset/videos_sample/videos_sample/10/18360/18343.jpg",
+      "action": "dig",
+      "prompt_key": "vbBboxDig",
+      "prompt": "Is a volleyball dig happening in this image? If yes, return the bounding box of the digging player as 'x1,y1,x2,y2' (pixel integers). If no dig, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": false,
+      "gt_bboxes": [],
+      "game": 10,
+      "clip": 18360,
+      "frame_id": 18343
+    },
+    {
+      "id": "dig_neg_0011",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51739.jpg",
+      "action": "dig",
+      "prompt_key": "vbBboxDig",
+      "prompt": "Is a volleyball dig happening in this image? If yes, return the bounding box of the digging player as 'x1,y1,x2,y2' (pixel integers). If no dig, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": false,
+      "gt_bboxes": [],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51739
+    },
+    {
+      "id": "dig_neg_0012",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51737.jpg",
+      "action": "dig",
+      "prompt_key": "vbBboxDig",
+      "prompt": "Is a volleyball dig happening in this image? If yes, return the bounding box of the digging player as 'x1,y1,x2,y2' (pixel integers). If no dig, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": false,
+      "gt_bboxes": [],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51737
+    },
+    {
+      "id": "dig_neg_0013",
+      "image": "volleyball_dataset/videos_sample/videos_sample/10/18360/18371.jpg",
+      "action": "dig",
+      "prompt_key": "vbBboxDig",
+      "prompt": "Is a volleyball dig happening in this image? If yes, return the bounding box of the digging player as 'x1,y1,x2,y2' (pixel integers). If no dig, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": false,
+      "gt_bboxes": [],
+      "game": 10,
+      "clip": 18360,
+      "frame_id": 18371
+    },
+    {
+      "id": "dig_neg_0014",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51743.jpg",
+      "action": "dig",
+      "prompt_key": "vbBboxDig",
+      "prompt": "Is a volleyball dig happening in this image? If yes, return the bounding box of the digging player as 'x1,y1,x2,y2' (pixel integers). If no dig, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": false,
+      "gt_bboxes": [],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51743
+    },
+    {
+      "id": "dig_neg_0015",
+      "image": "volleyball_dataset/videos_sample/videos_sample/10/18360/18341.jpg",
+      "action": "dig",
+      "prompt_key": "vbBboxDig",
+      "prompt": "Is a volleyball dig happening in this image? If yes, return the bounding box of the digging player as 'x1,y1,x2,y2' (pixel integers). If no dig, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": false,
+      "gt_bboxes": [],
+      "game": 10,
+      "clip": 18360,
+      "frame_id": 18341
+    },
+    {
+      "id": "dig_neg_0016",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51709.jpg",
+      "action": "dig",
+      "prompt_key": "vbBboxDig",
+      "prompt": "Is a volleyball dig happening in this image? If yes, return the bounding box of the digging player as 'x1,y1,x2,y2' (pixel integers). If no dig, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": false,
+      "gt_bboxes": [],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51709
+    },
+    {
+      "id": "dig_neg_0017",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51738.jpg",
+      "action": "dig",
+      "prompt_key": "vbBboxDig",
+      "prompt": "Is a volleyball dig happening in this image? If yes, return the bounding box of the digging player as 'x1,y1,x2,y2' (pixel integers). If no dig, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": false,
+      "gt_bboxes": [],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51738
+    },
+    {
+      "id": "dig_neg_0018",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51742.jpg",
+      "action": "dig",
+      "prompt_key": "vbBboxDig",
+      "prompt": "Is a volleyball dig happening in this image? If yes, return the bounding box of the digging player as 'x1,y1,x2,y2' (pixel integers). If no dig, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": false,
+      "gt_bboxes": [],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51742
+    },
+    {
+      "id": "dig_neg_0019",
+      "image": "volleyball_dataset/videos_sample/videos_sample/10/18360/18348.jpg",
+      "action": "dig",
+      "prompt_key": "vbBboxDig",
+      "prompt": "Is a volleyball dig happening in this image? If yes, return the bounding box of the digging player as 'x1,y1,x2,y2' (pixel integers). If no dig, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": false,
+      "gt_bboxes": [],
+      "game": 10,
+      "clip": 18360,
+      "frame_id": 18348
+    },
+    {
+      "id": "dig_neg_0020",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51708.jpg",
+      "action": "dig",
+      "prompt_key": "vbBboxDig",
+      "prompt": "Is a volleyball dig happening in this image? If yes, return the bounding box of the digging player as 'x1,y1,x2,y2' (pixel integers). If no dig, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": false,
+      "gt_bboxes": [],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51708
+    },
+    {
+      "id": "dig_neg_0021",
+      "image": "volleyball_dataset/videos_sample/videos_sample/10/18360/18377.jpg",
+      "action": "dig",
+      "prompt_key": "vbBboxDig",
+      "prompt": "Is a volleyball dig happening in this image? If yes, return the bounding box of the digging player as 'x1,y1,x2,y2' (pixel integers). If no dig, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": false,
+      "gt_bboxes": [],
+      "game": 10,
+      "clip": 18360,
+      "frame_id": 18377
+    },
+    {
+      "id": "dig_neg_0022",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51712.jpg",
+      "action": "dig",
+      "prompt_key": "vbBboxDig",
+      "prompt": "Is a volleyball dig happening in this image? If yes, return the bounding box of the digging player as 'x1,y1,x2,y2' (pixel integers). If no dig, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": false,
+      "gt_bboxes": [],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51712
+    },
+    {
+      "id": "dig_neg_0023",
+      "image": "volleyball_dataset/videos_sample/videos_sample/10/18360/18340.jpg",
+      "action": "dig",
+      "prompt_key": "vbBboxDig",
+      "prompt": "Is a volleyball dig happening in this image? If yes, return the bounding box of the digging player as 'x1,y1,x2,y2' (pixel integers). If no dig, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": false,
+      "gt_bboxes": [],
+      "game": 10,
+      "clip": 18360,
+      "frame_id": 18340
+    },
+    {
+      "id": "dig_neg_0024",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51711.jpg",
+      "action": "dig",
+      "prompt_key": "vbBboxDig",
+      "prompt": "Is a volleyball dig happening in this image? If yes, return the bounding box of the digging player as 'x1,y1,x2,y2' (pixel integers). If no dig, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": false,
+      "gt_bboxes": [],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51711
+    },
+    {
+      "id": "dig_neg_0025",
+      "image": "volleyball_dataset/videos_sample/videos_sample/10/18360/18349.jpg",
+      "action": "dig",
+      "prompt_key": "vbBboxDig",
+      "prompt": "Is a volleyball dig happening in this image? If yes, return the bounding box of the digging player as 'x1,y1,x2,y2' (pixel integers). If no dig, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": false,
+      "gt_bboxes": [],
+      "game": 10,
+      "clip": 18360,
+      "frame_id": 18349
+    },
+    {
+      "id": "dig_neg_0026",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51706.jpg",
+      "action": "dig",
+      "prompt_key": "vbBboxDig",
+      "prompt": "Is a volleyball dig happening in this image? If yes, return the bounding box of the digging player as 'x1,y1,x2,y2' (pixel integers). If no dig, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": false,
+      "gt_bboxes": [],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51706
+    },
+    {
+      "id": "dig_neg_0027",
+      "image": "volleyball_dataset/videos_sample/videos_sample/10/18360/18379.jpg",
+      "action": "dig",
+      "prompt_key": "vbBboxDig",
+      "prompt": "Is a volleyball dig happening in this image? If yes, return the bounding box of the digging player as 'x1,y1,x2,y2' (pixel integers). If no dig, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": false,
+      "gt_bboxes": [],
+      "game": 10,
+      "clip": 18360,
+      "frame_id": 18379
+    },
+    {
+      "id": "dig_neg_0028",
+      "image": "volleyball_dataset/videos_sample/videos_sample/10/18360/18344.jpg",
+      "action": "dig",
+      "prompt_key": "vbBboxDig",
+      "prompt": "Is a volleyball dig happening in this image? If yes, return the bounding box of the digging player as 'x1,y1,x2,y2' (pixel integers). If no dig, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": false,
+      "gt_bboxes": [],
+      "game": 10,
+      "clip": 18360,
+      "frame_id": 18344
+    },
+    {
+      "id": "dig_neg_0029",
+      "image": "volleyball_dataset/videos_sample/videos_sample/10/18360/18347.jpg",
+      "action": "dig",
+      "prompt_key": "vbBboxDig",
+      "prompt": "Is a volleyball dig happening in this image? If yes, return the bounding box of the digging player as 'x1,y1,x2,y2' (pixel integers). If no dig, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": false,
+      "gt_bboxes": [],
+      "game": 10,
+      "clip": 18360,
+      "frame_id": 18347
+    },
+    {
+      "id": "dig_neg_0030",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51736.jpg",
+      "action": "dig",
+      "prompt_key": "vbBboxDig",
+      "prompt": "Is a volleyball dig happening in this image? If yes, return the bounding box of the digging player as 'x1,y1,x2,y2' (pixel integers). If no dig, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": false,
+      "gt_bboxes": [],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51736
+    },
+    {
+      "id": "dig_neg_0031",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51744.jpg",
+      "action": "dig",
+      "prompt_key": "vbBboxDig",
+      "prompt": "Is a volleyball dig happening in this image? If yes, return the bounding box of the digging player as 'x1,y1,x2,y2' (pixel integers). If no dig, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": false,
+      "gt_bboxes": [],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51744
+    },
+    {
+      "id": "dig_neg_0032",
+      "image": "volleyball_dataset/videos_sample/videos_sample/10/18360/18378.jpg",
+      "action": "dig",
+      "prompt_key": "vbBboxDig",
+      "prompt": "Is a volleyball dig happening in this image? If yes, return the bounding box of the digging player as 'x1,y1,x2,y2' (pixel integers). If no dig, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": false,
+      "gt_bboxes": [],
+      "game": 10,
+      "clip": 18360,
+      "frame_id": 18378
+    },
+    {
+      "id": "dig_neg_0033",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51713.jpg",
+      "action": "dig",
+      "prompt_key": "vbBboxDig",
+      "prompt": "Is a volleyball dig happening in this image? If yes, return the bounding box of the digging player as 'x1,y1,x2,y2' (pixel integers). If no dig, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": false,
+      "gt_bboxes": [],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51713
+    },
+    {
+      "id": "dig_neg_0034",
+      "image": "volleyball_dataset/videos_sample/videos_sample/10/18360/18346.jpg",
+      "action": "dig",
+      "prompt_key": "vbBboxDig",
+      "prompt": "Is a volleyball dig happening in this image? If yes, return the bounding box of the digging player as 'x1,y1,x2,y2' (pixel integers). If no dig, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": false,
+      "gt_bboxes": [],
+      "game": 10,
+      "clip": 18360,
+      "frame_id": 18346
+    },
+    {
+      "id": "dig_neg_0035",
+      "image": "volleyball_dataset/videos_sample/videos_sample/10/18360/18380.jpg",
+      "action": "dig",
+      "prompt_key": "vbBboxDig",
+      "prompt": "Is a volleyball dig happening in this image? If yes, return the bounding box of the digging player as 'x1,y1,x2,y2' (pixel integers). If no dig, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": false,
+      "gt_bboxes": [],
+      "game": 10,
+      "clip": 18360,
+      "frame_id": 18380
+    },
+    {
+      "id": "dig_neg_0036",
+      "image": "volleyball_dataset/videos_sample/videos_sample/10/18360/18374.jpg",
+      "action": "dig",
+      "prompt_key": "vbBboxDig",
+      "prompt": "Is a volleyball dig happening in this image? If yes, return the bounding box of the digging player as 'x1,y1,x2,y2' (pixel integers). If no dig, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": false,
+      "gt_bboxes": [],
+      "game": 10,
+      "clip": 18360,
+      "frame_id": 18374
+    },
+    {
+      "id": "dig_neg_0037",
+      "image": "volleyball_dataset/videos_sample/videos_sample/10/18360/18376.jpg",
+      "action": "dig",
+      "prompt_key": "vbBboxDig",
+      "prompt": "Is a volleyball dig happening in this image? If yes, return the bounding box of the digging player as 'x1,y1,x2,y2' (pixel integers). If no dig, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": false,
+      "gt_bboxes": [],
+      "game": 10,
+      "clip": 18360,
+      "frame_id": 18376
+    },
+    {
+      "id": "dig_neg_0038",
+      "image": "volleyball_dataset/videos_sample/videos_sample/10/18360/18342.jpg",
+      "action": "dig",
+      "prompt_key": "vbBboxDig",
+      "prompt": "Is a volleyball dig happening in this image? If yes, return the bounding box of the digging player as 'x1,y1,x2,y2' (pixel integers). If no dig, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": false,
+      "gt_bboxes": [],
+      "game": 10,
+      "clip": 18360,
+      "frame_id": 18342
+    },
+    {
+      "id": "dig_neg_0039",
+      "image": "volleyball_dataset/videos_sample/videos_sample/7/51725/51707.jpg",
+      "action": "dig",
+      "prompt_key": "vbBboxDig",
+      "prompt": "Is a volleyball dig happening in this image? If yes, return the bounding box of the digging player as 'x1,y1,x2,y2' (pixel integers). If no dig, return SKIP.\n\nDo not provide any text or any explanation.",
+      "is_positive": false,
+      "gt_bboxes": [],
+      "game": 7,
+      "clip": 51725,
+      "frame_id": 51707
+    }
+  ]
+}

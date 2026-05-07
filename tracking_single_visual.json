@@ -1,0 +1,214 @@
+[
+  {
+    "player_id": 0,
+    "anchor_frame": 51715,
+    "anchor_bbox": [
+      1057,
+      399,
+      1116,
+      518
+    ],
+    "anchor_action": "digging",
+    "image_dims": [
+      1280,
+      720
+    ],
+    "mode": "visual_anchor",
+    "crop_pad": 0,
+    "track": [
+      {
+        "frame_id": 51716,
+        "action": "digging",
+        "gt_bbox": [
+          1046,
+          399,
+          1107,
+          518
+        ],
+        "pred_bbox": [
+          1063,
+          435,
+          1120,
+          555
+        ],
+        "iou": 0.34957404039437157,
+        "parsed_kind": "bbox",
+        "response": "1063,435,1120,555",
+        "latency_s": 0.92
+      },
+      {
+        "frame_id": 51717,
+        "action": "digging",
+        "gt_bbox": [
+          1036,
+          399,
+          1099,
+          518
+        ],
+        "pred_bbox": [
+          1056,
+          430,
+          1112,
+          553
+        ],
+        "iou": 0.3569474577870012,
+        "parsed_kind": "bbox",
+        "response": "1056,430,1112,553",
+        "latency_s": 0.697
+      },
+      {
+        "frame_id": 51718,
+        "action": "digging",
+        "gt_bbox": [
+          1026,
+          399,
+          1090,
+          518
+        ],
+        "pred_bbox": [
+          1043,
+          435,
+          1101,
+          529
+        ],
+        "iou": 0.42554816188502237,
+        "parsed_kind": "bbox",
+        "response": "1043,435,1101,529",
+        "latency_s": 0.726
+      },
+      {
+        "frame_id": 51719,
+        "action": "digging",
+        "gt_bbox": [
+          1016,
+          399,
+          1082,
+          518
+        ],
+        "pred_bbox": [
+          996,
+          435,
+          1068,
+          553
+        ],
+        "iou": 0.358650490277547,
+        "parsed_kind": "bbox",
+        "response": "996,435,1068,553",
+        "latency_s": 0.712
+      }
+    ],
+    "summary": {
+      "mean_iou": 0.37268003758598556,
+      "std": 0.030713465849397423,
+      "iou_at_50": 0.0,
+      "skips": 0,
+      "parse_err": 0
+    }
+  },
+  {
+    "player_id": 1,
+    "anchor_frame": 51715,
+    "anchor_bbox": [
+      1197,
+      437,
+      1263,
+      567
+    ],
+    "anchor_action": "digging",
+    "image_dims": [
+      1280,
+      720
+    ],
+    "mode": "visual_anchor",
+    "crop_pad": 0,
+    "track": [
+      {
+        "frame_id": 51716,
+        "action": "standing",
+        "gt_bbox": [
+          1189,
+          436,
+          1255,
+          565
+        ],
+        "pred_bbox": [
+          1063,
+          435,
+          1120,
+          556
+        ],
+        "iou": 0.0,
+        "parsed_kind": "bbox",
+        "response": "1063,435,1120,556",
+        "latency_s": 0.885
+      },
+      {
+        "frame_id": 51717,
+        "action": "standing",
+        "gt_bbox": [
+          1182,
+          435,
+          1247,
+          564
+        ],
+        "pred_bbox": [
+          1056,
+          432,
+          1112,
+          552
+        ],
+        "iou": 0.0,
+        "parsed_kind": "bbox",
+        "response": "1056,432,1112,552",
+        "latency_s": 0.713
+      },
+      {
+        "frame_id": 51718,
+        "action": "standing",
+        "gt_bbox": [
+          1175,
+          434,
+          1239,
+          563
+        ],
+        "pred_bbox": [
+          953,
+          436,
+          1101,
+          556
+        ],
+        "iou": 0.0,
+        "parsed_kind": "bbox",
+        "response": "953,436,1101,556",
+        "latency_s": 0.814
+      },
+      {
+        "frame_id": 51719,
+        "action": "standing",
+        "gt_bbox": [
+          1168,
+          433,
+          1232,
+          560
+        ],
+        "pred_bbox": [
+          694,
+          350,
+          778,
+          576
+        ],
+        "iou": 0.0,
+        "parsed_kind": "bbox",
+        "response": "694,350,778,576",
+        "latency_s": 0.679
+      }
+    ],
+    "summary": {
+      "mean_iou": 0.0,
+      "std": 0.0,
+      "iou_at_50": 0.0,
+      "skips": 0,
+      "parse_err": 0
+    }
+  }
+]

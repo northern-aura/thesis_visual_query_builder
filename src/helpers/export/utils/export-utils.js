@@ -28,8 +28,13 @@ export function getNodeParameters(node) {
     if (descriptionNode) {
         paramsToSet.forEach(param => {
             const el = document.getElementById(param.id + "-" + node.id);
-            const val = el ? (el.value ?? '') : '';
-            params[param.name] = (typeof val === 'string') ? val.trim() : val;
+            if (el) {
+                const val = (typeof el.value === 'string') ? el.value.trim() : (el.value ?? '');
+                // Only override if DOM has a non-empty value; preserve node.params otherwise
+                if (val !== '') {
+                    params[param.name] = val;
+                }
+            }
         })
     }
 

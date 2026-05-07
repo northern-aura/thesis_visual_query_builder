@@ -1,8 +1,8 @@
 
 import React, { useEffect, useState } from 'react';
 
-export default function PresetQueryList({ queries, loadPresetQuery }) {
-    // if you would like to change the colorsa
+export default function PresetQueryList({ queryGroups, loadPresetQuery }) {
+    // if you would like to change the colors
     const baseColors = [
         '#ff7b2fff', // vivid blue
         '#ff7b2fff', // vivid orange/red
@@ -65,24 +65,35 @@ export default function PresetQueryList({ queries, loadPresetQuery }) {
 
     return (
         <div className={"predefined-queries"}>
-            {queries.map((q, idx) => {
-                const base = baseColors[idx % baseColors.length];
-                const bg = adjustForMode(base, isDarkMode);
-                const textColor = luminance(bg) < 0.5 ? '#ffffff' : '#222222';
-                return (
-                    <button
-                        className="query-button"
-                        onClick={() => loadPresetQuery(q)}
-                        key={q["title"]}
-                        style={{
-                            color: textColor,
-                            opacity: 1
-                        }}
-                    >
-                        {q["title"]}
-                    </button>
-                )
-            })}
+            {queryGroups.map((group) => (
+                <div key={group.dataset} className="query-dataset-group">
+                    <h4 className="dataset-header">{group.dataset}</h4>
+                    {group.queries.map((q, idx) => {
+                        const base = baseColors[idx % baseColors.length];
+                        const bg = adjustForMode(base, isDarkMode);
+                        const isBestOptimized = q.meta?.bestOptimized;
+                        const changedThisTurn = q.meta?.changedThisTurn;
+                        const needsRun = q.meta?.needsRun;
+                        const textColor = isBestOptimized ? '#00e5ff' : (luminance(bg) < 0.5 ? '#ffffff' : '#222222');
+                        return (
+                            <button
+                                className={`query-button ${isBestOptimized ? 'query-button-best-optimized' : ''} ${changedThisTurn ? 'query-button-updated' : ''}`}
+                                onClick={() => loadPresetQuery(q)}
+                                key={q["title"]}
+                                style={{
+                                    color: textColor,
+                                    opacity: 1
+                                }}
+                            >
+                                <span className="query-button-title">{q["title"]}</span>
+                                {isBestOptimized && <span className="query-badge query-badge-best">best</span>}
+                                {needsRun && <span className="query-badge query-badge-run">to run</span>}
+                                {changedThisTurn && <span className="query-badge query-badge-updated">updated</span>}
+                            </button>
+                        )
+                    })}
+                </div>
+            ))}
         </div>
     )
 }
