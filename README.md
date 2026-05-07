@@ -1,261 +1,346 @@
-# Visual Query Builder using React Flow
+# ReactFlow Query Builder
 
-## Contents
+A visual pipeline builder that compiles drag-and-drop graphs into PyFlink jobs and runs them against a local Flink + Kafka cluster, all from a single dev server.
 
-
-- [Project Setup Guide](#Project-Setup-Guide)
-    - [1. Install Python](#1-install-python)
-    - [2. Install Visual Studio Code](#2-install-visual-studio-code)
-    - [3. Install Docker Desktop](#3-install-docker-desktop)
-    - [4. Install Node.js](#4-install-nodejs)
-    - [5. Set PowerShell Execution Policy](#5-set-powershell-execution-policy)
-    - [6. Set Up and Run the Project](#6-set-up-and-run-the-project)
-    - [7. Download and Install Ollama](#7-download-and-install-ollama)
-    - [8. Install Python Dependencies](#8-install-python-dependencies)
-    - [9. Insert and Run the Generated Pipeline](#9-insert-and-run-the-generated-pipeline)
-    - [10. Run the Full Pipeline](#10-run-the-full-pipeline)
-    - [11. Finishing things up](#11-finishing-things-up)
-- [Archive](#archive)
-
- # Project Setup Guide
-Follow these step-by-step instructions to get your visual query pipelines running.  This Guide is Primarily for Windows
-**No prior experience required!**
+For a one-page setup checklist see [QUICKSTART.md](./QUICKSTART.md).
 
 ---
 
-## 1. Install Python
-
-- **Get the newest stable version** (no pre-release).  
-  Current recommended: **3.13.5**
-### Windows
-- [Download Python here](https://www.python.org/downloads/)
-- Run the installer:
-  - **Check:** “Use admin privileges when installing py.exe”
-  - **Check:** “Add python.exe to PATH”
-  - Click **Install Now**
-- When the installation completes, close the installer.
-### macOS
-
-Download the macOS installer for Python 3.13.5.
-- [Download Python here](https://www.python.org/downloads/)
-
-- Open the downloaded .pkg and follow the on‑screen instructions.
-
----
-
-## 2. Install Visual Studio Code
-### Windows
-- [Download VS Code](https://code.visualstudio.com/download)
-- Run the installer:
-  - **Check all available boxes**
-  - Complete the installation
-### macOS
-- [Download VS Code](https://code.visualstudio.com/download)
-- Open the .dmg and drag Visual Studio Code.app into Applications.
-
-
-
-
----
-
-## 3. Install Docker Desktop
-### Windows
-- [Download Docker Desktop](https://www.docker.com/products/docker-desktop/)
-- Install Docker (this may take a while)
-- **After installation, restart your computer**
-- When restarted, Docker should open automatically
-  - You can skip creating a Docker account
-- If prompted, a terminal will open to install WSL (Windows Subsystem for Linux)
-  - **Press any key** to continue the WSL installation
-- After WSL finishes, open Docker again and press **Restart**
-
-### macOS
-- [Download Docker Desktop](https://www.docker.com/products/docker-desktop/)
-- Open the .dmg, drag Docker into Applications, and launch it.
----
-
-## 4. Install Node.js
-### Windows
-- [Download Node.js](https://nodejs.org/en/download)
-- Click the installer that matches your operating system
-- Run the installer and follow the normal installation steps
-
-### macOS
-- [Download Node.js](https://nodejs.org/en/download)
-- Open the .pkg and follow the prompts.
-
----
-
-## 5. Set PowerShell Execution Policy
-### (Windows only)
-> Not required on macOS.
-
-- Press `Win + X`, then press `A` to open PowerShell as Administrator
-- If prompted, click **Yes**
-- Copy and paste this command into PowerShell, then press Enter:
+## Architecture: Single-Port Execution
 
 ```
-Set-Executionpolicy Remotesigned -Scope CurrentUser 
+Frontend (React, port 5173)
+    ↓ same port
+Vite Plugin (Node.js, integrated)
+    ↓ docker exec
+Docker Container (jobmanager)
+    ↓ flink run
+PyFlink Job Execution
 ```
+
+There is **no separate backend process**. All `/api/*` routes are served by
+`vite-plugins/execute-plugin.js` from inside the Vite dev server.
 
 ---
 
-## 6: Set Up and Run the Project
+## How It Works
 
-This is a JavaScript Application using [ReactFlow](https://reactflow.dev/).
-It is built with [Vite.js](https://vite.dev/) bundler.
-### Windows & macOS
+### 1. Single command startup
 
-- Open the project folder in VS Code or your terminal.
-
-To run use:
+```bash
+npm run dev
 ```
-npm install
-npm run dev 
- ```
 
-In case you have problems with vite try to run:
+Starts:
+- Vite dev server on `localhost:5173`
+- Execute plugin (integrated in same process)
+- Auto-copies helper modules (`llm_call.py`) from `running/Scripts/` into `scripts/`
+
+Console output:
+
 ```
-npm install vite --save dev 
- ```
+✅ Execute plugin loaded - Python scripts can run directly from frontend!
+📦 Copied 1 helper module(s): llm_call.py
 
-Project structure:
+  VITE v6.x.x  ready in xxx ms
+  ➜  Local:   http://localhost:5173/
+```
+
+### 2. User builds a pipeline
+
+- Visual node-based interface
+- Drag and drop nodes (Kafka Source, Decode, Resize, LLM, etc.)
+- Configure parameters for each node
+- Create custom nodes with custom Python code
+
+### 3. User clicks "Execute Python"
+
+**Frontend:**
+```javascript
+1. generateDirectPython(nodes, edges) → Python code
+2. POST /api/execute { script_content, script_name, project_name }
+3. Opens ResultsPanel (bottom drawer)
+4. SSE EventSource connects to /api/execute/{id}/stream
+```
+
+**Execute plugin:**
+```javascript
+1. Receives script content
+2. Auto-replaces localhost:9092 → kafka:9093 (Docker fix)
+3. Saves to scripts/exec_TIMESTAMP_HASH.py
+4. Copies helper modules if needed
+5. Executes: docker exec jobmanager flink run -py /scripts/exec_XXX.py
+6. Streams output via Server-Sent Events
+7. Saves logs to results/logs/exec_XXX.log
+```
+
+### 4. Job runs in Flink cluster
+
+- Submits to existing Flink cluster (jobmanager + taskmanager)
+- Reads from Kafka input topics
+- Applies transformations (decode, resize, LLM inference, etc.)
+- Writes results to Kafka output topics
+
+### 5. Results
+
+- Real-time output in ResultsPanel
+- Status indicators, duration, exit code
+- Download logs / stop execution
+
+---
+
+## File Structure
 
 ```
 project/
 ├── src/
-│   └── assets/       : static resources, mostly icons
-│   └── components/   : React UI components
-│   └── helpers/      : main logic and functionality functions
-
+│   ├── components/
+│   │   ├── custom-nodes/      Create custom nodes
+│   │   ├── execution/         MetricsDashboard + ResultsPanel
+│   │   ├── export/            Menu / Execute button
+│   │   ├── nodes/             Node definitions and components
+│   │   ├── queries-list/      queries.js — preset query graphs
+│   │   └── sidebar/           Node palette
+│   ├── helpers/export/        Python code generator + templates
+│   └── services/              backendClient, sseClient
+│
+├── vite-plugins/
+│   └── execute-plugin.js      Execution engine (the only plugin)
+│
+├── running/
+│   ├── Docker/                Docker compose + Dockerfile
+│   ├── Scripts/               Helper modules (auto-copied to scripts/)
+│   └── Topics/
+│       ├── Cars/              Cars dataset, queries, senders
+│       └── Volleyball/        Volleyball dataset, queries, senders
+│
+├── volleyball_dataset/        Volleyball video frames (1.7 GB)
+├── scripts/                   Project Python scripts (benchmarks, plots, eval)
+├── results/                   Final outputs — see "Results" below
+├── vite.config.js             Wires up execute-plugin
+└── package.json               npm run dev = vite only
 ```
-
 
 ---
 
-## 7: Download and Install Ollama
-### Windows
-- Visit: [https://ollama.com/download](https://ollama.com/download)
-- Download and install it for your system.
+## Running queries
 
-Note: During the installation, you may see prompts to install additional dependencies (such as Microsoft Visual C++ Redistributable). Simply click Yes or Install and let the process complete. These are normal and required for Ollama to function correctly.
+From the UI:
 
-Then:
-- Press `Win + X`, then press `A` to open PowerShell as administrator.
-- If prompted, click **Yes**.
+- **Run all** — Metrics Dashboard sidebar button → runs every preset query in `src/components/queries-list/queries.js`.
+- **Run selected** — same dashboard, tick a subset.
+- **Run individual** — pick one preset and click ▶ Execute Python.
 
-In PowerShell, run:
+From the CLI (Docker-direct path):
 
+```bash
+cd running/Scripts
+./run_all_scripts.sh        # bash
+./run_all_scripts.ps1       # PowerShell
 ```
-ollama pull gemma3:4b
-```
-After the model is downloaded, start the server with:
-```
-ollama serve
-```
-
-### macOS
-- Download the macOS .dmg from [https://ollama.com/download](https://ollama.com/download)
-- Open and install the app.
-- In Terminal, run:
-```
-ollama pull gemma3:4b
-```
-After the model is downloaded, start the server with:
-```
-ollama serve
-```
-
-## 8: Install Python Dependencies
-With the project open, go to the terminal and run:
-### Windows
-
-
-```
-py -m ensurepip --upgrade; python -m pip install opencv-python kafka-python ujson
-```
-### macOS
-
-```
-pip install opencv-python kafka-python ujson
-```
-
-## 9: Insert and Run the Generated Pipeline
-### Windows
-In the downloaded file:  
-- Press `Ctrl + A` to **select all code**  
-- Press `Ctrl + C` to **copy** the code
-
-Go into the file and insert the code generated from the downloaded file:  
-`C:\...\running\Topics\Cars\Queries\Query_License_Plate_Recognition\query_license_plate_recognition_optimised_skipping.py`
-
-Then in the target file:
-- Press `Ctrl + A` to **select all existing code**  
-- Press `Ctrl + V` to **paste the new code**  
-- Save with `Ctrl + S`
-### macOS
-
-In the downloaded file:
-
-* Press `Command (⌘) + A` to **select all code**
-* Press `Command (⌘) + C` to **copy** the code
-
-Go into the file and insert the code generated from the downloaded file:
-
-`
-/Users/.../running/Topics/Cars/Queries/Query_License_Plate_Recognition/query_license_plate_recognition_optimised_skipping.py
-`
-
-Then in the target file:
-
-* Press `Command (⌘) + A` to **select all existing code**
-* Press `Command (⌘) + V` to **paste the new code**
-* Save with `Command (⌘) + S`
-
-
-
 
 ---
-## 10: Run the Full Pipeline
 
-Before Starting make sure that Docker and Ollama are open and running.
-### Windows
-In a new terminal, type:
+## Results
 
-> This must be done before each session on Windows in order to run the Scripts.
-```
-Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass 
-```
-> Running the Scripts.
-```
-cd running/scripts; .\run_all_scripts.ps1
-```
-After you are done, a file should appear in the **Results** folder.
+| Path | Contents |
+|---|---|
+| `results/<query_slug>.jsonl` | raw event stream from the query |
+| `results/metrics/<query_slug>.json` | per-query metrics (latency, accuracy, throughput) |
+| `results/plots/<query_slug>/` | five PNGs: `accuracy_bar`, `e2e_timeline`, `llm_box`, `llm_timeline`, `operator_boxes` |
+| `results/metrics/benchmark_summary.csv` | one row per query — overall summary |
+| `results/metrics/cache_fill_accuracy_report.csv` | accuracy breakdown |
+| `results/plots/benchmark_summary/` | aggregate cross-query charts |
+| `results/benchmark_simple_report.pdf` | final assembled report |
 
+Naming convention:
+- **Naive** — bare slug, e.g. `car_brand_ford`, `most_popular_color`, `dig_set_events_window`
+- **Optimised** — `optimized_<slug>_<resolution>`, e.g. `optimized_car_brand_ford_r854`, `optimized_jump_spike_events_r854`
+- **Resize / skip-frame variants** — `_resize`, `_skip_10` suffix
+- **Per-case studies** — `case_*` prefix
 
-### macOS
-In a new terminal, type:
-```
-cd running/scripts && chmod +x run_all_scripts.sh && ./run_all_scripts.sh
+Heavy intermediate files (browser PDF profiles, log dumps, cache fill backups) are gitignored under `results/` — they regenerate on a fresh run.
 
-```
+---
 
-## 11: Finishing things up
-### Windows & macOS
-To finish things up and shut down the containers, open a new terminal and run:
+## API endpoints (all on port 5173)
 
-```
-cd running/Docker; docker-compose -f env-compose.yml down
-```
+### `POST /api/execute`
+Start script execution.
 
-## Archive
-
-Everytime there are any dependencies changes in package.json run:
-```
-npm install
-```
-This runs the application in dev mode:
-```
-npm run dev 
+```json
+{
+  "script_name": "pipeline.py",
+  "script_content": "# Python code here",
+  "project_name": "My Project"
+}
 ```
 
+Response:
+```json
+{
+  "execution_id": "exec_1764749821563_2152",
+  "status": "queued",
+  "stream_url": "/api/execute/exec_1764749821563_2152/stream"
+}
+```
+
+### `GET /api/execute/:id/stream`
+Server-Sent Events stream of execution output.
+
+### `GET /api/executions`
+List execution history (last 50).
+
+### `GET /api/executions/:id/logs`
+Download full logs for an execution.
+
+### `DELETE /api/executions/:id`
+Stop a running execution.
+
+---
+
+## Docker
+
+### Required containers
+
+```bash
+docker ps
+```
+
+Should list: `jobmanager`, `taskmanager`, `kafka`, `zookeeper`.
+
+### Start
+
+```bash
+cd running/Docker
+docker-compose -f env-compose.yml up -d
+cd ../..
+```
+
+### Volume mounts
+
+`env-compose.yml` mounts `../../scripts:/scripts` so the jobmanager container can read generated scripts.
+
+### Network addressing
+
+| | Inside containers | From host |
+|---|---|---|
+| Kafka | `kafka:9093` | `localhost:9092` |
+| Flink UI | — | `localhost:8082` |
+| Zookeeper | `zookeeper:2181` | — |
+
+The execute plugin auto-replaces `localhost:9092` → `kafka:9093` before submission.
+
+---
+
+## Technical details
+
+### Execute plugin (`vite-plugins/execute-plugin.js`)
+
+1. **Middleware integration** — adds API endpoints to Vite dev server
+2. **Helper module auto-copy** — `running/Scripts/*.py` → `scripts/`
+3. **Docker network fix** — `localhost:9092` → `kafka:9093`
+4. **Flink submission** — `flink run -py` (not `python script.py`)
+5. **SSE streaming** — real-time output via Server-Sent Events
+6. **Log persistence** — `results/logs/exec_XXX.log`
+7. **Process management** — tracks running executions, supports cancellation
+
+Submission command:
+```javascript
+spawn('docker', ['exec', 'jobmanager', 'flink', 'run', '-py', `/scripts/${execution_id}.py`])
+```
+
+### Why `flink run` and not `python`?
+
+`python script.py` tries to start a new local Flink cluster and fails without proper Java setup. `flink run -py` submits the job to the existing cluster — the proper way.
+
+### Code generation (`src/helpers/export/directPythonExport.js`)
+
+1. Topologically sort nodes (dependencies first)
+2. Generate Python imports
+3. Add custom node classes
+4. Create Flink environment
+5. Build Kafka source
+6. Chain map/filter operations
+7. Add Kafka sink
+8. Generate `env.execute()` call
+
+Example output:
+```python
+from pyflink.datastream import StreamExecutionEnvironment
+from pyflink.datastream.connectors.kafka import KafkaSource
+
+env = StreamExecutionEnvironment.get_execution_environment()
+
+kafka_source = (KafkaSource.builder()
+    .set_bootstrap_servers("localhost:9092")
+    .set_topics("input-topic")
+    .build())
+
+stream = env.from_source(kafka_source, watermark_strategy, "Source")
+stream_1 = stream.map(MapDecodeStream())
+stream_2 = stream_1.map(MapResizeImage(320, 640, 180, 360))
+stream_2.sink_to(kafka_sink)
+env.execute("My Pipeline")
+```
+
+---
+
+## Troubleshooting
+
+| Symptom | Fix |
+|---|---|
+| `Connection error` in ResultsPanel | Docker stack is down: `cd running/Docker && docker-compose -f env-compose.yml up -d` |
+| Flink job fails with Kafka timeout | Topics missing: `docker exec kafka kafka-topics.sh --bootstrap-server localhost:9092 --create --topic <name>` |
+| `No module named 'llm_call'` | Restart `npm run dev` so helpers re-copy from `running/Scripts/` |
+| `docker: command not found` (WSL) | Docker Desktop → Settings → Resources → WSL Integration → enable for your distro, restart shell |
+| Empty `results/plots/` after a run | `docker ps` should show all four containers; if not, restart the stack |
+| Long-running jobs disappear from UI | Jobs run detached on Flink — check `localhost:8082` for status |
+
+---
+
+## Configuration
+
+### Ports
+- **Frontend / API:** 5173 (Vite)
+- **Flink UI:** 8082 (jobmanager)
+- **Kafka:** 9092 (host) / 9093 (internal)
+- **Zookeeper:** 2181
+
+### Directories
+- **Scripts:** `scripts/` — generated Python scripts
+- **Results:** `results/` — logs, metrics, plots, final PDF
+- **Helpers:** `running/Scripts/` — source for auto-copied modules
+
+---
+
+## Getting help
+
+**Check logs:**
+1. Terminal — execution logs with `[Execute]` prefix
+2. Browser console (F12) — frontend errors
+3. Flink Web UI (`localhost:8082`) — job errors
+4. `results/logs/exec_XXX.log` — full execution logs
+
+**Common commands:**
+```bash
+# Restart
+Ctrl+C
+npm run dev
+
+# Docker
+docker ps
+docker logs jobmanager
+docker logs kafka
+
+# Kafka
+docker exec kafka kafka-topics.sh --bootstrap-server localhost:9092 --list
+
+# Inspect a run
+ls scripts/
+cat results/logs/exec_XXXXX.log
+```
+
+---
+
+Built with React + ReactFlow, Vite, Apache Flink/PyFlink, Apache Kafka, Docker, Node.js.

@@ -1,0 +1,18 @@
+{
+  "query_title": "Repeating Plates (Grayscale)",
+  "slug": "repeating_plates_grayscale",
+  "timestamp": "2026-04-21T03:16:03.635Z",
+  "duration_s": 39.748,
+  "message_count": 0,
+  "results_file": "results/repeating_plates_grayscale.jsonl",
+  "query_meta": {
+    "llm_model": "qwen2.5-vl-3b",
+    "has_window": true,
+    "has_grayscale": true,
+    "resize_width": "640",
+    "resize_height": "360",
+    "pipeline_nodes": "Source -> Decode -> Grayscale -> Resize -> Llm -> Window -> Filter -> Aggr -> Sink"
+  },
+  "aggregate_metrics": {},
+  "chart_summary": null
+}

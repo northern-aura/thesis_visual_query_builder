@@ -1,0 +1,110 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='1180' height='758' viewBox='0 0 1180 758'>
+<rect width='100%' height='100%' fill='white'/>
+<text x='285' y='28' font-family='Arial' font-size='22' font-weight='700'>Cars Naive: Frame vs Overall Query Accuracy</text>
+<text x='285' y='48' font-family='Arial' font-size='13' fill='#475569'>Blue = frame/window accuracy when available. Green = overall query accuracy.</text>
+<line x1='285.0' y1='50' x2='285.0' y2='722' stroke='#d0d7de' stroke-dasharray='3,3'/>
+<text x='285.0' y='742' text-anchor='middle' font-family='Arial' font-size='12' fill='#475569'>0%</text>
+<line x1='498.2' y1='50' x2='498.2' y2='722' stroke='#d0d7de' stroke-dasharray='3,3'/>
+<text x='498.2' y='742' text-anchor='middle' font-family='Arial' font-size='12' fill='#475569'>25%</text>
+<line x1='711.5' y1='50' x2='711.5' y2='722' stroke='#d0d7de' stroke-dasharray='3,3'/>
+<text x='711.5' y='742' text-anchor='middle' font-family='Arial' font-size='12' fill='#475569'>50%</text>
+<line x1='924.8' y1='50' x2='924.8' y2='722' stroke='#d0d7de' stroke-dasharray='3,3'/>
+<text x='924.8' y='742' text-anchor='middle' font-family='Arial' font-size='12' fill='#475569'>75%</text>
+<line x1='1138.0' y1='50' x2='1138.0' y2='722' stroke='#d0d7de' stroke-dasharray='3,3'/>
+<text x='1138.0' y='742' text-anchor='middle' font-family='Arial' font-size='12' fill='#475569'>100%</text>
+<text x='12' y='76' font-family='Arial' font-size='12' fill='#1f2937'>Brand (Gen)</text>
+<rect x='285' y='61' width='686.2' height='12' fill='#2563eb' opacity='0.82'/>
+<rect x='285' y='76' width='269.4' height='12' fill='#16a34a' opacity='0.82'/>
+<text x='976.2' y='71' font-family='Arial' font-size='10' fill='#1f2937'>80.5%</text>
+<text x='559.4' y='86' font-family='Arial' font-size='10' fill='#1f2937'>31.6%</text>
+<text x='12' y='110' font-family='Arial' font-size='12' fill='#1f2937'>Brand Ford</text>
+<rect x='285' y='95' width='71.2' height='12' fill='#2563eb' opacity='0.82'/>
+<rect x='285' y='110' width='853.0' height='12' fill='#16a34a' opacity='0.82'/>
+<text x='361.2' y='105' font-family='Arial' font-size='10' fill='#1f2937'>8.3%</text>
+<text x='1143.0' y='120' font-family='Arial' font-size='10' fill='#1f2937'>100.0%</text>
+<text x='12' y='144' font-family='Arial' font-size='12' fill='#1f2937'>Brand Renault</text>
+<rect x='285' y='129' width='111.1' height='12' fill='#2563eb' opacity='0.82'/>
+<rect x='285' y='144' width='853.0' height='12' fill='#16a34a' opacity='0.82'/>
+<text x='401.1' y='139' font-family='Arial' font-size='10' fill='#1f2937'>13.0%</text>
+<text x='1143.0' y='154' font-family='Arial' font-size='10' fill='#1f2937'>100.0%</text>
+<text x='12' y='178' font-family='Arial' font-size='12' fill='#1f2937'>Brand Toyota</text>
+<rect x='285' y='163' width='162.9' height='12' fill='#2563eb' opacity='0.82'/>
+<rect x='285' y='178' width='853.0' height='12' fill='#16a34a' opacity='0.82'/>
+<text x='452.9' y='173' font-family='Arial' font-size='10' fill='#1f2937'>19.1%</text>
+<text x='1143.0' y='188' font-family='Arial' font-size='10' fill='#1f2937'>100.0%</text>
+<text x='12' y='212' font-family='Arial' font-size='12' fill='#1f2937'>Color (Gen)</text>
+<rect x='285' y='197' width='757.0' height='12' fill='#2563eb' opacity='0.82'/>
+<rect x='285' y='212' width='746.4' height='12' fill='#16a34a' opacity='0.82'/>
+<text x='1047.0' y='207' font-family='Arial' font-size='10' fill='#1f2937'>88.7%</text>
+<text x='1036.4' y='222' font-family='Arial' font-size='10' fill='#1f2937'>87.5%</text>
+<text x='12' y='246' font-family='Arial' font-size='12' fill='#1f2937'>Color Red</text>
+<rect x='285' y='231' width='845.2' height='12' fill='#2563eb' opacity='0.82'/>
+<rect x='285' y='246' width='853.0' height='12' fill='#16a34a' opacity='0.82'/>
+<text x='1135.2' y='241' font-family='Arial' font-size='10' fill='#1f2937'>99.1%</text>
+<text x='1143.0' y='256' font-family='Arial' font-size='10' fill='#1f2937'>100.0%</text>
+<text x='12' y='280' font-family='Arial' font-size='12' fill='#1f2937'>Color Grey</text>
+<rect x='285' y='265' width='763.4' height='12' fill='#2563eb' opacity='0.82'/>
+<rect x='285' y='280' width='853.0' height='12' fill='#16a34a' opacity='0.82'/>
+<text x='1053.4' y='275' font-family='Arial' font-size='10' fill='#1f2937'>89.5%</text>
+<text x='1143.0' y='290' font-family='Arial' font-size='10' fill='#1f2937'>100.0%</text>
+<text x='12' y='314' font-family='Arial' font-size='12' fill='#1f2937'>Color White</text>
+<rect x='285' y='299' width='790.8' height='12' fill='#2563eb' opacity='0.82'/>
+<rect x='285' y='314' width='853.0' height='12' fill='#16a34a' opacity='0.82'/>
+<text x='1080.8' y='309' font-family='Arial' font-size='10' fill='#1f2937'>92.7%</text>
+<text x='1143.0' y='324' font-family='Arial' font-size='10' fill='#1f2937'>100.0%</text>
+<text x='12' y='348' font-family='Arial' font-size='12' fill='#1f2937'>Color Blue</text>
+<rect x='285' y='333' width='834.4' height='12' fill='#2563eb' opacity='0.82'/>
+<rect x='285' y='348' width='853.0' height='12' fill='#16a34a' opacity='0.82'/>
+<text x='1124.4' y='343' font-family='Arial' font-size='10' fill='#1f2937'>97.8%</text>
+<text x='1143.0' y='358' font-family='Arial' font-size='10' fill='#1f2937'>100.0%</text>
+<text x='12' y='382' font-family='Arial' font-size='12' fill='#1f2937'>Plate Text (Gen)</text>
+<rect x='285' y='367' width='731.3' height='12' fill='#2563eb' opacity='0.82'/>
+<rect x='285' y='382' width='206.9' height='12' fill='#16a34a' opacity='0.82'/>
+<text x='1021.3' y='377' font-family='Arial' font-size='10' fill='#1f2937'>85.7%</text>
+<text x='496.9' y='392' font-family='Arial' font-size='10' fill='#1f2937'>24.3%</text>
+<text x='12' y='416' font-family='Arial' font-size='12' fill='#1f2937'>Specific Plate: QRF8G17</text>
+<rect x='285' y='401' width='45.6' height='12' fill='#2563eb' opacity='0.82'/>
+<rect x='285' y='416' width='853.0' height='12' fill='#16a34a' opacity='0.82'/>
+<text x='335.6' y='411' font-family='Arial' font-size='10' fill='#1f2937'>5.3%</text>
+<text x='1143.0' y='426' font-family='Arial' font-size='10' fill='#1f2937'>100.0%</text>
+<text x='12' y='450' font-family='Arial' font-size='12' fill='#1f2937'>Color+Plate (Red)</text>
+<rect x='285' y='435' width='848.1' height='12' fill='#2563eb' opacity='0.82'/>
+<rect x='285' y='450' width='85.3' height='12' fill='#16a34a' opacity='0.82'/>
+<text x='1138.1' y='445' font-family='Arial' font-size='10' fill='#1f2937'>99.4%</text>
+<text x='375.3' y='460' font-family='Arial' font-size='10' fill='#1f2937'>10.0%</text>
+<text x='12' y='484' font-family='Arial' font-size='12' fill='#1f2937'>Most Popular Brand</text>
+<rect x='285' y='469' width='0.0' height='12' fill='#2563eb' opacity='0.82'/>
+<rect x='285' y='484' width='853.0' height='12' fill='#16a34a' opacity='0.82'/>
+<text x='290.0' y='479' font-family='Arial' font-size='10' fill='#1f2937'>n/a</text>
+<text x='1143.0' y='494' font-family='Arial' font-size='10' fill='#1f2937'>100.0%</text>
+<text x='12' y='518' font-family='Arial' font-size='12' fill='#1f2937'>Most Popular Color</text>
+<rect x='285' y='503' width='0.0' height='12' fill='#2563eb' opacity='0.82'/>
+<rect x='285' y='518' width='853.0' height='12' fill='#16a34a' opacity='0.82'/>
+<text x='290.0' y='513' font-family='Arial' font-size='10' fill='#1f2937'>n/a</text>
+<text x='1143.0' y='528' font-family='Arial' font-size='10' fill='#1f2937'>100.0%</text>
+<text x='12' y='552' font-family='Arial' font-size='12' fill='#1f2937'>Most Popular Brand and Color</text>
+<rect x='285' y='537' width='0.0' height='12' fill='#2563eb' opacity='0.82'/>
+<rect x='285' y='552' width='853.0' height='12' fill='#16a34a' opacity='0.82'/>
+<text x='290.0' y='547' font-family='Arial' font-size='10' fill='#1f2937'>n/a</text>
+<text x='1143.0' y='562' font-family='Arial' font-size='10' fill='#1f2937'>100.0%</text>
+<text x='12' y='586' font-family='Arial' font-size='12' fill='#1f2937'>Most Popular Color (Ford)</text>
+<rect x='285' y='571' width='0.0' height='12' fill='#2563eb' opacity='0.82'/>
+<rect x='285' y='586' width='0.0' height='12' fill='#16a34a' opacity='0.82'/>
+<text x='290.0' y='581' font-family='Arial' font-size='10' fill='#1f2937'>n/a</text>
+<text x='290.0' y='596' font-family='Arial' font-size='10' fill='#1f2937'>0.0%</text>
+<text x='12' y='620' font-family='Arial' font-size='12' fill='#1f2937'>Most Popular Brand (Red Cars)</text>
+<rect x='285' y='605' width='0.0' height='12' fill='#2563eb' opacity='0.82'/>
+<rect x='285' y='620' width='0.0' height='12' fill='#16a34a' opacity='0.82'/>
+<text x='290.0' y='615' font-family='Arial' font-size='10' fill='#1f2937'>n/a</text>
+<text x='290.0' y='630' font-family='Arial' font-size='10' fill='#1f2937'>0.0%</text>
+<text x='12' y='654' font-family='Arial' font-size='12' fill='#1f2937'>Unique Plates</text>
+<rect x='285' y='639' width='0.0' height='12' fill='#2563eb' opacity='0.82'/>
+<rect x='285' y='654' width='121.0' height='12' fill='#16a34a' opacity='0.82'/>
+<text x='290.0' y='649' font-family='Arial' font-size='10' fill='#1f2937'>n/a</text>
+<text x='411.0' y='664' font-family='Arial' font-size='10' fill='#1f2937'>14.2%</text>
+<text x='12' y='688' font-family='Arial' font-size='12' fill='#1f2937'>Repeating Plates</text>
+<rect x='285' y='673' width='0.0' height='12' fill='#2563eb' opacity='0.82'/>
+<rect x='285' y='688' width='310.2' height='12' fill='#16a34a' opacity='0.82'/>
+<text x='290.0' y='683' font-family='Arial' font-size='10' fill='#1f2937'>n/a</text>
+<text x='600.2' y='698' font-family='Arial' font-size='10' fill='#1f2937'>36.4%</text>
+</svg>

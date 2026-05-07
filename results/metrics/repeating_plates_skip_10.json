@@ -1,0 +1,18 @@
+{
+  "query_title": "Repeating Plates (Skip 10)",
+  "slug": "repeating_plates_skip_10",
+  "timestamp": "2026-04-21T03:15:18.869Z",
+  "duration_s": 39.757,
+  "message_count": 0,
+  "results_file": "results/repeating_plates_skip_10.jsonl",
+  "query_meta": {
+    "llm_model": "qwen2.5-vl-3b",
+    "has_window": true,
+    "has_grayscale": false,
+    "resize_width": "",
+    "resize_height": "",
+    "pipeline_nodes": "Source -> Decode -> Skip Frames -> Llm -> Window -> Filter -> Aggr -> Sink"
+  },
+  "aggregate_metrics": {},
+  "chart_summary": null
+}

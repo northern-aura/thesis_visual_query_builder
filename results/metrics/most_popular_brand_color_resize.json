@@ -1,0 +1,138 @@
+{
+  "query_title": "Most Popular Brand+Color (Resize)",
+  "slug": "most_popular_brand_color_resize",
+  "timestamp": "2026-04-21T21:09:39.289Z",
+  "duration_s": 706.022,
+  "message_count": 1,
+  "results_file": "results/most_popular_brand_color_resize.jsonl",
+  "query_meta": {
+    "llm_model": "qwen2.5-vl-3b",
+    "has_window": true,
+    "has_grayscale": false,
+    "resize_width": "480",
+    "resize_height": "270",
+    "pipeline_nodes": "Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink"
+  },
+  "aggregate_metrics": {
+    "accuracy": {},
+    "avgLlmTime": 546.89,
+    "avgE2e": 6340.9,
+    "avgOperatorLatencies": {
+      "Decode": 31.41,
+      "Resize": 8.39,
+      "LLM": 546.89
+    },
+    "avgBetweenNodes": {}
+  },
+  "chart_summary": {
+    "is_windowed": true,
+    "total_processed": 7,
+    "total_skips": 1,
+    "box_stats": {
+      "llm": {
+        "min": 293.12682151794434,
+        "q1": 512.6729011535645,
+        "median": 632.7276229858398,
+        "q3": 672.1704006195068,
+        "max": 751.178503036499,
+        "wLow": 293.12682151794434,
+        "wHigh": 751.178503036499,
+        "outliers": [],
+        "mean": 546.8904078006744,
+        "n": 8
+      },
+      "e2e": null,
+      "operators": {
+        "Decode": null,
+        "Resize": null,
+        "LLM": null
+      },
+      "operators_with_backpressure": {
+        "Decode": null,
+        "Resize": null,
+        "LLM": null
+      }
+    },
+    "accuracy_means_pct": {},
+    "timelines": {
+      "llm": [
+        {
+          "x": 1,
+          "y": 345.0136184692383
+        },
+        {
+          "x": 2,
+          "y": 672.1704006195068
+        },
+        {
+          "x": 3,
+          "y": 520.2827453613281
+        },
+        {
+          "x": 4,
+          "y": 293.12682151794434
+        },
+        {
+          "x": 5,
+          "y": 632.7276229858398
+        },
+        {
+          "x": 6,
+          "y": 512.6729011535645
+        },
+        {
+          "x": 7,
+          "y": 751.178503036499
+        },
+        {
+          "x": 8,
+          "y": 647.9506492614746
+        }
+      ],
+      "e2e": [
+        {
+          "x": 1,
+          "y": 6340.9
+        }
+      ]
+    },
+    "raw": {
+      "llm_times_ms": [
+        345.0136184692383,
+        672.1704006195068,
+        520.2827453613281,
+        293.12682151794434,
+        632.7276229858398,
+        512.6729011535645,
+        751.178503036499,
+        647.9506492614746
+      ],
+      "e2e_times_ms": [
+        6340.9
+      ],
+      "operator_latencies_ms": {
+        "Decode": [
+          31.41
+        ],
+        "Resize": [
+          8.39
+        ],
+        "LLM": [
+          546.89
+        ]
+      },
+      "operator_latencies_with_bp_ms": {
+        "Decode": [
+          31.41
+        ],
+        "Resize": [
+          8.39
+        ],
+        "LLM": [
+          546.89
+        ]
+      },
+      "accuracies_pct": {}
+    }
+  }
+}

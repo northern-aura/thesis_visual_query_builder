@@ -1,0 +1,5 @@
+query,slug,old_rows,new_rows,filled_frame_ids,new_results,old_frame_accuracy,new_frame_accuracy,old_labeled_accuracy,new_labeled_accuracy,old_overall_accuracy,new_overall_accuracy,new_llm_calls
+Optimized Car Color Generic (R480),optimized_car_color_generic_r480,3952,3953,0,SKIP,85.9853,86.0106,75.8837,75.8837,87.5000,87.5000,3953
+Optimized Car Color Blue (CFblue+R480),optimized_car_color_blue_cfblue_r480,3947,3953,0 1 2 3 4 5,SKIP SKIP SKIP SKIP SKIP SKIP,98.8363,98.9881,94.7368,94.7368,100.0000,100.0000,718
+Optimized Color+Plate Red (CFred native),optimized_color_plate_red_cfred_native,3946,3953,0 1 2 3 4 5 6,SKIP SKIP SKIP SKIP SKIP SKIP SKIP,99.4182,99.5952,92.8571,92.8571,25.0000,25.0000,81
+Optimized Car Color Red (CFred+R480),optimized_car_color_red_cfred_r480,3944,3953,0 1 2 3 4 5 6 7 8,SKIP SKIP SKIP SKIP SKIP SKIP SKIP SKIP SKIP,99.1652,99.3929,78.9474,78.9474,100.0000,100.0000,83

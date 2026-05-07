@@ -1,0 +1,18 @@
+{
+  "query_title": "Specific Plate (Resize)",
+  "slug": "specific_plate_resize",
+  "timestamp": "2026-04-21T13:42:46.020Z",
+  "duration_s": 50.74,
+  "message_count": 0,
+  "results_file": "results/specific_plate_resize.jsonl",
+  "query_meta": {
+    "llm_model": "qwen2.5-vl-3b",
+    "has_window": false,
+    "has_grayscale": false,
+    "resize_width": "960",
+    "resize_height": "540",
+    "pipeline_nodes": "Source -> Decode -> Resize -> Llm -> Sink"
+  },
+  "aggregate_metrics": {},
+  "chart_summary": null
+}

@@ -5,10 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "dev:old-backend": "cd backend && python main.py",
     "build": "vite build",
-    "backend:install": "pip install -r backend/requirements.txt",
-    "setup": "npm install && npm run backend:install",
+    "setup": "npm install && pip install -r requirements.txt",
     "lint": "eslint .",
     "preview": "vite preview"
   },

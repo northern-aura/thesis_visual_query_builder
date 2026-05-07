@@ -30,6 +30,39 @@ dist-ssr
 .env.production
 scripts/.openai_api_key
 
-# Runtime data
-metrics/
-results/
+# Python build artifacts
+__pycache__/
+*.pyc
+*.pyo
+
+# Stale root-level runtime dirs (final outputs live under results/)
+/metrics/
+
+# Heavy intermediates inside results/ — keep plots, metrics, jsonl, final PDF
+results/logs/
+results/cache_fill_backups/
+results/chrome-pdf-profile-*/
+results/edge-pdf-profile-*/
+results/benchmark_simple_report.before_cache_fill_update.pdf
+results/benchmark_simple_report.with_cache_fill_update_page.pdf
+results/benchmark_report.html
+
+# Legacy backend (replaced by vite-plugins/execute-plugin.js)
+backend/
+vite-plugins/backend-launcher.js
+
+# Runtime-generated script execution artifacts
+scripts/exec_*.py
+scripts/exec_*.json
+
+# Vendored graphify source clone (use installed package instead)
+graphify/
+graphify-out/
+
+# Root-level eval / tracking run snapshots
+/eval_*.json
+/tracking_*.json
+/smoke.json
+
+# Stale root-level plots dir (final plots live in results/plots/)
+/plots/

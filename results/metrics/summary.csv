@@ -1,0 +1,589 @@
+query_title,timestamp,duration_s,message_count,llm_model,has_window,has_grayscale,resize_width_lbound,resize_width_rbound,resize_height_lbound,resize_height_rbound,brand_accuracy,color_accuracy,plate_accuracy,avg_llm_time_ms,avg_e2e_ms,avg_decode_ms,avg_resize_ms,avg_llm_op_ms,avg_grayscale_ms,pipeline_nodes
+Query Car Brand Recognition,2026-04-19T12:05:48.633Z,22.82,0,qwen2.5-vl-3b,false,true,320,640,180,360,,,,,,,,,,Source -> Decode -> Grayscale -> Resize -> Llm -> Sink
+Query Car Brand Recognition,2026-04-19T12:06:47.678Z,19.04,0,qwen2.5-vl-3b,false,true,320,640,180,360,,,,,,,,,,Source -> Decode -> Grayscale -> Resize -> Llm -> Sink
+Query Car Brand Recognition,2026-04-19T12:12:36.915Z,149.13,367,qwen2.5-vl-3b,false,true,320,640,180,360,0,70.39473684210526,0,258.966485013624,38498.61283378747,,,,,Source -> Decode -> Grayscale -> Resize -> Llm -> Sink
+Query Car Brand Recognition,2026-04-19T12:21:20.068Z,103.07,272,qwen2.5-vl-3b,false,true,320,640,180,360,0,70.43478260869566,0,248.34908088235287,21312.721801470587,,,,,Source -> Decode -> Grayscale -> Resize -> Llm -> Sink
+Car Brand (Generic),2026-04-19T12:34:06.899Z,626.84,1179,qwen2.5-vl-3b,false,false,,,,,85.85131894484412,0,0,491.2330025445289,250308.10104325693,,,,,Source -> Decode -> Llm -> Sink
+Car Brand (Generic),2026-04-19T13:02:01.057Z,1307.13,4237,qwen2.5-vl-3b,false,false,,,,,86.65325285043595,0,0,638.0427802690604,602026.5417866408,,,,,Source -> Decode -> Llm -> Sink
+Car Brand (Generic),2026-04-19T13:15:55.971Z,398.03,1993,qwen2.5-vl-3b,false,false,,,,,88.91928864569084,0,0,734.5186753637736,695062.8034771703,,,,,Source -> Decode -> Llm -> Sink
+Car Brand (Generic),2026-04-19T13:17:48.440Z,24.39,0,qwen2.5-vl-3b,false,false,,,,,,,,,,,,,,Source -> Decode -> Llm -> Sink
+Car Brand (Generic),2026-04-19T13:37:53.461Z,1057.30,3952,qwen2.5-vl-3b,false,false,,,,,86.60844250363901,0,0,1219.5479251012187,446937.18660931167,,,,,Source -> Decode -> Llm -> Sink
+Car Brand (Skip 10),2026-04-19T13:39:46.956Z,48.59,0,qwen2.5-vl-3b,false,false,,,,,,,,,,,,,,Source -> Decode -> Skip Frames -> Llm -> Sink
+Car Brand (Skip 10),2026-04-19T13:40:28.491Z,29.82,0,qwen2.5-vl-3b,false,false,,,,,,,,,,,,,,Source -> Decode -> Skip Frames -> Llm -> Sink
+Car Brand (Skip 10),2026-04-19T14:03:47.974Z,1392.72,3953,qwen2.5-vl-3b,false,false,,,,,86.00556070435589,0,0,570.6477542108548,320993.5774070326,,,,,Source -> Decode -> Skip Frames -> Llm -> Sink
+Car Brand Ford,2026-04-19T15:02:06.323Z,2168.09,3953,qwen2.5-vl-3b,false,false,,,,,4.18168709444845,0,0,520.4033468251952,945275.23762459,,,,,Source -> Decode -> Llm -> Sink
+Car Brand Renault,2026-04-19T17:01:58.849Z,1735.31,4711,qwen2.5-vl-3b,false,false,,,,,27.809165097300692,0,0,709.825744003396,615789.4206028448,,,,,Source -> Decode -> Llm -> Sink
+Car Brand Toyota,2026-04-19T17:15:09.693Z,774.20,0,qwen2.5-vl-3b,false,false,,,,,,,,,,,,,,Source -> Decode -> Llm -> Sink
+Car Color (Generic),2026-04-19T17:15:56.194Z,42.04,0,qwen2.5-vl-3b,false,false,,,,,,,,,,,,,,Source -> Decode -> Llm -> Sink
+Car Color (Generic),2026-04-19T19:06:39.088Z,6657.56,3953,qwen2.5-vl-3b,false,false,,,,,0,60.262257696693275,0,476.21439666076355,763499.154019731,,,,,Source -> Decode -> Llm -> Sink
+Car Color Red,2026-04-19T19:08:08.396Z,19.91,0,qwen2.5-vl-3b,false,false,,,,,,,,,,,,,,Source -> Decode -> Llm -> Sink
+Car Color Red,2026-04-19T19:08:45.572Z,23.20,0,qwen2.5-vl-3b,false,false,,,,,,,,,,,,,,Source -> Decode -> Llm -> Sink
+Car Color Red,2026-04-19T19:49:32.752Z,2428.97,3953,qwen2.5-vl-3b,false,false,,,,,0,2.1664766248574687,0,485.04320010119017,825115.6666835316,,,,,Source -> Decode -> Llm -> Sink
+Car Color Grey,2026-04-19T21:51:25.491Z,7290.77,3953,qwen2.5-vl-3b,false,false,,,,,0,16.305587229190422,0,628.8571439413101,1053546.4258613717,,,,,Source -> Decode -> Llm -> Sink
+Car Color Grey,2026-04-19T21:53:10.174Z,84.00,2,qwen2.5-vl-3b,false,false,,,,,,0,0,856.06,1812.655,,,,,Source -> Decode -> Llm -> Sink
+Car Color Grey,2026-04-19T21:57:47.064Z,263.25,0,qwen2.5-vl-3b,false,false,,,,,,,,,,,,,,Source -> Decode -> Llm -> Sink
+Car Color White,2026-04-19T21:58:05.863Z,8.18,0,qwen2.5-vl-3b,false,false,,,,,,,,,,,,,,Source -> Decode -> Llm -> Sink
+Car Color White,2026-04-20T03:07:51.011Z,18572.34,3953,qwen2.5-vl-3b,false,false,,,,,0,23.945267958950968,0,478.0166202883897,754903.8026865661,,,,,Source -> Decode -> Llm -> Sink
+Car Color Blue,2026-04-20T07:42:22.789Z,58.85,0,qwen2.5-vl-3b,false,false,,,,,,,,,,,,,,Source -> Decode -> Llm -> Sink
+License Plates (Generic),2026-04-20T07:43:19.407Z,52.87,0,qwen2.5-vl-3b,false,false,,,,,,,,,,,,,,Source -> Decode -> Llm -> Sink
+Car Color Blue,2026-04-20T07:46:42.386Z,62.66,0,qwen2.5-vl-3b,false,false,,,,,,,,,,,,,,Source -> Decode -> Llm -> Sink
+License Plates (Generic),2026-04-20T07:47:47.010Z,61.44,0,qwen2.5-vl-3b,false,false,,,,,,,,,,,,,,Source -> Decode -> Llm -> Sink
+Car Color Blue,2026-04-20T07:52:13.934Z,53.18,0,qwen2.5-vl-3b,false,false,,,,,,,,,,,,,,Source -> Decode -> Llm -> Sink
+License Plates (Generic),2026-04-20T07:53:25.664Z,65.84,13,qwen2.5-vl-3b,false,false,,,,,0,0,100,654.7238461538461,4791.078461538461,,,,,Source -> Decode -> Llm -> Sink
+Car Color Blue,2026-04-20T07:54:25.139Z,52.90,0,qwen2.5-vl-3b,false,false,,,,,,,,,,,,,,Source -> Decode -> Llm -> Sink
+License Plates (Generic),2026-04-20T07:55:23.999Z,55.91,0,qwen2.5-vl-3b,false,false,,,,,,,,,,,,,,Source -> Decode -> Llm -> Sink
+Car Color Blue,2026-04-20T08:05:10.515Z,516.78,789,qwen2.5-vl-3b,false,false,,,,,0,0,0,574.7635487959434,214831.9628897338,,,,,Source -> Decode -> Llm -> Sink
+License Plates (Generic),2026-04-20T08:08:48.409Z,212.44,57,qwen2.5-vl-3b,false,false,,,,,0,0,96.42857142857143,770.9119298245613,21046.846315789473,,,,,Source -> Decode -> Llm -> Sink
+Car Color Blue,2026-04-20T08:30:09.340Z,425.42,709,qwen2.5-vl-3b,false,false,,,0,0,0,926.1647108603665,153419.1981664315,,,,,Source -> Decode -> Llm -> Sink
+License Plates (Generic),2026-04-20T08:31:52.510Z,98.03,67,qwen2.5-vl-3b,false,false,,,0,0,65.38461538461539,1212.5435820895523,242975.0837313433,,,,,Source -> Decode -> Llm -> Sink
+Car Color Blue,2026-04-20T08:41:10.565Z,547.08,5,qwen2.5-vl-3b,false,false,,,0,0,0,9937.594000000001,95360.95800000001,,,,,Source -> Decode -> Llm -> Sink
+Car Color Blue,2026-04-20T08:42:00.132Z,43.77,0,qwen2.5-vl-3b,false,false,,,,,,,,,,,,Source -> Decode -> Llm -> Sink
+Car Color Blue,2026-04-20T08:42:52.246Z,43.70,0,qwen2.5-vl-3b,false,false,,,,,,,,,,,,Source -> Decode -> Llm -> Sink
+Car Color Blue,2026-04-20T08:45:40.175Z,103.84,88,qwen2.5-vl-3b,false,false,,,0,0,0,494.49386363636347,19369.48568181819,,,,,Source -> Decode -> Llm -> Sink
+Car Color Blue,2026-04-20T09:26:17.323Z,2424.61,4245,qwen2.5-vl-3b,false,false,,,0,1.0204081632653061,0,543.1056160188466,901120.1264522978,,,,,Source -> Decode -> Llm -> Sink
+License Plates (Generic),2026-04-20T10:02:30.649Z,2169.42,3953,qwen2.5-vl-3b,false,false,,,0,0,60.05665722379604,529.4199316974465,911297.9611965598,,,,,Source -> Decode -> Llm -> Sink
+Specific Plate: QRF213,2026-04-20T10:40:12.250Z,2256.38,3953,qwen2.5-vl-3b,false,false,,,0,0,9.63172804532578,549.8712471540601,941543.8351277512,,,,,Source -> Decode -> Llm -> Sink
+Color + License Plate (Red),2026-04-20T11:23:40.069Z,2603.83,3503,qwen2.5-vl-3b,false,false,,,0,0,3.4782608695652173,717.4729546103333,1130778.9726177568,,,,,Source -> Decode -> Llm -> Sink
+Most Popular Brand,2026-04-20T11:25:06.104Z,81.42,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Most Popular Color,2026-04-20T11:26:14.845Z,64.63,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Most Popular Brand and Color,2026-04-20T11:27:19.892Z,57.63,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Most Popular Color (Ford),2026-04-20T11:28:18.976Z,53.85,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Most Popular Brand (Red Cars),2026-04-20T11:29:20.750Z,56.39,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Unique License Plates (Window),2026-04-20T11:30:20.265Z,54.45,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Repeating License Plates,2026-04-20T11:31:18.542Z,53.36,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Llm -> Window -> Filter -> Aggr -> Sink
+Car Brand (Resize),2026-04-20T11:32:15.205Z,51.75,0,qwen2.5-vl-3b,false,false,640,360,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Sink
+Car Brand (Skip 10),2026-04-20T11:33:12.030Z,51.90,0,qwen2.5-vl-3b,false,false,,,,,,,,,,,,Source -> Decode -> Skip Frames -> Llm -> Sink
+Car Color (Resize),2026-04-20T11:34:08.680Z,51.79,0,qwen2.5-vl-3b,false,false,640,360,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Sink
+Car Color (Skip 10),2026-04-20T11:35:01.200Z,49.68,0,qwen2.5-vl-3b,false,false,,,,,,,,,,,,Source -> Decode -> Skip Frames -> Llm -> Sink
+License Plates (Resize),2026-04-20T11:35:44.611Z,40.57,0,qwen2.5-vl-3b,false,false,640,360,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Sink
+License Plates (Skip 10),2026-04-20T11:36:27.777Z,40.42,0,qwen2.5-vl-3b,false,false,,,,,,,,,,,,Source -> Decode -> Skip Frames -> Llm -> Sink
+License Plates (Grayscale),2026-04-20T11:37:12.959Z,40.33,0,qwen2.5-vl-3b,false,true,640,360,,,,,,,,,,Source -> Decode -> Grayscale -> Resize -> Llm -> Sink
+Specific Plate (Resize),2026-04-20T11:37:56.149Z,40.44,0,qwen2.5-vl-3b,false,false,640,360,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Sink
+Specific Plate (Skip 10),2026-04-20T11:38:39.683Z,40.49,0,qwen2.5-vl-3b,false,false,,,,,,,,,,,,Source -> Decode -> Skip Frames -> Llm -> Sink
+Specific Plate (Grayscale),2026-04-20T11:39:23.144Z,40.61,0,qwen2.5-vl-3b,false,true,640,360,,,,,,,,,,Source -> Decode -> Grayscale -> Resize -> Llm -> Sink
+Color + Plate (Resize),2026-04-20T11:40:08.378Z,40.43,0,qwen2.5-vl-3b,false,false,640,360,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Sink
+Color + Plate (Skip 10),2026-04-20T11:40:51.702Z,40.54,0,qwen2.5-vl-3b,false,false,,,,,,,,,,,,Source -> Decode -> Skip Frames -> Llm -> Sink
+Most Popular Brand (Resize),2026-04-20T11:41:35.350Z,40.90,0,qwen2.5-vl-3b,true,false,640,360,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Most Popular Brand (Skip 10),2026-04-20T11:42:18.420Z,40.33,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Skip Frames -> Llm -> Window -> Aggr -> Sink
+Most Popular Color (Resize),2026-04-20T11:43:03.651Z,40.33,0,qwen2.5-vl-3b,true,false,640,360,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Most Popular Color (Skip 10),2026-04-20T11:43:46.860Z,40.45,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Skip Frames -> Llm -> Window -> Aggr -> Sink
+Most Popular Brand+Color (Resize),2026-04-20T11:44:30.080Z,40.35,0,qwen2.5-vl-3b,true,false,640,360,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Most Popular Brand+Color (Skip 10),2026-04-20T11:45:15.242Z,40.34,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Skip Frames -> Llm -> Window -> Aggr -> Sink
+Unique Plates (Resize),2026-04-20T11:45:57.675Z,39.70,0,qwen2.5-vl-3b,true,false,640,360,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Unique Plates (Skip 10),2026-04-20T11:46:42.700Z,42.27,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Skip Frames -> Llm -> Window -> Aggr -> Sink
+Unique Plates (Grayscale),2026-04-20T11:47:33.742Z,47.44,0,qwen2.5-vl-3b,true,true,640,360,,,,,,,,,,Source -> Decode -> Grayscale -> Resize -> Llm -> Window -> Aggr -> Sink
+Car Color Blue,2026-04-20T11:49:01.978Z,67.54,34,qwen2.5-vl-3b,false,false,,,0,0,0,524.5661764705883,8737.917352941175,,,,,Source -> Decode -> Llm -> Sink
+Color + License Plate (Red),2026-04-20T12:22:39.282Z,1972.32,3954,qwen2.5-vl-3b,false,false,,,0,0,4.104741684359519,476.75417804754596,830000.7572281221,,,,,Source -> Decode -> Llm -> Sink
+Most Popular Brand,2026-04-20T12:24:25.968Z,102.83,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Most Popular Color,2026-04-20T12:28:30.961Z,241.94,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Most Popular Brand and Color,2026-04-20T12:30:04.293Z,90.26,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Most Popular Color (Ford),2026-04-20T12:35:49.546Z,342.02,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Most Popular Brand (Red Cars),2026-04-20T12:39:59.470Z,246.75,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Unique License Plates (Window),2026-04-20T12:40:56.029Z,53.54,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Repeating License Plates,2026-04-20T12:41:51.151Z,52.02,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Llm -> Window -> Filter -> Aggr -> Sink
+Car Brand (Resize),2026-04-20T12:42:44.797Z,50.55,0,qwen2.5-vl-3b,false,false,640,360,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Sink
+Car Brand (Skip 10),2026-04-20T12:43:38.356Z,50.62,0,qwen2.5-vl-3b,false,false,,,,,,,,,,,,Source -> Decode -> Skip Frames -> Llm -> Sink
+Car Color (Resize),2026-04-20T12:44:31.861Z,50.42,0,qwen2.5-vl-3b,false,false,640,360,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Sink
+Car Color (Skip 10),2026-04-20T12:45:19.003Z,42.25,0,qwen2.5-vl-3b,false,false,,,,,,,,,,,,Source -> Decode -> Skip Frames -> Llm -> Sink
+License Plates (Resize),2026-04-20T12:46:03.821Z,41.84,0,qwen2.5-vl-3b,false,false,640,360,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Sink
+License Plates (Skip 10),2026-04-20T12:46:48.636Z,42.05,0,qwen2.5-vl-3b,false,false,,,,,,,,,,,,Source -> Decode -> Skip Frames -> Llm -> Sink
+License Plates (Grayscale),2026-04-20T12:47:34.567Z,40.94,0,qwen2.5-vl-3b,false,true,640,360,,,,,,,,,,Source -> Decode -> Grayscale -> Resize -> Llm -> Sink
+Specific Plate (Resize),2026-04-20T12:48:18.305Z,40.87,0,qwen2.5-vl-3b,false,false,640,360,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Sink
+Specific Plate (Skip 10),2026-04-20T12:49:04.486Z,41.21,0,qwen2.5-vl-3b,false,false,,,,,,,,,,,,Source -> Decode -> Skip Frames -> Llm -> Sink
+Specific Plate (Grayscale),2026-04-20T12:49:51.921Z,42.53,0,qwen2.5-vl-3b,false,true,640,360,,,,,,,,,,Source -> Decode -> Grayscale -> Resize -> Llm -> Sink
+Color + Plate (Resize),2026-04-20T12:50:38.051Z,41.25,0,qwen2.5-vl-3b,false,false,640,360,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Sink
+Color + Plate (Skip 10),2026-04-20T12:51:21.875Z,41.06,0,qwen2.5-vl-3b,false,false,,,,,,,,,,,,Source -> Decode -> Skip Frames -> Llm -> Sink
+Most Popular Brand (Resize),2026-04-20T12:52:05.936Z,41.04,0,qwen2.5-vl-3b,true,false,640,360,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Most Popular Brand (Skip 10),2026-04-20T12:52:52.273Z,41.43,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Skip Frames -> Llm -> Window -> Aggr -> Sink
+Most Popular Color (Resize),2026-04-20T12:53:38.385Z,41.17,0,qwen2.5-vl-3b,true,false,640,360,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Most Popular Color (Skip 10),2026-04-20T12:54:21.029Z,39.91,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Skip Frames -> Llm -> Window -> Aggr -> Sink
+Most Popular Brand+Color (Resize),2026-04-20T12:55:04.359Z,40.56,0,qwen2.5-vl-3b,true,false,640,360,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Most Popular Brand+Color (Skip 10),2026-04-20T12:55:48.811Z,39.70,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Skip Frames -> Llm -> Window -> Aggr -> Sink
+Unique Plates (Resize),2026-04-20T12:56:32.267Z,40.68,0,qwen2.5-vl-3b,true,false,640,360,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Unique Plates (Skip 10),2026-04-20T12:57:14.787Z,39.74,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Skip Frames -> Llm -> Window -> Aggr -> Sink
+Unique Plates (Grayscale),2026-04-20T12:57:59.089Z,41.32,0,qwen2.5-vl-3b,true,true,640,360,,,,,,,,,,Source -> Decode -> Grayscale -> Resize -> Llm -> Window -> Aggr -> Sink
+Repeating Plates (Resize),2026-04-20T12:58:43.877Z,39.97,0,qwen2.5-vl-3b,true,false,640,360,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Window -> Filter -> Aggr -> Sink
+Repeating Plates (Skip 10),2026-04-20T13:00:10.930Z,84.02,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Skip Frames -> Llm -> Window -> Filter -> Aggr -> Sink
+Repeating Plates (Grayscale),2026-04-20T13:06:56.315Z,402.17,0,qwen2.5-vl-3b,true,true,640,360,,,,,,,,,,Source -> Decode -> Grayscale -> Resize -> Llm -> Window -> Filter -> Aggr -> Sink
+Repeated Spikers (Window),2026-04-20T13:25:17.570Z,1097.85,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Frame Batcher -> Llm -> Window -> Filter -> Aggr -> Sink
+Most Popular Brand,2026-04-20T13:31:18.187Z,114.04,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Most Popular Brand,2026-04-20T13:35:39.907Z,131.90,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Most Popular Color,2026-04-20T13:36:35.486Z,52.52,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Most Popular Brand,2026-04-20T13:39:01.091Z,53.37,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Most Popular Brand,2026-04-20T13:45:13.131Z,364.70,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Most Popular Color,2026-04-20T13:46:34.197Z,77.91,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Most Popular Brand and Color,2026-04-20T13:51:48.421Z,311.03,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Most Popular Color (Ford),2026-04-20T13:53:32.988Z,101.29,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Most Popular Brand (Red Cars),2026-04-20T13:57:48.286Z,251.55,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Most Popular Brand,2026-04-20T15:38:46.806Z,6053.95,37,qwen2.5-vl-3b,true,false,,,45.9923076923077,0,0,776.141364144825,2220531.8762162165,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Most Popular Color,2026-04-20T16:26:25.111Z,2854.51,11,qwen2.5-vl-3b,true,false,,,0,26.334999999999997,0,694.030744536345,662589.7518181818,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Most Popular Brand and Color,2026-04-20T16:27:11.976Z,42.80,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Most Popular Color (Ford),2026-04-20T16:27:55.216Z,40.36,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Most Popular Brand (Red Cars),2026-04-20T16:28:39.968Z,40.00,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Unique License Plates (Window),2026-04-20T16:29:22.653Z,39.91,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Repeating License Plates,2026-04-20T16:30:08.179Z,42.67,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Llm -> Window -> Filter -> Aggr -> Sink
+Car Brand (Resize),2026-04-20T16:30:53.012Z,40.01,0,qwen2.5-vl-3b,false,false,640,360,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Sink
+Car Brand (Skip 10),2026-04-20T16:31:37.791Z,39.87,0,qwen2.5-vl-3b,false,false,,,,,,,,,,,,Source -> Decode -> Skip Frames -> Llm -> Sink
+Car Color (Resize),2026-04-20T16:32:22.629Z,40.06,0,qwen2.5-vl-3b,false,false,640,360,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Sink
+Car Color (Skip 10),2026-04-20T16:33:07.406Z,40.00,0,qwen2.5-vl-3b,false,false,,,,,,,,,,,,Source -> Decode -> Skip Frames -> Llm -> Sink
+License Plates (Resize),2026-04-20T16:33:52.166Z,39.96,0,qwen2.5-vl-3b,false,false,640,360,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Sink
+License Plates (Skip 10),2026-04-20T16:34:37.641Z,40.63,0,qwen2.5-vl-3b,false,false,,,,,,,,,,,,Source -> Decode -> Skip Frames -> Llm -> Sink
+License Plates (Grayscale),2026-04-20T16:35:22.288Z,39.87,0,qwen2.5-vl-3b,false,true,640,360,,,,,,,,,,Source -> Decode -> Grayscale -> Resize -> Llm -> Sink
+Specific Plate (Resize),2026-04-20T16:36:07.849Z,40.70,0,qwen2.5-vl-3b,false,false,640,360,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Sink
+Specific Plate (Skip 10),2026-04-20T16:36:52.530Z,39.87,0,qwen2.5-vl-3b,false,false,,,,,,,,,,,,Source -> Decode -> Skip Frames -> Llm -> Sink
+Specific Plate (Grayscale),2026-04-20T16:37:37.873Z,40.52,0,qwen2.5-vl-3b,false,true,640,360,,,,,,,,,,Source -> Decode -> Grayscale -> Resize -> Llm -> Sink
+Color + Plate (Resize),2026-04-20T16:38:20.582Z,39.94,0,qwen2.5-vl-3b,false,false,640,360,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Sink
+Color + Plate (Skip 10),2026-04-20T16:39:03.137Z,39.82,0,qwen2.5-vl-3b,false,false,,,,,,,,,,,,Source -> Decode -> Skip Frames -> Llm -> Sink
+Most Popular Brand (Resize),2026-04-20T16:39:48.257Z,40.03,0,qwen2.5-vl-3b,true,false,640,360,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Most Popular Brand (Skip 10),2026-04-20T16:40:32.589Z,41.54,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Skip Frames -> Llm -> Window -> Aggr -> Sink
+Most Popular Color (Resize),2026-04-20T16:41:15.399Z,39.97,0,qwen2.5-vl-3b,true,false,640,360,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Most Popular Color (Skip 10),2026-04-20T16:41:58.181Z,39.87,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Skip Frames -> Llm -> Window -> Aggr -> Sink
+Most Popular Brand+Color (Resize),2026-04-20T16:42:42.885Z,39.90,0,qwen2.5-vl-3b,true,false,640,360,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Most Popular Brand+Color (Skip 10),2026-04-20T16:43:25.711Z,40.05,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Skip Frames -> Llm -> Window -> Aggr -> Sink
+Unique Plates (Resize),2026-04-20T16:44:09.021Z,40.50,0,qwen2.5-vl-3b,true,false,640,360,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Unique Plates (Skip 10),2026-04-20T16:44:51.582Z,39.85,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Skip Frames -> Llm -> Window -> Aggr -> Sink
+Unique Plates (Grayscale),2026-04-20T16:45:36.789Z,40.43,0,qwen2.5-vl-3b,true,true,640,360,,,,,,,,,,Source -> Decode -> Grayscale -> Resize -> Llm -> Window -> Aggr -> Sink
+Repeating Plates (Resize),2026-04-20T16:46:19.545Z,40.02,0,qwen2.5-vl-3b,true,false,640,360,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Window -> Filter -> Aggr -> Sink
+Repeating Plates (Skip 10),2026-04-20T16:47:02.166Z,39.87,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Skip Frames -> Llm -> Window -> Filter -> Aggr -> Sink
+Repeating Plates (Grayscale),2026-04-20T16:47:46.801Z,39.87,0,qwen2.5-vl-3b,true,true,640,360,,,,,,,,,,Source -> Decode -> Grayscale -> Resize -> Llm -> Window -> Filter -> Aggr -> Sink
+Most Popular Color,2026-04-20T17:53:55.633Z,473.22,4,qwen2.5-vl-3b,true,false,,,0,36.46,0,528.9332223742196,28608.447500000002,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Most Popular Color,2026-04-20T17:53:55.635Z,402.18,2,qwen2.5-vl-3b,true,false,,,0,41.67,0,505.0743842611507,42901.025,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Most Popular Brand and Color,2026-04-20T17:57:24.560Z,202.25,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Most Popular Brand and Color,2026-04-20T17:59:03.500Z,303.12,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Most Popular Color (Ford),2026-04-20T18:00:48.438Z,100.47,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Most Popular Color,2026-04-20T18:00:48.472Z,98.61,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Most Popular Color,2026-04-20T19:36:17.765Z,5618.78,49,qwen2.5-vl-3b,true,false,,,0,40.53083333333333,0,735.5051725451775,1710206.2318367346,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Most Popular Brand and Color,2026-04-20T20:38:20.905Z,3720.48,30,qwen2.5-vl-3b,true,false,,,0,0,0,930.5471240937172,1291477.4183333332,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Most Popular Color,2026-04-20T20:38:20.876Z,9482.00,120,qwen2.5-vl-3b,true,false,,,0,28.56528301886793,0,805.8630660732272,1240176.1897500004,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Most Popular Brand and Color,2026-04-20T20:38:22.495Z,412.49,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Most Popular Brand (Red Cars),2026-04-20T20:38:49.122Z,9476.39,60,qwen2.5-vl-3b,true,false,,,11.114,0,0,812.9417788990397,1489248.1044999997,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Most Popular Brand and Color,2026-04-20T23:49:17.396Z,11199.25,24,qwen2.5-vl-3b,true,false,,,0,0,0,560.9339152653852,896142.38,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Most Popular Color (Ford),2026-04-21T02:55:50.408Z,11188.95,33,qwen2.5-vl-3b,true,false,,,0,2.369090909090909,0,715.7913563132678,1131880.0618181815,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Most Popular Brand (Red Cars),2026-04-21T02:56:45.376Z,50.86,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Unique License Plates (Window),2026-04-21T02:57:29.971Z,41.48,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Repeating License Plates,2026-04-21T02:58:15.880Z,40.83,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Llm -> Window -> Filter -> Aggr -> Sink
+Car Brand (Resize),2026-04-21T02:59:01.383Z,40.48,0,qwen2.5-vl-3b,false,false,640,360,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Sink
+Car Brand (Skip 10),2026-04-21T02:59:44.527Z,40.08,0,qwen2.5-vl-3b,false,false,,,,,,,,,,,,Source -> Decode -> Skip Frames -> Llm -> Sink
+Car Color (Resize),2026-04-21T03:00:29.558Z,41.95,0,qwen2.5-vl-3b,false,false,640,360,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Sink
+Car Color (Skip 10),2026-04-21T03:01:14.367Z,39.78,0,qwen2.5-vl-3b,false,false,,,,,,,,,,,,Source -> Decode -> Skip Frames -> Llm -> Sink
+License Plates (Resize),2026-04-21T03:01:57.155Z,39.68,0,qwen2.5-vl-3b,false,false,640,360,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Sink
+License Plates (Skip 10),2026-04-21T03:02:42.480Z,40.31,0,qwen2.5-vl-3b,false,false,,,,,,,,,,,,Source -> Decode -> Skip Frames -> Llm -> Sink
+License Plates (Grayscale),2026-04-21T03:03:25.480Z,39.90,0,qwen2.5-vl-3b,false,true,640,360,,,,,,,,,,Source -> Decode -> Grayscale -> Resize -> Llm -> Sink
+Specific Plate (Resize),2026-04-21T03:04:10.312Z,39.71,0,qwen2.5-vl-3b,false,false,640,360,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Sink
+Specific Plate (Skip 10),2026-04-21T03:04:55.659Z,42.28,0,qwen2.5-vl-3b,false,false,,,,,,,,,,,,Source -> Decode -> Skip Frames -> Llm -> Sink
+Specific Plate (Grayscale),2026-04-21T03:05:40.467Z,39.78,0,qwen2.5-vl-3b,false,true,640,360,,,,,,,,,,Source -> Decode -> Grayscale -> Resize -> Llm -> Sink
+Color + Plate (Resize),2026-04-21T03:06:25.306Z,39.82,0,qwen2.5-vl-3b,false,false,640,360,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Sink
+Color + Plate (Skip 10),2026-04-21T03:07:10.176Z,39.85,0,qwen2.5-vl-3b,false,false,,,,,,,,,,,,Source -> Decode -> Skip Frames -> Llm -> Sink
+Most Popular Brand (Resize),2026-04-21T03:07:55.690Z,40.39,0,qwen2.5-vl-3b,true,false,640,360,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Most Popular Brand (Skip 10),2026-04-21T03:08:40.468Z,39.75,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Skip Frames -> Llm -> Window -> Aggr -> Sink
+Most Popular Color (Resize),2026-04-21T03:09:25.298Z,39.71,0,qwen2.5-vl-3b,true,false,640,360,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Most Popular Color (Skip 10),2026-04-21T03:10:10.062Z,39.74,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Skip Frames -> Llm -> Window -> Aggr -> Sink
+Most Popular Brand+Color (Resize),2026-04-21T03:10:55.719Z,40.64,0,qwen2.5-vl-3b,true,false,640,360,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Most Popular Brand+Color (Skip 10),2026-04-21T03:11:40.484Z,39.74,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Skip Frames -> Llm -> Window -> Aggr -> Sink
+Unique Plates (Resize),2026-04-21T03:12:25.392Z,39.81,0,qwen2.5-vl-3b,true,false,640,360,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Unique Plates (Skip 10),2026-04-21T03:13:10.171Z,39.76,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Skip Frames -> Llm -> Window -> Aggr -> Sink
+Unique Plates (Grayscale),2026-04-21T03:13:53.118Z,39.83,0,qwen2.5-vl-3b,true,true,640,360,,,,,,,,,,Source -> Decode -> Grayscale -> Resize -> Llm -> Window -> Aggr -> Sink
+Repeating Plates (Resize),2026-04-21T03:14:36.044Z,39.85,0,qwen2.5-vl-3b,true,false,640,360,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Window -> Filter -> Aggr -> Sink
+Repeating Plates (Skip 10),2026-04-21T03:15:18.869Z,39.76,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Skip Frames -> Llm -> Window -> Filter -> Aggr -> Sink
+Repeating Plates (Grayscale),2026-04-21T03:16:03.635Z,39.75,0,qwen2.5-vl-3b,true,true,640,360,,,,,,,,,,Source -> Decode -> Grayscale -> Resize -> Llm -> Window -> Filter -> Aggr -> Sink
+Most Popular Brand (Red Cars),2026-04-21T07:00:38.664Z,2220.16,21,qwen2.5-vl-3b,true,false,,,2.87,0,0,494.42578001381804,811372.1761904762,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Unique License Plates (Window),2026-04-21T07:15:59.540Z,867.98,29,qwen2.5-vl-3b,true,false,,,0,0,53.059999999999995,608.3813069489496,272226.9827586207,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Unique License Plates (Window),2026-04-21T07:16:01.701Z,917.44,29,qwen2.5-vl-3b,true,false,,,0,0,53.059999999999995,608.3813069489496,272226.9827586207,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Repeating License Plates,2026-04-21T07:17:16.734Z,63.16,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Llm -> Window -> Filter -> Aggr -> Sink
+Repeating License Plates,2026-04-21T07:17:16.821Z,74.23,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Llm -> Window -> Filter -> Aggr -> Sink
+Repeating License Plates,2026-04-21T07:21:16.499Z,222.69,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Llm -> Window -> Filter -> Aggr -> Sink
+Repeating License Plates,2026-04-21T09:18:36.599Z,7024.43,33,qwen2.5-vl-3b,true,false,,,,,,498.0000267918534,1277971.6236363635,,,,,Source -> Decode -> Llm -> Window -> Filter -> Aggr -> Sink
+Car Brand (Resize),2026-04-21T09:41:06.498Z,1344.46,0,qwen2.5-vl-3b,false,false,640,360,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Sink
+Car Brand (Resize),2026-04-21T09:41:06.544Z,1345.41,0,qwen2.5-vl-3b,false,false,640,360,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Sink
+Car Brand (Resize),2026-04-21T09:59:04.977Z,657.60,4016,qwen2.5-vl-3b,false,false,480,270,78.53107344632768,0,0,447.2631274900392,263689.6639716132,,,,,Source -> Decode -> Resize -> Llm -> Sink
+Car Brand (Skip 10),2026-04-21T10:10:50.862Z,701.77,4724,qwen2.5-vl-3b,false,false,,,86.3768115942029,0,0,1063.9836399217206,221283.21612616445,,,,,Source -> Decode -> Skip Frames -> Llm -> Sink
+Car Brand (Skip 10),2026-04-21T10:10:50.894Z,702.58,4724,qwen2.5-vl-3b,false,false,,,86.3768115942029,0,0,1063.9836399217206,221283.21612616445,,,,,Source -> Decode -> Skip Frames -> Llm -> Sink
+Car Color (Resize),2026-04-21T10:11:39.906Z,43.47,0,qwen2.5-vl-3b,false,false,480,270,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Sink
+Car Color (Skip 10),2026-04-21T10:12:55.982Z,72.02,0,qwen2.5-vl-3b,false,false,,,,,,,,,,,,Source -> Decode -> Skip Frames -> Llm -> Sink
+Car Color (Resize),2026-04-21T10:30:34.889Z,998.48,3953,qwen2.5-vl-3b,false,false,480,270,0,55.929304446978335,0,214.03475082216033,274093.1531773336,,,,,Source -> Decode -> Resize -> Llm -> Sink
+Car Color (Skip 10),2026-04-21T10:47:11.376Z,992.80,3953,qwen2.5-vl-3b,false,false,,,0,61.74698795180723,0,572.3704386522571,299925.3373109029,,,,,Source -> Decode -> Skip Frames -> Llm -> Sink
+License Plates (Resize),2026-04-21T11:18:28.331Z,1829.73,3526,qwen2.5-vl-3b,false,false,960,540,0,0,52.27629513343799,490.29255530346126,817317.5025496335,,,,,Source -> Decode -> Resize -> Llm -> Sink
+License Plates (Skip 10),2026-04-21T11:45:32.815Z,1620.65,3953,qwen2.5-vl-3b,false,false,,,0,0,62.60069044879172,855.3193565683647,328523.3730837333,,,,,Source -> Decode -> Skip Frames -> Llm -> Sink
+License Plates (Grayscale),2026-04-21T12:25:42.454Z,2405.47,3953,qwen2.5-vl-3b,false,true,960,540,0,0,51.06232294617564,572.5386668353137,1149046.1398406292,,,,,Source -> Decode -> Grayscale -> Resize -> Llm -> Sink
+Specific Plate (Resize),2026-04-21T12:26:55.497Z,52.37,0,qwen2.5-vl-3b,false,false,960,540,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Sink
+Specific Plate (Resize),2026-04-21T12:37:22.899Z,590.49,216,qwen2.5-vl-3b,false,false,960,540,0,0,11.904761904761905,1094.1206018518521,56132.222361111126,,,,,Source -> Decode -> Resize -> Llm -> Sink
+Specific Plate (Skip 10),2026-04-21T12:38:30.028Z,60.86,0,qwen2.5-vl-3b,false,false,,,,,,,,,,,,Source -> Decode -> Skip Frames -> Llm -> Sink
+Specific Plate (Resize),2026-04-21T12:39:37.730Z,52.13,0,qwen2.5-vl-3b,false,false,960,540,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Sink
+Specific Plate (Resize),2026-04-21T13:08:23.155Z,1589.24,3953,qwen2.5-vl-3b,false,false,960,540,0,0,7.719546742209632,365.36199089299265,571315.7919529476,,,,,Source -> Decode -> Resize -> Llm -> Sink
+Specific Plate (Skip 10),2026-04-21T13:17:39.704Z,552.58,3953,qwen2.5-vl-3b,false,false,,,0,0,10.344827586206897,581.5823484848486,805.1146293953977,,,,,Source -> Decode -> Skip Frames -> Llm -> Sink
+Specific Plate (Grayscale),2026-04-21T13:27:16.595Z,571.87,891,qwen2.5-vl-3b,false,true,960,540,0,0,10.778443113772456,530.082738496072,132229.48738496093,,,,,Source -> Decode -> Grayscale -> Resize -> Llm -> Sink
+Color + Plate (Resize),2026-04-21T13:30:12.270Z,169.96,686,qwen2.5-vl-3b,false,false,960,540,0,0,0,131.37820699708456,18766.49905247813,,,,,Source -> Decode -> Resize -> Llm -> Sink
+Color + Plate (Skip 10),2026-04-21T13:33:30.115Z,189.61,15,qwen2.5-vl-3b,false,false,,,0,0,0,8103.639999999999,120877.16533333334,,,,,Source -> Decode -> Skip Frames -> Llm -> Sink
+Specific Plate (Resize),2026-04-21T13:42:46.020Z,50.74,0,qwen2.5-vl-3b,false,false,960,540,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Sink
+Specific Plate (Skip 10),2026-04-21T13:43:32.827Z,42.64,0,qwen2.5-vl-3b,false,false,,,,,,,,,,,,Source -> Decode -> Skip Frames -> Llm -> Sink
+Color + Plate (Skip 10),2026-04-21T14:04:45.457Z,1127.26,4026,qwen2.5-vl-3b,false,false,,,0,0,18.954248366013072,566.253670886076,1215.585881768505,,,,,Source -> Decode -> Skip Frames -> Llm -> Sink
+Most Popular Brand (Resize),2026-04-21T14:43:48.327Z,2337.59,29,qwen2.5-vl-3b,true,false,480,270,42.01625,0,0,252.05039000951456,105623.8296551724,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Most Popular Brand (Skip 10),2026-04-21T17:58:49.517Z,11696.71,21,qwen2.5-vl-3b,true,false,,,62.41166666666666,0,0,241.24710287831869,128649.46,,,,,Source -> Decode -> Skip Frames -> Llm -> Window -> Aggr -> Sink
+Most Popular Color (Resize),2026-04-21T19:55:59.030Z,3167.91,18,qwen2.5-vl-3b,true,false,480,270,0,25.505000000000003,0,337.05881623235075,258499.41388888884,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Most Popular Color (Skip 10),2026-04-21T20:57:47.505Z,3702.15,19,qwen2.5-vl-3b,true,false,,,0,46.878461538461536,0,307.04044089448803,205494.45578947366,,,,,Source -> Decode -> Skip Frames -> Llm -> Window -> Aggr -> Sink
+Most Popular Brand+Color (Resize),2026-04-21T21:09:39.289Z,706.02,1,qwen2.5-vl-3b,true,false,480,270,,,,546.8904078006744,,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Most Popular Brand+Color (Skip 10),2026-04-21T21:37:19.776Z,1654.06,18,qwen2.5-vl-3b,true,false,,,0,0,0,240.3019696511752,355410.2338888889,,,,,Source -> Decode -> Skip Frames -> Llm -> Window -> Aggr -> Sink
+Unique Plates (Resize),2026-04-21T21:38:13.497Z,50.13,0,qwen2.5-vl-3b,true,false,960,540,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Unique Plates (Resize),2026-04-22T00:20:27.603Z,9695.81,21,qwen2.5-vl-3b,true,false,960,540,0,0,19.88714285714286,389.6460537967156,625630.8895238095,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Unique Plates (Skip 10),2026-04-22T03:26:48.534Z,11176.55,15,qwen2.5-vl-3b,true,false,,,0,0,52.06428571428571,164.03534488981958,180666.374,,,,,Source -> Decode -> Skip Frames -> Llm -> Window -> Aggr -> Sink
+Unique Plates (Grayscale),2026-04-22T04:48:40.014Z,4907.29,22,qwen2.5-vl-3b,true,true,960,540,0,0,25.546,410.9602118033021,655388.744090909,,,,,Source -> Decode -> Grayscale -> Resize -> Llm -> Window -> Aggr -> Sink
+Repeating Plates (Resize),2026-04-22T06:24:45.221Z,5761.00,21,qwen2.5-vl-3b,true,false,960,540,,,,489.04404608834824,707415.2071428571,,,,,Source -> Decode -> Resize -> Llm -> Window -> Filter -> Aggr -> Sink
+Repeated Spikers (Window),2026-04-24T22:18:56.987Z,55.77,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Llm -> Window -> Filter -> Aggr -> Sink
+Repeated Spikers (Window),2026-04-24T22:21:26.141Z,147.31,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Llm -> Window -> Filter -> Aggr -> Sink
+Repeated Spikers (Window),2026-04-25T10:54:45.386Z,225.61,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Llm -> Window -> Filter -> Aggr -> Sink
+Repeated Spikers (Window),2026-04-25T10:54:50.464Z,206.24,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Llm -> Window -> Filter -> Aggr -> Sink
+Repeated Spikers (Window),2026-04-25T11:03:50.461Z,516.56,7,qwen2.5-vl-3b,true,false,,,,,,21122.23172187805,63787.12428571429,,,,,Source -> Decode -> Llm -> Window -> Filter -> Aggr -> Sink
+Repeated Spikers (Window),2026-04-25T11:08:20.257Z,253.67,4,qwen2.5-vl-3b,true,false,,,,,,42137.11655139923,63765.8975,,,,,Source -> Decode -> Llm -> Window -> Filter -> Aggr -> Sink
+Repeated Spikers (Window),2026-04-25T11:13:52.084Z,298.77,5,qwen2.5-vl-3b,true,false,,,,,,42153.36766242981,84677.26,,,,,Source -> Decode -> Llm -> Window -> Filter -> Aggr -> Sink
+Repeated Spikers (Window),2026-04-25T11:36:08.083Z,1109.83,3,qwen2.5-vl-3b,true,false,,,,,,42164.95132446289,42561.799999999996,,,,,Source -> Decode -> Llm -> Window -> Filter -> Aggr -> Sink
+Repeated Spikers (Window),2026-04-25T12:04:43.872Z,1567.30,19,qwen2.5-vl-3b,true,false,,,,,,31357.037355260152,1841250.9400000004,,,,,Source -> Decode -> Llm -> Window -> Filter -> Aggr -> Sink
+Repeated Setters (Window),2026-04-25T12:06:00.617Z,51.81,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Llm -> Window -> Filter -> Aggr -> Sink
+Repeated Setters (Window),2026-04-25T12:07:09.177Z,59.46,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Llm -> Window -> Filter -> Aggr -> Sink
+Repeated Blockers (Window),2026-04-25T12:08:12.163Z,60.06,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Llm -> Window -> Filter -> Aggr -> Sink
+Repeated Setters (Window),2026-04-25T12:08:42.843Z,66.24,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Llm -> Window -> Filter -> Aggr -> Sink
+Repeated Diggers (Window),2026-04-25T12:09:23.249Z,68.35,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Llm -> Window -> Filter -> Aggr -> Sink
+Repeated Blockers (Window),2026-04-25T12:10:04.621Z,78.30,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Llm -> Window -> Filter -> Aggr -> Sink
+Motion Category (Window),2026-04-25T12:10:42.421Z,75.89,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Repeated Diggers (Window),2026-04-25T12:11:03.582Z,55.65,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Llm -> Window -> Filter -> Aggr -> Sink
+Motion Category (Window),2026-04-25T12:11:47.240Z,40.63,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Repeated Setters (Window),2026-04-25T12:20:21.498Z,46.55,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Llm -> Window -> Filter -> Aggr -> Sink
+Repeated Setters (Window),2026-04-25T12:21:33.575Z,43.64,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Llm -> Window -> Filter -> Aggr -> Sink
+Repeated Setters (Window),2026-04-25T13:30:47.538Z,43.47,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Llm -> Window -> Filter -> Aggr -> Sink
+Repeated Setters (Window),2026-04-25T14:16:48.437Z,2633.51,8,qwen2.5-vl-3b,true,false,,,,,,30363.940419220344,1645054.5575,,,,,Source -> Decode -> Llm -> Window -> Filter -> Aggr -> Sink
+Repeated Spikers (Window),2026-04-25T14:17:49.968Z,53.57,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Llm -> Window -> Filter -> Aggr -> Sink
+Repeated Spikers (Window),2026-04-25T14:20:03.816Z,50.59,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Llm -> Window -> Filter -> Aggr -> Sink
+Repeated Spikers (Window),2026-04-25T14:22:20.818Z,69.51,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Llm -> Window -> Filter -> Aggr -> Sink
+Repeated Setters (Window),2026-04-25T14:23:08.661Z,44.81,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Llm -> Window -> Filter -> Aggr -> Sink
+Repeated Spikers (Window),2026-04-25T14:33:04.592Z,289.06,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Llm -> Window -> Filter -> Aggr -> Sink
+Repeated Spikers (Window),2026-04-25T14:56:57.825Z,370.32,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Llm -> Window -> Filter -> Aggr -> Sink
+Repeated Setters (Window),2026-04-25T14:57:41.362Z,40.52,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Llm -> Window -> Filter -> Aggr -> Sink
+Repeated Spikers (Window),2026-04-25T15:09:06.079Z,375.32,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Llm -> Window -> Filter -> Aggr -> Sink
+Repeated Setters (Window),2026-04-25T15:09:51.535Z,41.78,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Llm -> Window -> Filter -> Aggr -> Sink
+Repeated Spikers (Window),2026-04-25T15:11:22.474Z,42.52,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Llm -> Window -> Filter -> Aggr -> Sink
+Repeated Setters (Window),2026-04-25T15:12:08.104Z,42.55,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Llm -> Window -> Filter -> Aggr -> Sink
+Repeated Blockers (Window),2026-04-25T15:12:53.802Z,42.50,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Llm -> Window -> Filter -> Aggr -> Sink
+Repeated Spikers (Window),2026-04-25T15:21:29.101Z,354.38,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Llm -> Window -> Filter -> Aggr -> Sink
+Repeated Setters (Window),2026-04-25T15:27:39.549Z,367.14,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Llm -> Window -> Filter -> Aggr -> Sink
+Repeated Blockers (Window),2026-04-25T15:33:48.287Z,365.89,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Llm -> Window -> Filter -> Aggr -> Sink
+Repeated Spikers (Window),2026-04-25T17:31:29.946Z,311.71,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Llm -> Window -> Filter -> Aggr -> Sink
+Spike Count (Window),2026-04-25T18:13:43.460Z,2525.71,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Players Standing (Window),2026-04-25T19:19:53.438Z,3938.35,10,qwen2.5-vl-3b,true,false,,,,,,600.0019156932831,64357.351,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Repeated Spikers (Window),2026-04-25T19:25:20.938Z,300.35,2,qwen2.5-vl-3b,true,false,,,,,,719.7170078754425,19907.114999999998,,,,,Source -> Decode -> Llm -> Window -> Filter -> Aggr -> Sink
+Repeated Setters (Window),2026-04-25T19:26:06.935Z,41.91,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Llm -> Window -> Filter -> Aggr -> Sink
+Repeated Blockers (Window),2026-04-25T19:26:50.629Z,40.59,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Llm -> Window -> Filter -> Aggr -> Sink
+Repeated Diggers (Window),2026-04-25T19:27:37.632Z,42.25,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Llm -> Window -> Filter -> Aggr -> Sink
+Motion Category (Window),2026-04-25T19:28:22.555Z,40.11,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Repeated Setters (Window),2026-04-25T20:38:33.761Z,1279.37,10,qwen2.5-vl-3b,true,false,,,,,,542.9330790042877,50702.098,,,,,Source -> Decode -> Llm -> Window -> Filter -> Aggr -> Sink
+Repeated Blockers (Window),2026-04-25T20:49:35.402Z,255.78,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Llm -> Window -> Filter -> Aggr -> Sink
+Repeated Blockers (Window),2026-04-25T21:25:37.715Z,223.69,10,qwen2.5-vl-3b,true,false,,,,,,519.1244637966156,50574.734,,,,,Source -> Decode -> Llm -> Window -> Filter -> Aggr -> Sink
+Repeated Diggers (Window),2026-04-25T21:29:15.230Z,211.37,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Llm -> Window -> Filter -> Aggr -> Sink
+Repeated Diggers (Window),2026-04-25T21:30:27.614Z,60.45,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Llm -> Window -> Filter -> Aggr -> Sink
+Repeated Diggers (Window),2026-04-25T21:32:02.973Z,43.35,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Llm -> Window -> Filter -> Aggr -> Sink
+Repeated Diggers (Window),2026-04-25T21:34:49.481Z,187.17,13,qwen2.5-vl-3b,true,false,,,,,,541.5137098385737,76170.67538461539,,,,,Source -> Decode -> Llm -> Window -> Filter -> Aggr -> Sink
+Motion Category (Window),2026-04-25T21:38:42.782Z,206.47,10,qwen2.5-vl-3b,true,false,,,,,,649.5837736129761,63433.638,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Players Moving (Window),2026-04-25T21:47:58.529Z,536.29,10,qwen2.5-vl-3b,true,false,,,,,,880.37034034729,89939.95400000001,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Players Standing (Window),2026-04-25T21:57:53.879Z,591.78,10,qwen2.5-vl-3b,true,false,,,,,,1168.579705953598,119801.81099999999,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Players Jumping (Window),2026-04-25T22:08:48.357Z,651.00,10,qwen2.5-vl-3b,true,false,,,,,,1468.8828897476196,150994.936,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Top Actions (Window),2026-04-25T22:20:37.680Z,705.75,10,qwen2.5-vl-3b,true,false,,,,,,1753.2735311985016,187873.234,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Spike Count (Window),2026-04-25T22:21:30.132Z,48.90,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Spike Count (Window),2026-04-26T10:47:08.399Z,40.21,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Spike Count (Window),2026-04-26T10:55:13.977Z,463.57,10,qwen2.5-vl-3b,true,false,,,,,,556.1078810691833,54929.39,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Set Count (Window),2026-04-26T10:56:33.194Z,72.34,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Block Count (Window),2026-04-26T11:05:24.687Z,528.35,10,qwen2.5-vl-3b,true,false,,,,,,886.9333755970001,85845.139,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Set→Spike Events (Window),2026-04-26T11:15:17.631Z,589.34,10,qwen2.5-vl-3b,true,false,,,,,,1145.1313412189484,119075.75299999998,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Set→Block Events (Window),2026-04-26T11:26:03.890Z,642.70,10,qwen2.5-vl-3b,true,false,,,,,,1425.1089942455292,151200.30099999998,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Set Count (Window),2026-04-26T11:38:31.867Z,714.22,21,qwen2.5-vl-3b,true,false,,,,,,1684.364192258744,205557.5942857143,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Dig→Set Events (Window),2026-04-26T11:39:26.167Z,50.83,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Jump→Spike Events (Window),2026-04-26T11:40:22.547Z,51.36,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Dig→Set Events (Window),2026-04-26T11:42:30.066Z,52.05,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Dig→Set Events (Window),2026-04-26T11:44:03.636Z,51.63,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Jump→Spike Events (Window),2026-04-26T11:44:58.210Z,49.38,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Dig→Set Events (Window),2026-04-26T11:46:53.447Z,51.17,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Jump→Spike Events (Window),2026-04-26T11:47:47.067Z,50.67,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Spike Bounding Boxes (Window),2026-04-26T11:48:21.037Z,30.91,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Frame Batcher -> Llm -> Window -> Aggr -> Sink
+Dig→Set Events (Window),2026-04-26T11:48:55.274Z,42.69,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Block Bounding Boxes (Window),2026-04-26T11:50:47.269Z,139.66,7,qwen2.5-vl-3b,true,false,,,,,,573.549975667681,36313.108571428565,,,,,Source -> Decode -> Frame Batcher -> Llm -> Window -> Aggr -> Sink
+Jump→Spike Events (Window),2026-04-26T11:50:47.271Z,109.26,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Set Bounding Boxes (Window),2026-04-26T11:54:57.742Z,246.07,13,qwen2.5-vl-3b,true,false,,,,,,602.4044706271245,75244.04846153846,,,,,Source -> Decode -> Frame Batcher -> Llm -> Window -> Aggr -> Sink
+Spike Bounding Boxes (Window),2026-04-26T11:55:02.772Z,249.05,13,qwen2.5-vl-3b,true,false,,,,,,686.1373415360084,83248.72538461539,,,,,Source -> Decode -> Frame Batcher -> Llm -> Window -> Aggr -> Sink
+Dig→Set Events (Window),2026-04-26T12:41:56.408Z,2804.57,19,qwen2.5-vl-3b,true,false,,,,,,1024.2240717536524,230306.5031578947,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Dig Bounding Boxes (Window),2026-04-26T12:42:04.856Z,2820.08,20,qwen2.5-vl-3b,true,false,,,,,,763.4885209798813,114658.30699999999,,,,,Source -> Decode -> Frame Batcher -> Llm -> Window -> Aggr -> Sink
+Block Bounding Boxes (Window),2026-04-26T12:42:27.757Z,2841.04,20,qwen2.5-vl-3b,true,false,,,,,,738.1391829252243,113850.322,,,,,Source -> Decode -> Frame Batcher -> Llm -> Window -> Aggr -> Sink
+Jump→Spike Events (Window),2026-04-26T12:42:56.785Z,54.02,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Set Bounding Boxes (Window),2026-04-26T12:43:14.990Z,43.32,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Frame Batcher -> Llm -> Window -> Aggr -> Sink
+Spike Bounding Boxes (Window),2026-04-26T12:43:42.068Z,42.11,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Frame Batcher -> Llm -> Window -> Aggr -> Sink
+Dig Bounding Boxes (Window),2026-04-26T12:43:58.480Z,40.52,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Frame Batcher -> Llm -> Window -> Aggr -> Sink
+Block Bounding Boxes (Window),2026-04-26T12:44:25.631Z,40.51,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Frame Batcher -> Llm -> Window -> Aggr -> Sink
+Set Bounding Boxes (Window),2026-04-26T12:45:13.428Z,42.68,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Frame Batcher -> Llm -> Window -> Aggr -> Sink
+Dig Bounding Boxes (Window),2026-04-26T12:45:58.611Z,40.16,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Frame Batcher -> Llm -> Window -> Aggr -> Sink
+Jump→Spike Events (Window),2026-04-26T13:12:02.565Z,453.89,10,qwen2.5-vl-3b,true,false,,,,,,519.3434798717499,48010.414000000004,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Spike Bounding Boxes (Window),2026-04-26T13:20:01.158Z,475.12,10,qwen2.5-vl-3b,true,false,,,,,,587.4841296672821,55332.666999999994,,,,,Source -> Decode -> Frame Batcher -> Llm -> Window -> Aggr -> Sink
+Block Bounding Boxes (Window),2026-04-26T13:28:38.956Z,514.28,10,qwen2.5-vl-3b,true,false,,,,,,797.4438714981079,79560.724,,,,,Source -> Decode -> Frame Batcher -> Llm -> Window -> Aggr -> Sink
+Set Bounding Boxes (Window),2026-04-26T13:38:12.023Z,569.74,10,qwen2.5-vl-3b,true,false,,,,,,1051.7616641521454,110607.68699999999,,,,,Source -> Decode -> Frame Batcher -> Llm -> Window -> Aggr -> Sink
+Dig Bounding Boxes (Window),2026-04-26T13:48:40.370Z,625.05,10,qwen2.5-vl-3b,true,false,,,,,,1347.4135088920593,139877.605,,,,,Source -> Decode -> Frame Batcher -> Llm -> Window -> Aggr -> Sink
+Set Bounding Boxes (Window),2026-04-26T14:03:07.452Z,688.97,20,qwen2.5-vl-3b,true,false,,,,,,1576.597117781639,203773.31800000003,,,,,Source -> Decode -> Frame Batcher -> Llm -> Window -> Aggr -> Sink
+Repeated Blockers (Window),2026-04-26T14:44:21.122Z,315.11,10,qwen2.5-vl-3b,true,false,,,,,,557.0655941963196,54587.365000000005,,,,,Source -> Decode -> Llm -> Window -> Filter -> Aggr -> Sink
+Case Car Brand Generic (R854),2026-04-26T19:04:11.903Z,140.78,191,qwen2.5-vl-3b,false,false,854,480,91.37931034482759,0,0,444.3067539267014,25540.215549738215,,,,,Source -> Decode -> Resize -> Llm -> Sink
+Case Car Color Generic (R480),2026-04-26T19:29:20.685Z,1502.64,4316,qwen2.5-vl-3b,false,false,480,270,0,53.09278350515464,0,315.7243813716411,559009.033211306,,,,,Source -> Decode -> Resize -> Llm -> Sink
+Case Car Brand Generic (R854),2026-04-26T19:52:34.615Z,721.60,3128,qwen2.5-vl-3b,false,false,854,480,85.68807339449542,0,0,369.7544693094628,133062.25234015362,,,,,Source -> Decode -> Resize -> Llm -> Sink
+Case Car Brand Generic (R854),2026-04-26T19:52:34.639Z,2876.22,3128,qwen2.5-vl-3b,false,false,854,480,85.68807339449542,0,0,369.7544693094628,133062.25234015362,,,,,Source -> Decode -> Resize -> Llm -> Sink
+Case Car Color Red (CFred+R480),2026-04-26T19:59:56.954Z,437.55,5309,qwen2.5-vl-3b,false,false,480,270,0,33.333333333333336,0,270.1806976744186,1751.6363929176896,,,,,Source -> Decode -> CV Color Filter -> Resize -> Llm -> Sink
+Case Car Color Red (CFred+R480),2026-04-26T19:59:57.061Z,422.77,5319,qwen2.5-vl-3b,false,false,480,270,0,33.333333333333336,0,270.1806976744186,1749.4455066741893,,,,,Source -> Decode -> CV Color Filter -> Resize -> Llm -> Sink
+Case License Plates (CFwhite native),2026-04-26T20:01:45.951Z,56.82,0,qwen2.5-vl-3b,false,false,,,,,,,,,,,,Source -> Decode -> CV Color Filter -> Llm -> Sink
+Case Car Color Red (CFred+R480),2026-04-26T21:37:41.991Z,6304.86,6090,qwen2.5-vl-3b,false,false,480,270,0,30.88235294117647,0,273.86553956834524,1610.0589014778354,,,,,Source -> Decode -> CV Color Filter -> Resize -> Llm -> Sink
+Case License Plates (CFwhite native),2026-04-26T21:38:14.698Z,5327.92,0,qwen2.5-vl-3b,false,false,,,,,,,,,,,,Source -> Decode -> CV Color Filter -> Llm -> Sink
+Case License Plates (CFwhite native),2026-04-26T21:54:25.626Z,878.68,0,qwen2.5-vl-3b,false,false,,,,,,,,,,,,Source -> Decode -> CV Color Filter -> Llm -> Sink
+Case License Plates (CFwhite native),2026-04-27T08:56:01.504Z,52.20,1,qwen2.5-vl-3b,false,false,,,0,0,0,,,,,,,Source -> Decode -> CV Color Filter -> Llm -> Sink
+Case License Plates (CFwhite native),2026-04-27T09:37:16.298Z,2410.88,4703,qwen2.5-vl-3b,false,false,,,0,0,62.015018773466835,486.16796015591217,1017953.6326557489,,,,,Source -> Decode -> CV Color Filter -> Llm -> Sink
+Case Color+Plate Red (CFred native),2026-04-27T09:56:07.467Z,414.83,3953,qwen2.5-vl-3b,false,false,,,0,0,66.10169491525424,568.1983783783786,741.2287452567665,,,,,Source -> Decode -> CV Color Filter -> Llm -> Sink
+Case Repeated Spikers (G+R854),2026-04-27T10:03:28.710Z,362.31,10,qwen2.5-vl-3b,true,true,854,480,,,,343.5343825817108,30876.786,,,,,Source -> Decode -> Grayscale -> Resize -> Llm -> Window -> Filter -> Aggr -> Sink
+Case Motion Category (R480),2026-04-27T10:06:05.906Z,111.27,10,qwen2.5-vl-3b,true,false,480,270,,,,270.25112748146057,23027.727999999996,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Case Spike Bbox (R960+B3),2026-04-27T10:09:08.460Z,147.87,10,qwen2.5-vl-3b,true,false,960,540,,,,351.9893789291382,31451.757999999994,,,,,Source -> Decode -> Resize -> Frame Batcher -> Llm -> Window -> Aggr -> Sink
+Car Brand Toyota,2026-04-27T12:00:59.065Z,43.78,0,qwen2.5-vl-3b,false,false,,,,,,,,,,,,Source -> Decode -> Llm -> Sink
+Car Brand Toyota,2026-04-27T12:52:25.528Z,2459.64,3953,qwen2.5-vl-3b,false,false,,,22.638788752703675,0,0,481.39612446243405,788001.1774905119,,,,,Source -> Decode -> Llm -> Sink
+Car Color Grey,2026-04-27T13:26:18.878Z,2002.34,3953,qwen2.5-vl-3b,false,false,,,0,16.305587229190422,0,485.6787503162165,799935.7134556058,,,,,Source -> Decode -> Llm -> Sink
+Car Color Blue,2026-04-27T14:31:20.160Z,3867.68,3953,qwen2.5-vl-3b,false,false,,,0,1.0832383124287344,0,500.8394232228692,837822.6019858338,,,,,Source -> Decode -> Llm -> Sink
+Repeated Spikers (Window),2026-04-27T15:42:50.665Z,186.24,10,qwen2.5-vl-3b,true,false,,,,,,604.6942889690399,60074.28300000001,,,,,Source -> Decode -> Llm -> Window -> Filter -> Aggr -> Sink
+Repeated Setters (Window),2026-04-27T15:45:55.301Z,180.95,10,qwen2.5-vl-3b,true,false,,,,,,543.5770857334137,53140.451,,,,,Source -> Decode -> Llm -> Window -> Filter -> Aggr -> Sink
+Repeated Blockers (Window),2026-04-27T15:49:11.374Z,192.51,10,qwen2.5-vl-3b,true,false,,,,,,561.3111388683319,54376.199,,,,,Source -> Decode -> Llm -> Window -> Filter -> Aggr -> Sink
+Repeated Diggers (Window),2026-04-27T15:52:19.177Z,184.34,10,qwen2.5-vl-3b,true,false,,,,,,556.3449084758759,54658.971,,,,,Source -> Decode -> Llm -> Window -> Filter -> Aggr -> Sink
+Motion Category (Window),2026-04-27T15:53:28.348Z,65.58,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Repeated Setters (Window),2026-04-27T17:38:08.885Z,186.47,10,qwen2.5-vl-3b,true,false,,,,,,563.7629425525665,55975.123999999996,,,,,Source -> Decode -> Llm -> Window -> Filter -> Aggr -> Sink
+Repeated Blockers (Window),2026-04-27T17:41:25.200Z,192.60,10,qwen2.5-vl-3b,true,false,,,,,,564.0407288074493,55793.335999999996,,,,,Source -> Decode -> Llm -> Window -> Filter -> Aggr -> Sink
+Repeated Diggers (Window),2026-04-27T17:44:48.169Z,199.75,10,qwen2.5-vl-3b,true,false,,,,,,574.1234588623047,55784.549,,,,,Source -> Decode -> Llm -> Window -> Filter -> Aggr -> Sink
+Motion Category (Window),2026-04-27T17:50:51.366Z,176.35,10,qwen2.5-vl-3b,true,false,,,,,,564.5519399642944,55827.819,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Players Moving (Window),2026-04-27T17:54:03.847Z,188.76,10,qwen2.5-vl-3b,true,false,,,,,,549.5427811145782,53350.734,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Players Standing (Window),2026-04-27T17:57:10.441Z,183.26,10,qwen2.5-vl-3b,true,false,,,,,,541.529381275177,53445.376000000004,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Players Jumping (Window),2026-04-27T18:00:18.019Z,184.32,10,qwen2.5-vl-3b,true,false,,,,,,559.2672109603882,55323.505999999994,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Top Actions (Window),2026-04-27T18:01:26.008Z,64.41,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Spike Count (Window),2026-04-27T18:31:18.869Z,174.43,10,qwen2.5-vl-3b,true,false,,,,,,549.9327301979065,55813.53400000001,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Set Count (Window),2026-04-27T18:34:26.271Z,183.91,10,qwen2.5-vl-3b,true,false,,,,,,547.2800517082214,52919.621,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Block Count (Window),2026-04-27T18:37:29.547Z,179.89,10,qwen2.5-vl-3b,true,false,,,,,,546.0514950752258,53904.17,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Set→Spike Events (Window),2026-04-27T18:40:36.154Z,183.17,10,qwen2.5-vl-3b,true,false,,,,,,552.6632392406464,54375.817,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Set→Block Events (Window),2026-04-27T18:43:38.255Z,178.76,10,qwen2.5-vl-3b,true,false,,,,,,539.3845891952515,52891.417,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Dig→Set Events (Window),2026-04-27T18:46:42.673Z,181.05,10,qwen2.5-vl-3b,true,false,,,,,,542.3164570331573,52823.246999999996,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Jump→Spike Events (Window),2026-04-27T18:49:47.175Z,181.12,10,qwen2.5-vl-3b,true,false,,,,,,545.6909477710724,53485.72899999999,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Spike Bounding Boxes (Window),2026-04-27T18:55:15.095Z,66.33,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Frame Batcher -> Llm -> Window -> Aggr -> Sink
+Block Bounding Boxes (Window),2026-04-27T18:56:11.248Z,51.13,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Frame Batcher -> Llm -> Window -> Aggr -> Sink
+Set Bounding Boxes (Window),2026-04-27T18:57:09.722Z,53.44,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Frame Batcher -> Llm -> Window -> Aggr -> Sink
+Dig Bounding Boxes (Window),2026-04-27T18:58:07.945Z,53.20,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Frame Batcher -> Llm -> Window -> Aggr -> Sink
+Spike Bounding Boxes (Window),2026-04-27T19:01:04.400Z,156.43,10,qwen2.5-vl-3b,true,false,,,,,,471.77757382392883,42898.182,,,,,Source -> Decode -> Frame Batcher -> Llm -> Window -> Aggr -> Sink
+Block Bounding Boxes (Window),2026-04-27T19:03:55.901Z,167.72,10,qwen2.5-vl-3b,true,false,,,,,,463.35383772850037,42690.779,,,,,Source -> Decode -> Frame Batcher -> Llm -> Window -> Aggr -> Sink
+Set Bounding Boxes (Window),2026-04-27T19:06:50.189Z,170.59,10,qwen2.5-vl-3b,true,false,,,,,,479.0515351295471,40356.11,,,,,Source -> Decode -> Frame Batcher -> Llm -> Window -> Aggr -> Sink
+Dig Bounding Boxes (Window),2026-04-27T19:09:38.233Z,164.62,10,qwen2.5-vl-3b,true,false,,,,,,472.9806327819824,44337.381,,,,,Source -> Decode -> Frame Batcher -> Llm -> Window -> Aggr -> Sink
+Optimized Repeated Spikers (R854),2026-04-27T19:12:25.569Z,163.87,10,qwen2.5-vl-3b,true,false,854,480,,,,452.73921608924866,45348.235,,,,,Source -> Decode -> Resize -> Llm -> Window -> Filter -> Aggr -> Sink
+Optimized Motion Category (R480),2026-04-27T19:14:41.872Z,132.81,10,qwen2.5-vl-3b,true,false,480,270,,,,275.93931674957275,23809.244,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Optimized Spike Bbox (R960+B3),2026-04-27T19:36:47.225Z,1321.58,54,qwen2.5-vl-3b,false,false,960,540,,,,1492.9616666666668,11958.970555555557,,,,,Source -> Decode -> Resize -> Frame Batcher -> Llm -> Sink
+Top Actions (Window),2026-04-27T19:45:40.549Z,182.10,10,qwen2.5-vl-3b,true,false,,,,,,559.5377612113953,54245.757000000005,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Optimized Spike Bbox (R960+B3),2026-04-27T19:48:05.454Z,141.25,205,qwen2.5-vl-3b,false,false,960,540,,,,1013.2935294117648,23411.06170731707,,,,,Source -> Decode -> Resize -> Frame Batcher -> Llm -> Sink
+Optimized Car Brand Generic (R854),2026-04-27T20:13:00.908Z,1461.26,3953,qwen2.5-vl-3b,false,false,854,480,83.34534967555877,0,0,344.13360485707074,521056.7642448777,,,,,Source -> Decode -> Resize -> Llm -> Sink
+Optimized Car Color Generic (R480),2026-04-27T20:29:14.154Z,969.15,3953,qwen2.5-vl-3b,false,false,480,,270,,0,86.0106248419,0,216.666129522,262104.15850961546,,,,,Source -> Decode -> Resize -> Llm -> Sink
+Optimized Car Color Red (CFred+R480),2026-04-27T20:37:12.402Z,473.94,3953,qwen2.5-vl-3b,false,false,480,,270,,0,99.3928661776,0,223.766746988,364.7241683569971,,,,,Source -> Decode -> CV Color Filter -> Resize -> Llm -> Sink
+Optimized License Plates (CFwhite native),2026-04-27T21:10:40.669Z,2004.61,3953,qwen2.5-vl-3b,false,false,,,0,0,60.898379970544916,486.2895990747861,789653.1993093862,,,,,Source -> Decode -> CV Color Filter -> Llm -> Sink
+Optimized Color+Plate Red (CFred native),2026-04-27T21:18:22.186Z,457.42,3953,qwen2.5-vl-3b,false,false,,,,,0,0,99.5952441184,571.167283951,751.3021844906237,,,,,Source -> Decode -> CV Color Filter -> Llm -> Sink
+Specific Plate: QRF8G17,2026-04-27T23:22:11.262Z,70.55,0,qwen2.5-vl-3b,false,false,,,,,,,,,,,,Source -> Decode -> Llm -> Sink
+Specific Plate: QRF8G17,2026-04-27T23:55:31.832Z,1969.85,3953,qwen2.5-vl-3b,false,false,,,0,0,15.864022662889518,474.8655350366819,755191.5909764742,,,,,Source -> Decode -> Llm -> Sink
+Optimized Car Brand Ford (R854),2026-04-28T22:10:58.141Z,56.80,0,qwen2.5-vl-3b,false,false,854,480,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Sink
+Optimized Car Brand Renault (R854),2026-04-28T22:12:12.480Z,67.80,0,qwen2.5-vl-3b,false,false,854,480,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Sink
+Optimized Car Brand Ford (R854),2026-04-28T22:13:53.302Z,69.20,0,qwen2.5-vl-3b,false,false,854,480,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Sink
+Optimized Car Brand Ford (R854),2026-04-28T22:38:32.187Z,1363.91,3953,qwen2.5-vl-3b,false,false,854,480,4.109589041095891,0,0,319.7420490766504,471753.28398431616,,,,,Source -> Decode -> Resize -> Llm -> Sink
+Optimized Car Brand Renault (R854),2026-04-28T23:01:42.422Z,1386.40,3953,qwen2.5-vl-3b,false,false,854,480,29.56020187454939,0,0,323.92342271692326,486517.33607892686,,,,,Source -> Decode -> Resize -> Llm -> Sink
+Optimized Car Brand Toyota (R854),2026-04-28T23:25:02.509Z,1396.29,3953,qwen2.5-vl-3b,false,false,854,480,22.27829848594088,0,0,326.47225145459146,495472.40530230186,,,,,Source -> Decode -> Resize -> Llm -> Sink
+Optimized Car Color Grey (CFgrey+R480),2026-04-28T23:26:09.949Z,63.73,0,qwen2.5-vl-3b,false,false,480,270,,,,,,,,,,Source -> Decode -> CV Color Filter -> Resize -> Llm -> Sink
+Optimized Car Color White (CFwhite+R480),2026-04-28T23:27:05.501Z,52.68,0,qwen2.5-vl-3b,false,false,480,270,,,,,,,,,,Source -> Decode -> CV Color Filter -> Resize -> Llm -> Sink
+Optimized Car Color Blue (CFblue+R480),2026-04-28T23:27:59.046Z,50.65,0,qwen2.5-vl-3b,false,false,480,270,,,,,,,,,,Source -> Decode -> CV Color Filter -> Resize -> Llm -> Sink
+Optimized License Plate Recognition (Native),2026-04-28T23:28:54.570Z,52.68,0,qwen2.5-vl-3b,false,false,,,,,,,,,,,,Source -> Decode -> Llm -> Sink
+Optimized Specific Plate QRF8G17 (Native),2026-04-28T23:29:49.278Z,51.88,0,qwen2.5-vl-3b,false,false,,,,,,,,,,,,Source -> Decode -> Llm -> Sink
+Optimized Most Popular Brand (R854),2026-04-28T23:30:45.490Z,51.46,0,qwen2.5-vl-3b,true,false,854,480,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Optimized Most Popular Color (R480),2026-04-28T23:31:40.381Z,50.11,0,qwen2.5-vl-3b,true,false,480,270,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Optimized Most Popular Brand+Color (R854),2026-04-28T23:32:38.689Z,53.29,0,qwen2.5-vl-3b,true,false,854,480,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Optimized Most Popular Color Ford (R854),2026-04-28T23:33:35.720Z,52.26,0,qwen2.5-vl-3b,true,false,854,480,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Optimized Most Popular Brand Red (CFred+R854),2026-04-28T23:34:32.209Z,51.69,0,qwen2.5-vl-3b,true,false,854,480,,,,,,,,,,Source -> Decode -> CV Color Filter -> Resize -> Llm -> Window -> Aggr -> Sink
+Optimized Unique Plates (Native),2026-04-28T23:35:28.049Z,51.05,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Optimized Repeating Plates (Native),2026-04-28T23:36:21.130Z,50.27,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Llm -> Window -> Filter -> Aggr -> Sink
+Optimized Car Color Grey (CFgrey+R480),2026-04-29T02:56:26.303Z,941.12,3953,qwen2.5-vl-3b,false,false,480,270,0,16.200798630918424,0,209.2183274291493,256375.5762838354,,,,,Source -> Decode -> CV Color Filter -> Resize -> Llm -> Sink
+Optimized Car Color White (CFwhite+R480),2026-04-29T03:11:44.539Z,913.81,3953,qwen2.5-vl-3b,false,false,480,270,0,22.228739002932553,0,204.03010023130292,232205.80426511535,,,,,Source -> Decode -> CV Color Filter -> Resize -> Llm -> Sink
+Optimized Car Color Blue (CFblue+R480),2026-04-29T03:19:08.682Z,440.51,3953,qwen2.5-vl-3b,false,false,480,,270,,0,98.988110296,0,222.650821727,813.8298606536614,,,,,Source -> Decode -> CV Color Filter -> Resize -> Llm -> Sink
+Optimized License Plate Recognition (Native),2026-04-29T03:52:41.593Z,2009.15,3953,qwen2.5-vl-3b,false,false,,,0,0,60.05665722379604,483.5554363774358,789138.4273210219,,,,,Source -> Decode -> Llm -> Sink
+Optimized Specific Plate QRF8G17 (Native),2026-04-29T04:25:41.767Z,1976.67,3953,qwen2.5-vl-3b,false,false,,,0,0,15.864022662889518,475.1727928155839,784173.3235517316,,,,,Source -> Decode -> Llm -> Sink
+Optimized Most Popular Brand (R854),2026-04-29T04:54:05.355Z,1699.87,19,qwen2.5-vl-3b,true,false,854,480,32.95375,0,0,319.180454810963,483624.3610526316,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Optimized Most Popular Color (R480),2026-04-29T05:14:00.134Z,1191.19,19,qwen2.5-vl-3b,true,false,480,270,0,37.05285714285714,0,214.2886374830868,275595.00157894735,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Optimized Most Popular Brand+Color (R854),2026-04-29T05:53:01.976Z,1798.21,21,qwen2.5-vl-3b,true,false,854,480,0,0,0,348.59903287561883,494060.7114285715,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Optimized Most Popular Color Ford (R854),2026-04-29T06:22:33.546Z,1767.93,16,qwen2.5-vl-3b,true,false,854,480,0,11.346666666666666,0,339.0294557398191,493333.74375,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Optimized Most Popular Brand Red (CFred+R854),2026-04-29T06:35:03.342Z,746.21,13,qwen2.5-vl-3b,true,false,854,480,0,0,0,6.829093445291285,28304.024615384616,,,,,Source -> Decode -> CV Color Filter -> Resize -> Llm -> Window -> Aggr -> Sink
+Optimized Unique Plates (Native),2026-04-29T07:14:04.122Z,2337.24,25,qwen2.5-vl-3b,true,false,,,0,0,35.964615384615385,490.6819414977873,823713.8584,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Optimized Repeating Plates (Native),2026-04-29T07:53:03.662Z,2335.90,22,qwen2.5-vl-3b,true,false,,,0,0,56.586,484.8817716874022,819968.8463636364,,,,,Source -> Decode -> Llm -> Window -> Filter -> Aggr -> Sink
+Optimized Repeated Spikers (G+R854),2026-04-29T08:17:58.517Z,139.02,10,qwen2.5-vl-3b,true,true,854,480,,,,346.76652431488037,31158.989,,,,,Source -> Decode -> Grayscale -> Resize -> Llm -> Window -> Filter -> Aggr -> Sink
+Optimized Repeated Setters (G+R854),2026-04-29T08:20:12.139Z,130.04,10,qwen2.5-vl-3b,true,true,854,480,,,,291.6963994503021,24756.226,,,,,Source -> Decode -> Grayscale -> Resize -> Llm -> Window -> Filter -> Aggr -> Sink
+Optimized Repeated Blockers (G+R854),2026-04-29T08:21:20.645Z,64.84,0,qwen2.5-vl-3b,true,true,854,480,,,,,,,,,,Source -> Decode -> Grayscale -> Resize -> Llm -> Window -> Filter -> Aggr -> Sink
+Optimized Repeated Diggers (G+R854),2026-04-29T08:22:16.929Z,53.14,0,qwen2.5-vl-3b,true,true,854,480,,,,,,,,,,Source -> Decode -> Grayscale -> Resize -> Llm -> Window -> Filter -> Aggr -> Sink
+Optimized Motion Category (R480),2026-04-29T08:23:13.900Z,52.14,0,qwen2.5-vl-3b,true,false,480,270,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Optimized Players Moving (R480),2026-04-29T08:24:11.773Z,52.84,0,qwen2.5-vl-3b,true,false,480,270,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Optimized Players Standing (R480),2026-04-29T08:25:09.952Z,53.08,0,qwen2.5-vl-3b,true,false,480,270,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Optimized Players Jumping (R480),2026-04-29T08:26:06.174Z,51.20,0,qwen2.5-vl-3b,true,false,480,270,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Optimized Top Actions (R854),2026-04-29T08:26:59.658Z,50.37,0,qwen2.5-vl-3b,true,false,854,480,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Optimized Spike Count (R854),2026-04-29T08:27:57.401Z,52.71,0,qwen2.5-vl-3b,true,false,854,480,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Optimized Set Count (R854),2026-04-29T08:28:53.499Z,52.94,0,qwen2.5-vl-3b,true,false,854,480,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Optimized Block Count (R854),2026-04-29T08:29:47.747Z,51.15,0,qwen2.5-vl-3b,true,false,854,480,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Optimized Set->Spike Events (R854),2026-04-29T08:30:41.397Z,50.55,0,qwen2.5-vl-3b,true,false,854,480,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Optimized Set->Block Events (R854),2026-04-29T08:31:34.483Z,49.96,0,qwen2.5-vl-3b,true,false,854,480,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Optimized Dig->Set Events (R854),2026-04-29T08:32:29.698Z,52.12,0,qwen2.5-vl-3b,true,false,854,480,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Optimized Jump->Spike Events (R854),2026-04-29T08:33:26.783Z,52.04,0,qwen2.5-vl-3b,true,false,854,480,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Optimized Spike Bounding Boxes (R960+B3+W20),2026-04-29T08:34:23.168Z,51.35,0,qwen2.5-vl-3b,true,false,960,540,,,,,,,,,,Source -> Decode -> Resize -> Frame Batcher -> Llm -> Window -> Aggr -> Sink
+Optimized Block Bounding Boxes (R960+B3+W20),2026-04-29T08:35:19.592Z,51.38,0,qwen2.5-vl-3b,true,false,960,540,,,,,,,,,,Source -> Decode -> Resize -> Frame Batcher -> Llm -> Window -> Aggr -> Sink
+Optimized Repeated Blockers (G+R854),2026-04-29T08:37:43.729Z,119.98,10,qwen2.5-vl-3b,true,true,854,480,,,,285.3091561794281,22855.247000000003,,,,,Source -> Decode -> Grayscale -> Resize -> Llm -> Window -> Filter -> Aggr -> Sink
+Optimized Repeated Diggers (G+R854),2026-04-29T08:40:01.960Z,134.67,10,qwen2.5-vl-3b,true,true,854,480,,,,313.27372431755066,27118.358999999997,,,,,Source -> Decode -> Grayscale -> Resize -> Llm -> Window -> Filter -> Aggr -> Sink
+Optimized Motion Category (R480),2026-04-29T08:42:16.658Z,131.06,10,qwen2.5-vl-3b,true,false,480,270,,,,286.8684792518616,23456.746999999996,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Optimized Players Moving (R480),2026-04-29T08:44:13.703Z,113.62,10,qwen2.5-vl-3b,true,false,480,270,,,,214.62504625320435,17021.066,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Optimized Players Standing (R480),2026-04-29T08:46:12.883Z,115.74,10,qwen2.5-vl-3b,true,false,480,270,,,,210.97278714179993,15659.994,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Optimized Players Jumping (R480),2026-04-29T08:48:14.859Z,118.53,10,qwen2.5-vl-3b,true,false,480,270,,,,226.9771158695221,16768.634,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Optimized Top Actions (R854),2026-04-29T08:50:51.188Z,151.01,10,qwen2.5-vl-3b,true,false,854,480,,,,397.2469210624695,36381.208,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Optimized Spike Count (R854),2026-04-29T08:51:56.645Z,61.86,0,qwen2.5-vl-3b,true,false,854,480,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Optimized Set Count (R854),2026-04-29T08:52:52.642Z,52.89,0,qwen2.5-vl-3b,true,false,854,480,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Optimized Block Count (R854),2026-04-29T08:53:50.315Z,52.64,0,qwen2.5-vl-3b,true,false,854,480,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Optimized Set->Spike Events (R854),2026-04-29T08:54:48.643Z,53.42,0,qwen2.5-vl-3b,true,false,854,480,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Optimized Set->Block Events (R854),2026-04-29T08:55:46.004Z,52.32,0,qwen2.5-vl-3b,true,false,854,480,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Optimized Dig->Set Events (R854),2026-04-29T08:56:42.988Z,51.95,0,qwen2.5-vl-3b,true,false,854,480,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Optimized Jump->Spike Events (R854),2026-04-29T08:57:38.625Z,50.59,0,qwen2.5-vl-3b,true,false,854,480,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Optimized Spike Bounding Boxes (R960+B3+W20),2026-04-29T08:58:35.323Z,53.58,0,qwen2.5-vl-3b,true,false,960,540,,,,,,,,,,Source -> Decode -> Resize -> Frame Batcher -> Llm -> Window -> Aggr -> Sink
+Optimized Block Bounding Boxes (R960+B3+W20),2026-04-29T08:59:30.615Z,52.20,0,qwen2.5-vl-3b,true,false,960,540,,,,,,,,,,Source -> Decode -> Resize -> Frame Batcher -> Llm -> Window -> Aggr -> Sink
+Optimized Set Bounding Boxes (R960+B3+W20),2026-04-29T09:00:25.477Z,51.76,0,qwen2.5-vl-3b,true,false,960,540,,,,,,,,,,Source -> Decode -> Resize -> Frame Batcher -> Llm -> Window -> Aggr -> Sink
+Optimized Dig Bounding Boxes (R960+B3+W20),2026-04-29T09:01:19.168Z,50.56,0,qwen2.5-vl-3b,true,false,960,540,,,,,,,,,,Source -> Decode -> Resize -> Frame Batcher -> Llm -> Window -> Aggr -> Sink
+Optimized Spike Count (R854),2026-04-29T09:32:05.393Z,131.91,10,qwen2.5-vl-3b,true,false,854,480,,,,330.2932012081146,28617.234999999997,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Optimized Set Count (R854),2026-04-29T09:34:24.576Z,135.25,10,qwen2.5-vl-3b,true,false,854,480,,,,321.8516683578491,27835.377999999997,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Optimized Block Count (R854),2026-04-29T09:36:45.603Z,137.63,10,qwen2.5-vl-3b,true,false,854,480,,,,323.2516551017761,27100.548,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Optimized Set->Spike Events (R854),2026-04-29T09:39:06.433Z,137.16,10,qwen2.5-vl-3b,true,false,854,480,,,,325.7165825366974,28480.182,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Optimized Set->Block Events (R854),2026-04-29T09:41:27.246Z,137.32,10,qwen2.5-vl-3b,true,false,854,480,,,,318.2730972766876,28139.647999999997,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Optimized Dig->Set Events (R854),2026-04-29T09:43:46.196Z,135.52,10,qwen2.5-vl-3b,true,false,854,480,,,,317.37346053123474,27160.388,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Optimized Jump->Spike Events (R854),2026-04-29T09:46:08.708Z,139.06,10,qwen2.5-vl-3b,true,false,854,480,,,,328.32818031311035,29203.114,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Optimized Spike Bounding Boxes (R960+B3+W20),2026-04-29T09:47:20.092Z,67.92,0,qwen2.5-vl-3b,true,false,960,540,,,,,,,,,,Source -> Decode -> Resize -> Frame Batcher -> Llm -> Window -> Aggr -> Sink
+Optimized Block Bounding Boxes (R960+B3+W20),2026-04-29T09:48:19.123Z,54.00,0,qwen2.5-vl-3b,true,false,960,540,,,,,,,,,,Source -> Decode -> Resize -> Frame Batcher -> Llm -> Window -> Aggr -> Sink
+Optimized Set Bounding Boxes (R960+B3+W20),2026-04-29T09:49:16.739Z,52.57,0,qwen2.5-vl-3b,true,false,960,540,,,,,,,,,,Source -> Decode -> Resize -> Frame Batcher -> Llm -> Window -> Aggr -> Sink
+Optimized Dig Bounding Boxes (R960+B3+W20),2026-04-29T09:50:11.839Z,51.99,0,qwen2.5-vl-3b,true,false,960,540,,,,,,,,,,Source -> Decode -> Resize -> Frame Batcher -> Llm -> Window -> Aggr -> Sink
+Optimized Spike Bounding Boxes (R960+B3+W20),2026-04-29T09:56:09.031Z,136.16,10,qwen2.5-vl-3b,true,false,960,540,,,,356.28888487815857,31329.216000000004,,,,,Source -> Decode -> Resize -> Frame Batcher -> Llm -> Window -> Aggr -> Sink
+Optimized Block Bounding Boxes (R960+B3+W20),2026-04-29T09:58:26.918Z,134.56,10,qwen2.5-vl-3b,true,false,960,540,,,,305.3730857372284,26933.909000000003,,,,,Source -> Decode -> Resize -> Frame Batcher -> Llm -> Window -> Aggr -> Sink
+Optimized Set Bounding Boxes (R960+B3+W20),2026-04-29T10:00:56.645Z,146.44,10,qwen2.5-vl-3b,true,false,960,540,,,,331.717871427536,29246.678000000004,,,,,Source -> Decode -> Resize -> Frame Batcher -> Llm -> Window -> Aggr -> Sink
+Optimized Dig Bounding Boxes (R960+B3+W20),2026-04-29T10:03:38.202Z,158.25,0,qwen2.5-vl-3b,true,false,960,540,,,,,,,,,,Source -> Decode -> Resize -> Frame Batcher -> Llm -> Window -> Aggr -> Sink
+Optimized Dig Bounding Boxes (R960+B3+W20),2026-04-29T10:42:03.559Z,465.42,0,qwen2.5-vl-3b,true,false,960,540,,,,,,,,,,Source -> Decode -> Resize -> Frame Batcher -> Llm -> Window -> Aggr -> Sink
+Optimized Dig Bounding Boxes (R960+B3+W20),2026-04-29T10:43:44.269Z,78.65,0,qwen2.5-vl-3b,true,false,960,540,,,,,,,,,,Source -> Decode -> Resize -> Frame Batcher -> Llm -> Window -> Aggr -> Sink
+Optimized Dig Bounding Boxes (R960+B3+W20),2026-04-29T10:46:26.901Z,126.66,10,qwen2.5-vl-3b,true,false,960,540,,,,310.9294366836548,29548.273999999998,,,,,Source -> Decode -> Resize -> Frame Batcher -> Llm -> Window -> Aggr -> Sink
+Repeated Spikers (Window),2026-04-30T20:08:26.030Z,37.43,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Llm -> Window -> Filter -> Aggr -> Sink
+Repeated Spikers (Window),2026-04-30T20:09:49.038Z,74.85,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Llm -> Window -> Filter -> Aggr -> Sink
+Repeated Setters (Window),2026-04-30T21:15:28.888Z,3936.79,324,qwen2.5-vl-3b,true,false,,,,,,591.4730175409788,1735369.8392592606,,,,,Source -> Decode -> Llm -> Window -> Filter -> Aggr -> Sink
+Repeated Blockers (Window),2026-04-30T21:19:30.522Z,236.47,12,qwen2.5-vl-3b,true,false,,,,,,619.277169307073,70614.43583333334,,,,,Source -> Decode -> Llm -> Window -> Filter -> Aggr -> Sink
+Repeated Spikers (Window),2026-04-30T21:21:49.268Z,59.32,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Llm -> Window -> Filter -> Aggr -> Sink
+Repeated Spikers (Window),2026-04-30T22:29:03.484Z,2522.98,200,qwen2.5-vl-3b,true,false,,,,,,602.7326872348785,1022197.4410999999,,,,,Source -> Decode -> Llm -> Window -> Filter -> Aggr -> Sink
+Repeated Blockers (Window),2026-04-30T23:11:09.075Z,2464.68,200,qwen2.5-vl-3b,true,false,,,,,,588.9340789914131,1018896.6990500004,,,,,Source -> Decode -> Llm -> Window -> Filter -> Aggr -> Sink
+Repeated Diggers (Window),2026-04-30T23:52:46.915Z,2494.15,200,qwen2.5-vl-3b,true,false,,,,,,597.1891181468964,1011821.9983500004,,,,,Source -> Decode -> Llm -> Window -> Filter -> Aggr -> Sink
+Motion Category (Window),2026-05-01T00:35:35.826Z,2565.19,200,qwen2.5-vl-3b,true,false,,,,,,614.6916634440422,1031079.2595,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Players Moving (Window),2026-05-01T01:17:15.196Z,2495.90,200,qwen2.5-vl-3b,true,false,,,,,,598.2300894856453,987714.6696499999,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Players Standing (Window),2026-05-01T01:58:37.780Z,2479.04,200,qwen2.5-vl-3b,true,false,,,,,,593.7772552967072,988550.3442500005,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Players Jumping (Window),2026-05-01T01:59:44.958Z,63.52,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Top Actions (Window),2026-05-01T02:00:41.734Z,53.96,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Spike Count (Window),2026-05-01T02:01:35.480Z,51.06,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Set Count (Window),2026-05-01T02:02:28.090Z,49.89,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Block Count (Window),2026-05-01T02:03:23.093Z,52.21,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Players Jumping (Window),2026-05-01T03:48:32.425Z,2471.90,200,qwen2.5-vl-3b,true,false,,,,,,594.2060840129852,988693.3359999995,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Top Actions (Window),2026-05-01T04:30:18.497Z,2502.36,200,qwen2.5-vl-3b,true,false,,,,,,599.2331646680832,1017577.2210000004,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Spike Count (Window),2026-05-01T05:11:53.692Z,2491.74,200,qwen2.5-vl-3b,true,false,,,,,,595.5933628082275,991390.3074499997,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Set Count (Window),2026-05-01T05:52:46.982Z,2449.69,200,qwen2.5-vl-3b,true,false,,,,,,585.9605015516281,986864.4006500004,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Block Count (Window),2026-05-01T06:33:43.636Z,2452.97,200,qwen2.5-vl-3b,true,false,,,,,,587.3592227101326,963719.6629999998,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Set→Spike Events (Window),2026-05-01T07:39:07.121Z,40.41,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Set→Spike Events (Window),2026-05-01T08:21:27.368Z,2528.49,200,qwen2.5-vl-3b,true,false,,,,,,603.4377466440201,919840.8024499998,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Set→Block Events (Window),2026-05-01T09:02:52.942Z,2480.00,200,qwen2.5-vl-3b,true,false,,,,,,592.5454233288765,981969.0658999999,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Dig→Set Events (Window),2026-05-01T09:44:01.306Z,2464.77,200,qwen2.5-vl-3b,true,false,,,,,,588.9613754153252,987890.3477499997,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Jump→Spike Events (Window),2026-05-01T10:27:30.537Z,2605.66,200,qwen2.5-vl-3b,true,false,,,,,,624.6896303892136,1028269.2868500001,,,,,Source -> Decode -> Llm -> Window -> Aggr -> Sink
+Spike Bounding Boxes (Window),2026-05-01T11:08:39.638Z,2465.50,200,qwen2.5-vl-3b,true,false,,,,,,590.8724189996719,1016107.1852499999,,,,,Source -> Decode -> Frame Batcher -> Llm -> Window -> Aggr -> Sink
+Block Bounding Boxes (Window),2026-05-01T11:19:57.838Z,674.72,51,qwen2.5-vl-3b,true,false,,,,,,535.0294671806635,231015.06196078428,,,,,Source -> Decode -> Frame Batcher -> Llm -> Window -> Aggr -> Sink
+Block Bounding Boxes (Window),2026-05-01T11:22:23.503Z,69.44,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Frame Batcher -> Llm -> Window -> Aggr -> Sink
+Set Bounding Boxes (Window),2026-05-01T11:23:25.134Z,56.48,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Frame Batcher -> Llm -> Window -> Aggr -> Sink
+Dig Bounding Boxes (Window),2026-05-01T11:24:25.736Z,57.67,0,qwen2.5-vl-3b,true,false,,,,,,,,,,,,Source -> Decode -> Frame Batcher -> Llm -> Window -> Aggr -> Sink
+Optimized Repeated Spikers (G+R854),2026-05-01T11:25:24.990Z,54.32,0,qwen2.5-vl-3b,true,true,854,480,,,,,,,,,,Source -> Decode -> Grayscale -> Resize -> Llm -> Window -> Filter -> Aggr -> Sink
+Optimized Repeated Setters (G+R854),2026-05-01T11:26:24.401Z,54.34,0,qwen2.5-vl-3b,true,true,854,480,,,,,,,,,,Source -> Decode -> Grayscale -> Resize -> Llm -> Window -> Filter -> Aggr -> Sink
+Optimized Repeated Blockers (G+R854),2026-05-01T11:27:25.421Z,55.87,0,qwen2.5-vl-3b,true,true,854,480,,,,,,,,,,Source -> Decode -> Grayscale -> Resize -> Llm -> Window -> Filter -> Aggr -> Sink
+Optimized Repeated Diggers (G+R854),2026-05-01T11:28:25.675Z,55.36,0,qwen2.5-vl-3b,true,true,854,480,,,,,,,,,,Source -> Decode -> Grayscale -> Resize -> Llm -> Window -> Filter -> Aggr -> Sink
+Optimized Motion Category (R480),2026-05-01T11:29:23.957Z,55.34,0,qwen2.5-vl-3b,true,false,480,270,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Optimized Players Moving (R480),2026-05-01T11:30:24.824Z,56.08,0,qwen2.5-vl-3b,true,false,480,270,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Optimized Players Standing (R480),2026-05-01T11:31:23.622Z,55.84,0,qwen2.5-vl-3b,true,false,480,270,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Optimized Players Jumping (R480),2026-05-01T11:32:24.474Z,55.97,0,qwen2.5-vl-3b,true,false,480,270,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Optimized Top Actions (R854),2026-05-01T11:33:24.367Z,54.98,0,qwen2.5-vl-3b,true,false,854,480,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Optimized Spike Count (R854),2026-05-01T11:34:23.584Z,56.28,0,qwen2.5-vl-3b,true,false,854,480,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Optimized Set Count (R854),2026-05-01T11:35:21.132Z,52.62,0,qwen2.5-vl-3b,true,false,854,480,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Optimized Block Count (R854),2026-05-01T11:36:20.060Z,56.05,0,qwen2.5-vl-3b,true,false,854,480,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Optimized Set->Spike Events (R854),2026-05-01T11:37:17.401Z,52.37,0,qwen2.5-vl-3b,true,false,854,480,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Optimized Set->Block Events (R854),2026-05-01T11:38:16.970Z,54.68,0,qwen2.5-vl-3b,true,false,854,480,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Optimized Dig->Set Events (R854),2026-05-01T11:39:13.909Z,54.02,0,qwen2.5-vl-3b,true,false,854,480,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Optimized Jump->Spike Events (R854),2026-05-01T11:40:13.353Z,54.07,0,qwen2.5-vl-3b,true,false,854,480,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Optimized Spike Bounding Boxes (R960+B3+W20),2026-05-01T11:41:12.065Z,53.77,0,qwen2.5-vl-3b,true,false,960,540,,,,,,,,,,Source -> Decode -> Resize -> Frame Batcher -> Llm -> Window -> Aggr -> Sink
+Optimized Block Bounding Boxes (R960+B3+W20),2026-05-01T11:42:11.931Z,54.81,0,qwen2.5-vl-3b,true,false,960,540,,,,,,,,,,Source -> Decode -> Resize -> Frame Batcher -> Llm -> Window -> Aggr -> Sink
+Optimized Set Bounding Boxes (R960+B3+W20),2026-05-01T11:43:14.624Z,57.85,0,qwen2.5-vl-3b,true,false,960,540,,,,,,,,,,Source -> Decode -> Resize -> Frame Batcher -> Llm -> Window -> Aggr -> Sink
+Optimized Dig Bounding Boxes (R960+B3+W20),2026-05-01T11:44:12.591Z,53.06,0,qwen2.5-vl-3b,true,false,960,540,,,,,,,,,,Source -> Decode -> Resize -> Frame Batcher -> Llm -> Window -> Aggr -> Sink
+Block Bounding Boxes (Window),2026-05-01T12:30:06.671Z,2228.39,200,qwen2.5-vl-3b,true,false,,,,,,530.7316592335701,869500.4299999998,,,,,Source -> Decode -> Frame Batcher -> Llm -> Window -> Aggr -> Sink
+Set Bounding Boxes (Window),2026-05-01T13:08:30.742Z,2300.28,200,qwen2.5-vl-3b,true,false,,,,,,549.1596133708954,890837.9548999999,,,,,Source -> Decode -> Frame Batcher -> Llm -> Window -> Aggr -> Sink
+Dig Bounding Boxes (Window),2026-05-01T13:46:11.197Z,2256.92,200,qwen2.5-vl-3b,true,false,,,,,,538.3109290599823,881662.3790499998,,,,,Source -> Decode -> Frame Batcher -> Llm -> Window -> Aggr -> Sink
+Optimized Repeated Spikers (G+R854),2026-05-01T13:52:15.814Z,360.59,36,qwen2.5-vl-3b,true,true,854,480,,,,361.30545602904425,97245.26388888889,,,,,Source -> Decode -> Grayscale -> Resize -> Llm -> Window -> Filter -> Aggr -> Sink
+Optimized Repeated Setters (G+R854),2026-05-01T13:53:31.079Z,71.44,0,qwen2.5-vl-3b,true,true,854,480,,,,,,,,,,Source -> Decode -> Grayscale -> Resize -> Llm -> Window -> Filter -> Aggr -> Sink
+Optimized Repeated Spikers (G+R854),2026-05-01T14:19:19.189Z,1568.16,204,qwen2.5-vl-3b,true,true,854,480,,,,356.7354374072131,611893.0203431373,,,,,Source -> Decode -> Grayscale -> Resize -> Llm -> Window -> Filter -> Aggr -> Sink
+Optimized Repeated Setters (G+R854),2026-05-01T14:44:09.415Z,1486.70,200,qwen2.5-vl-3b,true,true,854,480,,,,345.3780248761177,498947.30345000024,,,,,Source -> Decode -> Grayscale -> Resize -> Llm -> Window -> Filter -> Aggr -> Sink
+Optimized Repeated Blockers (G+R854),2026-05-01T14:45:33.072Z,80.07,0,qwen2.5-vl-3b,true,true,854,480,,,,,,,,,,Source -> Decode -> Grayscale -> Resize -> Llm -> Window -> Filter -> Aggr -> Sink
+Optimized Repeated Diggers (G+R854),2026-05-01T14:46:57.361Z,79.46,0,qwen2.5-vl-3b,true,true,854,480,,,,,,,,,,Source -> Decode -> Grayscale -> Resize -> Llm -> Window -> Filter -> Aggr -> Sink
+Optimized Motion Category (R480),2026-05-01T14:48:04.423Z,62.60,0,qwen2.5-vl-3b,true,false,480,270,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Optimized Players Moving (R480),2026-05-01T14:49:04.720Z,54.92,0,qwen2.5-vl-3b,true,false,480,270,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Optimized Players Standing (R480),2026-05-01T14:50:03.818Z,54.29,0,qwen2.5-vl-3b,true,false,480,270,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Optimized Players Jumping (R480),2026-05-01T14:50:58.433Z,49.83,0,qwen2.5-vl-3b,true,false,480,270,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Optimized Top Actions (R854),2026-05-01T14:51:54.276Z,51.07,0,qwen2.5-vl-3b,true,false,854,480,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Optimized Spike Count (R854),2026-05-01T14:52:49.278Z,50.03,0,qwen2.5-vl-3b,true,false,854,480,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Optimized Set Count (R854),2026-05-01T14:53:44.851Z,50.70,0,qwen2.5-vl-3b,true,false,854,480,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Optimized Block Count (R854),2026-05-01T14:54:44.223Z,54.48,0,qwen2.5-vl-3b,true,false,854,480,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Optimized Set->Spike Events (R854),2026-05-01T14:55:40.880Z,51.81,0,qwen2.5-vl-3b,true,false,854,480,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Optimized Set->Block Events (R854),2026-05-01T14:56:34.614Z,50.99,0,qwen2.5-vl-3b,true,false,854,480,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Optimized Dig->Set Events (R854),2026-05-01T14:57:29.481Z,49.99,0,qwen2.5-vl-3b,true,false,854,480,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Optimized Jump->Spike Events (R854),2026-05-01T14:58:25.316Z,51.05,0,qwen2.5-vl-3b,true,false,854,480,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Optimized Spike Bounding Boxes (R960+B3+W20),2026-05-01T14:59:25.427Z,55.16,0,qwen2.5-vl-3b,true,false,960,540,,,,,,,,,,Source -> Decode -> Resize -> Frame Batcher -> Llm -> Window -> Aggr -> Sink
+Optimized Block Bounding Boxes (R960+B3+W20),2026-05-01T15:00:25.638Z,55.20,0,qwen2.5-vl-3b,true,false,960,540,,,,,,,,,,Source -> Decode -> Resize -> Frame Batcher -> Llm -> Window -> Aggr -> Sink
+Optimized Set Bounding Boxes (R960+B3+W20),2026-05-01T15:01:28.107Z,57.29,0,qwen2.5-vl-3b,true,false,960,540,,,,,,,,,,Source -> Decode -> Resize -> Frame Batcher -> Llm -> Window -> Aggr -> Sink
+Optimized Dig Bounding Boxes (R960+B3+W20),2026-05-01T15:02:27.377Z,54.42,0,qwen2.5-vl-3b,true,false,960,540,,,,,,,,,,Source -> Decode -> Resize -> Frame Batcher -> Llm -> Window -> Aggr -> Sink
+Optimized Repeated Blockers (G+R854),2026-05-01T15:43:42.570Z,1715.44,200,qwen2.5-vl-3b,true,true,854,480,,,,394.24846374988556,385055.68645000004,,,,,Source -> Decode -> Grayscale -> Resize -> Llm -> Window -> Filter -> Aggr -> Sink
+Optimized Repeated Diggers (G+R854),2026-05-01T16:09:24.225Z,1533.98,200,qwen2.5-vl-3b,true,true,854,480,,,,352.43715608119965,542038.21175,,,,,Source -> Decode -> Grayscale -> Resize -> Llm -> Window -> Filter -> Aggr -> Sink
+Optimized Motion Category (R480),2026-05-01T16:30:01.301Z,1233.22,200,qwen2.5-vl-3b,true,false,480,270,,,,279.1142373085022,362571.89795,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Optimized Players Moving (R480),2026-05-01T16:39:21.816Z,556.99,81,qwen2.5-vl-3b,true,false,480,270,,,,250.01436987040955,131981.27654320985,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Optimized Players Standing (R480),2026-05-01T16:40:11.832Z,46.15,0,qwen2.5-vl-3b,true,false,480,270,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Optimized Players Moving (R480),2026-05-01T16:41:29.822Z,54.08,0,qwen2.5-vl-3b,true,false,480,270,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Optimized Players Standing (R480),2026-05-01T16:42:08.177Z,35.55,0,qwen2.5-vl-3b,true,false,480,270,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Optimized Players Jumping (R480),2026-05-01T16:42:49.951Z,37.02,0,qwen2.5-vl-3b,true,false,480,270,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Optimized Top Actions (R854),2026-05-01T16:43:29.379Z,34.40,0,qwen2.5-vl-3b,true,false,854,480,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Optimized Spike Count (R854),2026-05-01T16:44:07.101Z,34.92,0,qwen2.5-vl-3b,true,false,854,480,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Optimized Set Count (R854),2026-05-01T16:44:46.244Z,36.09,0,qwen2.5-vl-3b,true,false,854,480,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Optimized Block Count (R854),2026-05-01T16:45:25.977Z,34.69,0,qwen2.5-vl-3b,true,false,854,480,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Optimized Set->Spike Events (R854),2026-05-01T16:46:03.316Z,34.50,0,qwen2.5-vl-3b,true,false,854,480,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Optimized Set->Block Events (R854),2026-05-01T16:46:44.473Z,36.13,0,qwen2.5-vl-3b,true,false,854,480,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Optimized Dig->Set Events (R854),2026-05-01T16:47:25.285Z,36.05,0,qwen2.5-vl-3b,true,false,854,480,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Optimized Jump->Spike Events (R854),2026-05-01T16:48:07.497Z,37.19,0,qwen2.5-vl-3b,true,false,854,480,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Optimized Spike Bounding Boxes (R960+B3+W20),2026-05-01T16:48:46.577Z,34.31,0,qwen2.5-vl-3b,true,false,960,540,,,,,,,,,,Source -> Decode -> Resize -> Frame Batcher -> Llm -> Window -> Aggr -> Sink
+Optimized Block Bounding Boxes (R960+B3+W20),2026-05-01T16:49:24.348Z,34.94,0,qwen2.5-vl-3b,true,false,960,540,,,,,,,,,,Source -> Decode -> Resize -> Frame Batcher -> Llm -> Window -> Aggr -> Sink
+Optimized Set Bounding Boxes (R960+B3+W20),2026-05-01T16:50:03.156Z,36.01,0,qwen2.5-vl-3b,true,false,960,540,,,,,,,,,,Source -> Decode -> Resize -> Frame Batcher -> Llm -> Window -> Aggr -> Sink
+Optimized Dig Bounding Boxes (R960+B3+W20),2026-05-01T16:50:42.967Z,35.08,0,qwen2.5-vl-3b,true,false,960,540,,,,,,,,,,Source -> Decode -> Resize -> Frame Batcher -> Llm -> Window -> Aggr -> Sink
+Optimized Players Moving (R480),2026-05-01T17:45:04.216Z,1056.28,200,qwen2.5-vl-3b,true,false,480,270,,,,229.3917853832245,216368.91494999998,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Optimized Players Standing (R480),2026-05-01T18:04:49.090Z,1180.79,200,qwen2.5-vl-3b,true,false,480,270,,,,258.2385697364807,326165.2149499999,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Optimized Players Jumping (R480),2026-05-01T18:24:23.856Z,1170.92,200,qwen2.5-vl-3b,true,false,480,270,,,,255.02426689863205,334361.0986999999,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Optimized Top Actions (R854),2026-05-01T18:52:08.474Z,1660.85,200,qwen2.5-vl-3b,true,false,854,480,,,,379.29981023073196,564494.4142,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Optimized Spike Count (R854),2026-05-01T19:21:23.313Z,1751.13,200,qwen2.5-vl-3b,true,false,854,480,,,,400.823829472065,597755.1691999999,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Optimized Set Count (R854),2026-05-01T19:48:49.424Z,1642.30,200,qwen2.5-vl-3b,true,false,854,480,,,,374.2721601128578,562050.6952999999,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Optimized Block Count (R854),2026-05-01T20:16:33.551Z,1660.45,200,qwen2.5-vl-3b,true,false,854,480,,,,377.0136970281601,572851.5508999999,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Optimized Set->Spike Events (R854),2026-05-01T20:17:46.996Z,69.66,0,qwen2.5-vl-3b,true,false,854,480,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Optimized Set->Block Events (R854),2026-05-01T20:18:22.453Z,32.59,0,qwen2.5-vl-3b,true,false,854,480,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Optimized Dig->Set Events (R854),2026-05-01T20:18:58.692Z,31.53,0,qwen2.5-vl-3b,true,false,854,480,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Optimized Jump->Spike Events (R854),2026-05-01T20:19:35.017Z,31.62,0,qwen2.5-vl-3b,true,false,854,480,,,,,,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Optimized Spike Bounding Boxes (R960+B3+W20),2026-05-01T20:20:11.903Z,32.12,0,qwen2.5-vl-3b,true,false,960,540,,,,,,,,,,Source -> Decode -> Resize -> Frame Batcher -> Llm -> Window -> Aggr -> Sink
+Optimized Block Bounding Boxes (R960+B3+W20),2026-05-01T20:20:49.522Z,32.86,0,qwen2.5-vl-3b,true,false,960,540,,,,,,,,,,Source -> Decode -> Resize -> Frame Batcher -> Llm -> Window -> Aggr -> Sink
+Optimized Set Bounding Boxes (R960+B3+W20),2026-05-01T20:21:25.775Z,33.46,0,qwen2.5-vl-3b,true,false,960,540,,,,,,,,,,Source -> Decode -> Resize -> Frame Batcher -> Llm -> Window -> Aggr -> Sink
+Optimized Dig Bounding Boxes (R960+B3+W20),2026-05-01T20:22:04.950Z,34.46,0,qwen2.5-vl-3b,true,false,960,540,,,,,,,,,,Source -> Decode -> Resize -> Frame Batcher -> Llm -> Window -> Aggr -> Sink
+Optimized Set->Spike Events (R854),2026-05-01T21:38:45.045Z,1610.77,200,qwen2.5-vl-3b,true,false,854,480,,,,380.78675919771194,579651.1445500001,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Optimized Set->Block Events (R854),2026-05-01T22:05:46.478Z,1617.47,200,qwen2.5-vl-3b,true,false,854,480,,,,375.89637833833694,580157.5540999998,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Optimized Dig->Set Events (R854),2026-05-01T22:32:12.095Z,1581.88,200,qwen2.5-vl-3b,true,false,854,480,,,,367.501196205616,550533.93945,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Optimized Jump->Spike Events (R854),2026-05-01T22:58:39.978Z,1584.26,200,qwen2.5-vl-3b,true,false,854,480,,,,368.3724232316017,549758.5873499999,,,,,Source -> Decode -> Resize -> Llm -> Window -> Aggr -> Sink
+Optimized Spike Bounding Boxes (R960+B3+W20),2026-05-01T23:23:44.366Z,1500.80,200,qwen2.5-vl-3b,true,false,960,540,,,,348.71060943603516,518766.97744999995,,,,,Source -> Decode -> Resize -> Frame Batcher -> Llm -> Window -> Aggr -> Sink
+Optimized Block Bounding Boxes (R960+B3+W20),2026-05-01T23:47:47.200Z,1439.19,200,qwen2.5-vl-3b,true,false,960,540,,,,333.08955514431,487377.8796,,,,,Source -> Decode -> Resize -> Frame Batcher -> Llm -> Window -> Aggr -> Sink
+Optimized Set Bounding Boxes (R960+B3+W20),2026-05-02T00:11:30.483Z,1419.67,200,qwen2.5-vl-3b,true,false,960,540,,,,328.20407474040985,474107.6165999999,,,,,Source -> Decode -> Resize -> Frame Batcher -> Llm -> Window -> Aggr -> Sink
+Optimized Dig Bounding Boxes (R960+B3+W20),2026-05-02T00:13:01.625Z,87.50,0,qwen2.5-vl-3b,true,false,960,540,,,,,,,,,,Source -> Decode -> Resize -> Frame Batcher -> Llm -> Window -> Aggr -> Sink
+Optimized Dig Bounding Boxes (R960+B3+W20),2026-05-02T05:28:26.247Z,1533.26,205,qwen2.5-vl-3b,true,false,960,540,,,,357.61204277596823,17641226.090243895,,,,,Source -> Decode -> Resize -> Frame Batcher -> Llm -> Window -> Aggr -> Sink

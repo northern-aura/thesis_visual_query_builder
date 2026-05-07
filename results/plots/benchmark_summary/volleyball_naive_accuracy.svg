@@ -1,0 +1,115 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='1180' height='792' viewBox='0 0 1180 792'>
+<rect width='100%' height='100%' fill='white'/>
+<text x='285' y='28' font-family='Arial' font-size='22' font-weight='700'>Volleyball Naive: Window/Frame vs Overall Query Accuracy</text>
+<text x='285' y='48' font-family='Arial' font-size='13' fill='#475569'>Blue = frame/window accuracy when available. Green = overall query accuracy.</text>
+<line x1='285.0' y1='50' x2='285.0' y2='756' stroke='#d0d7de' stroke-dasharray='3,3'/>
+<text x='285.0' y='776' text-anchor='middle' font-family='Arial' font-size='12' fill='#475569'>0%</text>
+<line x1='498.2' y1='50' x2='498.2' y2='756' stroke='#d0d7de' stroke-dasharray='3,3'/>
+<text x='498.2' y='776' text-anchor='middle' font-family='Arial' font-size='12' fill='#475569'>25%</text>
+<line x1='711.5' y1='50' x2='711.5' y2='756' stroke='#d0d7de' stroke-dasharray='3,3'/>
+<text x='711.5' y='776' text-anchor='middle' font-family='Arial' font-size='12' fill='#475569'>50%</text>
+<line x1='924.8' y1='50' x2='924.8' y2='756' stroke='#d0d7de' stroke-dasharray='3,3'/>
+<text x='924.8' y='776' text-anchor='middle' font-family='Arial' font-size='12' fill='#475569'>75%</text>
+<line x1='1138.0' y1='50' x2='1138.0' y2='756' stroke='#d0d7de' stroke-dasharray='3,3'/>
+<text x='1138.0' y='776' text-anchor='middle' font-family='Arial' font-size='12' fill='#475569'>100%</text>
+<text x='12' y='76' font-family='Arial' font-size='12' fill='#1f2937'>Rep Spikers</text>
+<rect x='285' y='61' width='341.2' height='12' fill='#2563eb' opacity='0.82'/>
+<rect x='285' y='76' width='853.0' height='12' fill='#16a34a' opacity='0.82'/>
+<text x='631.2' y='71' font-family='Arial' font-size='10' fill='#1f2937'>40.0%</text>
+<text x='1143.0' y='86' font-family='Arial' font-size='10' fill='#1f2937'>100.0%</text>
+<text x='12' y='110' font-family='Arial' font-size='12' fill='#1f2937'>Rep Setters</text>
+<rect x='285' y='95' width='682.4' height='12' fill='#2563eb' opacity='0.82'/>
+<rect x='285' y='110' width='853.0' height='12' fill='#16a34a' opacity='0.82'/>
+<text x='972.4' y='105' font-family='Arial' font-size='10' fill='#1f2937'>80.0%</text>
+<text x='1143.0' y='120' font-family='Arial' font-size='10' fill='#1f2937'>100.0%</text>
+<text x='12' y='144' font-family='Arial' font-size='12' fill='#1f2937'>Rep Blockers</text>
+<rect x='285' y='129' width='341.2' height='12' fill='#2563eb' opacity='0.82'/>
+<rect x='285' y='144' width='853.0' height='12' fill='#16a34a' opacity='0.82'/>
+<text x='631.2' y='139' font-family='Arial' font-size='10' fill='#1f2937'>40.0%</text>
+<text x='1143.0' y='154' font-family='Arial' font-size='10' fill='#1f2937'>100.0%</text>
+<text x='12' y='178' font-family='Arial' font-size='12' fill='#1f2937'>Rep Diggers</text>
+<rect x='285' y='163' width='511.8' height='12' fill='#2563eb' opacity='0.82'/>
+<rect x='285' y='178' width='853.0' height='12' fill='#16a34a' opacity='0.82'/>
+<text x='801.8' y='173' font-family='Arial' font-size='10' fill='#1f2937'>60.0%</text>
+<text x='1143.0' y='188' font-family='Arial' font-size='10' fill='#1f2937'>100.0%</text>
+<text x='12' y='212' font-family='Arial' font-size='12' fill='#1f2937'>Motion</text>
+<rect x='285' y='197' width='255.9' height='12' fill='#2563eb' opacity='0.82'/>
+<rect x='285' y='212' width='0.0' height='12' fill='#16a34a' opacity='0.82'/>
+<text x='545.9' y='207' font-family='Arial' font-size='10' fill='#1f2937'>30.0%</text>
+<text x='290.0' y='222' font-family='Arial' font-size='10' fill='#1f2937'>0.0%</text>
+<text x='12' y='246' font-family='Arial' font-size='12' fill='#1f2937'>Players Moving</text>
+<rect x='285' y='231' width='511.8' height='12' fill='#2563eb' opacity='0.82'/>
+<rect x='285' y='246' width='853.0' height='12' fill='#16a34a' opacity='0.82'/>
+<text x='801.8' y='241' font-family='Arial' font-size='10' fill='#1f2937'>60.0%</text>
+<text x='1143.0' y='256' font-family='Arial' font-size='10' fill='#1f2937'>100.0%</text>
+<text x='12' y='280' font-family='Arial' font-size='12' fill='#1f2937'>Players Standing</text>
+<rect x='285' y='265' width='853.0' height='12' fill='#2563eb' opacity='0.82'/>
+<rect x='285' y='280' width='853.0' height='12' fill='#16a34a' opacity='0.82'/>
+<text x='1143.0' y='275' font-family='Arial' font-size='10' fill='#1f2937'>100.0%</text>
+<text x='1143.0' y='290' font-family='Arial' font-size='10' fill='#1f2937'>100.0%</text>
+<text x='12' y='314' font-family='Arial' font-size='12' fill='#1f2937'>Players Jumping</text>
+<rect x='285' y='299' width='0.0' height='12' fill='#2563eb' opacity='0.82'/>
+<rect x='285' y='314' width='853.0' height='12' fill='#16a34a' opacity='0.82'/>
+<text x='290.0' y='309' font-family='Arial' font-size='10' fill='#1f2937'>0.0%</text>
+<text x='1143.0' y='324' font-family='Arial' font-size='10' fill='#1f2937'>100.0%</text>
+<text x='12' y='348' font-family='Arial' font-size='12' fill='#1f2937'>Top Actions</text>
+<rect x='285' y='333' width='0.0' height='12' fill='#2563eb' opacity='0.82'/>
+<rect x='285' y='348' width='0.0' height='12' fill='#16a34a' opacity='0.82'/>
+<text x='290.0' y='343' font-family='Arial' font-size='10' fill='#1f2937'>0.0%</text>
+<text x='290.0' y='358' font-family='Arial' font-size='10' fill='#1f2937'>0.0%</text>
+<text x='12' y='382' font-family='Arial' font-size='12' fill='#1f2937'>Spike Count</text>
+<rect x='285' y='367' width='170.6' height='12' fill='#2563eb' opacity='0.82'/>
+<rect x='285' y='382' width='0.0' height='12' fill='#16a34a' opacity='0.82'/>
+<text x='460.6' y='377' font-family='Arial' font-size='10' fill='#1f2937'>20.0%</text>
+<text x='290.0' y='392' font-family='Arial' font-size='10' fill='#1f2937'>0.0%</text>
+<text x='12' y='416' font-family='Arial' font-size='12' fill='#1f2937'>Set Count</text>
+<rect x='285' y='401' width='673.9' height='12' fill='#2563eb' opacity='0.82'/>
+<rect x='285' y='416' width='837.4' height='12' fill='#16a34a' opacity='0.82'/>
+<text x='963.9' y='411' font-family='Arial' font-size='10' fill='#1f2937'>79.0%</text>
+<text x='1127.4' y='426' font-family='Arial' font-size='10' fill='#1f2937'>98.2%</text>
+<text x='12' y='450' font-family='Arial' font-size='12' fill='#1f2937'>Block Count</text>
+<rect x='285' y='435' width='170.6' height='12' fill='#2563eb' opacity='0.82'/>
+<rect x='285' y='450' width='0.0' height='12' fill='#16a34a' opacity='0.82'/>
+<text x='460.6' y='445' font-family='Arial' font-size='10' fill='#1f2937'>20.0%</text>
+<text x='290.0' y='460' font-family='Arial' font-size='10' fill='#1f2937'>0.0%</text>
+<text x='12' y='484' font-family='Arial' font-size='12' fill='#1f2937'>Set-&gt;Spike Events</text>
+<rect x='285' y='469' width='0.0' height='12' fill='#2563eb' opacity='0.82'/>
+<rect x='285' y='484' width='853.0' height='12' fill='#16a34a' opacity='0.82'/>
+<text x='290.0' y='479' font-family='Arial' font-size='10' fill='#1f2937'>0.0%</text>
+<text x='1143.0' y='494' font-family='Arial' font-size='10' fill='#1f2937'>100.0%</text>
+<text x='12' y='518' font-family='Arial' font-size='12' fill='#1f2937'>Set-&gt;Block Events</text>
+<rect x='285' y='503' width='0.0' height='12' fill='#2563eb' opacity='0.82'/>
+<rect x='285' y='518' width='853.0' height='12' fill='#16a34a' opacity='0.82'/>
+<text x='290.0' y='513' font-family='Arial' font-size='10' fill='#1f2937'>0.0%</text>
+<text x='1143.0' y='528' font-family='Arial' font-size='10' fill='#1f2937'>100.0%</text>
+<text x='12' y='552' font-family='Arial' font-size='12' fill='#1f2937'>Dig-&gt;Set Events</text>
+<rect x='285' y='537' width='426.5' height='12' fill='#2563eb' opacity='0.82'/>
+<rect x='285' y='552' width='853.0' height='12' fill='#16a34a' opacity='0.82'/>
+<text x='716.5' y='547' font-family='Arial' font-size='10' fill='#1f2937'>50.0%</text>
+<text x='1143.0' y='562' font-family='Arial' font-size='10' fill='#1f2937'>100.0%</text>
+<text x='12' y='586' font-family='Arial' font-size='12' fill='#1f2937'>Jump-&gt;Spike Events</text>
+<rect x='285' y='571' width='255.9' height='12' fill='#2563eb' opacity='0.82'/>
+<rect x='285' y='586' width='853.0' height='12' fill='#16a34a' opacity='0.82'/>
+<text x='545.9' y='581' font-family='Arial' font-size='10' fill='#1f2937'>30.0%</text>
+<text x='1143.0' y='596' font-family='Arial' font-size='10' fill='#1f2937'>100.0%</text>
+<text x='12' y='620' font-family='Arial' font-size='12' fill='#1f2937'>Spike Box</text>
+<rect x='285' y='605' width='511.8' height='12' fill='#2563eb' opacity='0.82'/>
+<rect x='285' y='620' width='853.0' height='12' fill='#16a34a' opacity='0.82'/>
+<text x='801.8' y='615' font-family='Arial' font-size='10' fill='#1f2937'>60.0%</text>
+<text x='1143.0' y='630' font-family='Arial' font-size='10' fill='#1f2937'>100.0%</text>
+<text x='12' y='654' font-family='Arial' font-size='12' fill='#1f2937'>Block Box</text>
+<rect x='285' y='639' width='511.8' height='12' fill='#2563eb' opacity='0.82'/>
+<rect x='285' y='654' width='853.0' height='12' fill='#16a34a' opacity='0.82'/>
+<text x='801.8' y='649' font-family='Arial' font-size='10' fill='#1f2937'>60.0%</text>
+<text x='1143.0' y='664' font-family='Arial' font-size='10' fill='#1f2937'>100.0%</text>
+<text x='12' y='688' font-family='Arial' font-size='12' fill='#1f2937'>Set Box</text>
+<rect x='285' y='673' width='511.8' height='12' fill='#2563eb' opacity='0.82'/>
+<rect x='285' y='688' width='853.0' height='12' fill='#16a34a' opacity='0.82'/>
+<text x='801.8' y='683' font-family='Arial' font-size='10' fill='#1f2937'>60.0%</text>
+<text x='1143.0' y='698' font-family='Arial' font-size='10' fill='#1f2937'>100.0%</text>
+<text x='12' y='722' font-family='Arial' font-size='12' fill='#1f2937'>Dig Box</text>
+<rect x='285' y='707' width='341.2' height='12' fill='#2563eb' opacity='0.82'/>
+<rect x='285' y='722' width='853.0' height='12' fill='#16a34a' opacity='0.82'/>
+<text x='631.2' y='717' font-family='Arial' font-size='10' fill='#1f2937'>40.0%</text>
+<text x='1143.0' y='732' font-family='Arial' font-size='10' fill='#1f2937'>100.0%</text>
+</svg>
