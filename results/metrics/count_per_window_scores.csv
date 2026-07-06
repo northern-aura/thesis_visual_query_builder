@@ -1,0 +1,1201 @@
+query,target,window,pred,gt,signed_score_pct,direction
+Spike Count (Window),spiking,0,20,0,+100.0,over
+Spike Count (Window),spiking,1,20,0,+100.0,over
+Spike Count (Window),spiking,2,20,9,+37.9,over
+Spike Count (Window),spiking,3,20,11,+29.0,over
+Spike Count (Window),spiking,4,20,0,+100.0,over
+Spike Count (Window),spiking,5,20,0,+100.0,over
+Spike Count (Window),spiking,6,20,0,+100.0,over
+Spike Count (Window),spiking,7,20,0,+100.0,over
+Spike Count (Window),spiking,8,20,6,+53.8,over
+Spike Count (Window),spiking,9,20,14,+17.6,over
+Spike Count (Window),spiking,10,20,0,+100.0,over
+Spike Count (Window),spiking,11,20,0,+100.0,over
+Spike Count (Window),spiking,12,20,4,+66.7,over
+Spike Count (Window),spiking,13,20,16,+11.1,over
+Spike Count (Window),spiking,14,20,0,+100.0,over
+Spike Count (Window),spiking,15,20,0,+100.0,over
+Spike Count (Window),spiking,16,20,0,+100.0,over
+Spike Count (Window),spiking,17,20,0,+100.0,over
+Spike Count (Window),spiking,18,20,0,+100.0,over
+Spike Count (Window),spiking,19,20,0,+100.0,over
+Spike Count (Window),spiking,20,20,0,+100.0,over
+Spike Count (Window),spiking,21,20,0,+100.0,over
+Spike Count (Window),spiking,22,20,0,+100.0,over
+Spike Count (Window),spiking,23,20,0,+100.0,over
+Spike Count (Window),spiking,24,20,0,+100.0,over
+Spike Count (Window),spiking,25,20,0,+100.0,over
+Spike Count (Window),spiking,26,20,0,+100.0,over
+Spike Count (Window),spiking,27,20,0,+100.0,over
+Spike Count (Window),spiking,28,20,0,+100.0,over
+Spike Count (Window),spiking,29,20,0,+100.0,over
+Spike Count (Window),spiking,30,20,0,+100.0,over
+Spike Count (Window),spiking,31,20,15,+14.3,over
+Spike Count (Window),spiking,32,20,5,+60.0,over
+Spike Count (Window),spiking,33,20,0,+100.0,over
+Spike Count (Window),spiking,34,20,0,+100.0,over
+Spike Count (Window),spiking,35,20,0,+100.0,over
+Spike Count (Window),spiking,36,20,0,+100.0,over
+Spike Count (Window),spiking,37,20,12,+25.0,over
+Spike Count (Window),spiking,38,20,8,+42.9,over
+Spike Count (Window),spiking,39,20,0,+100.0,over
+Spike Count (Window),spiking,40,20,0,+100.0,over
+Spike Count (Window),spiking,41,20,0,+100.0,over
+Spike Count (Window),spiking,42,20,0,+100.0,over
+Spike Count (Window),spiking,43,20,9,+37.9,over
+Spike Count (Window),spiking,44,20,11,+29.0,over
+Spike Count (Window),spiking,45,20,0,+100.0,over
+Spike Count (Window),spiking,46,20,0,+100.0,over
+Spike Count (Window),spiking,47,20,0,+100.0,over
+Spike Count (Window),spiking,48,20,0,+100.0,over
+Spike Count (Window),spiking,49,20,0,+100.0,over
+Spike Count (Window),spiking,50,20,0,+100.0,over
+Spike Count (Window),spiking,51,20,5,+60.0,over
+Spike Count (Window),spiking,52,20,15,+14.3,over
+Spike Count (Window),spiking,53,20,0,+100.0,over
+Spike Count (Window),spiking,54,20,0,+100.0,over
+Spike Count (Window),spiking,55,20,0,+100.0,over
+Spike Count (Window),spiking,56,20,0,+100.0,over
+Spike Count (Window),spiking,57,20,2,+81.8,over
+Spike Count (Window),spiking,58,20,18,+5.3,over
+Spike Count (Window),spiking,59,20,0,+100.0,over
+Spike Count (Window),spiking,60,20,0,+100.0,over
+Spike Count (Window),spiking,61,20,0,+100.0,over
+Spike Count (Window),spiking,62,20,20,+0.0,exact
+Spike Count (Window),spiking,63,20,0,+100.0,over
+Spike Count (Window),spiking,64,19,0,+100.0,over
+Spike Count (Window),spiking,65,19,0,+100.0,over
+Spike Count (Window),spiking,66,20,0,+100.0,over
+Spike Count (Window),spiking,67,19,0,+100.0,over
+Spike Count (Window),spiking,68,20,0,+100.0,over
+Spike Count (Window),spiking,69,20,0,+100.0,over
+Spike Count (Window),spiking,70,20,0,+100.0,over
+Spike Count (Window),spiking,71,20,0,+100.0,over
+Spike Count (Window),spiking,72,20,15,+14.3,over
+Spike Count (Window),spiking,73,20,5,+60.0,over
+Spike Count (Window),spiking,74,20,0,+100.0,over
+Spike Count (Window),spiking,75,20,0,+100.0,over
+Spike Count (Window),spiking,76,20,0,+100.0,over
+Spike Count (Window),spiking,77,20,0,+100.0,over
+Spike Count (Window),spiking,78,20,0,+100.0,over
+Spike Count (Window),spiking,79,20,0,+100.0,over
+Spike Count (Window),spiking,80,20,0,+100.0,over
+Spike Count (Window),spiking,81,20,0,+100.0,over
+Spike Count (Window),spiking,82,20,0,+100.0,over
+Spike Count (Window),spiking,83,20,0,+100.0,over
+Spike Count (Window),spiking,84,20,9,+37.9,over
+Spike Count (Window),spiking,85,20,11,+29.0,over
+Spike Count (Window),spiking,86,20,0,+100.0,over
+Spike Count (Window),spiking,87,20,0,+100.0,over
+Spike Count (Window),spiking,88,20,0,+100.0,over
+Spike Count (Window),spiking,89,20,0,+100.0,over
+Spike Count (Window),spiking,90,20,0,+100.0,over
+Spike Count (Window),spiking,91,20,0,+100.0,over
+Spike Count (Window),spiking,92,20,0,+100.0,over
+Spike Count (Window),spiking,93,20,0,+100.0,over
+Spike Count (Window),spiking,94,20,4,+66.7,over
+Spike Count (Window),spiking,95,20,16,+11.1,over
+Spike Count (Window),spiking,96,20,0,+100.0,over
+Spike Count (Window),spiking,97,20,0,+100.0,over
+Spike Count (Window),spiking,98,20,0,+100.0,over
+Spike Count (Window),spiking,99,15,0,+100.0,over
+Spike Count (Window),spiking,100,20,0,+100.0,over
+Spike Count (Window),spiking,101,20,0,+100.0,over
+Spike Count (Window),spiking,102,20,0,+100.0,over
+Spike Count (Window),spiking,103,20,0,+100.0,over
+Spike Count (Window),spiking,104,20,0,+100.0,over
+Spike Count (Window),spiking,105,20,18,+5.3,over
+Spike Count (Window),spiking,106,20,1,+90.5,over
+Spike Count (Window),spiking,107,20,0,+100.0,over
+Spike Count (Window),spiking,108,20,0,+100.0,over
+Spike Count (Window),spiking,109,20,0,+100.0,over
+Spike Count (Window),spiking,110,20,0,+100.0,over
+Spike Count (Window),spiking,111,20,0,+100.0,over
+Spike Count (Window),spiking,112,20,0,+100.0,over
+Spike Count (Window),spiking,113,20,0,+100.0,over
+Spike Count (Window),spiking,114,20,0,+100.0,over
+Spike Count (Window),spiking,115,15,0,+100.0,over
+Spike Count (Window),spiking,116,9,0,+100.0,over
+Spike Count (Window),spiking,117,20,0,+100.0,over
+Spike Count (Window),spiking,118,20,0,+100.0,over
+Spike Count (Window),spiking,119,19,0,+100.0,over
+Spike Count (Window),spiking,120,19,0,+100.0,over
+Spike Count (Window),spiking,121,20,0,+100.0,over
+Spike Count (Window),spiking,122,20,0,+100.0,over
+Spike Count (Window),spiking,123,20,10,+33.3,over
+Spike Count (Window),spiking,124,20,10,+33.3,over
+Spike Count (Window),spiking,125,20,0,+100.0,over
+Spike Count (Window),spiking,126,20,0,+100.0,over
+Spike Count (Window),spiking,127,20,0,+100.0,over
+Spike Count (Window),spiking,128,20,0,+100.0,over
+Spike Count (Window),spiking,129,20,0,+100.0,over
+Spike Count (Window),spiking,130,20,0,+100.0,over
+Spike Count (Window),spiking,131,20,0,+100.0,over
+Spike Count (Window),spiking,132,20,0,+100.0,over
+Spike Count (Window),spiking,133,20,5,+60.0,over
+Spike Count (Window),spiking,134,20,15,+14.3,over
+Spike Count (Window),spiking,135,20,0,+100.0,over
+Spike Count (Window),spiking,136,20,0,+100.0,over
+Spike Count (Window),spiking,137,20,0,+100.0,over
+Spike Count (Window),spiking,138,20,0,+100.0,over
+Spike Count (Window),spiking,139,19,0,+100.0,over
+Spike Count (Window),spiking,140,19,0,+100.0,over
+Spike Count (Window),spiking,141,17,0,+100.0,over
+Spike Count (Window),spiking,142,7,0,+100.0,over
+Spike Count (Window),spiking,143,14,0,+100.0,over
+Spike Count (Window),spiking,144,20,0,+100.0,over
+Spike Count (Window),spiking,145,20,0,+100.0,over
+Spike Count (Window),spiking,146,20,0,+100.0,over
+Spike Count (Window),spiking,147,17,0,+100.0,over
+Spike Count (Window),spiking,148,20,0,+100.0,over
+Spike Count (Window),spiking,149,20,0,+100.0,over
+Spike Count (Window),spiking,150,20,17,+8.1,over
+Spike Count (Window),spiking,151,20,3,+73.9,over
+Spike Count (Window),spiking,152,20,0,+100.0,over
+Spike Count (Window),spiking,153,20,0,+100.0,over
+Spike Count (Window),spiking,154,20,0,+100.0,over
+Spike Count (Window),spiking,155,20,0,+100.0,over
+Spike Count (Window),spiking,156,20,14,+17.6,over
+Spike Count (Window),spiking,157,20,6,+53.8,over
+Spike Count (Window),spiking,158,20,0,+100.0,over
+Spike Count (Window),spiking,159,20,0,+100.0,over
+Spike Count (Window),spiking,160,20,0,+100.0,over
+Spike Count (Window),spiking,161,20,0,+100.0,over
+Spike Count (Window),spiking,162,20,11,+29.0,over
+Spike Count (Window),spiking,163,20,9,+37.9,over
+Spike Count (Window),spiking,164,20,0,+100.0,over
+Spike Count (Window),spiking,165,20,0,+100.0,over
+Spike Count (Window),spiking,166,20,0,+100.0,over
+Spike Count (Window),spiking,167,20,0,+100.0,over
+Spike Count (Window),spiking,168,20,8,+42.9,over
+Spike Count (Window),spiking,169,20,12,+25.0,over
+Spike Count (Window),spiking,170,20,0,+100.0,over
+Spike Count (Window),spiking,171,20,0,+100.0,over
+Spike Count (Window),spiking,172,20,0,+100.0,over
+Spike Count (Window),spiking,173,20,0,+100.0,over
+Spike Count (Window),spiking,174,20,5,+60.0,over
+Spike Count (Window),spiking,175,20,15,+14.3,over
+Spike Count (Window),spiking,176,20,0,+100.0,over
+Spike Count (Window),spiking,177,20,0,+100.0,over
+Spike Count (Window),spiking,178,20,0,+100.0,over
+Spike Count (Window),spiking,179,20,0,+100.0,over
+Spike Count (Window),spiking,180,20,0,+100.0,over
+Spike Count (Window),spiking,181,20,0,+100.0,over
+Spike Count (Window),spiking,182,20,0,+100.0,over
+Spike Count (Window),spiking,183,20,0,+100.0,over
+Spike Count (Window),spiking,184,20,0,+100.0,over
+Spike Count (Window),spiking,185,20,20,+0.0,exact
+Spike Count (Window),spiking,186,20,0,+100.0,over
+Spike Count (Window),spiking,187,20,0,+100.0,over
+Spike Count (Window),spiking,188,20,0,+100.0,over
+Spike Count (Window),spiking,189,20,0,+100.0,over
+Spike Count (Window),spiking,190,20,0,+100.0,over
+Spike Count (Window),spiking,191,20,0,+100.0,over
+Spike Count (Window),spiking,192,20,0,+100.0,over
+Spike Count (Window),spiking,193,20,0,+100.0,over
+Spike Count (Window),spiking,194,20,0,+100.0,over
+Spike Count (Window),spiking,195,20,0,+100.0,over
+Spike Count (Window),spiking,196,20,0,+100.0,over
+Spike Count (Window),spiking,197,20,14,+17.6,over
+Spike Count (Window),spiking,198,20,6,+53.8,over
+Spike Count (Window),spiking,199,20,0,+100.0,over
+Set Count (Window),setting,0,2,10,-66.7,under
+Set Count (Window),setting,1,2,10,-66.7,under
+Set Count (Window),setting,2,2,0,+100.0,over
+Set Count (Window),setting,3,1,0,+100.0,over
+Set Count (Window),setting,4,1,8,-77.8,under
+Set Count (Window),setting,5,2,12,-71.4,under
+Set Count (Window),setting,6,0,0,+0.0,exact
+Set Count (Window),setting,7,1,0,+100.0,over
+Set Count (Window),setting,8,4,0,+100.0,over
+Set Count (Window),setting,9,1,0,+100.0,over
+Set Count (Window),setting,10,8,4,+33.3,over
+Set Count (Window),setting,11,3,15,-66.7,under
+Set Count (Window),setting,12,1,0,+100.0,over
+Set Count (Window),setting,13,5,0,+100.0,over
+Set Count (Window),setting,14,4,0,+100.0,over
+Set Count (Window),setting,15,9,0,+100.0,over
+Set Count (Window),setting,16,5,2,+42.9,over
+Set Count (Window),setting,17,0,18,-100.0,under
+Set Count (Window),setting,18,0,0,+0.0,exact
+Set Count (Window),setting,19,0,0,+0.0,exact
+Set Count (Window),setting,20,0,0,+0.0,exact
+Set Count (Window),setting,21,0,0,+0.0,exact
+Set Count (Window),setting,22,0,0,+0.0,exact
+Set Count (Window),setting,23,0,0,+0.0,exact
+Set Count (Window),setting,24,2,0,+100.0,over
+Set Count (Window),setting,25,9,18,-33.3,under
+Set Count (Window),setting,26,8,2,+60.0,over
+Set Count (Window),setting,27,7,0,+100.0,over
+Set Count (Window),setting,28,7,0,+100.0,over
+Set Count (Window),setting,29,7,16,-39.1,under
+Set Count (Window),setting,30,11,4,+46.7,over
+Set Count (Window),setting,31,9,0,+100.0,over
+Set Count (Window),setting,32,5,0,+100.0,over
+Set Count (Window),setting,33,1,0,+100.0,over
+Set Count (Window),setting,34,4,0,+100.0,over
+Set Count (Window),setting,35,4,13,-52.9,under
+Set Count (Window),setting,36,3,7,-40.0,under
+Set Count (Window),setting,37,3,0,+100.0,over
+Set Count (Window),setting,38,5,0,+100.0,over
+Set Count (Window),setting,39,4,0,+100.0,over
+Set Count (Window),setting,40,0,0,+0.0,exact
+Set Count (Window),setting,41,2,10,-66.7,under
+Set Count (Window),setting,42,1,10,-81.8,under
+Set Count (Window),setting,43,0,0,+0.0,exact
+Set Count (Window),setting,44,1,0,+100.0,over
+Set Count (Window),setting,45,1,0,+100.0,over
+Set Count (Window),setting,46,0,0,+0.0,exact
+Set Count (Window),setting,47,1,0,+100.0,over
+Set Count (Window),setting,48,9,0,+100.0,over
+Set Count (Window),setting,49,1,0,+100.0,over
+Set Count (Window),setting,50,1,0,+100.0,over
+Set Count (Window),setting,51,3,0,+100.0,over
+Set Count (Window),setting,52,7,0,+100.0,over
+Set Count (Window),setting,53,7,0,+100.0,over
+Set Count (Window),setting,54,4,0,+100.0,over
+Set Count (Window),setting,55,4,3,+14.3,over
+Set Count (Window),setting,56,4,17,-61.9,under
+Set Count (Window),setting,57,4,0,+100.0,over
+Set Count (Window),setting,58,4,0,+100.0,over
+Set Count (Window),setting,59,3,0,+100.0,over
+Set Count (Window),setting,60,2,0,+100.0,over
+Set Count (Window),setting,61,3,0,+100.0,over
+Set Count (Window),setting,62,5,0,+100.0,over
+Set Count (Window),setting,63,4,0,+100.0,over
+Set Count (Window),setting,64,0,0,+0.0,exact
+Set Count (Window),setting,65,0,0,+0.0,exact
+Set Count (Window),setting,66,0,0,+0.0,exact
+Set Count (Window),setting,67,2,0,+100.0,over
+Set Count (Window),setting,68,1,0,+100.0,over
+Set Count (Window),setting,69,2,0,+100.0,over
+Set Count (Window),setting,70,6,16,-45.5,under
+Set Count (Window),setting,71,0,4,-100.0,under
+Set Count (Window),setting,72,0,0,+0.0,exact
+Set Count (Window),setting,73,2,0,+100.0,over
+Set Count (Window),setting,74,2,0,+100.0,over
+Set Count (Window),setting,75,0,0,+0.0,exact
+Set Count (Window),setting,76,0,0,+0.0,exact
+Set Count (Window),setting,77,1,0,+100.0,over
+Set Count (Window),setting,78,1,0,+100.0,over
+Set Count (Window),setting,79,0,0,+0.0,exact
+Set Count (Window),setting,80,4,0,+100.0,over
+Set Count (Window),setting,81,8,0,+100.0,over
+Set Count (Window),setting,82,4,10,-42.9,under
+Set Count (Window),setting,83,1,10,-81.8,under
+Set Count (Window),setting,84,1,0,+100.0,over
+Set Count (Window),setting,85,2,0,+100.0,over
+Set Count (Window),setting,86,2,0,+100.0,over
+Set Count (Window),setting,87,2,0,+100.0,over
+Set Count (Window),setting,88,0,0,+0.0,exact
+Set Count (Window),setting,89,1,0,+100.0,over
+Set Count (Window),setting,90,4,0,+100.0,over
+Set Count (Window),setting,91,8,0,+100.0,over
+Set Count (Window),setting,92,5,5,+0.0,exact
+Set Count (Window),setting,93,1,15,-87.5,under
+Set Count (Window),setting,94,4,0,+100.0,over
+Set Count (Window),setting,95,3,0,+100.0,over
+Set Count (Window),setting,96,4,2,+33.3,over
+Set Count (Window),setting,97,4,17,-61.9,under
+Set Count (Window),setting,98,0,0,+0.0,exact
+Set Count (Window),setting,99,0,0,+0.0,exact
+Set Count (Window),setting,100,1,0,+100.0,over
+Set Count (Window),setting,101,0,0,+0.0,exact
+Set Count (Window),setting,102,0,0,+0.0,exact
+Set Count (Window),setting,103,3,20,-73.9,under
+Set Count (Window),setting,104,0,0,+0.0,exact
+Set Count (Window),setting,105,3,0,+100.0,over
+Set Count (Window),setting,106,2,0,+100.0,over
+Set Count (Window),setting,107,3,0,+100.0,over
+Set Count (Window),setting,108,0,0,+0.0,exact
+Set Count (Window),setting,109,0,0,+0.0,exact
+Set Count (Window),setting,110,0,0,+0.0,exact
+Set Count (Window),setting,111,6,16,-45.5,under
+Set Count (Window),setting,112,1,4,-60.0,under
+Set Count (Window),setting,113,1,0,+100.0,over
+Set Count (Window),setting,114,0,0,+0.0,exact
+Set Count (Window),setting,115,0,0,+0.0,exact
+Set Count (Window),setting,116,0,0,+0.0,exact
+Set Count (Window),setting,117,0,0,+0.0,exact
+Set Count (Window),setting,118,0,0,+0.0,exact
+Set Count (Window),setting,119,2,0,+100.0,over
+Set Count (Window),setting,120,0,0,+0.0,exact
+Set Count (Window),setting,121,0,11,-100.0,under
+Set Count (Window),setting,122,0,9,-100.0,under
+Set Count (Window),setting,123,4,0,+100.0,over
+Set Count (Window),setting,124,3,0,+100.0,over
+Set Count (Window),setting,125,1,0,+100.0,over
+Set Count (Window),setting,126,3,0,+100.0,over
+Set Count (Window),setting,127,0,0,+0.0,exact
+Set Count (Window),setting,128,11,0,+100.0,over
+Set Count (Window),setting,129,6,0,+100.0,over
+Set Count (Window),setting,130,5,0,+100.0,over
+Set Count (Window),setting,131,5,0,+100.0,over
+Set Count (Window),setting,132,0,0,+0.0,exact
+Set Count (Window),setting,133,2,0,+100.0,over
+Set Count (Window),setting,134,2,0,+100.0,over
+Set Count (Window),setting,135,0,0,+0.0,exact
+Set Count (Window),setting,136,1,0,+100.0,over
+Set Count (Window),setting,137,0,0,+0.0,exact
+Set Count (Window),setting,138,0,0,+0.0,exact
+Set Count (Window),setting,139,1,0,+100.0,over
+Set Count (Window),setting,140,0,0,+0.0,exact
+Set Count (Window),setting,141,2,0,+100.0,over
+Set Count (Window),setting,142,1,0,+100.0,over
+Set Count (Window),setting,143,0,0,+0.0,exact
+Set Count (Window),setting,144,0,0,+0.0,exact
+Set Count (Window),setting,145,0,0,+0.0,exact
+Set Count (Window),setting,146,0,0,+0.0,exact
+Set Count (Window),setting,147,3,0,+100.0,over
+Set Count (Window),setting,148,2,0,+100.0,over
+Set Count (Window),setting,149,1,0,+100.0,over
+Set Count (Window),setting,150,0,0,+0.0,exact
+Set Count (Window),setting,151,1,0,+100.0,over
+Set Count (Window),setting,152,1,0,+100.0,over
+Set Count (Window),setting,153,0,0,+0.0,exact
+Set Count (Window),setting,154,1,15,-87.5,under
+Set Count (Window),setting,155,1,5,-66.7,under
+Set Count (Window),setting,156,4,0,+100.0,over
+Set Count (Window),setting,157,4,0,+100.0,over
+Set Count (Window),setting,158,4,0,+100.0,over
+Set Count (Window),setting,159,0,0,+0.0,exact
+Set Count (Window),setting,160,1,12,-84.6,under
+Set Count (Window),setting,161,0,8,-100.0,under
+Set Count (Window),setting,162,2,0,+100.0,over
+Set Count (Window),setting,163,3,0,+100.0,over
+Set Count (Window),setting,164,3,0,+100.0,over
+Set Count (Window),setting,165,6,0,+100.0,over
+Set Count (Window),setting,166,2,9,-63.6,under
+Set Count (Window),setting,167,0,11,-100.0,under
+Set Count (Window),setting,168,0,0,+0.0,exact
+Set Count (Window),setting,169,0,0,+0.0,exact
+Set Count (Window),setting,170,0,0,+0.0,exact
+Set Count (Window),setting,171,0,0,+0.0,exact
+Set Count (Window),setting,172,1,6,-71.4,under
+Set Count (Window),setting,173,2,14,-75.0,under
+Set Count (Window),setting,174,0,0,+0.0,exact
+Set Count (Window),setting,175,5,0,+100.0,over
+Set Count (Window),setting,176,5,0,+100.0,over
+Set Count (Window),setting,177,1,0,+100.0,over
+Set Count (Window),setting,178,1,0,+100.0,over
+Set Count (Window),setting,179,4,0,+100.0,over
+Set Count (Window),setting,180,1,0,+100.0,over
+Set Count (Window),setting,181,1,0,+100.0,over
+Set Count (Window),setting,182,0,1,-100.0,under
+Set Count (Window),setting,183,3,19,-72.7,under
+Set Count (Window),setting,184,6,0,+100.0,over
+Set Count (Window),setting,185,5,0,+100.0,over
+Set Count (Window),setting,186,4,0,+100.0,over
+Set Count (Window),setting,187,1,0,+100.0,over
+Set Count (Window),setting,188,1,0,+100.0,over
+Set Count (Window),setting,189,1,0,+100.0,over
+Set Count (Window),setting,190,1,0,+100.0,over
+Set Count (Window),setting,191,5,0,+100.0,over
+Set Count (Window),setting,192,2,0,+100.0,over
+Set Count (Window),setting,193,0,0,+0.0,exact
+Set Count (Window),setting,194,0,0,+0.0,exact
+Set Count (Window),setting,195,0,15,-100.0,under
+Set Count (Window),setting,196,0,5,-100.0,under
+Set Count (Window),setting,197,1,0,+100.0,over
+Set Count (Window),setting,198,1,0,+100.0,over
+Set Count (Window),setting,199,0,0,+0.0,exact
+Block Count (Window),blocking,0,20,0,+100.0,over
+Block Count (Window),blocking,1,20,0,+100.0,over
+Block Count (Window),blocking,2,20,9,+37.9,over
+Block Count (Window),blocking,3,20,11,+29.0,over
+Block Count (Window),blocking,4,20,0,+100.0,over
+Block Count (Window),blocking,5,20,0,+100.0,over
+Block Count (Window),blocking,6,20,0,+100.0,over
+Block Count (Window),blocking,7,20,0,+100.0,over
+Block Count (Window),blocking,8,20,6,+53.8,over
+Block Count (Window),blocking,9,20,14,+17.6,over
+Block Count (Window),blocking,10,20,0,+100.0,over
+Block Count (Window),blocking,11,20,0,+100.0,over
+Block Count (Window),blocking,12,20,4,+66.7,over
+Block Count (Window),blocking,13,20,16,+11.1,over
+Block Count (Window),blocking,14,20,3,+73.9,over
+Block Count (Window),blocking,15,20,17,+8.1,over
+Block Count (Window),blocking,16,20,0,+100.0,over
+Block Count (Window),blocking,17,20,0,+100.0,over
+Block Count (Window),blocking,18,20,0,+100.0,over
+Block Count (Window),blocking,19,20,0,+100.0,over
+Block Count (Window),blocking,20,20,0,+100.0,over
+Block Count (Window),blocking,21,20,20,+0.0,exact
+Block Count (Window),blocking,22,20,0,+100.0,over
+Block Count (Window),blocking,23,20,0,+100.0,over
+Block Count (Window),blocking,24,20,0,+100.0,over
+Block Count (Window),blocking,25,20,0,+100.0,over
+Block Count (Window),blocking,26,20,0,+100.0,over
+Block Count (Window),blocking,27,20,0,+100.0,over
+Block Count (Window),blocking,28,20,0,+100.0,over
+Block Count (Window),blocking,29,20,0,+100.0,over
+Block Count (Window),blocking,30,20,0,+100.0,over
+Block Count (Window),blocking,31,20,15,+14.3,over
+Block Count (Window),blocking,32,20,5,+60.0,over
+Block Count (Window),blocking,33,20,0,+100.0,over
+Block Count (Window),blocking,34,20,0,+100.0,over
+Block Count (Window),blocking,35,20,0,+100.0,over
+Block Count (Window),blocking,36,20,0,+100.0,over
+Block Count (Window),blocking,37,20,12,+25.0,over
+Block Count (Window),blocking,38,20,8,+42.9,over
+Block Count (Window),blocking,39,20,0,+100.0,over
+Block Count (Window),blocking,40,20,0,+100.0,over
+Block Count (Window),blocking,41,20,0,+100.0,over
+Block Count (Window),blocking,42,20,0,+100.0,over
+Block Count (Window),blocking,43,20,0,+100.0,over
+Block Count (Window),blocking,44,20,0,+100.0,over
+Block Count (Window),blocking,45,20,0,+100.0,over
+Block Count (Window),blocking,46,20,0,+100.0,over
+Block Count (Window),blocking,47,20,0,+100.0,over
+Block Count (Window),blocking,48,20,0,+100.0,over
+Block Count (Window),blocking,49,20,0,+100.0,over
+Block Count (Window),blocking,50,20,0,+100.0,over
+Block Count (Window),blocking,51,20,5,+60.0,over
+Block Count (Window),blocking,52,20,15,+14.3,over
+Block Count (Window),blocking,53,20,0,+100.0,over
+Block Count (Window),blocking,54,20,0,+100.0,over
+Block Count (Window),blocking,55,20,0,+100.0,over
+Block Count (Window),blocking,56,20,0,+100.0,over
+Block Count (Window),blocking,57,20,2,+81.8,over
+Block Count (Window),blocking,58,20,18,+5.3,over
+Block Count (Window),blocking,59,20,0,+100.0,over
+Block Count (Window),blocking,60,20,0,+100.0,over
+Block Count (Window),blocking,61,20,0,+100.0,over
+Block Count (Window),blocking,62,20,20,+0.0,exact
+Block Count (Window),blocking,63,20,0,+100.0,over
+Block Count (Window),blocking,64,20,0,+100.0,over
+Block Count (Window),blocking,65,20,0,+100.0,over
+Block Count (Window),blocking,66,20,0,+100.0,over
+Block Count (Window),blocking,67,17,0,+100.0,over
+Block Count (Window),blocking,68,20,0,+100.0,over
+Block Count (Window),blocking,69,20,0,+100.0,over
+Block Count (Window),blocking,70,20,0,+100.0,over
+Block Count (Window),blocking,71,20,0,+100.0,over
+Block Count (Window),blocking,72,20,15,+14.3,over
+Block Count (Window),blocking,73,20,5,+60.0,over
+Block Count (Window),blocking,74,20,0,+100.0,over
+Block Count (Window),blocking,75,20,0,+100.0,over
+Block Count (Window),blocking,76,20,0,+100.0,over
+Block Count (Window),blocking,77,20,0,+100.0,over
+Block Count (Window),blocking,78,20,0,+100.0,over
+Block Count (Window),blocking,79,20,0,+100.0,over
+Block Count (Window),blocking,80,20,0,+100.0,over
+Block Count (Window),blocking,81,20,0,+100.0,over
+Block Count (Window),blocking,82,20,0,+100.0,over
+Block Count (Window),blocking,83,20,0,+100.0,over
+Block Count (Window),blocking,84,20,9,+37.9,over
+Block Count (Window),blocking,85,20,11,+29.0,over
+Block Count (Window),blocking,86,20,0,+100.0,over
+Block Count (Window),blocking,87,20,0,+100.0,over
+Block Count (Window),blocking,88,20,0,+100.0,over
+Block Count (Window),blocking,89,20,0,+100.0,over
+Block Count (Window),blocking,90,20,0,+100.0,over
+Block Count (Window),blocking,91,20,0,+100.0,over
+Block Count (Window),blocking,92,20,0,+100.0,over
+Block Count (Window),blocking,93,20,0,+100.0,over
+Block Count (Window),blocking,94,20,4,+66.7,over
+Block Count (Window),blocking,95,20,16,+11.1,over
+Block Count (Window),blocking,96,20,0,+100.0,over
+Block Count (Window),blocking,97,20,0,+100.0,over
+Block Count (Window),blocking,98,20,0,+100.0,over
+Block Count (Window),blocking,99,19,0,+100.0,over
+Block Count (Window),blocking,100,20,0,+100.0,over
+Block Count (Window),blocking,101,20,0,+100.0,over
+Block Count (Window),blocking,102,20,0,+100.0,over
+Block Count (Window),blocking,103,20,0,+100.0,over
+Block Count (Window),blocking,104,20,0,+100.0,over
+Block Count (Window),blocking,105,20,19,+2.6,over
+Block Count (Window),blocking,106,20,1,+90.5,over
+Block Count (Window),blocking,107,20,0,+100.0,over
+Block Count (Window),blocking,108,20,0,+100.0,over
+Block Count (Window),blocking,109,20,0,+100.0,over
+Block Count (Window),blocking,110,20,0,+100.0,over
+Block Count (Window),blocking,111,20,0,+100.0,over
+Block Count (Window),blocking,112,20,0,+100.0,over
+Block Count (Window),blocking,113,20,0,+100.0,over
+Block Count (Window),blocking,114,20,0,+100.0,over
+Block Count (Window),blocking,115,20,0,+100.0,over
+Block Count (Window),blocking,116,19,0,+100.0,over
+Block Count (Window),blocking,117,20,0,+100.0,over
+Block Count (Window),blocking,118,20,0,+100.0,over
+Block Count (Window),blocking,119,20,0,+100.0,over
+Block Count (Window),blocking,120,20,0,+100.0,over
+Block Count (Window),blocking,121,20,0,+100.0,over
+Block Count (Window),blocking,122,20,0,+100.0,over
+Block Count (Window),blocking,123,20,10,+33.3,over
+Block Count (Window),blocking,124,20,10,+33.3,over
+Block Count (Window),blocking,125,20,0,+100.0,over
+Block Count (Window),blocking,126,20,0,+100.0,over
+Block Count (Window),blocking,127,20,0,+100.0,over
+Block Count (Window),blocking,128,20,0,+100.0,over
+Block Count (Window),blocking,129,20,7,+48.1,over
+Block Count (Window),blocking,130,20,13,+21.2,over
+Block Count (Window),blocking,131,20,0,+100.0,over
+Block Count (Window),blocking,132,20,0,+100.0,over
+Block Count (Window),blocking,133,20,5,+60.0,over
+Block Count (Window),blocking,134,20,15,+14.3,over
+Block Count (Window),blocking,135,20,0,+100.0,over
+Block Count (Window),blocking,136,20,0,+100.0,over
+Block Count (Window),blocking,137,20,0,+100.0,over
+Block Count (Window),blocking,138,20,0,+100.0,over
+Block Count (Window),blocking,139,20,0,+100.0,over
+Block Count (Window),blocking,140,19,0,+100.0,over
+Block Count (Window),blocking,141,19,0,+100.0,over
+Block Count (Window),blocking,142,16,0,+100.0,over
+Block Count (Window),blocking,143,18,0,+100.0,over
+Block Count (Window),blocking,144,20,0,+100.0,over
+Block Count (Window),blocking,145,20,0,+100.0,over
+Block Count (Window),blocking,146,20,0,+100.0,over
+Block Count (Window),blocking,147,20,0,+100.0,over
+Block Count (Window),blocking,148,20,0,+100.0,over
+Block Count (Window),blocking,149,20,0,+100.0,over
+Block Count (Window),blocking,150,20,17,+8.1,over
+Block Count (Window),blocking,151,20,3,+73.9,over
+Block Count (Window),blocking,152,20,16,+11.1,over
+Block Count (Window),blocking,153,20,4,+66.7,over
+Block Count (Window),blocking,154,20,0,+100.0,over
+Block Count (Window),blocking,155,20,0,+100.0,over
+Block Count (Window),blocking,156,20,14,+17.6,over
+Block Count (Window),blocking,157,20,6,+53.8,over
+Block Count (Window),blocking,158,20,0,+100.0,over
+Block Count (Window),blocking,159,20,0,+100.0,over
+Block Count (Window),blocking,160,20,0,+100.0,over
+Block Count (Window),blocking,161,20,0,+100.0,over
+Block Count (Window),blocking,162,20,0,+100.0,over
+Block Count (Window),blocking,163,20,0,+100.0,over
+Block Count (Window),blocking,164,20,10,+33.3,over
+Block Count (Window),blocking,165,20,10,+33.3,over
+Block Count (Window),blocking,166,20,0,+100.0,over
+Block Count (Window),blocking,167,20,0,+100.0,over
+Block Count (Window),blocking,168,20,0,+100.0,over
+Block Count (Window),blocking,169,20,0,+100.0,over
+Block Count (Window),blocking,170,20,0,+100.0,over
+Block Count (Window),blocking,171,20,0,+100.0,over
+Block Count (Window),blocking,172,20,0,+100.0,over
+Block Count (Window),blocking,173,20,0,+100.0,over
+Block Count (Window),blocking,174,20,5,+60.0,over
+Block Count (Window),blocking,175,20,15,+14.3,over
+Block Count (Window),blocking,176,20,4,+66.7,over
+Block Count (Window),blocking,177,20,16,+11.1,over
+Block Count (Window),blocking,178,20,0,+100.0,over
+Block Count (Window),blocking,179,20,0,+100.0,over
+Block Count (Window),blocking,180,20,0,+100.0,over
+Block Count (Window),blocking,181,20,0,+100.0,over
+Block Count (Window),blocking,182,20,0,+100.0,over
+Block Count (Window),blocking,183,20,0,+100.0,over
+Block Count (Window),blocking,184,20,0,+100.0,over
+Block Count (Window),blocking,185,20,20,+0.0,exact
+Block Count (Window),blocking,186,20,0,+100.0,over
+Block Count (Window),blocking,187,20,19,+2.6,over
+Block Count (Window),blocking,188,20,1,+90.5,over
+Block Count (Window),blocking,189,20,18,+5.3,over
+Block Count (Window),blocking,190,20,2,+81.8,over
+Block Count (Window),blocking,191,20,0,+100.0,over
+Block Count (Window),blocking,192,20,0,+100.0,over
+Block Count (Window),blocking,193,20,0,+100.0,over
+Block Count (Window),blocking,194,20,0,+100.0,over
+Block Count (Window),blocking,195,20,0,+100.0,over
+Block Count (Window),blocking,196,20,0,+100.0,over
+Block Count (Window),blocking,197,20,14,+17.6,over
+Block Count (Window),blocking,198,20,6,+53.8,over
+Block Count (Window),blocking,199,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,0,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,1,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,2,20,9,+37.9,over
+Optimized Spike Count (R854),spiking,3,20,11,+29.0,over
+Optimized Spike Count (R854),spiking,4,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,5,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,6,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,7,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,8,20,6,+53.8,over
+Optimized Spike Count (R854),spiking,9,20,14,+17.6,over
+Optimized Spike Count (R854),spiking,10,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,11,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,12,20,4,+66.7,over
+Optimized Spike Count (R854),spiking,13,20,16,+11.1,over
+Optimized Spike Count (R854),spiking,14,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,15,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,16,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,17,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,18,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,19,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,20,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,21,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,22,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,23,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,24,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,25,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,26,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,27,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,28,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,29,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,30,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,31,20,15,+14.3,over
+Optimized Spike Count (R854),spiking,32,20,5,+60.0,over
+Optimized Spike Count (R854),spiking,33,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,34,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,35,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,36,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,37,20,12,+25.0,over
+Optimized Spike Count (R854),spiking,38,20,8,+42.9,over
+Optimized Spike Count (R854),spiking,39,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,40,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,41,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,42,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,43,20,9,+37.9,over
+Optimized Spike Count (R854),spiking,44,20,11,+29.0,over
+Optimized Spike Count (R854),spiking,45,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,46,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,47,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,48,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,49,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,50,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,51,20,5,+60.0,over
+Optimized Spike Count (R854),spiking,52,20,15,+14.3,over
+Optimized Spike Count (R854),spiking,53,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,54,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,55,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,56,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,57,20,2,+81.8,over
+Optimized Spike Count (R854),spiking,58,20,18,+5.3,over
+Optimized Spike Count (R854),spiking,59,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,60,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,61,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,62,20,20,+0.0,exact
+Optimized Spike Count (R854),spiking,63,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,64,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,65,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,66,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,67,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,68,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,69,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,70,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,71,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,72,20,15,+14.3,over
+Optimized Spike Count (R854),spiking,73,20,5,+60.0,over
+Optimized Spike Count (R854),spiking,74,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,75,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,76,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,77,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,78,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,79,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,80,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,81,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,82,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,83,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,84,20,9,+37.9,over
+Optimized Spike Count (R854),spiking,85,20,11,+29.0,over
+Optimized Spike Count (R854),spiking,86,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,87,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,88,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,89,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,90,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,91,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,92,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,93,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,94,20,4,+66.7,over
+Optimized Spike Count (R854),spiking,95,20,16,+11.1,over
+Optimized Spike Count (R854),spiking,96,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,97,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,98,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,99,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,100,19,0,+100.0,over
+Optimized Spike Count (R854),spiking,101,19,0,+100.0,over
+Optimized Spike Count (R854),spiking,102,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,103,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,104,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,105,20,18,+5.3,over
+Optimized Spike Count (R854),spiking,106,20,1,+90.5,over
+Optimized Spike Count (R854),spiking,107,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,108,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,109,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,110,19,0,+100.0,over
+Optimized Spike Count (R854),spiking,111,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,112,19,0,+100.0,over
+Optimized Spike Count (R854),spiking,113,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,114,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,115,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,116,12,0,+100.0,over
+Optimized Spike Count (R854),spiking,117,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,118,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,119,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,120,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,121,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,122,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,123,20,10,+33.3,over
+Optimized Spike Count (R854),spiking,124,20,10,+33.3,over
+Optimized Spike Count (R854),spiking,125,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,126,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,127,18,0,+100.0,over
+Optimized Spike Count (R854),spiking,128,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,129,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,130,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,131,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,132,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,133,20,5,+60.0,over
+Optimized Spike Count (R854),spiking,134,20,15,+14.3,over
+Optimized Spike Count (R854),spiking,135,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,136,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,137,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,138,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,139,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,140,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,141,17,0,+100.0,over
+Optimized Spike Count (R854),spiking,142,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,143,19,0,+100.0,over
+Optimized Spike Count (R854),spiking,144,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,145,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,146,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,147,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,148,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,149,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,150,20,17,+8.1,over
+Optimized Spike Count (R854),spiking,151,20,3,+73.9,over
+Optimized Spike Count (R854),spiking,152,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,153,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,154,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,155,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,156,20,14,+17.6,over
+Optimized Spike Count (R854),spiking,157,20,6,+53.8,over
+Optimized Spike Count (R854),spiking,158,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,159,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,160,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,161,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,162,20,11,+29.0,over
+Optimized Spike Count (R854),spiking,163,20,9,+37.9,over
+Optimized Spike Count (R854),spiking,164,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,165,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,166,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,167,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,168,20,8,+42.9,over
+Optimized Spike Count (R854),spiking,169,20,12,+25.0,over
+Optimized Spike Count (R854),spiking,170,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,171,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,172,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,173,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,174,20,5,+60.0,over
+Optimized Spike Count (R854),spiking,175,20,15,+14.3,over
+Optimized Spike Count (R854),spiking,176,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,177,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,178,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,179,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,180,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,181,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,182,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,183,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,184,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,185,20,20,+0.0,exact
+Optimized Spike Count (R854),spiking,186,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,187,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,188,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,189,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,190,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,191,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,192,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,193,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,194,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,195,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,196,20,0,+100.0,over
+Optimized Spike Count (R854),spiking,197,20,14,+17.6,over
+Optimized Spike Count (R854),spiking,198,20,6,+53.8,over
+Optimized Spike Count (R854),spiking,199,20,0,+100.0,over
+Optimized Set Count (R854),setting,0,7,10,-17.6,under
+Optimized Set Count (R854),setting,1,5,10,-33.3,under
+Optimized Set Count (R854),setting,2,2,0,+100.0,over
+Optimized Set Count (R854),setting,3,7,0,+100.0,over
+Optimized Set Count (R854),setting,4,6,8,-14.3,under
+Optimized Set Count (R854),setting,5,5,12,-41.2,under
+Optimized Set Count (R854),setting,6,3,0,+100.0,over
+Optimized Set Count (R854),setting,7,9,0,+100.0,over
+Optimized Set Count (R854),setting,8,9,0,+100.0,over
+Optimized Set Count (R854),setting,9,7,0,+100.0,over
+Optimized Set Count (R854),setting,10,3,4,-14.3,under
+Optimized Set Count (R854),setting,11,8,15,-30.4,under
+Optimized Set Count (R854),setting,12,7,0,+100.0,over
+Optimized Set Count (R854),setting,13,8,0,+100.0,over
+Optimized Set Count (R854),setting,14,7,0,+100.0,over
+Optimized Set Count (R854),setting,15,12,0,+100.0,over
+Optimized Set Count (R854),setting,16,13,2,+73.3,over
+Optimized Set Count (R854),setting,17,8,18,-38.5,under
+Optimized Set Count (R854),setting,18,4,0,+100.0,over
+Optimized Set Count (R854),setting,19,3,0,+100.0,over
+Optimized Set Count (R854),setting,20,5,0,+100.0,over
+Optimized Set Count (R854),setting,21,7,0,+100.0,over
+Optimized Set Count (R854),setting,22,7,0,+100.0,over
+Optimized Set Count (R854),setting,23,7,0,+100.0,over
+Optimized Set Count (R854),setting,24,15,0,+100.0,over
+Optimized Set Count (R854),setting,25,13,18,-16.1,under
+Optimized Set Count (R854),setting,26,12,2,+71.4,over
+Optimized Set Count (R854),setting,27,14,0,+100.0,over
+Optimized Set Count (R854),setting,28,15,0,+100.0,over
+Optimized Set Count (R854),setting,29,15,16,-3.2,under
+Optimized Set Count (R854),setting,30,15,4,+57.9,over
+Optimized Set Count (R854),setting,31,15,0,+100.0,over
+Optimized Set Count (R854),setting,32,8,0,+100.0,over
+Optimized Set Count (R854),setting,33,5,0,+100.0,over
+Optimized Set Count (R854),setting,34,8,0,+100.0,over
+Optimized Set Count (R854),setting,35,11,13,-8.3,under
+Optimized Set Count (R854),setting,36,12,7,+26.3,over
+Optimized Set Count (R854),setting,37,9,0,+100.0,over
+Optimized Set Count (R854),setting,38,13,0,+100.0,over
+Optimized Set Count (R854),setting,39,14,0,+100.0,over
+Optimized Set Count (R854),setting,40,7,0,+100.0,over
+Optimized Set Count (R854),setting,41,8,10,-11.1,under
+Optimized Set Count (R854),setting,42,9,10,-5.3,under
+Optimized Set Count (R854),setting,43,11,0,+100.0,over
+Optimized Set Count (R854),setting,44,9,0,+100.0,over
+Optimized Set Count (R854),setting,45,11,0,+100.0,over
+Optimized Set Count (R854),setting,46,5,0,+100.0,over
+Optimized Set Count (R854),setting,47,15,0,+100.0,over
+Optimized Set Count (R854),setting,48,12,0,+100.0,over
+Optimized Set Count (R854),setting,49,4,0,+100.0,over
+Optimized Set Count (R854),setting,50,5,0,+100.0,over
+Optimized Set Count (R854),setting,51,3,0,+100.0,over
+Optimized Set Count (R854),setting,52,13,0,+100.0,over
+Optimized Set Count (R854),setting,53,10,0,+100.0,over
+Optimized Set Count (R854),setting,54,7,0,+100.0,over
+Optimized Set Count (R854),setting,55,9,3,+50.0,over
+Optimized Set Count (R854),setting,56,7,17,-41.7,under
+Optimized Set Count (R854),setting,57,7,0,+100.0,over
+Optimized Set Count (R854),setting,58,2,0,+100.0,over
+Optimized Set Count (R854),setting,59,9,0,+100.0,over
+Optimized Set Count (R854),setting,60,5,0,+100.0,over
+Optimized Set Count (R854),setting,61,5,0,+100.0,over
+Optimized Set Count (R854),setting,62,12,0,+100.0,over
+Optimized Set Count (R854),setting,63,8,0,+100.0,over
+Optimized Set Count (R854),setting,64,4,0,+100.0,over
+Optimized Set Count (R854),setting,65,4,0,+100.0,over
+Optimized Set Count (R854),setting,66,2,0,+100.0,over
+Optimized Set Count (R854),setting,67,1,0,+100.0,over
+Optimized Set Count (R854),setting,68,4,0,+100.0,over
+Optimized Set Count (R854),setting,69,3,0,+100.0,over
+Optimized Set Count (R854),setting,70,5,16,-52.4,under
+Optimized Set Count (R854),setting,71,11,4,+46.7,over
+Optimized Set Count (R854),setting,72,9,0,+100.0,over
+Optimized Set Count (R854),setting,73,10,0,+100.0,over
+Optimized Set Count (R854),setting,74,9,0,+100.0,over
+Optimized Set Count (R854),setting,75,6,0,+100.0,over
+Optimized Set Count (R854),setting,76,2,0,+100.0,over
+Optimized Set Count (R854),setting,77,0,0,+0.0,exact
+Optimized Set Count (R854),setting,78,0,0,+0.0,exact
+Optimized Set Count (R854),setting,79,4,0,+100.0,over
+Optimized Set Count (R854),setting,80,8,0,+100.0,over
+Optimized Set Count (R854),setting,81,14,0,+100.0,over
+Optimized Set Count (R854),setting,82,8,10,-11.1,under
+Optimized Set Count (R854),setting,83,8,10,-11.1,under
+Optimized Set Count (R854),setting,84,7,0,+100.0,over
+Optimized Set Count (R854),setting,85,14,0,+100.0,over
+Optimized Set Count (R854),setting,86,14,0,+100.0,over
+Optimized Set Count (R854),setting,87,11,0,+100.0,over
+Optimized Set Count (R854),setting,88,5,0,+100.0,over
+Optimized Set Count (R854),setting,89,4,0,+100.0,over
+Optimized Set Count (R854),setting,90,15,0,+100.0,over
+Optimized Set Count (R854),setting,91,9,0,+100.0,over
+Optimized Set Count (R854),setting,92,8,5,+23.1,over
+Optimized Set Count (R854),setting,93,6,15,-42.9,under
+Optimized Set Count (R854),setting,94,9,0,+100.0,over
+Optimized Set Count (R854),setting,95,18,0,+100.0,over
+Optimized Set Count (R854),setting,96,15,2,+76.5,over
+Optimized Set Count (R854),setting,97,11,17,-21.4,under
+Optimized Set Count (R854),setting,98,6,0,+100.0,over
+Optimized Set Count (R854),setting,99,5,0,+100.0,over
+Optimized Set Count (R854),setting,100,4,0,+100.0,over
+Optimized Set Count (R854),setting,101,2,0,+100.0,over
+Optimized Set Count (R854),setting,102,6,0,+100.0,over
+Optimized Set Count (R854),setting,103,6,20,-53.8,under
+Optimized Set Count (R854),setting,104,1,0,+100.0,over
+Optimized Set Count (R854),setting,105,8,0,+100.0,over
+Optimized Set Count (R854),setting,106,3,0,+100.0,over
+Optimized Set Count (R854),setting,107,5,0,+100.0,over
+Optimized Set Count (R854),setting,108,4,0,+100.0,over
+Optimized Set Count (R854),setting,109,2,0,+100.0,over
+Optimized Set Count (R854),setting,110,5,0,+100.0,over
+Optimized Set Count (R854),setting,111,3,16,-68.4,under
+Optimized Set Count (R854),setting,112,5,4,+11.1,over
+Optimized Set Count (R854),setting,113,2,0,+100.0,over
+Optimized Set Count (R854),setting,114,8,0,+100.0,over
+Optimized Set Count (R854),setting,115,6,0,+100.0,over
+Optimized Set Count (R854),setting,116,2,0,+100.0,over
+Optimized Set Count (R854),setting,117,5,0,+100.0,over
+Optimized Set Count (R854),setting,118,5,0,+100.0,over
+Optimized Set Count (R854),setting,119,3,0,+100.0,over
+Optimized Set Count (R854),setting,120,3,0,+100.0,over
+Optimized Set Count (R854),setting,121,7,11,-22.2,under
+Optimized Set Count (R854),setting,122,5,9,-28.6,under
+Optimized Set Count (R854),setting,123,3,0,+100.0,over
+Optimized Set Count (R854),setting,124,6,0,+100.0,over
+Optimized Set Count (R854),setting,125,3,0,+100.0,over
+Optimized Set Count (R854),setting,126,7,0,+100.0,over
+Optimized Set Count (R854),setting,127,2,0,+100.0,over
+Optimized Set Count (R854),setting,128,13,0,+100.0,over
+Optimized Set Count (R854),setting,129,7,0,+100.0,over
+Optimized Set Count (R854),setting,130,14,0,+100.0,over
+Optimized Set Count (R854),setting,131,13,0,+100.0,over
+Optimized Set Count (R854),setting,132,7,0,+100.0,over
+Optimized Set Count (R854),setting,133,4,0,+100.0,over
+Optimized Set Count (R854),setting,134,9,0,+100.0,over
+Optimized Set Count (R854),setting,135,9,0,+100.0,over
+Optimized Set Count (R854),setting,136,5,0,+100.0,over
+Optimized Set Count (R854),setting,137,7,0,+100.0,over
+Optimized Set Count (R854),setting,138,7,0,+100.0,over
+Optimized Set Count (R854),setting,139,6,0,+100.0,over
+Optimized Set Count (R854),setting,140,0,0,+0.0,exact
+Optimized Set Count (R854),setting,141,2,0,+100.0,over
+Optimized Set Count (R854),setting,142,3,0,+100.0,over
+Optimized Set Count (R854),setting,143,4,0,+100.0,over
+Optimized Set Count (R854),setting,144,4,0,+100.0,over
+Optimized Set Count (R854),setting,145,4,0,+100.0,over
+Optimized Set Count (R854),setting,146,6,0,+100.0,over
+Optimized Set Count (R854),setting,147,3,0,+100.0,over
+Optimized Set Count (R854),setting,148,2,0,+100.0,over
+Optimized Set Count (R854),setting,149,4,0,+100.0,over
+Optimized Set Count (R854),setting,150,3,0,+100.0,over
+Optimized Set Count (R854),setting,151,6,0,+100.0,over
+Optimized Set Count (R854),setting,152,4,0,+100.0,over
+Optimized Set Count (R854),setting,153,3,0,+100.0,over
+Optimized Set Count (R854),setting,154,2,15,-76.5,under
+Optimized Set Count (R854),setting,155,3,5,-25.0,under
+Optimized Set Count (R854),setting,156,4,0,+100.0,over
+Optimized Set Count (R854),setting,157,15,0,+100.0,over
+Optimized Set Count (R854),setting,158,7,0,+100.0,over
+Optimized Set Count (R854),setting,159,4,0,+100.0,over
+Optimized Set Count (R854),setting,160,6,12,-33.3,under
+Optimized Set Count (R854),setting,161,6,8,-14.3,under
+Optimized Set Count (R854),setting,162,6,0,+100.0,over
+Optimized Set Count (R854),setting,163,8,0,+100.0,over
+Optimized Set Count (R854),setting,164,8,0,+100.0,over
+Optimized Set Count (R854),setting,165,6,0,+100.0,over
+Optimized Set Count (R854),setting,166,5,9,-28.6,under
+Optimized Set Count (R854),setting,167,8,11,-15.8,under
+Optimized Set Count (R854),setting,168,11,0,+100.0,over
+Optimized Set Count (R854),setting,169,5,0,+100.0,over
+Optimized Set Count (R854),setting,170,2,0,+100.0,over
+Optimized Set Count (R854),setting,171,3,0,+100.0,over
+Optimized Set Count (R854),setting,172,2,6,-50.0,under
+Optimized Set Count (R854),setting,173,5,14,-47.4,under
+Optimized Set Count (R854),setting,174,6,0,+100.0,over
+Optimized Set Count (R854),setting,175,4,0,+100.0,over
+Optimized Set Count (R854),setting,176,4,0,+100.0,over
+Optimized Set Count (R854),setting,177,2,0,+100.0,over
+Optimized Set Count (R854),setting,178,8,0,+100.0,over
+Optimized Set Count (R854),setting,179,7,0,+100.0,over
+Optimized Set Count (R854),setting,180,2,0,+100.0,over
+Optimized Set Count (R854),setting,181,0,0,+0.0,exact
+Optimized Set Count (R854),setting,182,0,1,-100.0,under
+Optimized Set Count (R854),setting,183,6,19,-52.0,under
+Optimized Set Count (R854),setting,184,8,0,+100.0,over
+Optimized Set Count (R854),setting,185,9,0,+100.0,over
+Optimized Set Count (R854),setting,186,14,0,+100.0,over
+Optimized Set Count (R854),setting,187,9,0,+100.0,over
+Optimized Set Count (R854),setting,188,5,0,+100.0,over
+Optimized Set Count (R854),setting,189,6,0,+100.0,over
+Optimized Set Count (R854),setting,190,3,0,+100.0,over
+Optimized Set Count (R854),setting,191,7,0,+100.0,over
+Optimized Set Count (R854),setting,192,5,0,+100.0,over
+Optimized Set Count (R854),setting,193,1,0,+100.0,over
+Optimized Set Count (R854),setting,194,9,0,+100.0,over
+Optimized Set Count (R854),setting,195,8,15,-30.4,under
+Optimized Set Count (R854),setting,196,15,5,+50.0,over
+Optimized Set Count (R854),setting,197,9,0,+100.0,over
+Optimized Set Count (R854),setting,198,6,0,+100.0,over
+Optimized Set Count (R854),setting,199,6,0,+100.0,over
+Optimized Block Count (R854),blocking,0,20,0,+100.0,over
+Optimized Block Count (R854),blocking,1,20,0,+100.0,over
+Optimized Block Count (R854),blocking,2,20,9,+37.9,over
+Optimized Block Count (R854),blocking,3,20,11,+29.0,over
+Optimized Block Count (R854),blocking,4,20,0,+100.0,over
+Optimized Block Count (R854),blocking,5,20,0,+100.0,over
+Optimized Block Count (R854),blocking,6,20,0,+100.0,over
+Optimized Block Count (R854),blocking,7,20,0,+100.0,over
+Optimized Block Count (R854),blocking,8,20,6,+53.8,over
+Optimized Block Count (R854),blocking,9,20,14,+17.6,over
+Optimized Block Count (R854),blocking,10,20,0,+100.0,over
+Optimized Block Count (R854),blocking,11,20,0,+100.0,over
+Optimized Block Count (R854),blocking,12,20,4,+66.7,over
+Optimized Block Count (R854),blocking,13,20,16,+11.1,over
+Optimized Block Count (R854),blocking,14,20,3,+73.9,over
+Optimized Block Count (R854),blocking,15,20,17,+8.1,over
+Optimized Block Count (R854),blocking,16,20,0,+100.0,over
+Optimized Block Count (R854),blocking,17,20,0,+100.0,over
+Optimized Block Count (R854),blocking,18,20,0,+100.0,over
+Optimized Block Count (R854),blocking,19,20,0,+100.0,over
+Optimized Block Count (R854),blocking,20,20,0,+100.0,over
+Optimized Block Count (R854),blocking,21,20,20,+0.0,exact
+Optimized Block Count (R854),blocking,22,20,0,+100.0,over
+Optimized Block Count (R854),blocking,23,20,0,+100.0,over
+Optimized Block Count (R854),blocking,24,20,0,+100.0,over
+Optimized Block Count (R854),blocking,25,20,0,+100.0,over
+Optimized Block Count (R854),blocking,26,20,0,+100.0,over
+Optimized Block Count (R854),blocking,27,20,0,+100.0,over
+Optimized Block Count (R854),blocking,28,20,0,+100.0,over
+Optimized Block Count (R854),blocking,29,20,0,+100.0,over
+Optimized Block Count (R854),blocking,30,20,0,+100.0,over
+Optimized Block Count (R854),blocking,31,20,15,+14.3,over
+Optimized Block Count (R854),blocking,32,20,5,+60.0,over
+Optimized Block Count (R854),blocking,33,20,0,+100.0,over
+Optimized Block Count (R854),blocking,34,20,0,+100.0,over
+Optimized Block Count (R854),blocking,35,20,0,+100.0,over
+Optimized Block Count (R854),blocking,36,20,0,+100.0,over
+Optimized Block Count (R854),blocking,37,20,12,+25.0,over
+Optimized Block Count (R854),blocking,38,20,8,+42.9,over
+Optimized Block Count (R854),blocking,39,20,0,+100.0,over
+Optimized Block Count (R854),blocking,40,20,0,+100.0,over
+Optimized Block Count (R854),blocking,41,20,0,+100.0,over
+Optimized Block Count (R854),blocking,42,20,0,+100.0,over
+Optimized Block Count (R854),blocking,43,20,0,+100.0,over
+Optimized Block Count (R854),blocking,44,20,0,+100.0,over
+Optimized Block Count (R854),blocking,45,20,0,+100.0,over
+Optimized Block Count (R854),blocking,46,20,0,+100.0,over
+Optimized Block Count (R854),blocking,47,20,0,+100.0,over
+Optimized Block Count (R854),blocking,48,20,0,+100.0,over
+Optimized Block Count (R854),blocking,49,20,0,+100.0,over
+Optimized Block Count (R854),blocking,50,20,0,+100.0,over
+Optimized Block Count (R854),blocking,51,20,5,+60.0,over
+Optimized Block Count (R854),blocking,52,20,15,+14.3,over
+Optimized Block Count (R854),blocking,53,20,0,+100.0,over
+Optimized Block Count (R854),blocking,54,20,0,+100.0,over
+Optimized Block Count (R854),blocking,55,20,0,+100.0,over
+Optimized Block Count (R854),blocking,56,20,0,+100.0,over
+Optimized Block Count (R854),blocking,57,20,2,+81.8,over
+Optimized Block Count (R854),blocking,58,20,18,+5.3,over
+Optimized Block Count (R854),blocking,59,20,0,+100.0,over
+Optimized Block Count (R854),blocking,60,20,0,+100.0,over
+Optimized Block Count (R854),blocking,61,20,0,+100.0,over
+Optimized Block Count (R854),blocking,62,20,20,+0.0,exact
+Optimized Block Count (R854),blocking,63,20,0,+100.0,over
+Optimized Block Count (R854),blocking,64,20,0,+100.0,over
+Optimized Block Count (R854),blocking,65,20,0,+100.0,over
+Optimized Block Count (R854),blocking,66,20,0,+100.0,over
+Optimized Block Count (R854),blocking,67,20,0,+100.0,over
+Optimized Block Count (R854),blocking,68,20,0,+100.0,over
+Optimized Block Count (R854),blocking,69,20,0,+100.0,over
+Optimized Block Count (R854),blocking,70,20,0,+100.0,over
+Optimized Block Count (R854),blocking,71,20,0,+100.0,over
+Optimized Block Count (R854),blocking,72,20,15,+14.3,over
+Optimized Block Count (R854),blocking,73,20,5,+60.0,over
+Optimized Block Count (R854),blocking,74,20,0,+100.0,over
+Optimized Block Count (R854),blocking,75,20,0,+100.0,over
+Optimized Block Count (R854),blocking,76,20,0,+100.0,over
+Optimized Block Count (R854),blocking,77,20,0,+100.0,over
+Optimized Block Count (R854),blocking,78,20,0,+100.0,over
+Optimized Block Count (R854),blocking,79,20,0,+100.0,over
+Optimized Block Count (R854),blocking,80,20,0,+100.0,over
+Optimized Block Count (R854),blocking,81,20,0,+100.0,over
+Optimized Block Count (R854),blocking,82,20,0,+100.0,over
+Optimized Block Count (R854),blocking,83,20,0,+100.0,over
+Optimized Block Count (R854),blocking,84,20,9,+37.9,over
+Optimized Block Count (R854),blocking,85,20,11,+29.0,over
+Optimized Block Count (R854),blocking,86,20,0,+100.0,over
+Optimized Block Count (R854),blocking,87,20,0,+100.0,over
+Optimized Block Count (R854),blocking,88,20,0,+100.0,over
+Optimized Block Count (R854),blocking,89,20,0,+100.0,over
+Optimized Block Count (R854),blocking,90,20,0,+100.0,over
+Optimized Block Count (R854),blocking,91,20,0,+100.0,over
+Optimized Block Count (R854),blocking,92,20,0,+100.0,over
+Optimized Block Count (R854),blocking,93,20,0,+100.0,over
+Optimized Block Count (R854),blocking,94,20,4,+66.7,over
+Optimized Block Count (R854),blocking,95,20,16,+11.1,over
+Optimized Block Count (R854),blocking,96,20,0,+100.0,over
+Optimized Block Count (R854),blocking,97,20,0,+100.0,over
+Optimized Block Count (R854),blocking,98,20,0,+100.0,over
+Optimized Block Count (R854),blocking,99,20,0,+100.0,over
+Optimized Block Count (R854),blocking,100,20,0,+100.0,over
+Optimized Block Count (R854),blocking,101,20,0,+100.0,over
+Optimized Block Count (R854),blocking,102,20,0,+100.0,over
+Optimized Block Count (R854),blocking,103,20,0,+100.0,over
+Optimized Block Count (R854),blocking,104,20,0,+100.0,over
+Optimized Block Count (R854),blocking,105,20,19,+2.6,over
+Optimized Block Count (R854),blocking,106,20,1,+90.5,over
+Optimized Block Count (R854),blocking,107,20,0,+100.0,over
+Optimized Block Count (R854),blocking,108,20,0,+100.0,over
+Optimized Block Count (R854),blocking,109,20,0,+100.0,over
+Optimized Block Count (R854),blocking,110,20,0,+100.0,over
+Optimized Block Count (R854),blocking,111,20,0,+100.0,over
+Optimized Block Count (R854),blocking,112,20,0,+100.0,over
+Optimized Block Count (R854),blocking,113,20,0,+100.0,over
+Optimized Block Count (R854),blocking,114,20,0,+100.0,over
+Optimized Block Count (R854),blocking,115,20,0,+100.0,over
+Optimized Block Count (R854),blocking,116,20,0,+100.0,over
+Optimized Block Count (R854),blocking,117,20,0,+100.0,over
+Optimized Block Count (R854),blocking,118,20,0,+100.0,over
+Optimized Block Count (R854),blocking,119,20,0,+100.0,over
+Optimized Block Count (R854),blocking,120,20,0,+100.0,over
+Optimized Block Count (R854),blocking,121,20,0,+100.0,over
+Optimized Block Count (R854),blocking,122,20,0,+100.0,over
+Optimized Block Count (R854),blocking,123,20,10,+33.3,over
+Optimized Block Count (R854),blocking,124,20,10,+33.3,over
+Optimized Block Count (R854),blocking,125,20,0,+100.0,over
+Optimized Block Count (R854),blocking,126,20,0,+100.0,over
+Optimized Block Count (R854),blocking,127,20,0,+100.0,over
+Optimized Block Count (R854),blocking,128,20,0,+100.0,over
+Optimized Block Count (R854),blocking,129,20,7,+48.1,over
+Optimized Block Count (R854),blocking,130,20,13,+21.2,over
+Optimized Block Count (R854),blocking,131,20,0,+100.0,over
+Optimized Block Count (R854),blocking,132,20,0,+100.0,over
+Optimized Block Count (R854),blocking,133,20,5,+60.0,over
+Optimized Block Count (R854),blocking,134,20,15,+14.3,over
+Optimized Block Count (R854),blocking,135,20,0,+100.0,over
+Optimized Block Count (R854),blocking,136,20,0,+100.0,over
+Optimized Block Count (R854),blocking,137,20,0,+100.0,over
+Optimized Block Count (R854),blocking,138,20,0,+100.0,over
+Optimized Block Count (R854),blocking,139,20,0,+100.0,over
+Optimized Block Count (R854),blocking,140,20,0,+100.0,over
+Optimized Block Count (R854),blocking,141,20,0,+100.0,over
+Optimized Block Count (R854),blocking,142,20,0,+100.0,over
+Optimized Block Count (R854),blocking,143,20,0,+100.0,over
+Optimized Block Count (R854),blocking,144,20,0,+100.0,over
+Optimized Block Count (R854),blocking,145,20,0,+100.0,over
+Optimized Block Count (R854),blocking,146,20,0,+100.0,over
+Optimized Block Count (R854),blocking,147,20,0,+100.0,over
+Optimized Block Count (R854),blocking,148,20,0,+100.0,over
+Optimized Block Count (R854),blocking,149,20,0,+100.0,over
+Optimized Block Count (R854),blocking,150,20,17,+8.1,over
+Optimized Block Count (R854),blocking,151,20,3,+73.9,over
+Optimized Block Count (R854),blocking,152,20,16,+11.1,over
+Optimized Block Count (R854),blocking,153,20,4,+66.7,over
+Optimized Block Count (R854),blocking,154,20,0,+100.0,over
+Optimized Block Count (R854),blocking,155,20,0,+100.0,over
+Optimized Block Count (R854),blocking,156,20,14,+17.6,over
+Optimized Block Count (R854),blocking,157,20,6,+53.8,over
+Optimized Block Count (R854),blocking,158,20,0,+100.0,over
+Optimized Block Count (R854),blocking,159,20,0,+100.0,over
+Optimized Block Count (R854),blocking,160,20,0,+100.0,over
+Optimized Block Count (R854),blocking,161,20,0,+100.0,over
+Optimized Block Count (R854),blocking,162,20,0,+100.0,over
+Optimized Block Count (R854),blocking,163,20,0,+100.0,over
+Optimized Block Count (R854),blocking,164,20,10,+33.3,over
+Optimized Block Count (R854),blocking,165,20,10,+33.3,over
+Optimized Block Count (R854),blocking,166,20,0,+100.0,over
+Optimized Block Count (R854),blocking,167,20,0,+100.0,over
+Optimized Block Count (R854),blocking,168,20,0,+100.0,over
+Optimized Block Count (R854),blocking,169,20,0,+100.0,over
+Optimized Block Count (R854),blocking,170,20,0,+100.0,over
+Optimized Block Count (R854),blocking,171,20,0,+100.0,over
+Optimized Block Count (R854),blocking,172,20,0,+100.0,over
+Optimized Block Count (R854),blocking,173,20,0,+100.0,over
+Optimized Block Count (R854),blocking,174,20,5,+60.0,over
+Optimized Block Count (R854),blocking,175,20,15,+14.3,over
+Optimized Block Count (R854),blocking,176,20,4,+66.7,over
+Optimized Block Count (R854),blocking,177,20,16,+11.1,over
+Optimized Block Count (R854),blocking,178,20,0,+100.0,over
+Optimized Block Count (R854),blocking,179,20,0,+100.0,over
+Optimized Block Count (R854),blocking,180,20,0,+100.0,over
+Optimized Block Count (R854),blocking,181,20,0,+100.0,over
+Optimized Block Count (R854),blocking,182,20,0,+100.0,over
+Optimized Block Count (R854),blocking,183,20,0,+100.0,over
+Optimized Block Count (R854),blocking,184,20,0,+100.0,over
+Optimized Block Count (R854),blocking,185,20,20,+0.0,exact
+Optimized Block Count (R854),blocking,186,20,0,+100.0,over
+Optimized Block Count (R854),blocking,187,20,19,+2.6,over
+Optimized Block Count (R854),blocking,188,20,1,+90.5,over
+Optimized Block Count (R854),blocking,189,20,18,+5.3,over
+Optimized Block Count (R854),blocking,190,20,2,+81.8,over
+Optimized Block Count (R854),blocking,191,20,0,+100.0,over
+Optimized Block Count (R854),blocking,192,20,0,+100.0,over
+Optimized Block Count (R854),blocking,193,20,0,+100.0,over
+Optimized Block Count (R854),blocking,194,20,0,+100.0,over
+Optimized Block Count (R854),blocking,195,20,0,+100.0,over
+Optimized Block Count (R854),blocking,196,20,0,+100.0,over
+Optimized Block Count (R854),blocking,197,20,14,+17.6,over
+Optimized Block Count (R854),blocking,198,20,6,+53.8,over
+Optimized Block Count (R854),blocking,199,20,0,+100.0,over

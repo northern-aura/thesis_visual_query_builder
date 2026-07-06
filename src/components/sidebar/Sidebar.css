@@ -241,6 +241,16 @@
     background: #0b3d4a;
 }
 
+.query-button-red {
+    background: #7f1d1d;
+    border-color: rgba(248, 113, 113, 0.72);
+    box-shadow: 0 0 0 1px rgba(248, 113, 113, 0.18) inset;
+}
+
+.query-button-red:hover {
+    background: #991b1b;
+}
+
 .query-badge {
     flex: 0 0 auto;
     border-radius: 999px;

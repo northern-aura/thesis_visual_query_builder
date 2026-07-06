@@ -6,7 +6,7 @@
   "message_count": 18,
   "results_file": "results/most_popular_color_resize.jsonl",
   "query_meta": {
-    "llm_model": "qwen2.5-vl-3b",
+    "llm_model": "qwen2.5-vl-7b",
     "has_window": true,
     "has_grayscale": false,
     "resize_width": "480",

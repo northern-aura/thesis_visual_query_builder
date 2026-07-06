@@ -89,9 +89,9 @@ export const nodeTypes: DefaultType[] = [
                 ]
             },
             {
-                label: 'Qwen2.5-VL-3B (vLLM)',
-                subtype: 'qwen2.5-vl-3b',
-                id: "qwen2-5-vl-3b",
+                label: 'Qwen2.5-VL-7B (vLLM)',
+                subtype: 'qwen2.5-vl-7b',
+                id: "qwen2-5-vl-7b",
                 params: [
                     { name: 'prompt', type: 'text', label: "Prompt", isTextarea: true, id: "llm_prompt" }
                 ]

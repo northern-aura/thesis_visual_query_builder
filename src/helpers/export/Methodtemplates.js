@@ -185,7 +185,7 @@ class MapPromptLLM(MapFunction):
             # Multi-image batch call
             if self.model == "gpt-4o":
                 answer, llm = send_to_gpt_multi(images, self.prompt)
-            elif self.model == "qwen2.5-vl-3b":
+            elif self.model == "qwen2.5-vl-7b":
                 answer, llm = send_to_vllm_multi("RedHatAI/Qwen2.5-VL-7B-Instruct-quantized.w8a8", images, self.prompt)
             else:
                 answer, llm = send_to_ollama_multi(self.model, images, self.prompt)
@@ -193,7 +193,7 @@ class MapPromptLLM(MapFunction):
             # Single-image call (original path)
             if self.model == "gpt-4o":
                 answer, llm = send_to_gpt(images[0], self.prompt)
-            elif self.model == "qwen2.5-vl-3b":
+            elif self.model == "qwen2.5-vl-7b":
                 answer, llm = send_to_vllm("RedHatAI/Qwen2.5-VL-7B-Instruct-quantized.w8a8", images[0], self.prompt)
             else:
                 answer, llm = send_to_ollama(self.model, images[0], self.prompt)

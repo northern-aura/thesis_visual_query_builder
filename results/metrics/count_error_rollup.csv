@@ -1,0 +1,13 @@
+group,query,pred,ground_truth,abs_error,rel_error,squared_error,closeness_pct,signed_count_deviation_pct
+volleyball_naive,Spike Count (Window),3947,439,3508,7.9909,12306064,0.00,+79.98
+volleyball_naive,Set Count (Window),446,438,8,0.0183,64,98.17,+0.90
+volleyball_naive,Block Count (Window),3987,540,3447,6.3833,11881809,0.00,+76.14
+volleyball_optimized,Optimized Spike Count (R854),3982,439,3543,8.0706,12552849,0.00,+80.14
+volleyball_optimized,Optimized Set Count (R854),1360,438,922,2.1050,850084,0.00,+51.28
+volleyball_optimized,Optimized Block Count (R854),4000,540,3460,6.4074,11971600,0.00,+76.21
+
+ROLLUP,count family (n=6),,,,,,,
+ROLLUP,"MAE (mean abs error, actions)",,,2481.3,,,,
+ROLLUP,MSE (mean squared error),,,,,8260412,,
+ROLLUP,RMSE (actions),,,2874.1,,,,
+ROLLUP,mean |signed count deviation| (%),,,,,,,60.78

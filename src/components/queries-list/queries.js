@@ -36,7 +36,7 @@ const resizeNode = (id, nextNode, prevNode, width = "640", height = "360") => ({
     "nextNode": nextNode, "prevNode": prevNode
 });
 
-const llmNode = (id, prompt, nextNode, prevNode, subtype = "qwen2.5-vl-3b") => ({
+const llmNode = (id, prompt, nextNode, prevNode, subtype = "qwen2.5-vl-7b") => ({
     "id": id, "type": "llm", "subtype": subtype,
     "params": { "prompt": prompt },
     "nextNode": nextNode, "prevNode": prevNode
@@ -1724,12 +1724,14 @@ export const queryGroups = [
             }),
 
             bestOptimizedQuery({
-                "title": "Optimized License Plate Recognition (Native)",
+                "title": "Optimized License Plate Recognition (R1120)",
+                "meta": { "highlightRed": true },
                 "nodes": [
                     carsSource("3"),
-                    carsSink("opt_cars_plate_native", "4"),
+                    carsSink("opt_cars_plate_r1120", "5"),
                     decodeNode("4", "1"),
-                    llmNode("4", PROMPTS.plateGeneric, "2", "3")
+                    resizeNode("4", "5", "3", "1120", "630"),
+                    llmNode("5", PROMPTS.plateGeneric, "2", "4")
                 ]
             }, true),
 
@@ -1746,25 +1748,43 @@ export const queryGroups = [
             },
 
             bestOptimizedQuery({
-                "title": "Optimized Specific Plate QRF8G17 (Native)",
+                "title": "Optimized Specific Plate QRF8G17 (R1120)",
+                "meta": { "highlightRed": true },
                 "nodes": [
                     carsSource("3"),
-                    carsSink("opt_cars_qrf8g17_native", "4"),
+                    carsSink("opt_cars_qrf8g17_r1120", "5"),
                     decodeNode("4", "1"),
-                    llmNode("4", PROMPTS.plateSpecific, "2", "3")
+                    resizeNode("4", "5", "3", "1120", "630"),
+                    llmNode("5", PROMPTS.plateSpecific, "2", "4")
                 ]
             }, true),
 
             bestOptimizedQuery({
-                "title": "Optimized Color+Plate Red (CFred native)",
+                "title": "Optimized Color+Plate Red (CFred+R1120)",
+                "meta": { "highlightRed": true },
                 "nodes": [
                     carsSource("3"),
-                    carsSink("opt_cars_color_plate_red_cfred_native", "5"),
+                    carsSink("opt_cars_color_plate_red_cfred_r1120", "6"),
                     decodeNode("4", "1"),
                     cvColorFilterNode("4", "cv_color_red", "5", "3", "2"),
-                    llmNode("5", PROMPTS.colorPlateRed, "2", "4")
+                    resizeNode("5", "6", "4", "1120", "630"),
+                    llmNode("6", PROMPTS.colorPlateRed, "2", "5")
                 ]
-            }),
+            }, true),
+
+            bestOptimizedQuery({
+                "title": "Optimized Red Plate Lookup (CFred+R1120+S3)",
+                "meta": { "highlightRed": true },
+                "nodes": [
+                    carsSource("3"),
+                    carsSink("opt_cars_red_plate_cfred_r1120_s3", "7"),
+                    decodeNode("4", "1"),
+                    cvColorFilterNode("4", "cv_color_red", "5", "3", "2"),
+                    resizeNode("5", "6", "4", "1120", "630"),
+                    skipFramesNode("6", "3", "0", "7", "5"),
+                    llmNode("7", PROMPTS.colorPlateRed, "2", "6")
+                ]
+            }, true),
 
             bestOptimizedQuery({
                 "title": "Optimized Most Popular Brand (R854)",
@@ -1791,6 +1811,19 @@ export const queryGroups = [
                     aggrNode("9", "2", "7")
                 ]
             }),
+
+            bestOptimizedQuery({
+                "title": "Optimized Most Popular Color (Skip 10)",
+                "nodes": [
+                    carsSource("3"),
+                    carsSink("opt_cars_most_popular_color_skip10", "9"),
+                    decodeNode("4", "1"),
+                    skipFramesNode("4", "10", "0", "5", "3"),
+                    llmNode("5", PROMPTS.colorGeneric, "7", "4"),
+                    windowNode("7", "9", "5"),
+                    aggrNode("9", "2", "7")
+                ]
+            }, true),
 
             bestOptimizedQuery({
                 "title": "Optimized Most Popular Brand+Color (R854)",
@@ -1833,25 +1866,29 @@ export const queryGroups = [
             }),
 
             bestOptimizedQuery({
-                "title": "Optimized Unique Plates (Native)",
+                "title": "Optimized Unique Plates (R1120)",
+                "meta": { "highlightRed": true },
                 "nodes": [
                     carsSource("3"),
-                    carsSink("opt_cars_unique_plates_native", "8"),
+                    carsSink("opt_cars_unique_plates_r1120", "8"),
                     decodeNode("4", "1"),
-                    llmNode("4", PROMPTS.plateGeneric, "7", "3"),
-                    windowNode("7", "8", "4"),
+                    resizeNode("4", "5", "3", "1120", "630"),
+                    llmNode("5", PROMPTS.plateGeneric, "7", "4"),
+                    windowNode("7", "8", "5"),
                     aggrNode("8", "2", "7")
                 ]
             }, true),
 
             bestOptimizedQuery({
-                "title": "Optimized Repeating Plates (Native)",
+                "title": "Optimized Repeating Plates (R1120)",
+                "meta": { "highlightRed": true },
                 "nodes": [
                     carsSource("3"),
-                    carsSink("opt_cars_repeating_plates_native", "9"),
+                    carsSink("opt_cars_repeating_plates_r1120", "9"),
                     decodeNode("4", "1"),
-                    llmNode("4", PROMPTS.plateGeneric, "7", "3"),
-                    windowNode("7", "8", "4"),
+                    resizeNode("4", "5", "3", "1120", "630"),
+                    llmNode("5", PROMPTS.plateGeneric, "7", "4"),
+                    windowNode("7", "8", "5"),
                     filterCountLessThan("8", "9", "7", "3"),
                     aggrNode("9", "2", "8", "distinct")
                 ]

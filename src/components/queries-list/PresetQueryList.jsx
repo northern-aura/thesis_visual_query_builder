@@ -74,10 +74,11 @@ export default function PresetQueryList({ queryGroups, loadPresetQuery }) {
                         const isBestOptimized = q.meta?.bestOptimized;
                         const changedThisTurn = q.meta?.changedThisTurn;
                         const needsRun = q.meta?.needsRun;
+                        const highlightRed = q.meta?.highlightRed;
                         const textColor = isBestOptimized ? '#00e5ff' : (luminance(bg) < 0.5 ? '#ffffff' : '#222222');
                         return (
                             <button
-                                className={`query-button ${isBestOptimized ? 'query-button-best-optimized' : ''} ${changedThisTurn ? 'query-button-updated' : ''}`}
+                                className={`query-button ${isBestOptimized ? 'query-button-best-optimized' : ''} ${changedThisTurn ? 'query-button-updated' : ''} ${highlightRed ? 'query-button-red' : ''}`}
                                 onClick={() => loadPresetQuery(q)}
                                 key={q["title"]}
                                 style={{

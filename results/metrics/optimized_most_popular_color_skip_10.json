@@ -1,0 +1,127 @@
+{
+  "query_title": "Optimized Most Popular Color (Skip 10)",
+  "slug": "optimized_most_popular_color_skip_10",
+  "timestamp": "2026-06-15T21:43:54.928Z",
+  "duration_s": 98.697,
+  "message_count": 1,
+  "results_file": "results/optimized_most_popular_color_skip_10.jsonl",
+  "query_meta": {
+    "llm_model": "qwen2.5-vl-7b",
+    "has_window": true,
+    "has_grayscale": false,
+    "resize_width": "",
+    "resize_height": "",
+    "pipeline_nodes": "Source -> Decode -> Skip Frames -> Llm -> Window -> Aggr -> Sink"
+  },
+  "aggregate_metrics": {
+    "accuracy": {},
+    "actionRecallMicro": null,
+    "actionRecallByClass": {},
+    "avgLlmTime": 2271.27,
+    "avgE2e": 9778.13,
+    "avgOperatorLatencies": {
+      "Decode": 7.6,
+      "SkipFrames": 0,
+      "LLM": 2271.27
+    },
+    "avgBetweenNodes": {}
+  },
+  "chart_summary": {
+    "is_windowed": true,
+    "total_processed": 5,
+    "total_skips": 0,
+    "box_stats": {
+      "llm": {
+        "min": 2179.2023181915283,
+        "q1": 2204.4804096221924,
+        "median": 2258.9738368988037,
+        "q3": 2275.8941650390625,
+        "max": 2437.8087520599365,
+        "wLow": 2179.2023181915283,
+        "wHigh": 2383.0147981643677,
+        "outliers": [
+          2437.8087520599365
+        ],
+        "mean": 2271.2718963623047,
+        "n": 5
+      },
+      "e2e": null,
+      "operators": {
+        "Decode": null,
+        "SkipFrames": null,
+        "LLM": null
+      },
+      "operators_with_backpressure": {
+        "Decode": null,
+        "SkipFrames": null,
+        "LLM": null
+      }
+    },
+    "accuracy_means_pct": {},
+    "timelines": {
+      "llm": [
+        {
+          "x": 1,
+          "y": 2258.9738368988037
+        },
+        {
+          "x": 2,
+          "y": 2437.8087520599365
+        },
+        {
+          "x": 3,
+          "y": 2275.8941650390625
+        },
+        {
+          "x": 4,
+          "y": 2179.2023181915283
+        },
+        {
+          "x": 5,
+          "y": 2204.4804096221924
+        }
+      ],
+      "e2e": [
+        {
+          "x": 1,
+          "y": 9778.13
+        }
+      ]
+    },
+    "raw": {
+      "llm_times_ms": [
+        2258.9738368988037,
+        2437.8087520599365,
+        2275.8941650390625,
+        2179.2023181915283,
+        2204.4804096221924
+      ],
+      "e2e_times_ms": [
+        9778.13
+      ],
+      "operator_latencies_ms": {
+        "Decode": [
+          7.6
+        ],
+        "SkipFrames": [
+          0
+        ],
+        "LLM": [
+          2271.27
+        ]
+      },
+      "operator_latencies_with_bp_ms": {
+        "Decode": [
+          7.6
+        ],
+        "SkipFrames": [
+          0
+        ],
+        "LLM": [
+          2271.27
+        ]
+      },
+      "accuracies_pct": {}
+    }
+  }
+}

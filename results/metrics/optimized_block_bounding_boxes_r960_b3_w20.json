@@ -6,7 +6,7 @@
   "message_count": 200,
   "results_file": "results/optimized_block_bounding_boxes_r960_b3_w20.jsonl",
   "query_meta": {
-    "llm_model": "qwen2.5-vl-3b",
+    "llm_model": "qwen2.5-vl-7b",
     "has_window": true,
     "has_grayscale": false,
     "resize_width": "960",

@@ -150,16 +150,45 @@ cd running/Scripts
 | `results/plots/<query_slug>/` | five PNGs: `accuracy_bar`, `e2e_timeline`, `llm_box`, `llm_timeline`, `operator_boxes` |
 | `results/metrics/benchmark_summary.csv` | one row per query — overall summary |
 | `results/metrics/cache_fill_accuracy_report.csv` | accuracy breakdown |
+| `results/metrics/precision_recall_summary.csv` | per-query precision / recall / F1 (see methodology below) |
+| `results/metrics/count_error_rollup.csv` | count-query errors incl. **signed count deviation** |
+| `results/metrics/count_per_window_scores.csv` | per-window signed count scores |
+| `results/metrics/all_queries_eval.csv` | compact all-queries view (fitting metric per query) |
 | `results/plots/benchmark_summary/` | aggregate cross-query charts |
 | `results/benchmark_simple_report.pdf` | final assembled report |
+| `results/precision_recall_report.pdf` | precision / recall / F1 across all query plans |
 
 Naming convention:
 - **Naive** — bare slug, e.g. `car_brand_ford`, `most_popular_color`, `dig_set_events_window`
 - **Optimised** — `optimized_<slug>_<resolution>`, e.g. `optimized_car_brand_ford_r854`, `optimized_jump_spike_events_r854`
 - **Resize / skip-frame variants** — `_resize`, `_skip_10` suffix
+- **Stacked optimisation** — color filter + resize + skip on one pipeline, e.g. `optimized_red_plate_lookup_cfred_r1120_s3`
 - **Per-case studies** — `case_*` prefix
 
 Heavy intermediate files (browser PDF profiles, log dumps, cache fill backups) are gitignored under `results/` — they regenerate on a fresh run.
+
+### Evaluation metrics & methodology
+
+The single "overall accuracy" per query was replaced with the metric that fits each
+query's answer shape. Regenerate everything with:
+
+```bash
+python3 scripts/make_precision_recall_report.py   # precision/recall/F1 + PDF
+python3 scripts/make_count_error_rollup.py         # count errors + signed deviation
+```
+
+| Metric family | Applies to | Scored as |
+|---|---|---|
+| detection (frame) | single-target "is X present" car queries | per-frame TP/FP/FN |
+| retrieval (set) | multi-value brand/colour/plate queries | distinct-value set TP/FP/FN |
+| event (window) | volleyball event-presence queries | per-window TP/FP/FN |
+| single-answer | most-popular / top-action / motion | exact match (P/R n/a) |
+| count | spike/set/block counts | **signed count deviation** = `(pred − truth) / (pred + truth) × 100` |
+
+Signed count deviation is bounded to ±100 %, sign-preserving (+ = over-count, − = under-count),
+so it separates over- from under-counting where absolute error and closeness cannot.
+The stacked-optimisation run `Optimized Red Plate Lookup (CFred+R1120+S3)` is scored under
+`cars_optimized` in the precision/recall report as the combined color-filter + resize + skip case study.
 
 ---
 

@@ -91,6 +91,21 @@
     border-left-color: #ec4899;
 }
 
+.query-card-red {
+    background: rgba(239, 68, 68, 0.14);
+    border-left: 3px solid #ef4444;
+    padding-left: 11px;
+}
+
+.query-card-red:hover {
+    background: rgba(239, 68, 68, 0.2);
+}
+
+.query-card-red.selected {
+    background: rgba(239, 68, 68, 0.26);
+    border-left-color: #ef4444;
+}
+
 .query-card-header {
     display: flex;
     justify-content: space-between;

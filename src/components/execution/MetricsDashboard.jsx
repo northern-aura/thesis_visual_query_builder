@@ -814,10 +814,11 @@ export default function MetricsDashboard({ onClose, customNodes = [] }) {
                             (q.dataset.includes('Naive') || isBestOptimized);
                         const changedThisTurn = q.meta?.changedThisTurn;
                         const needsRun = q.meta?.needsRun;
+                        const highlightRed = q.meta?.highlightRed;
                         return (
                             <div
                                 key={q.title}
-                                className={`query-card ${isActive ? 'selected' : ''} ${isPinkVolleyball ? 'query-card-volleyball-marked' : ''}`}
+                                className={`query-card ${isActive ? 'selected' : ''} ${isPinkVolleyball ? 'query-card-volleyball-marked' : ''} ${highlightRed ? 'query-card-red' : ''}`}
                                 onClick={() => handleSelectQuery(q.title)}
                             >
                                 <div className="query-card-header">
